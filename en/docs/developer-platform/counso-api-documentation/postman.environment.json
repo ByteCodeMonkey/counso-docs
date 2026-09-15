@@ -1,0 +1,42 @@
+{
+  "name": "Counso",
+  "values": [
+    {
+      "key": "baseUrl",
+      "value": "https://app.counso.ai",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "workspaceId",
+      "value": "",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "apiKey",
+      "value": "",
+      "type": "secret",
+      "enabled": true
+    },
+    {
+      "key": "userAccessToken",
+      "value": "",
+      "type": "secret",
+      "enabled": true
+    },
+    {
+      "key": "authorizationCode",
+      "value": "",
+      "type": "secret",
+      "enabled": true
+    },
+    {
+      "key": "codeVerifier",
+      "value": "",
+      "type": "secret",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment"
+}

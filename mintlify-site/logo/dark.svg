@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="36" viewBox="0 0 176 36" role="img" aria-label="Counso AI">
+  <rect x="1" y="1" width="34" height="34" rx="10" fill="#0C84FE"/>
+  <path d="M12 12h12M12 18h8M12 24h12" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="25" cy="18" r="3" fill="white"/>
+  <text x="45" y="24" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui" font-size="20" font-weight="700">Counso AI</text>
+</svg>

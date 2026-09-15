@@ -1,0 +1,2144 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Counso AI",
+  "description": "Counso AI product documentation, guides, integrations, and workspace administration.",
+  "colors": {
+    "primary": "#0C84FE",
+    "light": "#9FDBFF",
+    "dark": "#0C84FE"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "/"
+  },
+  "favicon": "/favicon.svg",
+  "appearance": {
+    "default": "system",
+    "strict": false
+  },
+  "icons": {
+    "library": "fontawesome"
+  },
+  "styling": {
+    "eyebrows": "section",
+    "latex": true,
+    "codeblocks": "system"
+  },
+  "thumbnails": {
+    "appearance": "light"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/zCloak-Network/counso-docs"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Open Counso AI",
+      "href": "https://app.counso.ai"
+    }
+  },
+  "search": {
+    "prompt": "Search Counso documentation..."
+  },
+  "seo": {
+    "indexing": "navigable",
+    "trailingSlash": false
+  },
+  "interaction": {
+    "drilldown": false
+  },
+  "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "default": true,
+        "groups": [
+          {
+            "group": "Counso Docs",
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "group": "Getting started and use cases",
+            "pages": [
+              "docs/user-documentation/getting-started/intro-to-counso",
+              {
+                "group": "Counso rollout guide",
+                "root": "docs/user-documentation/getting-started/counso-rollout-guide",
+                "expanded": false,
+                "pages": [
+                  "docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso",
+                  "docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy",
+                  "docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material",
+                  "docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community",
+                  "docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace",
+                  "docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases",
+                  "docs/user-documentation/getting-started/counso-rollout-guide/educate-activate",
+                  "docs/user-documentation/getting-started/counso-rollout-guide/measure-expand"
+                ]
+              },
+              {
+                "group": "Team use cases and guides",
+                "root": "docs/user-documentation/getting-started/use-cases-and-guides",
+                "expanded": false,
+                "pages": [
+                  "docs/user-documentation/getting-started/use-cases-and-guides/sales",
+                  "docs/user-documentation/getting-started/use-cases-and-guides/customer-support",
+                  "docs/user-documentation/getting-started/use-cases-and-guides/marketing",
+                  "docs/user-documentation/getting-started/use-cases-and-guides/engineering",
+                  "docs/user-documentation/getting-started/use-cases-and-guides/data-analytics",
+                  "docs/user-documentation/getting-started/use-cases-and-guides/knowledge",
+                  "docs/user-documentation/getting-started/use-cases-and-guides/recruiting-and-people",
+                  "docs/user-documentation/getting-started/use-cases-and-guides/product-and-design",
+                  "docs/user-documentation/getting-started/use-cases-and-guides/collaboration"
+                ]
+              },
+              {
+                "group": "Frequently asked questions",
+                "root": "docs/user-documentation/getting-started/faq",
+                "expanded": false,
+                "pages": [
+                  {
+                    "group": "General questions",
+                    "expanded": false,
+                    "pages": [
+                      "docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso",
+                      "docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso",
+                      "docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso",
+                      "docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso",
+                      "docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data"
+                    ]
+                  },
+                  {
+                    "group": "Agents and conversations",
+                    "expanded": false,
+                    "pages": [
+                      "docs/user-documentation/getting-started/faq/managing-agents/i-dont-know-how-to-start-creating-an-agent-what-should-i-do",
+                      "docs/user-documentation/getting-started/faq/managing-agents/how-do-i-edit-a-custom-agent",
+                      "docs/user-documentation/getting-started/faq/managing-agents/what-settings-model-should-i-use",
+                      "docs/user-documentation/getting-started/faq/managing-agents/can-agents-create-a-new-file-or-document-directly-into-notion-google-drive-or-other-connected-platforms",
+                      "docs/user-documentation/getting-started/faq/managing-agents/what-data-do-the-agents-have-access-to",
+                      "docs/user-documentation/getting-started/faq/managing-agents/do-the-agents-have-access-to-the-internet",
+                      "docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses",
+                      "docs/user-documentation/getting-started/faq/managing-agents/can-i-share-a-conversation",
+                      "docs/user-documentation/getting-started/faq/managing-agents/can-i-delete-or-rename-a-conversation",
+                      "docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages",
+                      "docs/user-documentation/getting-started/faq/managing-agents/how-can-i-find-the-id-of-an-agent"
+                    ]
+                  },
+                  {
+                    "group": "Troubleshooting",
+                    "expanded": false,
+                    "pages": [
+                      "docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one",
+                      "docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in",
+                      "docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work",
+                      "docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on",
+                      "docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-doesnt-the-agent-remember-what-i-said-earlier-in-a-conversation",
+                      "docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-isnt-my-recently-updated-document-showing-in-agent-responses",
+                      "docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future",
+                      "docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down",
+                      "docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond"
+                    ]
+                  },
+                  "docs/user-documentation/getting-started/faq/file-size-limits",
+                  "docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Agents",
+            "pages": [
+              "docs/user-documentation/agents/create-your-first-agent",
+              "docs/user-documentation/agents/model-selection",
+              {
+                "group": "LLM best practices",
+                "expanded": false,
+                "pages": [
+                  "docs/user-documentation/agents/llm-best-practices/how-to-write-effective-instructions",
+                  "docs/user-documentation/agents/llm-best-practices/choosing-the-right-ai-model",
+                  "docs/user-documentation/agents/llm-best-practices/understanding-llms-context-windows",
+                  "docs/user-documentation/agents/llm-best-practices/understanding-llm-limitations",
+                  "docs/user-documentation/agents/llm-best-practices/understanding-rag"
+                ]
+              },
+              "docs/user-documentation/agents/templates",
+              "docs/user-documentation/agents/deep-dive-agent",
+              "docs/user-documentation/agents/agent-builder-sidekick",
+              "docs/user-documentation/agents/troubleshooting-your-agent",
+              "docs/user-documentation/agents/structured-output-format",
+              "docs/user-documentation/agents/steering-conversations",
+              "docs/user-documentation/agents/branch-a-conversation",
+              "docs/user-documentation/agents/context-compaction"
+            ]
+          },
+          {
+            "group": "Skills",
+            "pages": [
+              "docs/user-documentation/agents/skills/skills-overview",
+              "docs/user-documentation/agents/skills/skill-examples",
+              "docs/user-documentation/agents/skill-availability",
+              "docs/user-documentation/agents/discover-knowledge",
+              "docs/user-documentation/agents/discover-skills",
+              "docs/user-documentation/agents/discover-tools",
+              "docs/user-documentation/agents/go-deep",
+              "docs/user-documentation/agents/self-improving-skills"
+            ]
+          },
+          {
+            "group": "Capabilities",
+            "pages": [
+              {
+                "group": "Knowledge for Agents",
+                "root": "docs/user-documentation/agents/knowledge",
+                "expanded": false,
+                "pages": [
+                  "docs/user-documentation/agents/knowledge/search-data-sources",
+                  "docs/user-documentation/agents/knowledge/table-queries",
+                  "docs/user-documentation/agents/knowledge/extract-data",
+                  "docs/user-documentation/agents/knowledge/include-data"
+                ]
+              },
+              {
+                "group": "Data sources",
+                "expanded": false,
+                "pages": [
+                  "docs/user-documentation/data-sources/overview",
+                  "docs/user-documentation/data-sources/connections",
+                  "docs/user-documentation/data-sources/websites",
+                  "docs/user-documentation/data-sources/folders",
+                  {
+                    "group": "Conversation files",
+                    "expanded": false,
+                    "pages": [
+                      "docs/user-documentation/data-sources/conversation-files/conversation-files",
+                      "docs/user-documentation/data-sources/conversation-files/read-images"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Agent tools",
+                "root": "docs/user-documentation/agents/tools",
+                "expanded": false,
+                "pages": [
+                  "docs/user-documentation/agents/tools/airtable",
+                  "docs/user-documentation/agents/tools/agent-memory",
+                  "docs/user-documentation/agents/tools/asana",
+                  "docs/user-documentation/agents/tools/ashby",
+                  "docs/user-documentation/agents/tools/attio",
+                  "docs/user-documentation/agents/tools/canva",
+                  "docs/user-documentation/agents/tools/confluence",
+                  "docs/user-documentation/agents/tools/databricks",
+                  "docs/user-documentation/agents/tools/file-generation",
+                  "docs/user-documentation/agents/tools/fathom",
+                  "docs/user-documentation/agents/tools/gong",
+                  "docs/user-documentation/agents/tools/freshservice",
+                  "docs/user-documentation/agents/tools/front",
+                  "docs/user-documentation/agents/tools/gmail",
+                  "docs/user-documentation/agents/tools/google-calendar",
+                  "docs/user-documentation/agents/tools/google-drive",
+                  "docs/user-documentation/agents/tools/hubspot",
+                  "docs/user-documentation/agents/tools/image-generation",
+                  "docs/user-documentation/agents/tools/jira",
+                  "docs/user-documentation/agents/tools/jit-tools",
+                  "docs/user-documentation/agents/tools/microsoft-outlook",
+                  "docs/user-documentation/agents/tools/microsoft-sharepoint-and-onedrive",
+                  "docs/user-documentation/agents/tools/microsoft-teams",
+                  "docs/user-documentation/agents/tools/microsoft-excel",
+                  "docs/user-documentation/agents/tools/miro",
+                  "docs/user-documentation/agents/tools/netsuite",
+                  "docs/user-documentation/agents/tools/notion",
+                  "docs/user-documentation/agents/tools/power-bi",
+                  "docs/user-documentation/agents/tools/productboard",
+                  "docs/user-documentation/agents/tools/slack-tools",
+                  "docs/user-documentation/agents/tools/ukg-ready",
+                  "docs/user-documentation/agents/tools/val-town",
+                  "docs/user-documentation/agents/tools/vanta",
+                  "docs/user-documentation/agents/tools/voice-and-sound-generation",
+                  "docs/user-documentation/agents/tools/salesloft",
+                  "docs/user-documentation/agents/tools/semrush",
+                  "docs/user-documentation/agents/tools/slab",
+                  "docs/user-documentation/agents/tools/snowflake",
+                  "docs/user-documentation/agents/tools/statuspage",
+                  "docs/user-documentation/agents/tools/run-agent",
+                  "docs/user-documentation/agents/tools/web-search-and-browse",
+                  "docs/user-documentation/agents/tools/zendesk",
+                  "docs/user-documentation/agents/tools/wake-ups",
+                  "docs/user-documentation/agents/tools/computer",
+                  "docs/user-documentation/agents/tools/google-sheets-deprecated",
+                  "docs/user-documentation/agents/tools/github",
+                  "docs/user-documentation/agents/tools/monday-com"
+                ]
+              },
+              {
+                "group": "Triggers",
+                "expanded": false,
+                "pages": [
+                  "docs/user-documentation/agents/triggers/credits-usage",
+                  "docs/user-documentation/agents/triggers/schedules",
+                  {
+                    "group": "Webhooks",
+                    "expanded": false,
+                    "pages": [
+                      "docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload",
+                      "docs/user-documentation/agents/triggers/webhooks/rate-limiting"
+                    ]
+                  }
+                ]
+              },
+              "docs/user-documentation/agents/frames/white-labeled-frames"
+            ]
+          },
+          {
+            "group": "Pods",
+            "pages": [
+              "docs/user-documentation/pods/overview",
+              "docs/user-documentation/pods/members-and-roles",
+              "docs/user-documentation/pods/tasks",
+              "docs/user-documentation/pods/conversations",
+              "docs/user-documentation/pods/files",
+              "docs/user-documentation/pods/frames",
+              "docs/user-documentation/pods/agent-tools",
+              "docs/user-documentation/pods/admin-controls",
+              {
+                "group": "Examples",
+                "expanded": false,
+                "pages": [
+                  "docs/user-documentation/pods/examples/shared-asset-library",
+                  "docs/user-documentation/pods/examples/personal-second-brain",
+                  "docs/user-documentation/pods/examples/initiative-and-project-management",
+                  "docs/user-documentation/pods/examples/ticket-handling-and-support-knowledge",
+                  "docs/user-documentation/pods/examples/one-pod-per-customer",
+                  "docs/user-documentation/pods/examples/content-and-editorial-production",
+                  "docs/user-documentation/pods/examples/competitive-intelligence"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Administration",
+            "pages": [
+              "docs/user-documentation/admins/quickstart",
+              {
+                "group": "Governance and access",
+                "expanded": false,
+                "pages": [
+                  "docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions",
+                  "docs/user-documentation/admins/admin-governance/access-controls-and-permissions",
+                  {
+                    "group": "Single sign-on (SSO)",
+                    "expanded": false,
+                    "pages": [
+                      "docs/user-documentation/admins/admin-governance/single-sign-on-sso/single-sign-on-sso",
+                      "docs/user-documentation/admins/admin-governance/single-sign-on-sso/saml-sso"
+                    ]
+                  },
+                  "docs/user-documentation/admins/admin-governance/users-and-groups-provisioning"
+                ]
+              },
+              "docs/user-documentation/admins/spaces-management",
+              "docs/user-documentation/admins/agents-management",
+              {
+                "group": "Manage connections",
+                "root": "docs/user-documentation/admins/connections-management",
+                "expanded": false,
+                "pages": [
+                  "docs/user-documentation/admins/connections-management/google-drive",
+                  "docs/user-documentation/admins/connections-management/notion",
+                  "docs/user-documentation/admins/connections-management/confluence",
+                  "docs/user-documentation/admins/connections-management/intercom",
+                  "docs/user-documentation/admins/connections-management/microsoft",
+                  "docs/user-documentation/admins/connections-management/zendesk",
+                  "docs/user-documentation/admins/connections-management/snowflake",
+                  "docs/user-documentation/admins/connections-management/bigquery",
+                  "docs/user-documentation/admins/connections-management/gong",
+                  "docs/user-documentation/admins/connections-management/github",
+                  "docs/user-documentation/admins/connections-management/slack"
+                ]
+              },
+              {
+                "group": "Tool management",
+                "expanded": false,
+                "pages": [
+                  "docs/user-documentation/admins/tools-management/adding-an-mcp-server",
+                  "docs/user-documentation/admins/tools-management/personal-vs-shared-credentials",
+                  {
+                    "group": "Salesforce",
+                    "expanded": false,
+                    "pages": [
+                      "docs/user-documentation/admins/tools-management/salesforce/salesforce",
+                      "docs/user-documentation/admins/tools-management/salesforce/salesforce-notes-on-api-limit-and-permissions"
+                    ]
+                  },
+                  "docs/user-documentation/admins/tools-management/managing-microsoft-tools",
+                  "docs/user-documentation/admins/tools-management/computer-admin-setup"
+                ]
+              },
+              "analytics",
+              {
+                "group": "Audit logs",
+                "expanded": false,
+                "pages": [
+                  "docs/user-documentation/admins/audit-logs/audit-logs",
+                  "docs/user-documentation/admins/audit-logs/audit-logs-events-reference"
+                ]
+              },
+              {
+                "group": "Usage, seats, and credits",
+                "expanded": false,
+                "pages": [
+                  "docs/user-documentation/admins/usage-seats-and-credits/seat-management",
+                  "docs/user-documentation/admins/usage-seats-and-credits/credits",
+                  "docs/user-documentation/admins/usage-seats-and-credits/credit-management",
+                  "docs/user-documentation/admins/usage-seats-and-credits/optimize-credit-consumption",
+                  "docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers",
+                  "docs/user-documentation/admins/usage-seats-and-credits/train-team-credit-optimization"
+                ]
+              },
+              "docs/user-documentation/admins/billing/subscriptions-and-payments",
+              "docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting",
+              "docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "docs/user-documentation/agents/integrations/counso-mcp-server",
+              "docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
+              "docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+              "docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
+              "docs/user-documentation/agents/integrations/meeting-transcripts"
+            ]
+          },
+          {
+            "group": "Developers",
+            "pages": [
+              "docs/user-documentation/developers/client-side-mcp-server",
+              {
+                "group": "Overview",
+                "expanded": false,
+                "pages": [
+                  "docs/developer-platform/overview/developer-platform",
+                  "docs/developer-platform/overview/javascript-sdk"
+                ]
+              },
+              {
+                "group": "Core concepts",
+                "expanded": false,
+                "pages": [
+                  "docs/developer-platform/core-concepts/datasources",
+                  "docs/developer-platform/core-concepts/chunks-and-documents",
+                  "docs/developer-platform/core-concepts/rate-limits"
+                ]
+              },
+              {
+                "group": "Counso API documentation",
+                "expanded": false,
+                "pages": [
+                  "docs/developer-platform/counso-api-documentation/openapi-and-postman",
+                  {
+                    "group": "User session: User",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/private-user/get-current-user",
+                      "api-reference/private-user/update-current-user"
+                    ]
+                  },
+                  {
+                    "group": "Analytics",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/analytics/export-workspace-analytics"
+                    ]
+                  },
+                  {
+                    "group": "Agents",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/agents/list-agents",
+                      "api-reference/agents/export-agent-configuration-as-yaml",
+                      "api-reference/agents/get-agent-configuration",
+                      "api-reference/agents/archive-agent-configuration",
+                      "api-reference/agents/update-agent-configuration",
+                      "api-reference/agents/import-agent-configuration",
+                      "api-reference/agents/search-agents-by-name"
+                    ]
+                  },
+                  {
+                    "group": "Conversations",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/conversations/cancel-message-generation-in-a-conversation",
+                      "api-reference/conversations/create-a-content-fragment",
+                      "api-reference/conversations/get-the-events-for-a-conversation",
+                      "api-reference/conversations/download-a-conversation-scoped-file-by-path",
+                      "api-reference/conversations/get-a-conversation",
+                      "api-reference/conversations/update-a-conversation",
+                      "api-reference/conversations/answer-a-user-question-in-a-conversation-message",
+                      "api-reference/conversations/edit-an-existing-message-in-a-conversation",
+                      "api-reference/conversations/get-events-for-a-message",
+                      "api-reference/conversations/validate-an-action-in-a-conversation-message",
+                      "api-reference/conversations/create-a-message",
+                      "api-reference/conversations/create-a-new-conversation",
+                      "api-reference/conversations/create-a-file-upload-url"
+                    ]
+                  },
+                  {
+                    "group": "Feedbacks",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/feedbacks/get-feedbacks-for-a-conversation",
+                      "api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation",
+                      "api-reference/feedbacks/delete-feedback-for-a-specific-message"
+                    ]
+                  },
+                  {
+                    "group": "Mentions",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/mentions/get-mention-suggestions-for-a-conversation",
+                      "api-reference/mentions/parse-mentions-in-markdown-text",
+                      "api-reference/mentions/get-mention-suggestions"
+                    ]
+                  },
+                  {
+                    "group": "Mcp",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/mcp/deregister-a-client-side-mcp-server",
+                      "api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server",
+                      "api-reference/mcp/register-a-client-side-mcp-server",
+                      "api-reference/mcp/stream-mcp-tool-requests-for-a-workspace",
+                      "api-reference/mcp/submit-mcp-tool-execution-results"
+                    ]
+                  },
+                  {
+                    "group": "Search",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/search/search-for-nodes-in-the-workspace-streaming",
+                      "api-reference/search/search-for-nodes-in-the-workspace",
+                      "api-reference/search/upload-a-tool-file"
+                    ]
+                  },
+                  {
+                    "group": "Skills",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/skills/archive-a-skill",
+                      "api-reference/skills/list-skills",
+                      "api-reference/skills/import-skills-from-uploaded-files"
+                    ]
+                  },
+                  {
+                    "group": "Apps",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/apps/get-an-app-run",
+                      "api-reference/apps/create-an-app-run",
+                      "api-reference/apps/list-apps"
+                    ]
+                  },
+                  {
+                    "group": "Datasourceviews",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/datasourceviews/get-a-data-source-view",
+                      "api-reference/datasourceviews/delete-a-data-source-view",
+                      "api-reference/datasourceviews/update-a-data-source-view",
+                      "api-reference/datasourceviews/search-the-data-source-view",
+                      "api-reference/datasourceviews/list-data-source-views"
+                    ]
+                  },
+                  {
+                    "group": "Datasources",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/datasources/check-the-upsert-queue-status-for-a-data-source",
+                      "api-reference/datasources/retrieve-a-document-from-a-data-source",
+                      "api-reference/datasources/upsert-a-document-in-a-data-source",
+                      "api-reference/datasources/delete-a-document-from-a-data-source",
+                      "api-reference/datasources/update-the-parents-of-a-document",
+                      "api-reference/datasources/get-documents",
+                      "api-reference/datasources/search-the-data-source",
+                      "api-reference/datasources/get-a-table",
+                      "api-reference/datasources/delete-a-table",
+                      "api-reference/datasources/get-a-row",
+                      "api-reference/datasources/delete-a-row",
+                      "api-reference/datasources/list-rows",
+                      "api-reference/datasources/upsert-rows",
+                      "api-reference/datasources/get-tables",
+                      "api-reference/datasources/upsert-a-table",
+                      "api-reference/datasources/get-data-sources"
+                    ]
+                  },
+                  {
+                    "group": "Tools",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/tools/list-available-mcp-server-views"
+                    ]
+                  },
+                  {
+                    "group": "Spaces",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/spaces/list-available-spaces"
+                    ]
+                  },
+                  {
+                    "group": "Triggers",
+                    "expanded": false,
+                    "pages": [
+                      {
+                        "group": "Triggers",
+                        "expanded": false,
+                        "pages": [
+                          "api-reference/triggers/get-a-trigger",
+                          "api-reference/triggers/receive-external-webhook-to-trigger-flows",
+                          "api-reference/triggers/list-triggers"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "group": "User session: Analytics",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/private-analytics/list-consumption-analytics-facets",
+                      "api-reference/private-analytics/list-consumption-analytics-facets-1",
+                      "api-reference/private-analytics/list-consumption-analytics-facets-2"
+                    ]
+                  },
+                  {
+                    "group": "User session: Agents",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/private-agents/list-agent-configurations",
+                      "api-reference/private-agents/create-an-agent-configuration"
+                    ]
+                  },
+                  {
+                    "group": "User session: Conversations",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/private-conversations/cancel-message-generation",
+                      "api-reference/private-conversations/compact-a-conversation",
+                      "api-reference/private-conversations/get-a-conversation-credit-attribution",
+                      "api-reference/private-conversations/create-a-content-fragment",
+                      "api-reference/private-conversations/get-conversation-feedbacks",
+                      "api-reference/private-conversations/get-a-conversation",
+                      "api-reference/private-conversations/delete-or-leave-a-conversation",
+                      "api-reference/private-conversations/update-a-conversation",
+                      "api-reference/private-conversations/get-conversation-participants",
+                      "api-reference/private-conversations/add-a-participant-to-a-conversation",
+                      "api-reference/private-conversations/list-selectable-spaces",
+                      "api-reference/private-conversations/select-spaces-for-a-conversation",
+                      "api-reference/private-conversations/cancel-a-wake-up",
+                      "api-reference/private-conversations/list-wake-ups-for-a-conversation",
+                      "api-reference/private-conversations/list-conversations",
+                      "api-reference/private-conversations/create-a-conversation"
+                    ]
+                  },
+                  {
+                    "group": "User session: Events",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/private-events/stream-conversation-events",
+                      "api-reference/private-events/stream-message-events",
+                      "api-reference/private-events/stream-sandbox-function-invocation-events"
+                    ]
+                  },
+                  {
+                    "group": "User session: Messages",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/private-messages/get-a-single-action",
+                      "api-reference/private-messages/get-an-agent-message-credit-attribution",
+                      "api-reference/private-messages/edit-a-message",
+                      "api-reference/private-messages/submit-message-feedback",
+                      "api-reference/private-messages/delete-message-feedback",
+                      "api-reference/private-messages/get-a-message",
+                      "api-reference/private-messages/delete-a-message",
+                      "api-reference/private-messages/retry-an-agent-message",
+                      "api-reference/private-messages/list-messages-in-a-conversation",
+                      "api-reference/private-messages/post-a-message-to-a-conversation"
+                    ]
+                  },
+                  {
+                    "group": "User session: Assistant",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/private-assistant/resolve-a-conversation-go-template-draft"
+                    ]
+                  },
+                  {
+                    "group": "User session: Mentions",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/private-mentions/get-mention-suggestions"
+                    ]
+                  },
+                  {
+                    "group": "User session: Extension",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/private-extension/get-extension-configuration"
+                    ]
+                  },
+                  {
+                    "group": "User session: Workspace",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/private-workspace/get-workspace-feature-flags"
+                    ]
+                  },
+                  {
+                    "group": "User session: Files",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/private-files/get-or-download-a-file",
+                      "api-reference/private-files/upload-file-content",
+                      "api-reference/private-files/delete-a-file",
+                      "api-reference/private-files/create-a-file-upload"
+                    ]
+                  },
+                  {
+                    "group": "User session: Spaces",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/private-spaces/get-a-data-source-view",
+                      "api-reference/private-spaces/delete-a-data-source-view",
+                      "api-reference/private-spaces/update-a-data-source-view",
+                      "api-reference/private-spaces/list-data-source-views",
+                      "api-reference/private-spaces/create-a-data-source-view",
+                      "api-reference/private-spaces/get-a-space",
+                      "api-reference/private-spaces/delete-a-space",
+                      "api-reference/private-spaces/update-a-space",
+                      "api-reference/private-spaces/get-project-notification-preference",
+                      "api-reference/private-spaces/set-project-notification-preference",
+                      "api-reference/private-spaces/list-spaces",
+                      "api-reference/private-spaces/create-a-space"
+                    ]
+                  },
+                  {
+                    "group": "Authentication",
+                    "expanded": false,
+                    "pages": [
+                      "api-reference/private-authentication/initiate-workos-login",
+                      "api-reference/private-authentication/exchange-code-or-refresh-token",
+                      "api-reference/private-authentication/revoke-a-session"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Counso CLI",
+                "expanded": false,
+                "pages": [
+                  "docs/developer-platform/counso-cli/counso-cli"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "zh-Hans",
+        "groups": [
+          {
+            "group": "Counso 文档",
+            "pages": [
+              "zh-cn/index"
+            ]
+          },
+          {
+            "group": "入门与应用场景",
+            "pages": [
+              "zh-cn/docs/user-documentation/getting-started/intro-to-counso",
+              {
+                "group": "Counso 团队落地指南",
+                "root": "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso",
+                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy",
+                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material",
+                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community",
+                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace",
+                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases",
+                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate",
+                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand"
+                ]
+              },
+              {
+                "group": "团队使用场景与指南",
+                "root": "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/sales",
+                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/customer-support",
+                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/marketing",
+                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/engineering",
+                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/data-analytics",
+                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/knowledge",
+                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/recruiting-and-people",
+                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/product-and-design",
+                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/collaboration"
+                ]
+              },
+              {
+                "group": "常见问题",
+                "root": "zh-cn/docs/user-documentation/getting-started/faq",
+                "expanded": false,
+                "pages": [
+                  {
+                    "group": "一般问题",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso",
+                      "zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso",
+                      "zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso",
+                      "zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso",
+                      "zh-cn/docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data"
+                    ]
+                  },
+                  {
+                    "group": "智能体与对话",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/i-dont-know-how-to-start-creating-an-agent-what-should-i-do",
+                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/how-do-i-edit-a-custom-agent",
+                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/what-settings-model-should-i-use",
+                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-agents-create-a-new-file-or-document-directly-into-notion-google-drive-or-other-connected-platforms",
+                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/what-data-do-the-agents-have-access-to",
+                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/do-the-agents-have-access-to-the-internet",
+                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses",
+                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-share-a-conversation",
+                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-delete-or-rename-a-conversation",
+                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages",
+                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/how-can-i-find-the-id-of-an-agent"
+                    ]
+                  },
+                  {
+                    "group": "故障排除",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one",
+                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in",
+                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work",
+                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on",
+                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-doesnt-the-agent-remember-what-i-said-earlier-in-a-conversation",
+                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-isnt-my-recently-updated-document-showing-in-agent-responses",
+                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future",
+                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down",
+                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond"
+                    ]
+                  },
+                  "zh-cn/docs/user-documentation/getting-started/faq/file-size-limits",
+                  "zh-cn/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "助手",
+            "pages": [
+              "zh-cn/docs/user-documentation/agents/create-your-first-agent",
+              "zh-cn/docs/user-documentation/agents/model-selection",
+              {
+                "group": "大语言模型最佳实践",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/user-documentation/agents/llm-best-practices/how-to-write-effective-instructions",
+                  "zh-cn/docs/user-documentation/agents/llm-best-practices/choosing-the-right-ai-model",
+                  "zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-llms-context-windows",
+                  "zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-llm-limitations",
+                  "zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-rag"
+                ]
+              },
+              "zh-cn/docs/user-documentation/agents/templates",
+              "zh-cn/docs/user-documentation/agents/deep-dive-agent",
+              "zh-cn/docs/user-documentation/agents/agent-builder-sidekick",
+              "zh-cn/docs/user-documentation/agents/troubleshooting-your-agent",
+              "zh-cn/docs/user-documentation/agents/structured-output-format",
+              "zh-cn/docs/user-documentation/agents/steering-conversations",
+              "zh-cn/docs/user-documentation/agents/branch-a-conversation",
+              "zh-cn/docs/user-documentation/agents/context-compaction"
+            ]
+          },
+          {
+            "group": "技能",
+            "pages": [
+              "zh-cn/docs/user-documentation/agents/skills/skills-overview",
+              "zh-cn/docs/user-documentation/agents/skills/skill-examples",
+              "zh-cn/docs/user-documentation/agents/skill-availability",
+              "zh-cn/docs/user-documentation/agents/discover-knowledge",
+              "zh-cn/docs/user-documentation/agents/discover-skills",
+              "zh-cn/docs/user-documentation/agents/discover-tools",
+              "zh-cn/docs/user-documentation/agents/go-deep",
+              "zh-cn/docs/user-documentation/agents/self-improving-skills"
+            ]
+          },
+          {
+            "group": "知识与工具",
+            "pages": [
+              {
+                "group": "智能体的 Knowledge（知识）",
+                "root": "zh-cn/docs/user-documentation/agents/knowledge",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/user-documentation/agents/knowledge/search-data-sources",
+                  "zh-cn/docs/user-documentation/agents/knowledge/table-queries",
+                  "zh-cn/docs/user-documentation/agents/knowledge/extract-data",
+                  "zh-cn/docs/user-documentation/agents/knowledge/include-data"
+                ]
+              },
+              {
+                "group": "数据源",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/user-documentation/data-sources/overview",
+                  "zh-cn/docs/user-documentation/data-sources/connections",
+                  "zh-cn/docs/user-documentation/data-sources/websites",
+                  "zh-cn/docs/user-documentation/data-sources/folders",
+                  {
+                    "group": "对话文件",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/docs/user-documentation/data-sources/conversation-files/conversation-files",
+                      "zh-cn/docs/user-documentation/data-sources/conversation-files/read-images"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Agent 工具",
+                "root": "zh-cn/docs/user-documentation/agents/tools",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/user-documentation/agents/tools/airtable",
+                  "zh-cn/docs/user-documentation/agents/tools/agent-memory",
+                  "zh-cn/docs/user-documentation/agents/tools/asana",
+                  "zh-cn/docs/user-documentation/agents/tools/ashby",
+                  "zh-cn/docs/user-documentation/agents/tools/attio",
+                  "zh-cn/docs/user-documentation/agents/tools/canva",
+                  "zh-cn/docs/user-documentation/agents/tools/confluence",
+                  "zh-cn/docs/user-documentation/agents/tools/databricks",
+                  "zh-cn/docs/user-documentation/agents/tools/file-generation",
+                  "zh-cn/docs/user-documentation/agents/tools/fathom",
+                  "zh-cn/docs/user-documentation/agents/tools/gong",
+                  "zh-cn/docs/user-documentation/agents/tools/freshservice",
+                  "zh-cn/docs/user-documentation/agents/tools/front",
+                  "zh-cn/docs/user-documentation/agents/tools/gmail",
+                  "zh-cn/docs/user-documentation/agents/tools/google-calendar",
+                  "zh-cn/docs/user-documentation/agents/tools/google-drive",
+                  "zh-cn/docs/user-documentation/agents/tools/hubspot",
+                  "zh-cn/docs/user-documentation/agents/tools/image-generation",
+                  "zh-cn/docs/user-documentation/agents/tools/jira",
+                  "zh-cn/docs/user-documentation/agents/tools/jit-tools",
+                  "zh-cn/docs/user-documentation/agents/tools/microsoft-outlook",
+                  "zh-cn/docs/user-documentation/agents/tools/microsoft-sharepoint-and-onedrive",
+                  "zh-cn/docs/user-documentation/agents/tools/microsoft-teams",
+                  "zh-cn/docs/user-documentation/agents/tools/microsoft-excel",
+                  "zh-cn/docs/user-documentation/agents/tools/miro",
+                  "zh-cn/docs/user-documentation/agents/tools/netsuite",
+                  "zh-cn/docs/user-documentation/agents/tools/notion",
+                  "zh-cn/docs/user-documentation/agents/tools/power-bi",
+                  "zh-cn/docs/user-documentation/agents/tools/productboard",
+                  "zh-cn/docs/user-documentation/agents/tools/slack-tools",
+                  "zh-cn/docs/user-documentation/agents/tools/ukg-ready",
+                  "zh-cn/docs/user-documentation/agents/tools/val-town",
+                  "zh-cn/docs/user-documentation/agents/tools/vanta",
+                  "zh-cn/docs/user-documentation/agents/tools/voice-and-sound-generation",
+                  "zh-cn/docs/user-documentation/agents/tools/salesloft",
+                  "zh-cn/docs/user-documentation/agents/tools/semrush",
+                  "zh-cn/docs/user-documentation/agents/tools/slab",
+                  "zh-cn/docs/user-documentation/agents/tools/snowflake",
+                  "zh-cn/docs/user-documentation/agents/tools/statuspage",
+                  "zh-cn/docs/user-documentation/agents/tools/run-agent",
+                  "zh-cn/docs/user-documentation/agents/tools/web-search-and-browse",
+                  "zh-cn/docs/user-documentation/agents/tools/zendesk",
+                  "zh-cn/docs/user-documentation/agents/tools/wake-ups",
+                  "zh-cn/docs/user-documentation/agents/tools/computer",
+                  "zh-cn/docs/user-documentation/agents/tools/google-sheets-deprecated",
+                  "zh-cn/docs/user-documentation/agents/tools/github",
+                  "zh-cn/docs/user-documentation/agents/tools/monday-com"
+                ]
+              },
+              {
+                "group": "触发器",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/user-documentation/agents/triggers/credits-usage",
+                  "zh-cn/docs/user-documentation/agents/triggers/schedules",
+                  {
+                    "group": "Webhook",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload",
+                      "zh-cn/docs/user-documentation/agents/triggers/webhooks/rate-limiting"
+                    ]
+                  }
+                ]
+              },
+              "zh-cn/docs/user-documentation/agents/frames/white-labeled-frames"
+            ]
+          },
+          {
+            "group": "Pods",
+            "pages": [
+              "zh-cn/docs/user-documentation/pods/overview",
+              "zh-cn/docs/user-documentation/pods/members-and-roles",
+              "zh-cn/docs/user-documentation/pods/tasks",
+              "zh-cn/docs/user-documentation/pods/conversations",
+              "zh-cn/docs/user-documentation/pods/files",
+              "zh-cn/docs/user-documentation/pods/frames",
+              "zh-cn/docs/user-documentation/pods/agent-tools",
+              "zh-cn/docs/user-documentation/pods/admin-controls",
+              {
+                "group": "示例",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/user-documentation/pods/examples/shared-asset-library",
+                  "zh-cn/docs/user-documentation/pods/examples/personal-second-brain",
+                  "zh-cn/docs/user-documentation/pods/examples/initiative-and-project-management",
+                  "zh-cn/docs/user-documentation/pods/examples/ticket-handling-and-support-knowledge",
+                  "zh-cn/docs/user-documentation/pods/examples/one-pod-per-customer",
+                  "zh-cn/docs/user-documentation/pods/examples/content-and-editorial-production",
+                  "zh-cn/docs/user-documentation/pods/examples/competitive-intelligence"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "管理工作区",
+            "pages": [
+              "zh-cn/docs/user-documentation/admins/quickstart",
+              {
+                "group": "治理与访问权限",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions",
+                  "zh-cn/docs/user-documentation/admins/admin-governance/access-controls-and-permissions",
+                  {
+                    "group": "单点登录（SSO）",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/docs/user-documentation/admins/admin-governance/single-sign-on-sso/single-sign-on-sso",
+                      "zh-cn/docs/user-documentation/admins/admin-governance/single-sign-on-sso/saml-sso"
+                    ]
+                  },
+                  "zh-cn/docs/user-documentation/admins/admin-governance/users-and-groups-provisioning"
+                ]
+              },
+              "zh-cn/docs/user-documentation/admins/spaces-management",
+              "zh-cn/docs/user-documentation/admins/agents-management",
+              {
+                "group": "管理数据连接",
+                "root": "zh-cn/docs/user-documentation/admins/connections-management",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/user-documentation/admins/connections-management/google-drive",
+                  "zh-cn/docs/user-documentation/admins/connections-management/notion",
+                  "zh-cn/docs/user-documentation/admins/connections-management/confluence",
+                  "zh-cn/docs/user-documentation/admins/connections-management/intercom",
+                  "zh-cn/docs/user-documentation/admins/connections-management/microsoft",
+                  "zh-cn/docs/user-documentation/admins/connections-management/zendesk",
+                  "zh-cn/docs/user-documentation/admins/connections-management/snowflake",
+                  "zh-cn/docs/user-documentation/admins/connections-management/bigquery",
+                  "zh-cn/docs/user-documentation/admins/connections-management/gong",
+                  "zh-cn/docs/user-documentation/admins/connections-management/github",
+                  "zh-cn/docs/user-documentation/admins/connections-management/slack"
+                ]
+              },
+              {
+                "group": "工具管理",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/user-documentation/admins/tools-management/adding-an-mcp-server",
+                  "zh-cn/docs/user-documentation/admins/tools-management/personal-vs-shared-credentials",
+                  {
+                    "group": "Salesforce",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/docs/user-documentation/admins/tools-management/salesforce/salesforce",
+                      "zh-cn/docs/user-documentation/admins/tools-management/salesforce/salesforce-notes-on-api-limit-and-permissions"
+                    ]
+                  },
+                  "zh-cn/docs/user-documentation/admins/tools-management/managing-microsoft-tools",
+                  "zh-cn/docs/user-documentation/admins/tools-management/computer-admin-setup"
+                ]
+              },
+              "zh-cn/analytics",
+              {
+                "group": "审计日志",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/user-documentation/admins/audit-logs/audit-logs",
+                  "zh-cn/docs/user-documentation/admins/audit-logs/audit-logs-events-reference"
+                ]
+              },
+              {
+                "group": "用量、席位与积分",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/seat-management",
+                  "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/credits",
+                  "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/credit-management",
+                  "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/optimize-credit-consumption",
+                  "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers",
+                  "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/train-team-credit-optimization"
+                ]
+              },
+              "zh-cn/docs/user-documentation/admins/billing/subscriptions-and-payments",
+              "zh-cn/docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting",
+              "zh-cn/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting"
+            ]
+          },
+          {
+            "group": "集成与接入",
+            "pages": [
+              "zh-cn/docs/user-documentation/agents/integrations/counso-mcp-server",
+              "zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
+              "zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+              "zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
+              "zh-cn/docs/user-documentation/agents/integrations/meeting-transcripts"
+            ]
+          },
+          {
+            "group": "开发者",
+            "pages": [
+              "zh-cn/docs/user-documentation/developers/client-side-mcp-server",
+              {
+                "group": "概览",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/developer-platform/overview/developer-platform",
+                  "zh-cn/docs/developer-platform/overview/javascript-sdk"
+                ]
+              },
+              {
+                "group": "核心概念",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/developer-platform/core-concepts/datasources",
+                  "zh-cn/docs/developer-platform/core-concepts/chunks-and-documents",
+                  "zh-cn/docs/developer-platform/core-concepts/rate-limits"
+                ]
+              },
+              {
+                "group": "Counso API 文档",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/developer-platform/counso-api-documentation/openapi-and-postman",
+                  {
+                    "group": "用户会话：用户",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/private-user/get-current-user",
+                      "zh-cn/api-reference/private-user/update-current-user"
+                    ]
+                  },
+                  {
+                    "group": "分析",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/analytics/export-workspace-analytics"
+                    ]
+                  },
+                  {
+                    "group": "智能体",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/agents/list-agents",
+                      "zh-cn/api-reference/agents/export-agent-configuration-as-yaml",
+                      "zh-cn/api-reference/agents/get-agent-configuration",
+                      "zh-cn/api-reference/agents/archive-agent-configuration",
+                      "zh-cn/api-reference/agents/update-agent-configuration",
+                      "zh-cn/api-reference/agents/import-agent-configuration",
+                      "zh-cn/api-reference/agents/search-agents-by-name"
+                    ]
+                  },
+                  {
+                    "group": "会话",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/conversations/cancel-message-generation-in-a-conversation",
+                      "zh-cn/api-reference/conversations/create-a-content-fragment",
+                      "zh-cn/api-reference/conversations/get-the-events-for-a-conversation",
+                      "zh-cn/api-reference/conversations/download-a-conversation-scoped-file-by-path",
+                      "zh-cn/api-reference/conversations/get-a-conversation",
+                      "zh-cn/api-reference/conversations/update-a-conversation",
+                      "zh-cn/api-reference/conversations/answer-a-user-question-in-a-conversation-message",
+                      "zh-cn/api-reference/conversations/edit-an-existing-message-in-a-conversation",
+                      "zh-cn/api-reference/conversations/get-events-for-a-message",
+                      "zh-cn/api-reference/conversations/validate-an-action-in-a-conversation-message",
+                      "zh-cn/api-reference/conversations/create-a-message",
+                      "zh-cn/api-reference/conversations/create-a-new-conversation",
+                      "zh-cn/api-reference/conversations/create-a-file-upload-url"
+                    ]
+                  },
+                  {
+                    "group": "反馈",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/feedbacks/get-feedbacks-for-a-conversation",
+                      "zh-cn/api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation",
+                      "zh-cn/api-reference/feedbacks/delete-feedback-for-a-specific-message"
+                    ]
+                  },
+                  {
+                    "group": "提及",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/mentions/get-mention-suggestions-for-a-conversation",
+                      "zh-cn/api-reference/mentions/parse-mentions-in-markdown-text",
+                      "zh-cn/api-reference/mentions/get-mention-suggestions"
+                    ]
+                  },
+                  {
+                    "group": "客户端 MCP",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/mcp/deregister-a-client-side-mcp-server",
+                      "zh-cn/api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server",
+                      "zh-cn/api-reference/mcp/register-a-client-side-mcp-server",
+                      "zh-cn/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace",
+                      "zh-cn/api-reference/mcp/submit-mcp-tool-execution-results"
+                    ]
+                  },
+                  {
+                    "group": "搜索",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/search/search-for-nodes-in-the-workspace-streaming",
+                      "zh-cn/api-reference/search/search-for-nodes-in-the-workspace",
+                      "zh-cn/api-reference/search/upload-a-tool-file"
+                    ]
+                  },
+                  {
+                    "group": "Skills",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/skills/archive-a-skill",
+                      "zh-cn/api-reference/skills/list-skills",
+                      "zh-cn/api-reference/skills/import-skills-from-uploaded-files"
+                    ]
+                  },
+                  {
+                    "group": "应用",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/apps/get-an-app-run",
+                      "zh-cn/api-reference/apps/create-an-app-run",
+                      "zh-cn/api-reference/apps/list-apps"
+                    ]
+                  },
+                  {
+                    "group": "数据源视图",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/datasourceviews/get-a-data-source-view",
+                      "zh-cn/api-reference/datasourceviews/delete-a-data-source-view",
+                      "zh-cn/api-reference/datasourceviews/update-a-data-source-view",
+                      "zh-cn/api-reference/datasourceviews/search-the-data-source-view",
+                      "zh-cn/api-reference/datasourceviews/list-data-source-views"
+                    ]
+                  },
+                  {
+                    "group": "数据源",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/datasources/check-the-upsert-queue-status-for-a-data-source",
+                      "zh-cn/api-reference/datasources/retrieve-a-document-from-a-data-source",
+                      "zh-cn/api-reference/datasources/upsert-a-document-in-a-data-source",
+                      "zh-cn/api-reference/datasources/delete-a-document-from-a-data-source",
+                      "zh-cn/api-reference/datasources/update-the-parents-of-a-document",
+                      "zh-cn/api-reference/datasources/get-documents",
+                      "zh-cn/api-reference/datasources/search-the-data-source",
+                      "zh-cn/api-reference/datasources/get-a-table",
+                      "zh-cn/api-reference/datasources/delete-a-table",
+                      "zh-cn/api-reference/datasources/get-a-row",
+                      "zh-cn/api-reference/datasources/delete-a-row",
+                      "zh-cn/api-reference/datasources/list-rows",
+                      "zh-cn/api-reference/datasources/upsert-rows",
+                      "zh-cn/api-reference/datasources/get-tables",
+                      "zh-cn/api-reference/datasources/upsert-a-table",
+                      "zh-cn/api-reference/datasources/get-data-sources"
+                    ]
+                  },
+                  {
+                    "group": "工具",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/tools/list-available-mcp-server-views"
+                    ]
+                  },
+                  {
+                    "group": "空间",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/spaces/list-available-spaces"
+                    ]
+                  },
+                  {
+                    "group": "触发器",
+                    "expanded": false,
+                    "pages": [
+                      {
+                        "group": "触发器",
+                        "expanded": false,
+                        "pages": [
+                          "zh-cn/api-reference/triggers/get-a-trigger",
+                          "zh-cn/api-reference/triggers/receive-external-webhook-to-trigger-flows",
+                          "zh-cn/api-reference/triggers/list-triggers"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "group": "用户会话：分析",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/private-analytics/list-consumption-analytics-facets",
+                      "zh-cn/api-reference/private-analytics/list-consumption-analytics-facets-1",
+                      "zh-cn/api-reference/private-analytics/list-consumption-analytics-facets-2"
+                    ]
+                  },
+                  {
+                    "group": "用户会话：智能体",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/private-agents/list-agent-configurations",
+                      "zh-cn/api-reference/private-agents/create-an-agent-configuration"
+                    ]
+                  },
+                  {
+                    "group": "用户会话：会话",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/private-conversations/cancel-message-generation",
+                      "zh-cn/api-reference/private-conversations/compact-a-conversation",
+                      "zh-cn/api-reference/private-conversations/get-a-conversation-credit-attribution",
+                      "zh-cn/api-reference/private-conversations/create-a-content-fragment",
+                      "zh-cn/api-reference/private-conversations/get-conversation-feedbacks",
+                      "zh-cn/api-reference/private-conversations/get-a-conversation",
+                      "zh-cn/api-reference/private-conversations/delete-or-leave-a-conversation",
+                      "zh-cn/api-reference/private-conversations/update-a-conversation",
+                      "zh-cn/api-reference/private-conversations/get-conversation-participants",
+                      "zh-cn/api-reference/private-conversations/add-a-participant-to-a-conversation",
+                      "zh-cn/api-reference/private-conversations/list-selectable-spaces",
+                      "zh-cn/api-reference/private-conversations/select-spaces-for-a-conversation",
+                      "zh-cn/api-reference/private-conversations/cancel-a-wake-up",
+                      "zh-cn/api-reference/private-conversations/list-wake-ups-for-a-conversation",
+                      "zh-cn/api-reference/private-conversations/list-conversations",
+                      "zh-cn/api-reference/private-conversations/create-a-conversation"
+                    ]
+                  },
+                  {
+                    "group": "用户会话：events",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/private-events/stream-conversation-events",
+                      "zh-cn/api-reference/private-events/stream-message-events",
+                      "zh-cn/api-reference/private-events/stream-sandbox-function-invocation-events"
+                    ]
+                  },
+                  {
+                    "group": "用户会话：messages",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/private-messages/get-a-single-action",
+                      "zh-cn/api-reference/private-messages/get-an-agent-message-credit-attribution",
+                      "zh-cn/api-reference/private-messages/edit-a-message",
+                      "zh-cn/api-reference/private-messages/submit-message-feedback",
+                      "zh-cn/api-reference/private-messages/delete-message-feedback",
+                      "zh-cn/api-reference/private-messages/get-a-message",
+                      "zh-cn/api-reference/private-messages/delete-a-message",
+                      "zh-cn/api-reference/private-messages/retry-an-agent-message",
+                      "zh-cn/api-reference/private-messages/list-messages-in-a-conversation",
+                      "zh-cn/api-reference/private-messages/post-a-message-to-a-conversation"
+                    ]
+                  },
+                  {
+                    "group": "用户会话：assistant",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/private-assistant/resolve-a-conversation-go-template-draft"
+                    ]
+                  },
+                  {
+                    "group": "用户会话：提及",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/private-mentions/get-mention-suggestions"
+                    ]
+                  },
+                  {
+                    "group": "用户会话：扩展",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/private-extension/get-extension-configuration"
+                    ]
+                  },
+                  {
+                    "group": "用户会话：workspace",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/private-workspace/get-workspace-feature-flags"
+                    ]
+                  },
+                  {
+                    "group": "用户会话：文件",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/private-files/get-or-download-a-file",
+                      "zh-cn/api-reference/private-files/upload-file-content",
+                      "zh-cn/api-reference/private-files/delete-a-file",
+                      "zh-cn/api-reference/private-files/create-a-file-upload"
+                    ]
+                  },
+                  {
+                    "group": "用户会话：空间",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/private-spaces/get-a-data-source-view",
+                      "zh-cn/api-reference/private-spaces/delete-a-data-source-view",
+                      "zh-cn/api-reference/private-spaces/update-a-data-source-view",
+                      "zh-cn/api-reference/private-spaces/list-data-source-views",
+                      "zh-cn/api-reference/private-spaces/create-a-data-source-view",
+                      "zh-cn/api-reference/private-spaces/get-a-space",
+                      "zh-cn/api-reference/private-spaces/delete-a-space",
+                      "zh-cn/api-reference/private-spaces/update-a-space",
+                      "zh-cn/api-reference/private-spaces/get-project-notification-preference",
+                      "zh-cn/api-reference/private-spaces/set-project-notification-preference",
+                      "zh-cn/api-reference/private-spaces/list-spaces",
+                      "zh-cn/api-reference/private-spaces/create-a-space"
+                    ]
+                  },
+                  {
+                    "group": "登录认证",
+                    "expanded": false,
+                    "pages": [
+                      "zh-cn/api-reference/private-authentication/initiate-workos-login",
+                      "zh-cn/api-reference/private-authentication/exchange-code-or-refresh-token",
+                      "zh-cn/api-reference/private-authentication/revoke-a-session"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Counso CLI",
+                "expanded": false,
+                "pages": [
+                  "zh-cn/docs/developer-platform/counso-cli/counso-cli"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "redirects": [
+    {
+      "source": "/docs/ashby-mcp",
+      "destination": "/docs/user-documentation/agents/tools/ashby",
+      "permanent": true
+    },
+    {
+      "source": "/docs/bigquery",
+      "destination": "/docs/user-documentation/admins/connections-management/bigquery",
+      "permanent": true
+    },
+    {
+      "source": "/docs/client-side-mcp-server",
+      "destination": "/docs/user-documentation/developers/client-side-mcp-server",
+      "permanent": true
+    },
+    {
+      "source": "/docs/confluence-connection",
+      "destination": "/docs/user-documentation/admins/connections-management/confluence",
+      "permanent": true
+    },
+    {
+      "source": "/docs/confluence-tool",
+      "destination": "/docs/user-documentation/agents/tools/confluence",
+      "permanent": true
+    },
+    {
+      "source": "/docs/context-compaction",
+      "destination": "/docs/user-documentation/agents/context-compaction",
+      "permanent": true
+    },
+    {
+      "source": "/docs/credit-management",
+      "destination": "/docs/user-documentation/admins/usage-seats-and-credits/credit-management",
+      "permanent": true
+    },
+    {
+      "source": "/docs/credits",
+      "destination": "/docs/user-documentation/admins/usage-seats-and-credits/credits",
+      "permanent": true
+    },
+    {
+      "source": "/docs/data",
+      "destination": "/docs/user-documentation/admins/spaces-management",
+      "permanent": true
+    },
+    {
+      "source": "/docs/databricks",
+      "destination": "/docs/user-documentation/agents/tools/databricks",
+      "permanent": true
+    },
+    {
+      "source": "/docs/developer-platform/dust-api-documentation/openapi-and-postman",
+      "destination": "/docs/developer-platform/counso-api-documentation/openapi-and-postman",
+      "permanent": true
+    },
+    {
+      "source": "/docs/developer-platform/dust-api-documentation/openapi.json",
+      "destination": "/docs/developer-platform/counso-api-documentation/openapi.json",
+      "permanent": true
+    },
+    {
+      "source": "/docs/developer-platform/dust-api-documentation/swagger.json",
+      "destination": "/docs/developer-platform/counso-api-documentation/swagger.json",
+      "permanent": true
+    },
+    {
+      "source": "/docs/developer-platform/dust-cli/dust-cli",
+      "destination": "/docs/developer-platform/counso-cli/counso-cli",
+      "permanent": true
+    },
+    {
+      "source": "/docs/dust-in-teams",
+      "destination": "/docs/user-documentation/agents/integrations/counso-in-teams",
+      "permanent": true
+    },
+    {
+      "source": "/docs/email-agents",
+      "destination": "/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents",
+      "permanent": true
+    },
+    {
+      "source": "/docs/filter-webhooks-payload",
+      "destination": "/docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload",
+      "permanent": true
+    },
+    {
+      "source": "/docs/freshservice",
+      "destination": "/docs/user-documentation/agents/tools/freshservice",
+      "permanent": true
+    },
+    {
+      "source": "/docs/front-mcp",
+      "destination": "/docs/user-documentation/agents/tools/front",
+      "permanent": true
+    },
+    {
+      "source": "/docs/github-connection",
+      "destination": "/docs/user-documentation/admins/connections-management/github",
+      "permanent": true
+    },
+    {
+      "source": "/docs/gmail",
+      "destination": "/docs/user-documentation/agents/tools/gmail",
+      "permanent": true
+    },
+    {
+      "source": "/docs/gong-connection",
+      "destination": "/docs/user-documentation/admins/connections-management/gong",
+      "permanent": true
+    },
+    {
+      "source": "/docs/gong-mcp",
+      "destination": "/docs/user-documentation/agents/tools/gong",
+      "permanent": true
+    },
+    {
+      "source": "/docs/google-calendar",
+      "destination": "/docs/user-documentation/agents/tools/google-calendar",
+      "permanent": true
+    },
+    {
+      "source": "/docs/google-drive",
+      "destination": "/docs/user-documentation/admins/connections-management/google-drive",
+      "permanent": true
+    },
+    {
+      "source": "/docs/google-drive-connection",
+      "destination": "/docs/user-documentation/admins/connections-management/google-drive",
+      "permanent": true
+    },
+    {
+      "source": "/docs/google-sheets",
+      "destination": "/docs/user-documentation/agents/tools/google-sheets-deprecated",
+      "permanent": true
+    },
+    {
+      "source": "/docs/hubspot",
+      "destination": "/docs/user-documentation/agents/tools/hubspot",
+      "permanent": true
+    },
+    {
+      "source": "/docs/intercom-connection",
+      "destination": "/docs/user-documentation/admins/connections-management/intercom",
+      "permanent": true
+    },
+    {
+      "source": "/docs/intro",
+      "destination": "/docs/user-documentation/getting-started/intro-to-counso",
+      "permanent": true
+    },
+    {
+      "source": "/docs/jira",
+      "destination": "/docs/user-documentation/agents/tools/jira",
+      "permanent": true
+    },
+    {
+      "source": "/docs/knowledge",
+      "destination": "/docs/user-documentation/getting-started/use-cases-and-guides/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/docs/microsoft-connection",
+      "destination": "/docs/user-documentation/admins/connections-management/microsoft",
+      "permanent": true
+    },
+    {
+      "source": "/docs/microsoft-drive-tool-setup",
+      "destination": "/docs/user-documentation/agents/tools/microsoft-sharepoint-and-onedrive",
+      "permanent": true
+    },
+    {
+      "source": "/docs/microsoft-teams-tool-setup",
+      "destination": "/docs/user-documentation/agents/tools/microsoft-teams",
+      "permanent": true
+    },
+    {
+      "source": "/docs/monday",
+      "destination": "/docs/user-documentation/agents/tools/monday-com",
+      "permanent": true
+    },
+    {
+      "source": "/docs/netsuite",
+      "destination": "/docs/user-documentation/agents/tools/netsuite",
+      "permanent": true
+    },
+    {
+      "source": "/docs/notion-connection",
+      "destination": "/docs/user-documentation/admins/connections-management/notion",
+      "permanent": true
+    },
+    {
+      "source": "/docs/notion-mcp",
+      "destination": "/docs/user-documentation/agents/tools/notion",
+      "permanent": true
+    },
+    {
+      "source": "/docs/outlook-tool-setup",
+      "destination": "/docs/user-documentation/agents/tools/microsoft-outlook",
+      "permanent": true
+    },
+    {
+      "source": "/docs/personal-vs-workspace-credentials-for-tools-mcp-servers",
+      "destination": "/docs/user-documentation/admins/tools-management/personal-vs-shared-credentials",
+      "permanent": true
+    },
+    {
+      "source": "/docs/power-bi",
+      "destination": "/docs/user-documentation/agents/tools/power-bi",
+      "permanent": true
+    },
+    {
+      "source": "/docs/productboard",
+      "destination": "/docs/user-documentation/agents/tools/productboard",
+      "permanent": true
+    },
+    {
+      "source": "/docs/remote-mcp-server",
+      "destination": "/docs/user-documentation/admins/tools-management/adding-an-mcp-server",
+      "permanent": true
+    },
+    {
+      "source": "/docs/salesforce",
+      "destination": "/docs/user-documentation/admins/tools-management/salesforce/salesforce",
+      "permanent": true
+    },
+    {
+      "source": "/docs/salesloft-mcp",
+      "destination": "/docs/user-documentation/agents/tools/salesloft",
+      "permanent": true
+    },
+    {
+      "source": "/docs/scheduling-your-agent-beta",
+      "destination": "/docs/user-documentation/agents/triggers/schedules",
+      "permanent": true
+    },
+    {
+      "source": "/docs/seat-management",
+      "destination": "/docs/user-documentation/admins/usage-seats-and-credits/seat-management",
+      "permanent": true
+    },
+    {
+      "source": "/docs/self-improving-skills",
+      "destination": "/docs/user-documentation/agents/self-improving-skills",
+      "permanent": true
+    },
+    {
+      "source": "/docs/skills",
+      "destination": "/docs/user-documentation/agents/skills/skills-overview",
+      "permanent": true
+    },
+    {
+      "source": "/docs/slab-mcp",
+      "destination": "/docs/user-documentation/agents/tools/slab",
+      "permanent": true
+    },
+    {
+      "source": "/docs/slack",
+      "destination": "/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+      "permanent": true
+    },
+    {
+      "source": "/docs/slack-connection",
+      "destination": "/docs/user-documentation/admins/connections-management/slack",
+      "permanent": true
+    },
+    {
+      "source": "/docs/slack-mcp",
+      "destination": "/docs/user-documentation/agents/tools/slack-tools",
+      "permanent": true
+    },
+    {
+      "source": "/docs/snowflake-connection",
+      "destination": "/docs/user-documentation/admins/connections-management/snowflake",
+      "permanent": true
+    },
+    {
+      "source": "/docs/snowflake-tool",
+      "destination": "/docs/user-documentation/agents/tools/snowflake",
+      "permanent": true
+    },
+    {
+      "source": "/docs/statuspage-mcp",
+      "destination": "/docs/user-documentation/agents/tools/statuspage",
+      "permanent": true
+    },
+    {
+      "source": "/docs/structured-output-format",
+      "destination": "/docs/user-documentation/agents/structured-output-format",
+      "permanent": true
+    },
+    {
+      "source": "/docs/subscriptions",
+      "destination": "/docs/user-documentation/admins/billing/subscriptions-and-payments",
+      "permanent": true
+    },
+    {
+      "source": "/docs/triggers",
+      "destination": "/docs/user-documentation/agents/triggers/schedules",
+      "permanent": true
+    },
+    {
+      "source": "/docs/ukg-ready",
+      "destination": "/docs/user-documentation/agents/tools/ukg-ready",
+      "permanent": true
+    },
+    {
+      "source": "/docs/understanding-llms-context-windows",
+      "destination": "/docs/user-documentation/agents/llm-best-practices/understanding-llms-context-windows",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/agents/create-your-frist-agent",
+      "destination": "/docs/user-documentation/agents/create-your-first-agent",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/agents/dust-support",
+      "destination": "/docs/user-documentation/agents/counso-support",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-join",
+      "destination": "/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-reply",
+      "destination": "/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows",
+      "destination": "/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/agents/integrations/dust-in-teams",
+      "destination": "/docs/user-documentation/agents/integrations/counso-in-teams",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/agents/integrations/dust-in-zendesk",
+      "destination": "/docs/user-documentation/agents/integrations/counso-in-zendesk",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/agents/integrations/dust-mcp-server",
+      "destination": "/docs/user-documentation/agents/integrations/counso-mcp-server",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/dust-rollout-guide",
+      "destination": "/docs/user-documentation/getting-started/counso-rollout-guide",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/dust-rollout-guide/admin-guide-set-up-your-dust-workspace",
+      "destination": "/docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/dust-rollout-guide/build-your-builder-community",
+      "destination": "/docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/dust-rollout-guide/designing-use-cases",
+      "destination": "/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/dust-rollout-guide/educate-activate",
+      "destination": "/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/dust-rollout-guide/launch-strategy",
+      "destination": "/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/dust-rollout-guide/measure-expand",
+      "destination": "/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/dust-rollout-guide/team-onboarding-material",
+      "destination": "/docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/dust-rollout-guide/welcome-to-dust",
+      "destination": "/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/faq/general-questions/how-does-dust-handle-user-data",
+      "destination": "/docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-dust",
+      "destination": "/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-dust",
+      "destination": "/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-dust",
+      "destination": "/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-dust",
+      "destination": "/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-dust",
+      "destination": "/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-dust-agents-in-different-languages",
+      "destination": "/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/faq/managing-agents/does-the-dust-agent-give-accurate-and-safe-responses",
+      "destination": "/docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-dust-conversation-api",
+      "destination": "/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-counso-conversation-api",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-dust-remember-and-incorporate-my-feedback-in-the-future",
+      "destination": "/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-dust-down",
+      "destination": "/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-dust-slow-or-my-agent-taking-too-long-to-respond",
+      "destination": "/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond",
+      "permanent": true
+    },
+    {
+      "source": "/docs/user-documentation/getting-started/intro-to-dust",
+      "destination": "/docs/user-documentation/getting-started/intro-to-counso",
+      "permanent": true
+    },
+    {
+      "source": "/docs/val-town",
+      "destination": "/docs/user-documentation/agents/tools/val-town",
+      "permanent": true
+    },
+    {
+      "source": "/docs/vanta",
+      "destination": "/docs/user-documentation/agents/tools/vanta",
+      "permanent": true
+    },
+    {
+      "source": "/docs/website-connection",
+      "destination": "/docs/user-documentation/data-sources/websites",
+      "permanent": true
+    },
+    {
+      "source": "/docs/zendesk-connection",
+      "destination": "/docs/user-documentation/admins/connections-management/zendesk",
+      "permanent": true
+    },
+    {
+      "source": "/reference",
+      "destination": "/docs/developer-platform/overview/developer-platform",
+      "permanent": true
+    },
+    {
+      "source": "/reference/",
+      "destination": "/docs/developer-platform/overview/developer-platform",
+      "permanent": true
+    },
+    {
+      "source": "/reference/developer-platform-overview",
+      "destination": "/docs/developer-platform/overview/developer-platform",
+      "permanent": true
+    },
+    {
+      "source": "/reference/post_api-v1-w-wid-vaults-vid-apps-aid-runs",
+      "destination": "/api-reference/apps/create-an-app-run",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/client-side-mcp-server",
+      "destination": "/zh-cn/docs/user-documentation/developers/client-side-mcp-server",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/dust-api-documentation/openapi-and-postman",
+      "destination": "/zh-cn/docs/developer-platform/counso-api-documentation/openapi-and-postman",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/dust-api-documentation/openapi.json",
+      "destination": "/zh-cn/docs/developer-platform/counso-api-documentation/openapi.json",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/dust-api-documentation/swagger.json",
+      "destination": "/zh-cn/docs/developer-platform/counso-api-documentation/swagger.json",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/dust-cli/dust-cli",
+      "destination": "/zh-cn/docs/developer-platform/counso-cli/counso-cli",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/dust-support",
+      "destination": "/zh-cn/docs/user-documentation/agents/counso-support",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-join",
+      "destination": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-reply",
+      "destination": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows",
+      "destination": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-teams",
+      "destination": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-teams",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-zendesk",
+      "destination": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-zendesk",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/dust-mcp-server",
+      "destination": "/zh-cn/docs/user-documentation/agents/integrations/counso-mcp-server",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/admin-guide-set-up-your-dust-workspace",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/build-your-builder-community",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/designing-use-cases",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/educate-activate",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/launch-strategy",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/measure-expand",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/team-onboarding-material",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/welcome-to-dust",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/how-does-dust-handle-user-data",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-dust",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-dust",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-dust",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-dust",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-dust",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-dust-agents-in-different-languages",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/does-the-dust-agent-give-accurate-and-safe-responses",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-dust-conversation-api",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-counso-conversation-api",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-dust-remember-and-incorporate-my-feedback-in-the-future",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-dust-down",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-dust-slow-or-my-agent-taking-too-long-to-respond",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/intro-to-dust",
+      "destination": "/zh-cn/docs/user-documentation/getting-started/intro-to-counso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/reference",
+      "destination": "/zh-cn/docs/developer-platform/overview/developer-platform",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/reference/",
+      "destination": "/zh-cn/docs/developer-platform/overview/developer-platform",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/reference/developer-platform-overview",
+      "destination": "/zh-cn/docs/developer-platform/overview/developer-platform",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/reference/post_api-v1-w-wid-vaults-vid-apps-aid-runs",
+      "destination": "/zh-cn/api-reference/apps/create-an-app-run",
+      "permanent": true
+    }
+  ]
+}

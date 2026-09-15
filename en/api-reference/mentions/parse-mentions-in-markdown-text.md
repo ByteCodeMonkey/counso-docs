@@ -1,0 +1,161 @@
+# Parse mentions in markdown text
+
+Converts @ references in pasted Markdown into the structured mention representation.
+
+```http
+POST /api/v1/w/{wId}/assistant/mentions/parse
+```
+
+Base URL: `https://app.counso.ai`
+
+## Authentication
+
+Send a workspace API key or a user OAuth access token in `Authorization: Bearer <token>`. The credential must belong to this Counso deployment and have access to the requested workspace and resources.
+
+## Parameters
+
+| Parameter | Location | Type | Required | Description |
+| --- | --- | --- | --- | --- |
+| `wId` | path | string | Yes | ID of the workspace |
+
+## Request body
+
+`Content-Type: application/json`
+
+| Field | Type | Required |
+| --- | --- | --- |
+| `markdown` | string | Yes |
+
+Field constraints and nested structures are defined in the specification below.
+
+## Responses
+
+| HTTP status | Description |
+| --- | --- |
+| 200 | Parsed markdown with mentions converted to proper format |
+| 400 | Bad Request. Missing or invalid request body. |
+| 401 | Unauthorized. Invalid or missing authentication token. |
+| 500 | Internal Server Error. |
+
+## Specification
+
+Download the complete [OpenAPI / Postman](../../docs/developer-platform/counso-api-documentation/openapi-and-postman.md) files.
+
+```json
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Counso API",
+    "version": "1.0.2",
+    "description": "API reference for Counso workspaces, Agents, conversations and data sources.",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://app.counso.ai",
+      "description": "Counso"
+    }
+  ],
+  "paths": {
+    "/api/v1/w/{wId}/assistant/mentions/parse": {
+      "post": {
+        "summary": "Parse mentions in markdown text",
+        "description": "Converts @ references in pasted Markdown into the structured mention representation.",
+        "tags": [
+          "Mentions"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "wId",
+            "required": true,
+            "description": "ID of the workspace",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "security": [
+          {
+            "WorkspaceApiKey": []
+          },
+          {
+            "UserAccessToken": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "markdown"
+                ],
+                "properties": {
+                  "markdown": {
+                    "type": "string",
+                    "description": "Markdown text containing @ mentions to parse",
+                    "example": "Hello @JohnDoe, can you help with @MyAgent?"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Parsed markdown with mentions converted to proper format",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "markdown": {
+                      "type": "string",
+                      "description": "Processed markdown text with mentions converted to serialized format"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request. Missing or invalid request body."
+          },
+          "401": {
+            "description": "Unauthorized. Invalid or missing authentication token."
+          },
+          "500": {
+            "description": "Internal Server Error."
+          }
+        },
+        "x-counso-auth": "workspace"
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "WorkspaceApiKey": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "A workspace API key issued by this Counso deployment. Permissions and resource access are checked for each operation."
+      },
+      "UserAccessToken": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "A user OAuth access token issued for this Counso deployment. A workspace API key is not a substitute for a user token."
+      },
+      "BrowserSession": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "workos_session",
+        "description": "The signed-in Counso browser session. External clients should use a user access token."
+      }
+    }
+  }
+}
+```

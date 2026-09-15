@@ -1,0 +1,28 @@
+/* Keep the classic Mintlify layout used by docs.dust.tt, with Counso branding. */
+:root {
+  --counso-blue: #0c84fe;
+}
+
+#navbar {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+#sidebar-content li[data-active] > a {
+  font-weight: 650;
+}
+
+card {
+  border-radius: 0.85rem;
+  transition: border-color 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+}
+
+card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 28px rgb(12 132 254 / 10%);
+}
+
+img.nav-logo {
+  height: 2rem !important;
+  width: auto !important;
+}
