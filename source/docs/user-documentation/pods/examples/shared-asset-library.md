@@ -6,7 +6,7 @@
 
 **Audience:** Design, Brand, and Platform teams
 
-**Goal:** Centralise logos, Frame templates, images, and other reusable assets in one place so that any agent in the workspace can use them from any conversation or Pod, without duplicating files or coordinating manually.
+**Goal:** Centralise logos, MiniApp templates, images, and other reusable assets in one place so that any agent in the workspace can use them from any conversation or Pod, without duplicating files or coordinating manually.
 
 ## Setup
 
@@ -15,7 +15,7 @@
 * Visibility: Open; any workspace member can browse and read the Pod's content without being explicitly added as a member
 * Files tab: organise by type:
   * `images/`: logos, illustrations, product screenshots
-  * `frames/`: canonical Frame templates (.tsx) for reports, dashboards, and slides
+  * `miniapps/`: canonical MiniApp templates (.tsx) for reports, dashboards, and slides
   * `brand/`: color palettes, typography guides, brand guidelines
   * `data/`: shared reference tables or lookup CSVs agents may need
 * Pod description: list what each folder contains so agents know where to look
@@ -28,11 +28,11 @@ Upload your assets once and let teams access them directly. Any workspace member
 
 **Medium: template-based agent output**
 
-From any conversation or Pod, ask an agent to start from a canonical template: "use the BrandedReport Frame from the shared asset Pod as the base for this quarterly review." The agent copies the template into the current context, adapts it, and saves the result locally; the shared original is never modified. The design team updates a template once; all future agent runs automatically pick up the latest version.
+From any conversation or Pod, ask an agent to start from a canonical template: "use the BrandedReport MiniApp from the shared asset Pod as the base for this quarterly review." The agent copies the template into the current context, adapts it, and saves the result locally; the shared original is never modified. The design team updates a template once; all future agent runs automatically pick up the latest version.
 
 **Heavy: workspace-wide brand consistency**
 
-* Brief every agent that produces visual output to always check the shared asset Pod for the latest templates before generating a Frame or document
+* Brief every agent that produces visual output to always check the shared asset Pod for the latest templates before generating a MiniApp or document
 * Set up an agent in the asset Pod that monitors the Files tab and posts a conversation whenever a template is updated, so dependent Pods and workflows know to refresh
 * Use the Pod description as a changelog: record the latest version and what changed each time a template is updated
 

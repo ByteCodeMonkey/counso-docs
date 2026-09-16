@@ -19,7 +19,7 @@ By default, Admins can:
 * Manage billing and subscriptions
 * Manage security settings, user access, identity verification, and provisioning
 * Configure governance permissions
-* Enable or disable the policy for sharing Frames externally
+* Enable or disable the policy for sharing MiniApps externally
 * Enable or disable audit logs
 
 ### Manager
@@ -35,7 +35,7 @@ Managers are delegated workspace administrators. They can:
 
 Managers do not receive billing or security access by default. Admins can grant these permissions to groups when needed.
 
-Managers cannot manage the policy for sharing Frames externally or audit logs. When the external Frame sharing policy is enabled, Managers can configure which groups may invite users to Frames and make them public.
+Managers cannot manage the policy for sharing MiniApps externally or audit logs. When the external MiniApp sharing policy is enabled, Managers can configure which groups may invite users to MiniApps and make them public.
 
 ### Member
 
@@ -75,8 +75,8 @@ The following permissions are available in the workspace governance settings.
 | Manage billing and subscriptions | Yes by default             | When granted                      | When granted                      |
 | Manage security and provisioning | Yes by default             | When granted                      | When granted                      |
 | Manage workspace model providers | Yes                        | No                                | No                                |
-| Invite external users to Frames  | Yes when the policy allows | When granted if the policy allows | When granted if the policy allows |
-| Publish Frames                   | Yes when the policy allows | When granted if the policy allows | When granted if the policy allows |
+| Invite external users to MiniApps  | Yes when the policy allows | When granted if the policy allows | When granted if the policy allows |
+| Publish MiniApps                   | Yes when the policy allows | When granted if the policy allows | When granted if the policy allows |
 | View workspace analytics         | Yes                        | Yes                               | No                                |
 
 ## Workspace governance settings

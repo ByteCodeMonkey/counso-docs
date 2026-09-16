@@ -193,11 +193,11 @@ paths:
                             type: string
                             nullable: true
                             description: >-
-                              Scoped path to the frame file pinned as the Pod
+                              Scoped path to the MiniApp file pinned as the Pod
                               banner.
                           frameTabs:
                             type: array
-                            description: Frames promoted as custom Pod tabs.
+                            description: MiniApps promoted as custom Pod tabs.
                             items:
                               type: object
                               properties:
@@ -210,7 +210,7 @@ paths:
                           tabsOrder:
                             type: array
                             description: >-
-                              Interleaved system tab ids and frame paths before
+                              Interleaved system tab ids and MiniApp paths before
                               Settings.
                             items:
                               type: string

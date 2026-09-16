@@ -145,7 +145,7 @@
 - [Schedules](https://docs.dust.tt/docs/user-documentation/agents/triggers/schedules.md)
 - [Filter webhooks payload](https://docs.dust.tt/docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload.md)
 - [Rate Limiting](https://docs.dust.tt/docs/user-documentation/agents/triggers/webhooks/rate-limiting.md)
-- [White-labeled Frames](https://docs.dust.tt/docs/user-documentation/agents/frames/white-labeled-frames.md)
+- [White-labeled MiniApps](https://docs.dust.tt/docs/user-documentation/agents/frames/white-labeled-frames.md)
 - [Dust MCP Server](https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-mcp-server.md)
 - [Slack Auto-Reply without @mention](https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-reply.md)
 - [[Beta] Slack Auto-Join](https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-join.md)
@@ -166,7 +166,7 @@
 - [Tasks](https://docs.dust.tt/docs/user-documentation/pods/tasks.md)
 - [Conversations](https://docs.dust.tt/docs/user-documentation/pods/conversations.md)
 - [Files](https://docs.dust.tt/docs/user-documentation/pods/files.md)
-- [Frames](https://docs.dust.tt/docs/user-documentation/pods/frames.md)
+- [MiniApps](https://docs.dust.tt/docs/user-documentation/pods/frames.md)
 - [Agent tools](https://docs.dust.tt/docs/user-documentation/pods/agent-tools.md): The full list of tools agents get through the Pods skill to work with Pods, conversations, tasks, files, and settings.
 - [Admin controls](https://docs.dust.tt/docs/user-documentation/pods/admin-controls.md)
 - [Shared asset library](https://docs.dust.tt/docs/user-documentation/pods/examples/shared-asset-library.md)

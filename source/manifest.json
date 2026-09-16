@@ -1920,7 +1920,7 @@
   },
   {
     "order": 138,
-    "title": "White-labeled Frames",
+    "title": "White-labeled MiniApps",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/frames/white-labeled-frames.md",
     "path": "docs/user-documentation/agents/frames/white-labeled-frames.md",
@@ -1928,7 +1928,7 @@
     "index_source": "llms.txt",
     "status": "downloaded",
     "sidebar_section": "Capabilities",
-    "sidebar_group": "Frames",
+    "sidebar_group": "MiniApps",
     "sidebar_order": 137,
     "bytes": 1927
   },
@@ -2215,7 +2215,7 @@
   },
   {
     "order": 159,
-    "title": "Frames",
+    "title": "MiniApps",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/frames.md",
     "path": "docs/user-documentation/pods/frames.md",

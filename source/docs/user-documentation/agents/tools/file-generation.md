@@ -84,4 +84,4 @@ Create an Excel file with the project timeline we outlined.
 
 * Maximum file content size is 64,000 characters for generated content
 * Complex formatting in source content may not always convert perfectly between formats
-* For interactive data visualizations, consider using [Frames](/docs/user-documentation/pods/frames) instead
+* For interactive data visualizations, consider using [MiniApps](/docs/user-documentation/pods/frames) instead

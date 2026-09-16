@@ -10,7 +10,7 @@ A **Pod** is a shared workspace inside Dust where a team (humans and agents toge
 
 * **Conversations**: discussions with agents and teammates, visible to all Pod members and automatically indexed so agents can reference them as context
 * **Tasks**: lightweight work items that anyone (human or agent) can create, assign, start an agent on, and mark done
-* **Files**: the shared knowledge library of the Pod: uploaded files, folders, data linked from Company Data, and agent-generated artifacts such as [Frames](/docs/user-documentation/pods/frames)
+* **Files**: the shared knowledge library of the Pod: uploaded files, folders, data linked from Company Data, and agent-generated artifacts such as [MiniApps](/docs/user-documentation/pods/frames)
 
 A core principle of Pods: **everything a human can do, an agent can do**. Agents can start conversations, create and complete tasks, and save files in a Pod, with or without a human in the loop.
 
@@ -23,7 +23,7 @@ Agents interact with Pods through the **Pods skill**, which is available to all 
 * Create, pick up, progress, and complete tasks
 * Upload and read files in the Pod's Files tab
 * Search the Pod's knowledge and link data from Company Data
-* Create Pods and manage members, settings, and the pinned Frame (with Editor permissions)
+* Create Pods and manage members, settings, and the pinned MiniApp (with Editor permissions)
 
 For the complete list of tools and what each one does, see [Agent tools](/docs/user-documentation/pods/agent-tools).
 
@@ -40,7 +40,7 @@ Workspace admins can restrict Pod creation to Restricted Pods only. See [Admin c
 
 ## Members and roles
 
-Every Pod member is either a **Member** or an **Editor**. Members participate in conversations, tasks, and files; Editors additionally manage membership, settings, visibility, and can pin Frames as the Pod banner. See [Members and roles](/docs/user-documentation/pods/members-and-roles).
+Every Pod member is either a **Member** or an **Editor**. Members participate in conversations, tasks, and files; Editors additionally manage membership, settings, visibility, and can pin MiniApps as the Pod banner. See [Members and roles](/docs/user-documentation/pods/members-and-roles).
 
 ## Where to go next
 
@@ -48,6 +48,6 @@ Every Pod member is either a **Member** or an **Editor**. Members participate in
 * [Conversations](/docs/user-documentation/pods/conversations): collaborate with agents and teammates
 * [Tasks](/docs/user-documentation/pods/tasks): define, assign, and automate work
 * [Files](/docs/user-documentation/pods/files): build the Pod's shared knowledge library
-* [Frames](/docs/user-documentation/pods/frames): pin live dashboards as the Pod banner
+* [MiniApps](/docs/user-documentation/pods/frames): pin live dashboards as the Pod banner
 * [Agent tools](/docs/user-documentation/pods/agent-tools): the full list of tools agents get through the Pods skill
 * Examples: [Shared asset library](/docs/user-documentation/pods/examples/shared-asset-library), [One Pod per customer](/docs/user-documentation/pods/examples/one-pod-per-customer), [Initiative and project management](/docs/user-documentation/pods/examples/initiative-and-project-management), and more

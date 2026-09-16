@@ -8,11 +8,11 @@ Wake-ups enable your agents to schedule wake-up calls in the future. They are av
 
 ## In practice
 
-* **Ask an agent to perform a task repeatedly**: Simply ask an agent to perform something periodically and they will set-up a wake-up based on a schedule (check a website to update internal data, or keep a frame up to date every monday morning).
+* **Ask an agent to perform a task repeatedly**: Simply ask an agent to perform something periodically and they will set-up a wake-up based on a schedule (check a website to update internal data, or keep a MiniApp up to date every monday morning).
 
 * **Agent ask questions and wait for answers**: Imagine an agent asks a question to soneone on Slack or Teams. Wake-ups enable them to schedule a trigger in the future to check for the answer and potentially continue their work.
 
-* **Keep Frames up to date**: Ask the agent to keep the frame up to date on a daily/weekly/monthly basis.
+* **Keep MiniApps up to date**: Ask the agent to keep the MiniApp up to date on a daily/weekly/monthly basis.
 
 ## How to create a Wake-up
 

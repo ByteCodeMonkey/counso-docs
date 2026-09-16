@@ -9,7 +9,7 @@ Branching lets you spin off a new conversation from any point in an existing one
 ## Example use cases
 
 * **Split into work streams**: A conversation produces a plan with three parts, each requiring a technical design. Branch once per part; each child conversation has the full context it needs to go deep.
-* **Hand off a result**: You built something with an agent (a report, a frame, a draft) and want a teammate to iterate on the output, without them needing to scroll through all the back-and-forth that produced it.
+* **Hand off a result**: You built something with an agent (a report, a MiniApp, a draft) and want a teammate to iterate on the output, without them needing to scroll through all the back-and-forth that produced it.
 * **Try a different approach**: You're mid-conversation and want to explore an alternative direction without dirtying the original thread.
 * **Delegate cleanly**: Branch at the point where work is ready to hand off, so the recipient's conversation starts exactly there.
 

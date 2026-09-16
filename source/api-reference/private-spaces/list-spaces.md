@@ -194,11 +194,11 @@ components:
               type: string
               nullable: true
               description: >-
-                Scoped path to the frame file pinned as the Pod banner (e.g.
+                Scoped path to the MiniApp file pinned as the Pod banner (e.g.
                 project/banner.html).
             frameTabs:
               type: array
-              description: Frames promoted as custom Pod tabs (shared for all members).
+              description: MiniApps promoted as custom Pod tabs (shared for all members).
               items:
                 type: object
                 required:
@@ -209,7 +209,7 @@ components:
                   path:
                     type: string
                     description: >-
-                      Canonical scoped path to the frame file in the Pod
+                      Canonical scoped path to the MiniApp file in the Pod
                       filesystem.
                   title:
                     type: string
@@ -219,7 +219,7 @@ components:
                     description: Action icon name (e.g. ActionDashboardIcon).
             tabsOrder:
               type: array
-              description: Interleaved system tab ids and frame paths before Settings.
+              description: Interleaved system tab ids and MiniApp paths before Settings.
               items:
                 type: string
   securitySchemes:
