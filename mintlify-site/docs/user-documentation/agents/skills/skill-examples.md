@@ -35,19 +35,19 @@ Check the threshold: a $1,800 deal is small, not big.
 
 If the Skill creates or updates CRM records, add the CRM tool only when it is available and approved for the Agent's users. The Skill supplies procedure; it does not grant account access by itself.
 
-## Example 2: Create branded Frames
+## Example 2: Create branded MiniApps
 
-A team can keep chart and presentation styling consistent with a shared Skill. The example assumes the team already has a Frame template saved in an accessible folder.
+A team can keep chart and presentation styling consistent with a shared Skill. The example assumes the team already has a MiniApp template saved in an accessible folder.
 
 **Description**
 
-> Use this Skill when creating a Frame that should follow our visual identity.
+> Use this Skill when creating a MiniApp that should follow our visual identity.
 
 **Guidelines**
 
 Include the team's colors, fonts, layout principles, and what each color means. To refer to a saved template, type **/** in the guidelines editor, search for the template by title, and select it from the picker. Then add any natural-language rules that are not already in the template, such as preferred chart types or how to arrange summary figures.
 
-Add a Frame-creation capability only if it is available to the Agent. Test a sample Frame and check that it uses the intended template and visual rules.
+Add a MiniApp-creation capability only if it is available to the Agent. Test a sample MiniApp and check that it uses the intended template and visual rules.
 
 ## Example 3: Keep a consistent company voice
 

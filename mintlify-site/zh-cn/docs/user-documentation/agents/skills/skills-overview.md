@@ -5,7 +5,7 @@ Skill 是可复用的指令、知识引用和能力组合，适用于经常重�
 
 ## Skill 包含什么
 
-创建 Skill 时，填写**名称和说明**，说明智能体**何时应该使用它**，并写明需要遵循的**指导内容**。指导可以包含操作流程、公司约定，以及应使用哪些能力。内置 Skill 可能用于发现文档、查找工具、深入研究或创建 Frame；自定义 Skill 则可以整理团队自己的流程。可参考[Skill 示例](/zh-cn/docs/user-documentation/agents/skills/skill-examples)。
+创建 Skill 时，填写**名称和说明**，说明智能体**何时应该使用它**，并写明需要遵循的**指导内容**。指导可以包含操作流程、公司约定，以及应使用哪些能力。内置 Skill 可能用于发现文档、查找工具、深入研究或创建 MiniApp；自定义 Skill 则可以整理团队自己的流程。可参考[Skill 示例](/zh-cn/docs/user-documentation/agents/skills/skill-examples)。
 
 ## 在指令中加入工具或其他 Skill
 

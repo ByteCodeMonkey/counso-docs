@@ -4,7 +4,7 @@ A Skill is a reusable set of instructions, knowledge references, and capabilitie
 
 ## What a Skill contains
 
-When creating a Skill, provide a **name and description**, explain **when the Agent should use it**, and write the **guidelines** it should follow. The guidelines can describe a process, company conventions, and which capabilities to use. Built-in Skills may cover document discovery, tool discovery, deeper research, or Frame creation; a custom Skill can capture a team-specific procedure. See [Skill examples](skill-examples.md) for patterns.
+When creating a Skill, provide a **name and description**, explain **when the Agent should use it**, and write the **guidelines** it should follow. The guidelines can describe a process, company conventions, and which capabilities to use. Built-in Skills may cover document discovery, tool discovery, deeper research, or MiniApp creation; a custom Skill can capture a team-specific procedure. See [Skill examples](skill-examples.md) for patterns.
 
 ## Add tools or other Skills inline
 

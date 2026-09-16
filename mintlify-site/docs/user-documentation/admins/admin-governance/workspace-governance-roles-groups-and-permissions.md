@@ -5,9 +5,9 @@ Workspace roles provide baseline access. Group permissions add selected capabili
 
 ## Roles
 
-**Admin** has full workspace administration access. Admins manage settings, members, groups, and permissions; they retain access to permissions set to **Admin only**. By default, Admins can manage billing and security, configure governance, control the external Frame-sharing policy, and enable or disable Audit Logs.
+**Admin** has full workspace administration access. Admins manage settings, members, groups, and permissions; they retain access to permissions set to **Admin only**. By default, Admins can manage billing and security, configure governance, control the external MiniApp-sharing policy, and enable or disable Audit Logs.
 
-**Manager** can invite and remove members, change roles of non-Admins, assign Manager or Member roles, view analytics and usage, act on credit-upgrade requests, and choose which groups can create or publish Agents and Skills. Managers do not have billing or security access by default. They cannot change the external Frame-sharing policy or enable or disable Audit Logs; when external sharing is enabled, they can configure which groups may invite people to Frames and publish them.
+**Manager** can invite and remove members, change roles of non-Admins, assign Manager or Member roles, view analytics and usage, act on credit-upgrade requests, and choose which groups can create or publish Agents and Skills. Managers do not have billing or security access by default. They cannot change the external MiniApp-sharing policy or enable or disable Audit Logs; when external sharing is enabled, they can configure which groups may invite people to MiniApps and publish them.
 
 **Member** uses workspace resources according to group permissions, resource access, and other grants. Members have no administrative access by default, but Admins can grant additional permissions through groups.
 
@@ -28,8 +28,8 @@ Each governance permission can be set to **Everyone**, selected **Groups**, or *
 | Manage billing and subscriptions | Yes by default | When granted | When granted |
 | Manage security and provisioning | Yes by default | When granted | When granted |
 | Manage workspace model providers | Yes | No | No |
-| Invite external users to Frames | If policy allows | If granted and policy allows | If granted and policy allows |
-| Publish Frames | If policy allows | If granted and policy allows | If granted and policy allows |
+| Invite external users to MiniApps | If policy allows | If granted and policy allows | If granted and policy allows |
+| Publish MiniApps | If policy allows | If granted and policy allows | If granted and policy allows |
 | View workspace analytics | Yes | Yes | No |
 
 Billing and security are permissions rather than separate workspace roles. An Admin can delegate either permission to selected groups without changing their members' roles. Effective access combines a person's role, group permissions, and access to the specific resource.

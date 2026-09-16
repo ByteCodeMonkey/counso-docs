@@ -24,7 +24,7 @@ Depending on what is connected and enabled for the Agent, a Deep Dive workflow m
 - **Data warehouses:** inspect available schemas and query supported databases such as Snowflake or BigQuery.
 - **Web search and browsing:** find current public information and inspect relevant pages.
 - **Discoverable tools:** use a workspace tool when the task needs a supported integration and the required access is configured.
-- **Frames:** create a chart or interactive view when that makes the findings easier to understand.
+- **MiniApps:** create a chart or interactive view when that makes the findings easier to understand.
 - **Sub-agents:** divide a complex investigation into independent parts, then synthesize the results.
 
 These capabilities are not automatic guarantees. A connection must be available, the Agent must have the required access, and the relevant tool must be enabled. Ask for citations and the source coverage when completeness matters.

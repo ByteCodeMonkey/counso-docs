@@ -142,7 +142,7 @@
 - [Schedule an Agent](docs/user-documentation/agents/triggers/schedules.md)
 - [Filter webhook payloads](docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload.md)
 - [Set limits for webhook triggers](docs/user-documentation/agents/triggers/webhooks/rate-limiting.md)
-- [Add your brand to shared Frames](docs/user-documentation/agents/frames/white-labeled-frames.md)
+- [Add your brand to shared MiniApps](docs/user-documentation/agents/frames/white-labeled-frames.md)
 - [Move Google Sheets work to Google Drive](docs/user-documentation/agents/tools/google-sheets-deprecated.md)
 
 - [GitHub](docs/user-documentation/agents/tools/github.md)
@@ -155,7 +155,7 @@
 - [Manage Pod tasks](docs/user-documentation/pods/tasks.md)
 - [Pod conversations](docs/user-documentation/pods/conversations.md)
 - [Work with Pod files](docs/user-documentation/pods/files.md)
-- [Create and use Frames](docs/user-documentation/pods/frames.md)
+- [Create and use MiniApps](docs/user-documentation/pods/frames.md)
 - [What Agents can do in a Pod](docs/user-documentation/pods/agent-tools.md)
 - [Pod policies for workspace administrators](docs/user-documentation/pods/admin-controls.md)
 - [Example: a shared asset library](docs/user-documentation/pods/examples/shared-asset-library.md)

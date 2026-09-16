@@ -1472,13 +1472,13 @@
           "title": "Deep Dive Agent",
           "file": "en/docs/user-documentation/agents/deep-dive-agent.md",
           "route": "/docs/user-documentation/agents/deep-dive-agent",
-          "sha256": "058de1aaaf303684411e73dbc66ea9f9977fee5ad7fd6b3c11ea21053365ab5e"
+          "sha256": "3c43321facaaa57c9d809d0aa218c298356d7146ae17b48442d6f0d56ef9b957"
         },
         "zh-cn": {
           "title": "Deep Dive 智能体",
           "file": "zh-cn/docs/user-documentation/agents/deep-dive-agent.md",
           "route": "/zh-cn/docs/user-documentation/agents/deep-dive-agent",
-          "sha256": "b054f6313dabf7b44a1d41c229cea9ea7afcb4cd01576992c0dc0b51c636e798"
+          "sha256": "afa60c8ef16ecc022ad22535c2af9b8c19ba2474a3b104fb0225d60ee5a2ca62"
         }
       },
       "original_title": "@deep-dive Agent"
@@ -1647,13 +1647,13 @@
           "title": "Skills",
           "file": "en/docs/user-documentation/agents/skills/skills-overview.md",
           "route": "/docs/user-documentation/agents/skills/skills-overview",
-          "sha256": "5b73f7973ecad5d1f9e4e95111581f1d3bebee92837de7aabbe1a7b08a322e36"
+          "sha256": "33e94eb7b240037ee5360eca0b3adc588fb9397d53afcc4a968a51eee5068493"
         },
         "zh-cn": {
           "title": "Skills（技能）",
           "file": "zh-cn/docs/user-documentation/agents/skills/skills-overview.md",
           "route": "/zh-cn/docs/user-documentation/agents/skills/skills-overview",
-          "sha256": "85f3dc34438e57fa324559098b4a0dfdbde4566c699e6114529caa955f02762e"
+          "sha256": "0afaad9abf71aac2e553df7b3c828674ed2e868cc17e6d3f517abb4eba153fd3"
         }
       },
       "original_title": "Overview"
@@ -1672,13 +1672,13 @@
           "title": "Skill examples",
           "file": "en/docs/user-documentation/agents/skills/skill-examples.md",
           "route": "/docs/user-documentation/agents/skills/skill-examples",
-          "sha256": "b949c7cc0cec2ca1502376a74df30309a118d527f40bc4fdceb401108135a8ce"
+          "sha256": "d053a92c2e82a686109e29f26308f17ebdf571ca47dc2fea56d4a67a4828f83c"
         },
         "zh-cn": {
           "title": "Skill 示例",
           "file": "zh-cn/docs/user-documentation/agents/skills/skill-examples.md",
           "route": "/zh-cn/docs/user-documentation/agents/skills/skill-examples",
-          "sha256": "a6887ee79cec8050c6207002a74df472546ea6d170f5b8c19d6e80e9ea8c5021"
+          "sha256": "4405f641b47165426fedf4faa3ec93c0549b8ea256b78f796d595b30054dcab9"
         }
       },
       "original_title": "Skill Examples"
@@ -3459,16 +3459,16 @@
       "reason": "提供中英文正文。",
       "translations": {
         "en": {
-          "title": "Add your brand to shared Frames",
+          "title": "Add your brand to shared MiniApps",
           "file": "en/docs/user-documentation/agents/frames/white-labeled-frames.md",
           "route": "/docs/user-documentation/agents/frames/white-labeled-frames",
-          "sha256": "4b67c94b3d5316d5ba2d303244e9a74f1503c1fb71ad983634c254a19280d2ae"
+          "sha256": "712dcb647ac292003f18d1b68a91911419ce8bcef8e6339d9d9b8a499349fe27"
         },
         "zh-cn": {
-          "title": "为共享 Frame 添加品牌信息",
+          "title": "为共享 MiniApp 添加品牌信息",
           "file": "zh-cn/docs/user-documentation/agents/frames/white-labeled-frames.md",
           "route": "/zh-cn/docs/user-documentation/agents/frames/white-labeled-frames",
-          "sha256": "c9cb77bbac4453a14bb8b44f7067fc8fbcb7bc767ef8a2178fe5688c3b3c4e0e"
+          "sha256": "6e5c4c59239e9c649d82ce57ee18a2f3c36c4ca737402404e19d5e4baf02d3a6"
         }
       },
       "original_title": "White-labeled Frames"
@@ -4012,13 +4012,13 @@
           "title": "Understand Pods",
           "file": "en/docs/user-documentation/pods/overview.md",
           "route": "/docs/user-documentation/pods/overview",
-          "sha256": "99be349afc7482c56312c12438a5babfe77862eb72f0dfbf0f2158ec70c7e35b"
+          "sha256": "a73a7bdff933b7f545aeb53ace05e330accabd85d9e5fa95a63bc87d482141c8"
         },
         "zh-cn": {
           "title": "了解 Pods",
           "file": "zh-cn/docs/user-documentation/pods/overview.md",
           "route": "/zh-cn/docs/user-documentation/pods/overview",
-          "sha256": "4deb2a713173b420b7cf35383873766578507cadee419aef63e472303dc94e13"
+          "sha256": "a4e01963154eca265526aa8b252ce8668e941b7696329a8ad0b068b76d1bfb04"
         }
       },
       "original_title": "Overview"
@@ -4134,16 +4134,16 @@
       "reason": "提供中英文正文。",
       "translations": {
         "en": {
-          "title": "Create and use Frames",
+          "title": "Create and use MiniApps",
           "file": "en/docs/user-documentation/pods/frames.md",
           "route": "/docs/user-documentation/pods/frames",
-          "sha256": "ea41debdde6dce44a1b30618d3ba76f79ba50cc21ff7d51d3d48739ad4ca6810"
+          "sha256": "090fdb791c2d642b1f37b0bbd65c10c9ef52e1b997eb79a5de24200cd48b753c"
         },
         "zh-cn": {
-          "title": "创建和使用 Frames",
+          "title": "创建和使用 MiniApp",
           "file": "zh-cn/docs/user-documentation/pods/frames.md",
           "route": "/zh-cn/docs/user-documentation/pods/frames",
-          "sha256": "3cdc3d41e78ae0d9a5c7a66208fa1eff5411afb3536e41a640d2ca79590b5225"
+          "sha256": "aa90b011f06a257178588807db309c1922008a0383beb26b0cdc5e2a3602f20d"
         }
       },
       "original_title": "Frames"
@@ -4162,13 +4162,13 @@
           "title": "What Agents can do in a Pod",
           "file": "en/docs/user-documentation/pods/agent-tools.md",
           "route": "/docs/user-documentation/pods/agent-tools",
-          "sha256": "936ebff072e59b8aef0f7d0a1b183c6d1ea766ad5a69aca9f25943dd59f725e4"
+          "sha256": "1fc83c8725dbca7ff45b58a81f5a00ab764629bd716d8c9f835aaf36bc141b84"
         },
         "zh-cn": {
           "title": "智能体在 Pod 中可以做什么",
           "file": "zh-cn/docs/user-documentation/pods/agent-tools.md",
           "route": "/zh-cn/docs/user-documentation/pods/agent-tools",
-          "sha256": "9908d42f1f3dc3e4aceaff165dc0fc54f97643d3fb988ca3e77444c66c8075d5"
+          "sha256": "14b866edd691ef32c8767723f5ef4cdb97873e025b0cd735db377f377d53ab63"
         }
       },
       "original_title": "Agent tools"
@@ -4412,13 +4412,13 @@
           "title": "Workspace roles, groups, and permissions",
           "file": "en/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions.md",
           "route": "/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions",
-          "sha256": "d7d44f31236220d8e38996691a99a129779fdb0fa2d8d73cdd6d7cde47187a5f"
+          "sha256": "1c643f54aeec003e9e0ba47e345d650e7cb9120feaad2377c330bd8f9cf83499"
         },
         "zh-cn": {
           "title": "工作区角色、群组和权限",
           "file": "zh-cn/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions.md",
           "route": "/zh-cn/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions",
-          "sha256": "376588e711fba3699a34083b84ad8134cd65faa788bbad4f675f98672a8e48fc"
+          "sha256": "f45d1b4c61fc123d1b5540fe5ab756bb187ae0240cf25b6c0f8e1e8851bca42a"
         }
       },
       "original_title": "Workspace Governance: Roles, Groups & Permissions "
@@ -8992,13 +8992,13 @@
           "title": "Get a space",
           "file": "en/api-reference/private-spaces/get-a-space.md",
           "route": "/api-reference/private-spaces/get-a-space",
-          "sha256": "cce10fce5cbbb7cc7c659c0fb6b242ed9148a87372eb49b36a8b9624cabb70e0"
+          "sha256": "aa629329f000252bf2840ce11e70d96193197d6c59d595adfb7a3f3a44b45b18"
         },
         "zh-cn": {
           "title": "获取 Space 详情",
           "file": "zh-cn/api-reference/private-spaces/get-a-space.md",
           "route": "/zh-cn/api-reference/private-spaces/get-a-space",
-          "sha256": "2733639c9073bf728db6d435815d82495d7e6bc206fb65f81ca26a1e03f8ee04"
+          "sha256": "479256d996ee94e47f18a4ed55c3c51636c063411c03e14b594281c412a279aa"
         }
       },
       "original_title": "Get a space",
@@ -9142,13 +9142,13 @@
           "title": "List spaces",
           "file": "en/api-reference/private-spaces/list-spaces.md",
           "route": "/api-reference/private-spaces/list-spaces",
-          "sha256": "870894e9df0cdaad2dbc8a0716c8ed79013828e8fa8a4555fc6b2d453201da5d"
+          "sha256": "8dcf84d53113ded3f38db1db989197de1fb4d32f758b86f15d47fbb77572469e"
         },
         "zh-cn": {
           "title": "列出工作区 Space",
           "file": "zh-cn/api-reference/private-spaces/list-spaces.md",
           "route": "/zh-cn/api-reference/private-spaces/list-spaces",
-          "sha256": "4b6c7f8fb18818e2ded2376e37d5207e9913eae5d1b1fa8f2217976d7ef74dc9"
+          "sha256": "11ebc3c28fe5236245ff5474394029faecdb52d7ff1136099e3bb05fec42d931"
         }
       },
       "original_title": "List spaces",
@@ -9748,14 +9748,14 @@
           "title": "Counso API",
           "file": "en/docs/developer-platform/counso-api-documentation/openapi.json",
           "route": "/docs/developer-platform/counso-api-documentation/openapi.json",
-          "sha256": "8aea5c37f7c87a3ec1fc159652f16308a880236b19f18e374a65235d99d8d189",
+          "sha256": "61ae6dc3ee6530b7294cf63c6505e4874af6ee2dbdd73afd405acb0c8b7352a6",
           "format": "openapi"
         },
         "zh-cn": {
           "title": "Counso API",
           "file": "zh-cn/docs/developer-platform/counso-api-documentation/openapi.json",
           "route": "/zh-cn/docs/developer-platform/counso-api-documentation/openapi.json",
-          "sha256": "8aea5c37f7c87a3ec1fc159652f16308a880236b19f18e374a65235d99d8d189",
+          "sha256": "61ae6dc3ee6530b7294cf63c6505e4874af6ee2dbdd73afd405acb0c8b7352a6",
           "format": "openapi"
         }
       },
@@ -9775,14 +9775,14 @@
           "title": "Counso API",
           "file": "en/docs/developer-platform/counso-api-documentation/swagger.json",
           "route": "/docs/developer-platform/counso-api-documentation/swagger.json",
-          "sha256": "8aea5c37f7c87a3ec1fc159652f16308a880236b19f18e374a65235d99d8d189",
+          "sha256": "61ae6dc3ee6530b7294cf63c6505e4874af6ee2dbdd73afd405acb0c8b7352a6",
           "format": "openapi"
         },
         "zh-cn": {
           "title": "Counso API",
           "file": "zh-cn/docs/developer-platform/counso-api-documentation/swagger.json",
           "route": "/zh-cn/docs/developer-platform/counso-api-documentation/swagger.json",
-          "sha256": "8aea5c37f7c87a3ec1fc159652f16308a880236b19f18e374a65235d99d8d189",
+          "sha256": "61ae6dc3ee6530b7294cf63c6505e4874af6ee2dbdd73afd405acb0c8b7352a6",
           "format": "openapi"
         }
       },

@@ -12,7 +12,7 @@ Decide who needs access and what the Pod is for. Use a Restricted Pod for custom
 2. Give the Pod a durable name that describes the shared outcome, such as `Customer accounts workspace`.
 3. Choose the visibility and add the initial members.
 4. Open the Pod and use **Conversations** for discussion, **Tasks** for owned work, and **Files** for shared material.
-5. Open **Settings** to review the description, members, default agent, and pinned Frame.
+5. Open **Settings** to review the description, members, default agent, and pinned MiniApp.
 
 Keep one customer or initiative Pod across reporting periods. Put the period on tasks, files, and records inside the Pod rather than creating a new Pod every month. Organise the Pod by members and business theme so the same people can follow the history.
 

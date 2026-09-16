@@ -202,11 +202,11 @@ GET /api/w/{wId}/spaces
               "pinnedFramePath": {
                 "type": "string",
                 "nullable": true,
-                "description": "Scoped path to the frame file pinned as the Pod banner (e.g. project/banner.html)."
+                "description": "Scoped path to the MiniApp file pinned as the Pod banner (e.g. project/banner.html)."
               },
               "frameTabs": {
                 "type": "array",
-                "description": "Frames promoted as custom Pod tabs (shared for all members).",
+                "description": "MiniApps promoted as custom Pod tabs (shared for all members).",
                 "items": {
                   "type": "object",
                   "required": [
@@ -217,7 +217,7 @@ GET /api/w/{wId}/spaces
                   "properties": {
                     "path": {
                       "type": "string",
-                      "description": "Canonical scoped path to the frame file in the Pod filesystem."
+                      "description": "Canonical scoped path to the MiniApp file in the Pod filesystem."
                     },
                     "title": {
                       "type": "string",
@@ -232,7 +232,7 @@ GET /api/w/{wId}/spaces
               },
               "tabsOrder": {
                 "type": "array",
-                "description": "Interleaved system tab ids and frame paths before Settings.",
+                "description": "Interleaved system tab ids and MiniApp paths before Settings.",
                 "items": {
                   "type": "string"
                 }

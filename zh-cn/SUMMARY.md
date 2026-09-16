@@ -142,7 +142,7 @@
 - [为智能体设置时间表](docs/user-documentation/agents/triggers/schedules.md)
 - [筛选 Webhook 负载](docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload.md)
 - [设置 Webhook 触发器的频率限制](docs/user-documentation/agents/triggers/webhooks/rate-limiting.md)
-- [为共享 Frame 添加品牌信息](docs/user-documentation/agents/frames/white-labeled-frames.md)
+- [为共享 MiniApp 添加品牌信息](docs/user-documentation/agents/frames/white-labeled-frames.md)
 - [将 Google Sheets 工作迁移到 Google Drive](docs/user-documentation/agents/tools/google-sheets-deprecated.md)
 
 - [GitHub](docs/user-documentation/agents/tools/github.md)
@@ -155,7 +155,7 @@
 - [管理 Pod 任务](docs/user-documentation/pods/tasks.md)
 - [Pod 对话](docs/user-documentation/pods/conversations.md)
 - [使用 Pod 文件](docs/user-documentation/pods/files.md)
-- [创建和使用 Frames](docs/user-documentation/pods/frames.md)
+- [创建和使用 MiniApp](docs/user-documentation/pods/frames.md)
 - [智能体在 Pod 中可以做什么](docs/user-documentation/pods/agent-tools.md)
 - [工作区管理员的 Pod 政策设置](docs/user-documentation/pods/admin-controls.md)
 - [示例：共享素材库](docs/user-documentation/pods/examples/shared-asset-library.md)
