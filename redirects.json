@@ -507,192 +507,192 @@
     },
     {
       "from": "/zh-cn/docs/client-side-mcp-server",
-      "to": "/zh-cn/docs/user-documentation/developers/client-side-mcp-server",
+      "to": "/zh-Hans/docs/user-documentation/developers/client-side-mcp-server",
       "original_url": "https://docs.dust.tt/docs/user-documentation/developers/client-side-mcp-server"
     },
     {
       "from": "/zh-cn/docs/developer-platform/dust-api-documentation/openapi-and-postman",
-      "to": "/zh-cn/docs/developer-platform/counso-api-documentation/openapi-and-postman",
+      "to": "/zh-Hans/docs/developer-platform/counso-api-documentation/openapi-and-postman",
       "original_url": "https://docs.dust.tt/docs/developer-platform/dust-api-documentation/openapi-and-postman"
     },
     {
       "from": "/zh-cn/docs/developer-platform/dust-api-documentation/openapi.json",
-      "to": "/zh-cn/docs/developer-platform/counso-api-documentation/openapi.json",
+      "to": "/zh-Hans/docs/developer-platform/counso-api-documentation/openapi.json",
       "original_url": "https://docs.dust.tt/docs/developer-platform/dust-api-documentation/openapi.json"
     },
     {
       "from": "/zh-cn/docs/developer-platform/dust-api-documentation/swagger.json",
-      "to": "/zh-cn/docs/developer-platform/counso-api-documentation/swagger.json",
+      "to": "/zh-Hans/docs/developer-platform/counso-api-documentation/swagger.json",
       "original_url": "https://raw.githubusercontent.com/dust-tt/dust/refs/heads/main/front-api/public/swagger.json"
     },
     {
       "from": "/zh-cn/docs/developer-platform/dust-cli/dust-cli",
-      "to": "/zh-cn/docs/developer-platform/counso-cli/counso-cli",
+      "to": "/zh-Hans/docs/developer-platform/counso-cli/counso-cli",
       "original_url": "https://docs.dust.tt/docs/developer-platform/dust-cli/dust-cli"
     },
     {
       "from": "/zh-cn/docs/user-documentation/agents/dust-support",
-      "to": "/zh-cn/docs/user-documentation/agents/counso-support",
+      "to": "/zh-Hans/docs/user-documentation/agents/counso-support",
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/dust-support"
     },
     {
       "from": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-join",
-      "to": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
+      "to": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-join"
     },
     {
       "from": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-reply",
-      "to": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
+      "to": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-reply"
     },
     {
       "from": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows",
-      "to": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+      "to": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows"
     },
     {
       "from": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-teams",
-      "to": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-teams",
+      "to": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-teams",
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-teams"
     },
     {
       "from": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-zendesk",
-      "to": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-zendesk",
+      "to": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-zendesk",
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-zendesk"
     },
     {
       "from": "/zh-cn/docs/user-documentation/agents/integrations/dust-mcp-server",
-      "to": "/zh-cn/docs/user-documentation/agents/integrations/counso-mcp-server",
+      "to": "/zh-Hans/docs/user-documentation/agents/integrations/counso-mcp-server",
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-mcp-server"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide",
-      "to": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/admin-guide-set-up-your-dust-workspace",
-      "to": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/admin-guide-set-up-your-dust-workspace"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/build-your-builder-community",
-      "to": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/build-your-builder-community"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/designing-use-cases",
-      "to": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/designing-use-cases"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/educate-activate",
-      "to": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/educate-activate"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/launch-strategy",
-      "to": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/launch-strategy"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/measure-expand",
-      "to": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/measure-expand"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/team-onboarding-material",
-      "to": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/team-onboarding-material"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/welcome-to-dust",
-      "to": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/welcome-to-dust"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/how-does-dust-handle-user-data",
-      "to": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/faq/general-questions/how-does-dust-handle-user-data"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-dust",
-      "to": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-dust"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-dust",
-      "to": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-dust"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-dust",
-      "to": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-dust"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-dust",
-      "to": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-dust"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-dust",
-      "to": "/zh-cn/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-dust"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-dust-agents-in-different-languages",
-      "to": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-dust-agents-in-different-languages"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/does-the-dust-agent-give-accurate-and-safe-responses",
-      "to": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/does-the-dust-agent-give-accurate-and-safe-responses"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-dust-conversation-api",
-      "to": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-counso-conversation-api",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-counso-conversation-api",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-dust-conversation-api"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-dust-remember-and-incorporate-my-feedback-in-the-future",
-      "to": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-dust-remember-and-incorporate-my-feedback-in-the-future"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-dust-down",
-      "to": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-dust-down"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-dust-slow-or-my-agent-taking-too-long-to-respond",
-      "to": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-dust-slow-or-my-agent-taking-too-long-to-respond"
     },
     {
       "from": "/zh-cn/docs/user-documentation/getting-started/intro-to-dust",
-      "to": "/zh-cn/docs/user-documentation/getting-started/intro-to-counso",
+      "to": "/zh-Hans/docs/user-documentation/getting-started/intro-to-counso",
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/intro-to-dust"
     },
     {
       "from": "/zh-cn/reference",
-      "to": "/zh-cn/docs/developer-platform/overview/developer-platform",
+      "to": "/zh-Hans/docs/developer-platform/overview/developer-platform",
       "original_url": "https://docs.dust.tt/docs/developer-platform/overview/developer-platform"
     },
     {
       "from": "/zh-cn/reference/",
-      "to": "/zh-cn/docs/developer-platform/overview/developer-platform",
+      "to": "/zh-Hans/docs/developer-platform/overview/developer-platform",
       "original_url": "https://docs.dust.tt/docs/developer-platform/overview/developer-platform"
     },
     {
       "from": "/zh-cn/reference/developer-platform-overview",
-      "to": "/zh-cn/docs/developer-platform/overview/developer-platform",
+      "to": "/zh-Hans/docs/developer-platform/overview/developer-platform",
       "original_url": "https://docs.dust.tt/docs/developer-platform/overview/developer-platform"
     },
     {
       "from": "/zh-cn/reference/post_api-v1-w-wid-vaults-vid-apps-aid-runs",
-      "to": "/zh-cn/api-reference/apps/create-an-app-run",
+      "to": "/zh-Hans/api-reference/apps/create-an-app-run",
       "original_url": "https://docs.dust.tt/api-reference/apps/create-an-app-run"
     }
   ],

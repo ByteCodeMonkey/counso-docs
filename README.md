@@ -49,7 +49,7 @@ npx mint dev --port 3333
 打开：
 
 - English: <http://localhost:3333/>
-- 简体中文: <http://localhost:3333/zh-cn/>
+- 简体中文: <http://localhost:3333/zh-Hans/>
 
 ## 部署
 

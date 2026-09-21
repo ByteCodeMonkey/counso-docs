@@ -12,6 +12,10 @@ from pathlib import Path, PurePosixPath
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "mintlify-site"
 MARKER = OUTPUT / ".generated-by-counso-docs"
+CHINESE_SOURCE_DIR = "zh-cn"
+CHINESE_LANGUAGE = "zh-Hans"
+CHINESE_ROUTE_PREFIX = "/zh-Hans"
+LEGACY_CHINESE_ROUTE_PREFIX = "/zh-cn"
 
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 LEGACY_BRAND_RE = re.compile(r"(?i)(?:\bdust\b|dust-tt|dustapi)")
@@ -283,7 +287,7 @@ def reshape_developer_navigation(groups: list[dict], language: str) -> list[dict
             "core": "核心概念",
             "api_docs": "Counso API 文档",
             "cli": "Counso CLI",
-            "prefix": "zh-cn/",
+            "prefix": "zh-Hans/",
         },
     }[language]
 
@@ -337,13 +341,17 @@ def reshape_developer_navigation(groups: list[dict], language: str) -> list[dict
 
 def copy_downloadable_assets(skipped_files: set[str]) -> int:
     copied = 0
-    for language_dir in ("en", "zh-cn"):
+    for language_dir in ("en", CHINESE_SOURCE_DIR):
         source_root = ROOT / language_dir
         for source in source_root.rglob("*.json"):
             if source.relative_to(ROOT).as_posix() in skipped_files:
                 continue
             relative = source.relative_to(source_root)
-            target = OUTPUT / relative if language_dir == "en" else OUTPUT / "zh-cn" / relative
+            target = (
+                OUTPUT / relative
+                if language_dir == "en"
+                else OUTPUT / CHINESE_LANGUAGE / relative
+            )
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(source, target)
             copied += 1
@@ -415,28 +423,28 @@ mode: wide
 了解如何使用 Counso AI、连接可信知识、创建智能体和技能，以及管理工作区。
 
 <CardGroup cols={2}>
-  <Card title="开始使用" icon="rocket" href="/zh-cn/docs/user-documentation/getting-started/intro-to-counso">
+  <Card title="开始使用" icon="rocket" href="/zh-Hans/docs/user-documentation/getting-started/intro-to-counso">
     设置工作区，并开始第一个实用工作流。
   </Card>
-  <Card title="智能体" icon="sparkles" href="/zh-cn/docs/user-documentation/agents/create-your-first-agent">
+  <Card title="智能体" icon="sparkles" href="/zh-Hans/docs/user-documentation/agents/create-your-first-agent">
     创建、配置、测试并共享可重复使用的智能体。
   </Card>
-  <Card title="产品能力" icon="shapes" href="/zh-cn/docs/user-documentation/agents/knowledge">
+  <Card title="产品能力" icon="shapes" href="/zh-Hans/docs/user-documentation/agents/knowledge">
     使用知识、工具、数据源、自动化和集成。
   </Card>
-  <Card title="工作区管理" icon="users-gear" href="/zh-cn/docs/user-documentation/admins/quickstart">
+  <Card title="工作区管理" icon="users-gear" href="/zh-Hans/docs/user-documentation/admins/quickstart">
     管理访问权限、连接、治理、用量和账单。
   </Card>
-  <Card title="开发者文档" icon="code" href="/zh-cn/docs/developer-platform/overview/developer-platform">
+  <Card title="开发者文档" icon="code" href="/zh-Hans/docs/developer-platform/overview/developer-platform">
     使用 Counso 开发者平台构建集成与应用。
   </Card>
-  <Card title="API 参考" icon="plug" href="/zh-cn/api-reference/agents/list-agents">
+  <Card title="API 参考" icon="plug" href="/zh-Hans/api-reference/agents/list-agents">
     查看 API 端点、请求参数与响应格式。
   </Card>
 </CardGroup>
 """
     (OUTPUT / "index.mdx").write_text(english, encoding="utf-8")
-    zh_home = OUTPUT / "zh-cn" / "index.mdx"
+    zh_home = OUTPUT / CHINESE_LANGUAGE / "index.mdx"
     zh_home.parent.mkdir(parents=True, exist_ok=True)
     zh_home.write_text(chinese, encoding="utf-8")
 
@@ -495,13 +503,15 @@ def main() -> None:
             file_routes[translation["file"]] = translation["route"]
             route_titles[page_id(translation["route"])] = translation["title"]
 
-    for language_dir in ("en", "zh-cn"):
+    for language_dir in ("en", CHINESE_SOURCE_DIR):
         source_root = ROOT / language_dir
         for source in source_root.rglob("*.json"):
             source_key = source.relative_to(ROOT).as_posix()
             relative = source.relative_to(source_root).as_posix()
             asset_routes[source_key] = (
-                f"/{relative}" if language_dir == "en" else f"/zh-cn/{relative}"
+                f"/{relative}"
+                if language_dir == "en"
+                else f"{CHINESE_ROUTE_PREFIX}/{relative}"
             )
 
     legacy_brand_files: set[str] = set()
@@ -526,7 +536,11 @@ def main() -> None:
                     is_english = translation["route"].startswith("/docs/") or translation[
                         "route"
                     ].startswith("/api-reference/")
-                    notice_source = ROOT / ("en/UPDATING.md" if is_english else "zh-cn/UPDATING.md")
+                    notice_source = ROOT / (
+                        "en/UPDATING.md"
+                        if is_english
+                        else f"{CHINESE_SOURCE_DIR}/UPDATING.md"
+                    )
                     target = route_to_file(translation["route"])
                     target.parent.mkdir(parents=True, exist_ok=True)
                     target.write_text(
@@ -572,15 +586,15 @@ def main() -> None:
         ROOT / "en" / "SUMMARY.md", "en", file_routes, route_titles, "en", "index"
     )
     chinese_groups = parse_summary(
-        ROOT / "zh-cn" / "SUMMARY.md",
-        "zh-cn",
+        ROOT / CHINESE_SOURCE_DIR / "SUMMARY.md",
+        CHINESE_SOURCE_DIR,
         file_routes,
         route_titles,
-        "zh-Hans",
-        "zh-cn/index",
+        CHINESE_LANGUAGE,
+        f"{CHINESE_LANGUAGE}/index",
     )
     english_groups = reshape_developer_navigation(english_groups, "en")
-    chinese_groups = reshape_developer_navigation(chinese_groups, "zh-Hans")
+    chinese_groups = reshape_developer_navigation(chinese_groups, CHINESE_LANGUAGE)
 
     redirects = []
     seen_redirects: set[tuple[str, str]] = set()
@@ -588,6 +602,28 @@ def main() -> None:
         source, destination = item["from"], item["to"]
         if source == "/":
             continue
+        key = (source, destination)
+        if key in seen_redirects:
+            continue
+        seen_redirects.add(key)
+        redirects.append({"source": source, "destination": destination, "permanent": True})
+
+    chinese_routes: set[str] = {CHINESE_ROUTE_PREFIX}
+    for page in translations["pages"]:
+        entries = (
+            page.get("translations")
+            if page["status"] == "publish"
+            else page.get("notice")
+            if page["status"] == "updating"
+            else None
+        )
+        if entries and entries.get(CHINESE_SOURCE_DIR):
+            chinese_routes.add(entries[CHINESE_SOURCE_DIR]["route"])
+    for artifact in translations.get("artifacts", []):
+        chinese_routes.add(artifact["translations"][CHINESE_SOURCE_DIR]["route"])
+
+    for destination in sorted(chinese_routes):
+        source = LEGACY_CHINESE_ROUTE_PREFIX + destination.removeprefix(CHINESE_ROUTE_PREFIX)
         key = (source, destination)
         if key in seen_redirects:
             continue
@@ -621,7 +657,7 @@ def main() -> None:
         "navigation": {
             "languages": [
                 {"language": "en", "default": True, "groups": english_groups},
-                {"language": "zh-Hans", "groups": chinese_groups},
+                {"language": CHINESE_LANGUAGE, "groups": chinese_groups},
             ]
         },
         "redirects": redirects,

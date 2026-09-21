@@ -11,6 +11,8 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+CHINESE_ROUTE_PREFIX = '/zh-Hans'
+LEGACY_CHINESE_ROUTE_PREFIX = '/zh-cn'
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("--update-hashes", action="store_true", help="Refresh translation hashes after all other checks pass")
 args = parser.parse_args()
@@ -95,7 +97,7 @@ for row in rows:
             notice_files.add(t['file'])
             require(file.is_file(), 'Notice file missing: ' + t['file'])
             canonical = branded_path(urllib.parse.urlparse(row['original_url']).path)
-            require(t['route'] == (canonical if lang == 'en' else '/zh-cn' + canonical), 'Unexpected notice route: ' + path)
+            require(t['route'] == (canonical if lang == 'en' else CHINESE_ROUTE_PREFIX + canonical), 'Unexpected notice route: ' + path)
             require(t['route'] not in routes, 'Duplicate notice route: ' + t['route'])
             routes[t['route']] = t['file']
             notice_routes.add(t['route'])
@@ -134,7 +136,7 @@ for row in rows:
         require(t['file'] == lang + '/' + branded_path(path), 'Unexpected translation path: ' + path)
         require(file.is_file(), 'Translation missing: ' + t['file'])
         canonical = canonical_path(row)
-        require(t['route'] == (canonical if lang == 'en' else '/zh-cn' + canonical), 'Unexpected route: ' + t['route'])
+        require(t['route'] == (canonical if lang == 'en' else CHINESE_ROUTE_PREFIX + canonical), 'Unexpected route: ' + t['route'])
         require(t['route'] not in routes, 'Duplicate published route: ' + t['route'])
         routes[t['route']] = t['file']
         if file.is_file():
@@ -176,8 +178,8 @@ for row in rows:
     entries = row['translations'] if row['status'] == 'publish' else row['notice']
     original_path = '/' + row['original_repository_path'] if row['original_repository_path'].endswith('.json') else urllib.parse.urlparse(row['original_url']).path
     for lang, entry in entries.items():
-        old_route = original_path if lang == 'en' else '/zh-cn' + original_path
-        if old_route != entry['route']:
+        old_route = original_path if lang == 'en' else LEGACY_CHINESE_ROUTE_PREFIX + original_path
+        if branded_path(old_route) != old_route:
             require(redirect_targets.get(old_route) == entry['route'], 'Missing legacy brand redirect: ' + old_route)
         require(entry['route'] == branded_path(entry['route']), 'Old brand in published route: ' + entry['route'])
 

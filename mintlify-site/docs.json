@@ -757,94 +757,94 @@
           {
             "group": "Counso 文档",
             "pages": [
-              "zh-cn/index"
+              "zh-Hans/index"
             ]
           },
           {
             "group": "入门与应用场景",
             "pages": [
-              "zh-cn/docs/user-documentation/getting-started/intro-to-counso",
+              "zh-Hans/docs/user-documentation/getting-started/intro-to-counso",
               {
                 "group": "Counso 团队落地指南",
-                "root": "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide",
+                "root": "zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso",
-                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy",
-                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material",
-                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community",
-                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace",
-                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases",
-                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate",
-                  "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand"
+                  "zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso",
+                  "zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy",
+                  "zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material",
+                  "zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community",
+                  "zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace",
+                  "zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases",
+                  "zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate",
+                  "zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand"
                 ]
               },
               {
                 "group": "团队使用场景与指南",
-                "root": "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides",
+                "root": "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/sales",
-                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/customer-support",
-                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/marketing",
-                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/engineering",
-                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/data-analytics",
-                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/knowledge",
-                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/recruiting-and-people",
-                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/product-and-design",
-                  "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/collaboration"
+                  "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/sales",
+                  "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/customer-support",
+                  "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/marketing",
+                  "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/engineering",
+                  "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/data-analytics",
+                  "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/knowledge",
+                  "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/recruiting-and-people",
+                  "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/product-and-design",
+                  "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/collaboration"
                 ]
               },
               {
                 "group": "常见问题",
-                "root": "zh-cn/docs/user-documentation/getting-started/faq",
+                "root": "zh-Hans/docs/user-documentation/getting-started/faq",
                 "expanded": false,
                 "pages": [
                   {
                     "group": "一般问题",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso",
-                      "zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso",
-                      "zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso",
-                      "zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso",
-                      "zh-cn/docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data"
+                      "zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data"
                     ]
                   },
                   {
                     "group": "智能体与对话",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/i-dont-know-how-to-start-creating-an-agent-what-should-i-do",
-                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/how-do-i-edit-a-custom-agent",
-                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/what-settings-model-should-i-use",
-                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-agents-create-a-new-file-or-document-directly-into-notion-google-drive-or-other-connected-platforms",
-                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/what-data-do-the-agents-have-access-to",
-                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/do-the-agents-have-access-to-the-internet",
-                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses",
-                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-share-a-conversation",
-                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-delete-or-rename-a-conversation",
-                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages",
-                      "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/how-can-i-find-the-id-of-an-agent"
+                      "zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/i-dont-know-how-to-start-creating-an-agent-what-should-i-do",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/how-do-i-edit-a-custom-agent",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/what-settings-model-should-i-use",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/can-agents-create-a-new-file-or-document-directly-into-notion-google-drive-or-other-connected-platforms",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/what-data-do-the-agents-have-access-to",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/do-the-agents-have-access-to-the-internet",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/can-i-share-a-conversation",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/can-i-delete-or-rename-a-conversation",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/how-can-i-find-the-id-of-an-agent"
                     ]
                   },
                   {
                     "group": "故障排除",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one",
-                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in",
-                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work",
-                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on",
-                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-doesnt-the-agent-remember-what-i-said-earlier-in-a-conversation",
-                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-isnt-my-recently-updated-document-showing-in-agent-responses",
-                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future",
-                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down",
-                      "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond"
+                      "zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-doesnt-the-agent-remember-what-i-said-earlier-in-a-conversation",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-isnt-my-recently-updated-document-showing-in-agent-responses",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down",
+                      "zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond"
                     ]
                   },
-                  "zh-cn/docs/user-documentation/getting-started/faq/file-size-limits",
-                  "zh-cn/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso"
+                  "zh-Hans/docs/user-documentation/getting-started/faq/file-size-limits",
+                  "zh-Hans/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso"
                 ]
               }
             ]
@@ -852,40 +852,40 @@
           {
             "group": "助手",
             "pages": [
-              "zh-cn/docs/user-documentation/agents/create-your-first-agent",
-              "zh-cn/docs/user-documentation/agents/model-selection",
+              "zh-Hans/docs/user-documentation/agents/create-your-first-agent",
+              "zh-Hans/docs/user-documentation/agents/model-selection",
               {
                 "group": "大语言模型最佳实践",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/user-documentation/agents/llm-best-practices/how-to-write-effective-instructions",
-                  "zh-cn/docs/user-documentation/agents/llm-best-practices/choosing-the-right-ai-model",
-                  "zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-llms-context-windows",
-                  "zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-llm-limitations",
-                  "zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-rag"
+                  "zh-Hans/docs/user-documentation/agents/llm-best-practices/how-to-write-effective-instructions",
+                  "zh-Hans/docs/user-documentation/agents/llm-best-practices/choosing-the-right-ai-model",
+                  "zh-Hans/docs/user-documentation/agents/llm-best-practices/understanding-llms-context-windows",
+                  "zh-Hans/docs/user-documentation/agents/llm-best-practices/understanding-llm-limitations",
+                  "zh-Hans/docs/user-documentation/agents/llm-best-practices/understanding-rag"
                 ]
               },
-              "zh-cn/docs/user-documentation/agents/templates",
-              "zh-cn/docs/user-documentation/agents/deep-dive-agent",
-              "zh-cn/docs/user-documentation/agents/agent-builder-sidekick",
-              "zh-cn/docs/user-documentation/agents/troubleshooting-your-agent",
-              "zh-cn/docs/user-documentation/agents/structured-output-format",
-              "zh-cn/docs/user-documentation/agents/steering-conversations",
-              "zh-cn/docs/user-documentation/agents/branch-a-conversation",
-              "zh-cn/docs/user-documentation/agents/context-compaction"
+              "zh-Hans/docs/user-documentation/agents/templates",
+              "zh-Hans/docs/user-documentation/agents/deep-dive-agent",
+              "zh-Hans/docs/user-documentation/agents/agent-builder-sidekick",
+              "zh-Hans/docs/user-documentation/agents/troubleshooting-your-agent",
+              "zh-Hans/docs/user-documentation/agents/structured-output-format",
+              "zh-Hans/docs/user-documentation/agents/steering-conversations",
+              "zh-Hans/docs/user-documentation/agents/branch-a-conversation",
+              "zh-Hans/docs/user-documentation/agents/context-compaction"
             ]
           },
           {
             "group": "技能",
             "pages": [
-              "zh-cn/docs/user-documentation/agents/skills/skills-overview",
-              "zh-cn/docs/user-documentation/agents/skills/skill-examples",
-              "zh-cn/docs/user-documentation/agents/skill-availability",
-              "zh-cn/docs/user-documentation/agents/discover-knowledge",
-              "zh-cn/docs/user-documentation/agents/discover-skills",
-              "zh-cn/docs/user-documentation/agents/discover-tools",
-              "zh-cn/docs/user-documentation/agents/go-deep",
-              "zh-cn/docs/user-documentation/agents/self-improving-skills"
+              "zh-Hans/docs/user-documentation/agents/skills/skills-overview",
+              "zh-Hans/docs/user-documentation/agents/skills/skill-examples",
+              "zh-Hans/docs/user-documentation/agents/skill-availability",
+              "zh-Hans/docs/user-documentation/agents/discover-knowledge",
+              "zh-Hans/docs/user-documentation/agents/discover-skills",
+              "zh-Hans/docs/user-documentation/agents/discover-tools",
+              "zh-Hans/docs/user-documentation/agents/go-deep",
+              "zh-Hans/docs/user-documentation/agents/self-improving-skills"
             ]
           },
           {
@@ -893,128 +893,128 @@
             "pages": [
               {
                 "group": "智能体的 Knowledge（知识）",
-                "root": "zh-cn/docs/user-documentation/agents/knowledge",
+                "root": "zh-Hans/docs/user-documentation/agents/knowledge",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/user-documentation/agents/knowledge/search-data-sources",
-                  "zh-cn/docs/user-documentation/agents/knowledge/table-queries",
-                  "zh-cn/docs/user-documentation/agents/knowledge/extract-data",
-                  "zh-cn/docs/user-documentation/agents/knowledge/include-data"
+                  "zh-Hans/docs/user-documentation/agents/knowledge/search-data-sources",
+                  "zh-Hans/docs/user-documentation/agents/knowledge/table-queries",
+                  "zh-Hans/docs/user-documentation/agents/knowledge/extract-data",
+                  "zh-Hans/docs/user-documentation/agents/knowledge/include-data"
                 ]
               },
               {
                 "group": "数据源",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/user-documentation/data-sources/overview",
-                  "zh-cn/docs/user-documentation/data-sources/connections",
-                  "zh-cn/docs/user-documentation/data-sources/websites",
-                  "zh-cn/docs/user-documentation/data-sources/folders",
+                  "zh-Hans/docs/user-documentation/data-sources/overview",
+                  "zh-Hans/docs/user-documentation/data-sources/connections",
+                  "zh-Hans/docs/user-documentation/data-sources/websites",
+                  "zh-Hans/docs/user-documentation/data-sources/folders",
                   {
                     "group": "对话文件",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/docs/user-documentation/data-sources/conversation-files/conversation-files",
-                      "zh-cn/docs/user-documentation/data-sources/conversation-files/read-images"
+                      "zh-Hans/docs/user-documentation/data-sources/conversation-files/conversation-files",
+                      "zh-Hans/docs/user-documentation/data-sources/conversation-files/read-images"
                     ]
                   }
                 ]
               },
               {
                 "group": "Agent 工具",
-                "root": "zh-cn/docs/user-documentation/agents/tools",
+                "root": "zh-Hans/docs/user-documentation/agents/tools",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/user-documentation/agents/tools/airtable",
-                  "zh-cn/docs/user-documentation/agents/tools/agent-memory",
-                  "zh-cn/docs/user-documentation/agents/tools/asana",
-                  "zh-cn/docs/user-documentation/agents/tools/ashby",
-                  "zh-cn/docs/user-documentation/agents/tools/attio",
-                  "zh-cn/docs/user-documentation/agents/tools/canva",
-                  "zh-cn/docs/user-documentation/agents/tools/confluence",
-                  "zh-cn/docs/user-documentation/agents/tools/databricks",
-                  "zh-cn/docs/user-documentation/agents/tools/file-generation",
-                  "zh-cn/docs/user-documentation/agents/tools/fathom",
-                  "zh-cn/docs/user-documentation/agents/tools/gong",
-                  "zh-cn/docs/user-documentation/agents/tools/freshservice",
-                  "zh-cn/docs/user-documentation/agents/tools/front",
-                  "zh-cn/docs/user-documentation/agents/tools/gmail",
-                  "zh-cn/docs/user-documentation/agents/tools/google-calendar",
-                  "zh-cn/docs/user-documentation/agents/tools/google-drive",
-                  "zh-cn/docs/user-documentation/agents/tools/hubspot",
-                  "zh-cn/docs/user-documentation/agents/tools/image-generation",
-                  "zh-cn/docs/user-documentation/agents/tools/jira",
-                  "zh-cn/docs/user-documentation/agents/tools/jit-tools",
-                  "zh-cn/docs/user-documentation/agents/tools/microsoft-outlook",
-                  "zh-cn/docs/user-documentation/agents/tools/microsoft-sharepoint-and-onedrive",
-                  "zh-cn/docs/user-documentation/agents/tools/microsoft-teams",
-                  "zh-cn/docs/user-documentation/agents/tools/microsoft-excel",
-                  "zh-cn/docs/user-documentation/agents/tools/miro",
-                  "zh-cn/docs/user-documentation/agents/tools/netsuite",
-                  "zh-cn/docs/user-documentation/agents/tools/notion",
-                  "zh-cn/docs/user-documentation/agents/tools/power-bi",
-                  "zh-cn/docs/user-documentation/agents/tools/productboard",
-                  "zh-cn/docs/user-documentation/agents/tools/slack-tools",
-                  "zh-cn/docs/user-documentation/agents/tools/ukg-ready",
-                  "zh-cn/docs/user-documentation/agents/tools/val-town",
-                  "zh-cn/docs/user-documentation/agents/tools/vanta",
-                  "zh-cn/docs/user-documentation/agents/tools/voice-and-sound-generation",
-                  "zh-cn/docs/user-documentation/agents/tools/salesloft",
-                  "zh-cn/docs/user-documentation/agents/tools/semrush",
-                  "zh-cn/docs/user-documentation/agents/tools/slab",
-                  "zh-cn/docs/user-documentation/agents/tools/snowflake",
-                  "zh-cn/docs/user-documentation/agents/tools/statuspage",
-                  "zh-cn/docs/user-documentation/agents/tools/run-agent",
-                  "zh-cn/docs/user-documentation/agents/tools/web-search-and-browse",
-                  "zh-cn/docs/user-documentation/agents/tools/zendesk",
-                  "zh-cn/docs/user-documentation/agents/tools/wake-ups",
-                  "zh-cn/docs/user-documentation/agents/tools/computer",
-                  "zh-cn/docs/user-documentation/agents/tools/google-sheets-deprecated",
-                  "zh-cn/docs/user-documentation/agents/tools/github",
-                  "zh-cn/docs/user-documentation/agents/tools/monday-com"
+                  "zh-Hans/docs/user-documentation/agents/tools/airtable",
+                  "zh-Hans/docs/user-documentation/agents/tools/agent-memory",
+                  "zh-Hans/docs/user-documentation/agents/tools/asana",
+                  "zh-Hans/docs/user-documentation/agents/tools/ashby",
+                  "zh-Hans/docs/user-documentation/agents/tools/attio",
+                  "zh-Hans/docs/user-documentation/agents/tools/canva",
+                  "zh-Hans/docs/user-documentation/agents/tools/confluence",
+                  "zh-Hans/docs/user-documentation/agents/tools/databricks",
+                  "zh-Hans/docs/user-documentation/agents/tools/file-generation",
+                  "zh-Hans/docs/user-documentation/agents/tools/fathom",
+                  "zh-Hans/docs/user-documentation/agents/tools/gong",
+                  "zh-Hans/docs/user-documentation/agents/tools/freshservice",
+                  "zh-Hans/docs/user-documentation/agents/tools/front",
+                  "zh-Hans/docs/user-documentation/agents/tools/gmail",
+                  "zh-Hans/docs/user-documentation/agents/tools/google-calendar",
+                  "zh-Hans/docs/user-documentation/agents/tools/google-drive",
+                  "zh-Hans/docs/user-documentation/agents/tools/hubspot",
+                  "zh-Hans/docs/user-documentation/agents/tools/image-generation",
+                  "zh-Hans/docs/user-documentation/agents/tools/jira",
+                  "zh-Hans/docs/user-documentation/agents/tools/jit-tools",
+                  "zh-Hans/docs/user-documentation/agents/tools/microsoft-outlook",
+                  "zh-Hans/docs/user-documentation/agents/tools/microsoft-sharepoint-and-onedrive",
+                  "zh-Hans/docs/user-documentation/agents/tools/microsoft-teams",
+                  "zh-Hans/docs/user-documentation/agents/tools/microsoft-excel",
+                  "zh-Hans/docs/user-documentation/agents/tools/miro",
+                  "zh-Hans/docs/user-documentation/agents/tools/netsuite",
+                  "zh-Hans/docs/user-documentation/agents/tools/notion",
+                  "zh-Hans/docs/user-documentation/agents/tools/power-bi",
+                  "zh-Hans/docs/user-documentation/agents/tools/productboard",
+                  "zh-Hans/docs/user-documentation/agents/tools/slack-tools",
+                  "zh-Hans/docs/user-documentation/agents/tools/ukg-ready",
+                  "zh-Hans/docs/user-documentation/agents/tools/val-town",
+                  "zh-Hans/docs/user-documentation/agents/tools/vanta",
+                  "zh-Hans/docs/user-documentation/agents/tools/voice-and-sound-generation",
+                  "zh-Hans/docs/user-documentation/agents/tools/salesloft",
+                  "zh-Hans/docs/user-documentation/agents/tools/semrush",
+                  "zh-Hans/docs/user-documentation/agents/tools/slab",
+                  "zh-Hans/docs/user-documentation/agents/tools/snowflake",
+                  "zh-Hans/docs/user-documentation/agents/tools/statuspage",
+                  "zh-Hans/docs/user-documentation/agents/tools/run-agent",
+                  "zh-Hans/docs/user-documentation/agents/tools/web-search-and-browse",
+                  "zh-Hans/docs/user-documentation/agents/tools/zendesk",
+                  "zh-Hans/docs/user-documentation/agents/tools/wake-ups",
+                  "zh-Hans/docs/user-documentation/agents/tools/computer",
+                  "zh-Hans/docs/user-documentation/agents/tools/google-sheets-deprecated",
+                  "zh-Hans/docs/user-documentation/agents/tools/github",
+                  "zh-Hans/docs/user-documentation/agents/tools/monday-com"
                 ]
               },
               {
                 "group": "触发器",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/user-documentation/agents/triggers/credits-usage",
-                  "zh-cn/docs/user-documentation/agents/triggers/schedules",
+                  "zh-Hans/docs/user-documentation/agents/triggers/credits-usage",
+                  "zh-Hans/docs/user-documentation/agents/triggers/schedules",
                   {
                     "group": "Webhook",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload",
-                      "zh-cn/docs/user-documentation/agents/triggers/webhooks/rate-limiting"
+                      "zh-Hans/docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload",
+                      "zh-Hans/docs/user-documentation/agents/triggers/webhooks/rate-limiting"
                     ]
                   }
                 ]
               },
-              "zh-cn/docs/user-documentation/agents/frames/white-labeled-frames"
+              "zh-Hans/docs/user-documentation/agents/frames/white-labeled-frames"
             ]
           },
           {
             "group": "Pods",
             "pages": [
-              "zh-cn/docs/user-documentation/pods/overview",
-              "zh-cn/docs/user-documentation/pods/members-and-roles",
-              "zh-cn/docs/user-documentation/pods/tasks",
-              "zh-cn/docs/user-documentation/pods/conversations",
-              "zh-cn/docs/user-documentation/pods/files",
-              "zh-cn/docs/user-documentation/pods/frames",
-              "zh-cn/docs/user-documentation/pods/agent-tools",
-              "zh-cn/docs/user-documentation/pods/admin-controls",
+              "zh-Hans/docs/user-documentation/pods/overview",
+              "zh-Hans/docs/user-documentation/pods/members-and-roles",
+              "zh-Hans/docs/user-documentation/pods/tasks",
+              "zh-Hans/docs/user-documentation/pods/conversations",
+              "zh-Hans/docs/user-documentation/pods/files",
+              "zh-Hans/docs/user-documentation/pods/frames",
+              "zh-Hans/docs/user-documentation/pods/agent-tools",
+              "zh-Hans/docs/user-documentation/pods/admin-controls",
               {
                 "group": "示例",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/user-documentation/pods/examples/shared-asset-library",
-                  "zh-cn/docs/user-documentation/pods/examples/personal-second-brain",
-                  "zh-cn/docs/user-documentation/pods/examples/initiative-and-project-management",
-                  "zh-cn/docs/user-documentation/pods/examples/ticket-handling-and-support-knowledge",
-                  "zh-cn/docs/user-documentation/pods/examples/one-pod-per-customer",
-                  "zh-cn/docs/user-documentation/pods/examples/content-and-editorial-production",
-                  "zh-cn/docs/user-documentation/pods/examples/competitive-intelligence"
+                  "zh-Hans/docs/user-documentation/pods/examples/shared-asset-library",
+                  "zh-Hans/docs/user-documentation/pods/examples/personal-second-brain",
+                  "zh-Hans/docs/user-documentation/pods/examples/initiative-and-project-management",
+                  "zh-Hans/docs/user-documentation/pods/examples/ticket-handling-and-support-knowledge",
+                  "zh-Hans/docs/user-documentation/pods/examples/one-pod-per-customer",
+                  "zh-Hans/docs/user-documentation/pods/examples/content-and-editorial-production",
+                  "zh-Hans/docs/user-documentation/pods/examples/competitive-intelligence"
                 ]
               }
             ]
@@ -1022,272 +1022,272 @@
           {
             "group": "管理工作区",
             "pages": [
-              "zh-cn/docs/user-documentation/admins/quickstart",
+              "zh-Hans/docs/user-documentation/admins/quickstart",
               {
                 "group": "治理与访问权限",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions",
-                  "zh-cn/docs/user-documentation/admins/admin-governance/access-controls-and-permissions",
+                  "zh-Hans/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions",
+                  "zh-Hans/docs/user-documentation/admins/admin-governance/access-controls-and-permissions",
                   {
                     "group": "单点登录（SSO）",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/docs/user-documentation/admins/admin-governance/single-sign-on-sso/single-sign-on-sso",
-                      "zh-cn/docs/user-documentation/admins/admin-governance/single-sign-on-sso/saml-sso"
+                      "zh-Hans/docs/user-documentation/admins/admin-governance/single-sign-on-sso/single-sign-on-sso",
+                      "zh-Hans/docs/user-documentation/admins/admin-governance/single-sign-on-sso/saml-sso"
                     ]
                   },
-                  "zh-cn/docs/user-documentation/admins/admin-governance/users-and-groups-provisioning"
+                  "zh-Hans/docs/user-documentation/admins/admin-governance/users-and-groups-provisioning"
                 ]
               },
-              "zh-cn/docs/user-documentation/admins/spaces-management",
-              "zh-cn/docs/user-documentation/admins/agents-management",
+              "zh-Hans/docs/user-documentation/admins/spaces-management",
+              "zh-Hans/docs/user-documentation/admins/agents-management",
               {
                 "group": "管理数据连接",
-                "root": "zh-cn/docs/user-documentation/admins/connections-management",
+                "root": "zh-Hans/docs/user-documentation/admins/connections-management",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/user-documentation/admins/connections-management/google-drive",
-                  "zh-cn/docs/user-documentation/admins/connections-management/notion",
-                  "zh-cn/docs/user-documentation/admins/connections-management/confluence",
-                  "zh-cn/docs/user-documentation/admins/connections-management/intercom",
-                  "zh-cn/docs/user-documentation/admins/connections-management/microsoft",
-                  "zh-cn/docs/user-documentation/admins/connections-management/zendesk",
-                  "zh-cn/docs/user-documentation/admins/connections-management/snowflake",
-                  "zh-cn/docs/user-documentation/admins/connections-management/bigquery",
-                  "zh-cn/docs/user-documentation/admins/connections-management/gong",
-                  "zh-cn/docs/user-documentation/admins/connections-management/github",
-                  "zh-cn/docs/user-documentation/admins/connections-management/slack"
+                  "zh-Hans/docs/user-documentation/admins/connections-management/google-drive",
+                  "zh-Hans/docs/user-documentation/admins/connections-management/notion",
+                  "zh-Hans/docs/user-documentation/admins/connections-management/confluence",
+                  "zh-Hans/docs/user-documentation/admins/connections-management/intercom",
+                  "zh-Hans/docs/user-documentation/admins/connections-management/microsoft",
+                  "zh-Hans/docs/user-documentation/admins/connections-management/zendesk",
+                  "zh-Hans/docs/user-documentation/admins/connections-management/snowflake",
+                  "zh-Hans/docs/user-documentation/admins/connections-management/bigquery",
+                  "zh-Hans/docs/user-documentation/admins/connections-management/gong",
+                  "zh-Hans/docs/user-documentation/admins/connections-management/github",
+                  "zh-Hans/docs/user-documentation/admins/connections-management/slack"
                 ]
               },
               {
                 "group": "工具管理",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/user-documentation/admins/tools-management/adding-an-mcp-server",
-                  "zh-cn/docs/user-documentation/admins/tools-management/personal-vs-shared-credentials",
+                  "zh-Hans/docs/user-documentation/admins/tools-management/adding-an-mcp-server",
+                  "zh-Hans/docs/user-documentation/admins/tools-management/personal-vs-shared-credentials",
                   {
                     "group": "Salesforce",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/docs/user-documentation/admins/tools-management/salesforce/salesforce",
-                      "zh-cn/docs/user-documentation/admins/tools-management/salesforce/salesforce-notes-on-api-limit-and-permissions"
+                      "zh-Hans/docs/user-documentation/admins/tools-management/salesforce/salesforce",
+                      "zh-Hans/docs/user-documentation/admins/tools-management/salesforce/salesforce-notes-on-api-limit-and-permissions"
                     ]
                   },
-                  "zh-cn/docs/user-documentation/admins/tools-management/managing-microsoft-tools",
-                  "zh-cn/docs/user-documentation/admins/tools-management/computer-admin-setup"
+                  "zh-Hans/docs/user-documentation/admins/tools-management/managing-microsoft-tools",
+                  "zh-Hans/docs/user-documentation/admins/tools-management/computer-admin-setup"
                 ]
               },
-              "zh-cn/analytics",
+              "zh-Hans/analytics",
               {
                 "group": "审计日志",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/user-documentation/admins/audit-logs/audit-logs",
-                  "zh-cn/docs/user-documentation/admins/audit-logs/audit-logs-events-reference"
+                  "zh-Hans/docs/user-documentation/admins/audit-logs/audit-logs",
+                  "zh-Hans/docs/user-documentation/admins/audit-logs/audit-logs-events-reference"
                 ]
               },
               {
                 "group": "用量、席位与积分",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/seat-management",
-                  "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/credits",
-                  "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/credit-management",
-                  "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/optimize-credit-consumption",
-                  "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers",
-                  "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/train-team-credit-optimization"
+                  "zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/seat-management",
+                  "zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/credits",
+                  "zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/credit-management",
+                  "zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/optimize-credit-consumption",
+                  "zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers",
+                  "zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/train-team-credit-optimization"
                 ]
               },
-              "zh-cn/docs/user-documentation/admins/billing/subscriptions-and-payments",
-              "zh-cn/docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting",
-              "zh-cn/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting"
+              "zh-Hans/docs/user-documentation/admins/billing/subscriptions-and-payments",
+              "zh-Hans/docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting",
+              "zh-Hans/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting"
             ]
           },
           {
             "group": "集成与接入",
             "pages": [
-              "zh-cn/docs/user-documentation/agents/integrations/counso-mcp-server",
-              "zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
-              "zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
-              "zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
-              "zh-cn/docs/user-documentation/agents/integrations/meeting-transcripts"
+              "zh-Hans/docs/user-documentation/agents/integrations/counso-mcp-server",
+              "zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
+              "zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+              "zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
+              "zh-Hans/docs/user-documentation/agents/integrations/meeting-transcripts"
             ]
           },
           {
             "group": "开发者",
             "pages": [
-              "zh-cn/docs/user-documentation/developers/client-side-mcp-server",
+              "zh-Hans/docs/user-documentation/developers/client-side-mcp-server",
               {
                 "group": "概览",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/developer-platform/overview/developer-platform",
-                  "zh-cn/docs/developer-platform/overview/javascript-sdk"
+                  "zh-Hans/docs/developer-platform/overview/developer-platform",
+                  "zh-Hans/docs/developer-platform/overview/javascript-sdk"
                 ]
               },
               {
                 "group": "核心概念",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/developer-platform/core-concepts/datasources",
-                  "zh-cn/docs/developer-platform/core-concepts/chunks-and-documents",
-                  "zh-cn/docs/developer-platform/core-concepts/rate-limits"
+                  "zh-Hans/docs/developer-platform/core-concepts/datasources",
+                  "zh-Hans/docs/developer-platform/core-concepts/chunks-and-documents",
+                  "zh-Hans/docs/developer-platform/core-concepts/rate-limits"
                 ]
               },
               {
                 "group": "Counso API 文档",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/developer-platform/counso-api-documentation/openapi-and-postman",
+                  "zh-Hans/docs/developer-platform/counso-api-documentation/openapi-and-postman",
                   {
                     "group": "用户会话：用户",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/private-user/get-current-user",
-                      "zh-cn/api-reference/private-user/update-current-user"
+                      "zh-Hans/api-reference/private-user/get-current-user",
+                      "zh-Hans/api-reference/private-user/update-current-user"
                     ]
                   },
                   {
                     "group": "分析",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/analytics/export-workspace-analytics"
+                      "zh-Hans/api-reference/analytics/export-workspace-analytics"
                     ]
                   },
                   {
                     "group": "智能体",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/agents/list-agents",
-                      "zh-cn/api-reference/agents/export-agent-configuration-as-yaml",
-                      "zh-cn/api-reference/agents/get-agent-configuration",
-                      "zh-cn/api-reference/agents/archive-agent-configuration",
-                      "zh-cn/api-reference/agents/update-agent-configuration",
-                      "zh-cn/api-reference/agents/import-agent-configuration",
-                      "zh-cn/api-reference/agents/search-agents-by-name"
+                      "zh-Hans/api-reference/agents/list-agents",
+                      "zh-Hans/api-reference/agents/export-agent-configuration-as-yaml",
+                      "zh-Hans/api-reference/agents/get-agent-configuration",
+                      "zh-Hans/api-reference/agents/archive-agent-configuration",
+                      "zh-Hans/api-reference/agents/update-agent-configuration",
+                      "zh-Hans/api-reference/agents/import-agent-configuration",
+                      "zh-Hans/api-reference/agents/search-agents-by-name"
                     ]
                   },
                   {
                     "group": "会话",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/conversations/cancel-message-generation-in-a-conversation",
-                      "zh-cn/api-reference/conversations/create-a-content-fragment",
-                      "zh-cn/api-reference/conversations/get-the-events-for-a-conversation",
-                      "zh-cn/api-reference/conversations/download-a-conversation-scoped-file-by-path",
-                      "zh-cn/api-reference/conversations/get-a-conversation",
-                      "zh-cn/api-reference/conversations/update-a-conversation",
-                      "zh-cn/api-reference/conversations/answer-a-user-question-in-a-conversation-message",
-                      "zh-cn/api-reference/conversations/edit-an-existing-message-in-a-conversation",
-                      "zh-cn/api-reference/conversations/get-events-for-a-message",
-                      "zh-cn/api-reference/conversations/validate-an-action-in-a-conversation-message",
-                      "zh-cn/api-reference/conversations/create-a-message",
-                      "zh-cn/api-reference/conversations/create-a-new-conversation",
-                      "zh-cn/api-reference/conversations/create-a-file-upload-url"
+                      "zh-Hans/api-reference/conversations/cancel-message-generation-in-a-conversation",
+                      "zh-Hans/api-reference/conversations/create-a-content-fragment",
+                      "zh-Hans/api-reference/conversations/get-the-events-for-a-conversation",
+                      "zh-Hans/api-reference/conversations/download-a-conversation-scoped-file-by-path",
+                      "zh-Hans/api-reference/conversations/get-a-conversation",
+                      "zh-Hans/api-reference/conversations/update-a-conversation",
+                      "zh-Hans/api-reference/conversations/answer-a-user-question-in-a-conversation-message",
+                      "zh-Hans/api-reference/conversations/edit-an-existing-message-in-a-conversation",
+                      "zh-Hans/api-reference/conversations/get-events-for-a-message",
+                      "zh-Hans/api-reference/conversations/validate-an-action-in-a-conversation-message",
+                      "zh-Hans/api-reference/conversations/create-a-message",
+                      "zh-Hans/api-reference/conversations/create-a-new-conversation",
+                      "zh-Hans/api-reference/conversations/create-a-file-upload-url"
                     ]
                   },
                   {
                     "group": "反馈",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/feedbacks/get-feedbacks-for-a-conversation",
-                      "zh-cn/api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation",
-                      "zh-cn/api-reference/feedbacks/delete-feedback-for-a-specific-message"
+                      "zh-Hans/api-reference/feedbacks/get-feedbacks-for-a-conversation",
+                      "zh-Hans/api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation",
+                      "zh-Hans/api-reference/feedbacks/delete-feedback-for-a-specific-message"
                     ]
                   },
                   {
                     "group": "提及",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/mentions/get-mention-suggestions-for-a-conversation",
-                      "zh-cn/api-reference/mentions/parse-mentions-in-markdown-text",
-                      "zh-cn/api-reference/mentions/get-mention-suggestions"
+                      "zh-Hans/api-reference/mentions/get-mention-suggestions-for-a-conversation",
+                      "zh-Hans/api-reference/mentions/parse-mentions-in-markdown-text",
+                      "zh-Hans/api-reference/mentions/get-mention-suggestions"
                     ]
                   },
                   {
                     "group": "客户端 MCP",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/mcp/deregister-a-client-side-mcp-server",
-                      "zh-cn/api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server",
-                      "zh-cn/api-reference/mcp/register-a-client-side-mcp-server",
-                      "zh-cn/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace",
-                      "zh-cn/api-reference/mcp/submit-mcp-tool-execution-results"
+                      "zh-Hans/api-reference/mcp/deregister-a-client-side-mcp-server",
+                      "zh-Hans/api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server",
+                      "zh-Hans/api-reference/mcp/register-a-client-side-mcp-server",
+                      "zh-Hans/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace",
+                      "zh-Hans/api-reference/mcp/submit-mcp-tool-execution-results"
                     ]
                   },
                   {
                     "group": "搜索",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/search/search-for-nodes-in-the-workspace-streaming",
-                      "zh-cn/api-reference/search/search-for-nodes-in-the-workspace",
-                      "zh-cn/api-reference/search/upload-a-tool-file"
+                      "zh-Hans/api-reference/search/search-for-nodes-in-the-workspace-streaming",
+                      "zh-Hans/api-reference/search/search-for-nodes-in-the-workspace",
+                      "zh-Hans/api-reference/search/upload-a-tool-file"
                     ]
                   },
                   {
                     "group": "Skills",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/skills/archive-a-skill",
-                      "zh-cn/api-reference/skills/list-skills",
-                      "zh-cn/api-reference/skills/import-skills-from-uploaded-files"
+                      "zh-Hans/api-reference/skills/archive-a-skill",
+                      "zh-Hans/api-reference/skills/list-skills",
+                      "zh-Hans/api-reference/skills/import-skills-from-uploaded-files"
                     ]
                   },
                   {
                     "group": "应用",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/apps/get-an-app-run",
-                      "zh-cn/api-reference/apps/create-an-app-run",
-                      "zh-cn/api-reference/apps/list-apps"
+                      "zh-Hans/api-reference/apps/get-an-app-run",
+                      "zh-Hans/api-reference/apps/create-an-app-run",
+                      "zh-Hans/api-reference/apps/list-apps"
                     ]
                   },
                   {
                     "group": "数据源视图",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/datasourceviews/get-a-data-source-view",
-                      "zh-cn/api-reference/datasourceviews/delete-a-data-source-view",
-                      "zh-cn/api-reference/datasourceviews/update-a-data-source-view",
-                      "zh-cn/api-reference/datasourceviews/search-the-data-source-view",
-                      "zh-cn/api-reference/datasourceviews/list-data-source-views"
+                      "zh-Hans/api-reference/datasourceviews/get-a-data-source-view",
+                      "zh-Hans/api-reference/datasourceviews/delete-a-data-source-view",
+                      "zh-Hans/api-reference/datasourceviews/update-a-data-source-view",
+                      "zh-Hans/api-reference/datasourceviews/search-the-data-source-view",
+                      "zh-Hans/api-reference/datasourceviews/list-data-source-views"
                     ]
                   },
                   {
                     "group": "数据源",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/datasources/check-the-upsert-queue-status-for-a-data-source",
-                      "zh-cn/api-reference/datasources/retrieve-a-document-from-a-data-source",
-                      "zh-cn/api-reference/datasources/upsert-a-document-in-a-data-source",
-                      "zh-cn/api-reference/datasources/delete-a-document-from-a-data-source",
-                      "zh-cn/api-reference/datasources/update-the-parents-of-a-document",
-                      "zh-cn/api-reference/datasources/get-documents",
-                      "zh-cn/api-reference/datasources/search-the-data-source",
-                      "zh-cn/api-reference/datasources/get-a-table",
-                      "zh-cn/api-reference/datasources/delete-a-table",
-                      "zh-cn/api-reference/datasources/get-a-row",
-                      "zh-cn/api-reference/datasources/delete-a-row",
-                      "zh-cn/api-reference/datasources/list-rows",
-                      "zh-cn/api-reference/datasources/upsert-rows",
-                      "zh-cn/api-reference/datasources/get-tables",
-                      "zh-cn/api-reference/datasources/upsert-a-table",
-                      "zh-cn/api-reference/datasources/get-data-sources"
+                      "zh-Hans/api-reference/datasources/check-the-upsert-queue-status-for-a-data-source",
+                      "zh-Hans/api-reference/datasources/retrieve-a-document-from-a-data-source",
+                      "zh-Hans/api-reference/datasources/upsert-a-document-in-a-data-source",
+                      "zh-Hans/api-reference/datasources/delete-a-document-from-a-data-source",
+                      "zh-Hans/api-reference/datasources/update-the-parents-of-a-document",
+                      "zh-Hans/api-reference/datasources/get-documents",
+                      "zh-Hans/api-reference/datasources/search-the-data-source",
+                      "zh-Hans/api-reference/datasources/get-a-table",
+                      "zh-Hans/api-reference/datasources/delete-a-table",
+                      "zh-Hans/api-reference/datasources/get-a-row",
+                      "zh-Hans/api-reference/datasources/delete-a-row",
+                      "zh-Hans/api-reference/datasources/list-rows",
+                      "zh-Hans/api-reference/datasources/upsert-rows",
+                      "zh-Hans/api-reference/datasources/get-tables",
+                      "zh-Hans/api-reference/datasources/upsert-a-table",
+                      "zh-Hans/api-reference/datasources/get-data-sources"
                     ]
                   },
                   {
                     "group": "工具",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/tools/list-available-mcp-server-views"
+                      "zh-Hans/api-reference/tools/list-available-mcp-server-views"
                     ]
                   },
                   {
                     "group": "空间",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/spaces/list-available-spaces"
+                      "zh-Hans/api-reference/spaces/list-available-spaces"
                     ]
                   },
                   {
@@ -1298,9 +1298,9 @@
                         "group": "触发器",
                         "expanded": false,
                         "pages": [
-                          "zh-cn/api-reference/triggers/get-a-trigger",
-                          "zh-cn/api-reference/triggers/receive-external-webhook-to-trigger-flows",
-                          "zh-cn/api-reference/triggers/list-triggers"
+                          "zh-Hans/api-reference/triggers/get-a-trigger",
+                          "zh-Hans/api-reference/triggers/receive-external-webhook-to-trigger-flows",
+                          "zh-Hans/api-reference/triggers/list-triggers"
                         ]
                       }
                     ]
@@ -1309,129 +1309,129 @@
                     "group": "用户会话：分析",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/private-analytics/list-consumption-analytics-facets",
-                      "zh-cn/api-reference/private-analytics/list-consumption-analytics-facets-1",
-                      "zh-cn/api-reference/private-analytics/list-consumption-analytics-facets-2"
+                      "zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets",
+                      "zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets-1",
+                      "zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets-2"
                     ]
                   },
                   {
                     "group": "用户会话：智能体",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/private-agents/list-agent-configurations",
-                      "zh-cn/api-reference/private-agents/create-an-agent-configuration"
+                      "zh-Hans/api-reference/private-agents/list-agent-configurations",
+                      "zh-Hans/api-reference/private-agents/create-an-agent-configuration"
                     ]
                   },
                   {
                     "group": "用户会话：会话",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/private-conversations/cancel-message-generation",
-                      "zh-cn/api-reference/private-conversations/compact-a-conversation",
-                      "zh-cn/api-reference/private-conversations/get-a-conversation-credit-attribution",
-                      "zh-cn/api-reference/private-conversations/create-a-content-fragment",
-                      "zh-cn/api-reference/private-conversations/get-conversation-feedbacks",
-                      "zh-cn/api-reference/private-conversations/get-a-conversation",
-                      "zh-cn/api-reference/private-conversations/delete-or-leave-a-conversation",
-                      "zh-cn/api-reference/private-conversations/update-a-conversation",
-                      "zh-cn/api-reference/private-conversations/get-conversation-participants",
-                      "zh-cn/api-reference/private-conversations/add-a-participant-to-a-conversation",
-                      "zh-cn/api-reference/private-conversations/list-selectable-spaces",
-                      "zh-cn/api-reference/private-conversations/select-spaces-for-a-conversation",
-                      "zh-cn/api-reference/private-conversations/cancel-a-wake-up",
-                      "zh-cn/api-reference/private-conversations/list-wake-ups-for-a-conversation",
-                      "zh-cn/api-reference/private-conversations/list-conversations",
-                      "zh-cn/api-reference/private-conversations/create-a-conversation"
+                      "zh-Hans/api-reference/private-conversations/cancel-message-generation",
+                      "zh-Hans/api-reference/private-conversations/compact-a-conversation",
+                      "zh-Hans/api-reference/private-conversations/get-a-conversation-credit-attribution",
+                      "zh-Hans/api-reference/private-conversations/create-a-content-fragment",
+                      "zh-Hans/api-reference/private-conversations/get-conversation-feedbacks",
+                      "zh-Hans/api-reference/private-conversations/get-a-conversation",
+                      "zh-Hans/api-reference/private-conversations/delete-or-leave-a-conversation",
+                      "zh-Hans/api-reference/private-conversations/update-a-conversation",
+                      "zh-Hans/api-reference/private-conversations/get-conversation-participants",
+                      "zh-Hans/api-reference/private-conversations/add-a-participant-to-a-conversation",
+                      "zh-Hans/api-reference/private-conversations/list-selectable-spaces",
+                      "zh-Hans/api-reference/private-conversations/select-spaces-for-a-conversation",
+                      "zh-Hans/api-reference/private-conversations/cancel-a-wake-up",
+                      "zh-Hans/api-reference/private-conversations/list-wake-ups-for-a-conversation",
+                      "zh-Hans/api-reference/private-conversations/list-conversations",
+                      "zh-Hans/api-reference/private-conversations/create-a-conversation"
                     ]
                   },
                   {
                     "group": "用户会话：events",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/private-events/stream-conversation-events",
-                      "zh-cn/api-reference/private-events/stream-message-events",
-                      "zh-cn/api-reference/private-events/stream-sandbox-function-invocation-events"
+                      "zh-Hans/api-reference/private-events/stream-conversation-events",
+                      "zh-Hans/api-reference/private-events/stream-message-events",
+                      "zh-Hans/api-reference/private-events/stream-sandbox-function-invocation-events"
                     ]
                   },
                   {
                     "group": "用户会话：messages",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/private-messages/get-a-single-action",
-                      "zh-cn/api-reference/private-messages/get-an-agent-message-credit-attribution",
-                      "zh-cn/api-reference/private-messages/edit-a-message",
-                      "zh-cn/api-reference/private-messages/submit-message-feedback",
-                      "zh-cn/api-reference/private-messages/delete-message-feedback",
-                      "zh-cn/api-reference/private-messages/get-a-message",
-                      "zh-cn/api-reference/private-messages/delete-a-message",
-                      "zh-cn/api-reference/private-messages/retry-an-agent-message",
-                      "zh-cn/api-reference/private-messages/list-messages-in-a-conversation",
-                      "zh-cn/api-reference/private-messages/post-a-message-to-a-conversation"
+                      "zh-Hans/api-reference/private-messages/get-a-single-action",
+                      "zh-Hans/api-reference/private-messages/get-an-agent-message-credit-attribution",
+                      "zh-Hans/api-reference/private-messages/edit-a-message",
+                      "zh-Hans/api-reference/private-messages/submit-message-feedback",
+                      "zh-Hans/api-reference/private-messages/delete-message-feedback",
+                      "zh-Hans/api-reference/private-messages/get-a-message",
+                      "zh-Hans/api-reference/private-messages/delete-a-message",
+                      "zh-Hans/api-reference/private-messages/retry-an-agent-message",
+                      "zh-Hans/api-reference/private-messages/list-messages-in-a-conversation",
+                      "zh-Hans/api-reference/private-messages/post-a-message-to-a-conversation"
                     ]
                   },
                   {
                     "group": "用户会话：assistant",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/private-assistant/resolve-a-conversation-go-template-draft"
+                      "zh-Hans/api-reference/private-assistant/resolve-a-conversation-go-template-draft"
                     ]
                   },
                   {
                     "group": "用户会话：提及",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/private-mentions/get-mention-suggestions"
+                      "zh-Hans/api-reference/private-mentions/get-mention-suggestions"
                     ]
                   },
                   {
                     "group": "用户会话：扩展",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/private-extension/get-extension-configuration"
+                      "zh-Hans/api-reference/private-extension/get-extension-configuration"
                     ]
                   },
                   {
                     "group": "用户会话：workspace",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/private-workspace/get-workspace-feature-flags"
+                      "zh-Hans/api-reference/private-workspace/get-workspace-feature-flags"
                     ]
                   },
                   {
                     "group": "用户会话：文件",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/private-files/get-or-download-a-file",
-                      "zh-cn/api-reference/private-files/upload-file-content",
-                      "zh-cn/api-reference/private-files/delete-a-file",
-                      "zh-cn/api-reference/private-files/create-a-file-upload"
+                      "zh-Hans/api-reference/private-files/get-or-download-a-file",
+                      "zh-Hans/api-reference/private-files/upload-file-content",
+                      "zh-Hans/api-reference/private-files/delete-a-file",
+                      "zh-Hans/api-reference/private-files/create-a-file-upload"
                     ]
                   },
                   {
                     "group": "用户会话：空间",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/private-spaces/get-a-data-source-view",
-                      "zh-cn/api-reference/private-spaces/delete-a-data-source-view",
-                      "zh-cn/api-reference/private-spaces/update-a-data-source-view",
-                      "zh-cn/api-reference/private-spaces/list-data-source-views",
-                      "zh-cn/api-reference/private-spaces/create-a-data-source-view",
-                      "zh-cn/api-reference/private-spaces/get-a-space",
-                      "zh-cn/api-reference/private-spaces/delete-a-space",
-                      "zh-cn/api-reference/private-spaces/update-a-space",
-                      "zh-cn/api-reference/private-spaces/get-project-notification-preference",
-                      "zh-cn/api-reference/private-spaces/set-project-notification-preference",
-                      "zh-cn/api-reference/private-spaces/list-spaces",
-                      "zh-cn/api-reference/private-spaces/create-a-space"
+                      "zh-Hans/api-reference/private-spaces/get-a-data-source-view",
+                      "zh-Hans/api-reference/private-spaces/delete-a-data-source-view",
+                      "zh-Hans/api-reference/private-spaces/update-a-data-source-view",
+                      "zh-Hans/api-reference/private-spaces/list-data-source-views",
+                      "zh-Hans/api-reference/private-spaces/create-a-data-source-view",
+                      "zh-Hans/api-reference/private-spaces/get-a-space",
+                      "zh-Hans/api-reference/private-spaces/delete-a-space",
+                      "zh-Hans/api-reference/private-spaces/update-a-space",
+                      "zh-Hans/api-reference/private-spaces/get-project-notification-preference",
+                      "zh-Hans/api-reference/private-spaces/set-project-notification-preference",
+                      "zh-Hans/api-reference/private-spaces/list-spaces",
+                      "zh-Hans/api-reference/private-spaces/create-a-space"
                     ]
                   },
                   {
                     "group": "登录认证",
                     "expanded": false,
                     "pages": [
-                      "zh-cn/api-reference/private-authentication/initiate-workos-login",
-                      "zh-cn/api-reference/private-authentication/exchange-code-or-refresh-token",
-                      "zh-cn/api-reference/private-authentication/revoke-a-session"
+                      "zh-Hans/api-reference/private-authentication/initiate-workos-login",
+                      "zh-Hans/api-reference/private-authentication/exchange-code-or-refresh-token",
+                      "zh-Hans/api-reference/private-authentication/revoke-a-session"
                     ]
                   }
                 ]
@@ -1440,7 +1440,7 @@
                 "group": "Counso CLI",
                 "expanded": false,
                 "pages": [
-                  "zh-cn/docs/developer-platform/counso-cli/counso-cli"
+                  "zh-Hans/docs/developer-platform/counso-cli/counso-cli"
                 ]
               }
             ]
@@ -1952,192 +1952,1952 @@
     },
     {
       "source": "/zh-cn/docs/client-side-mcp-server",
-      "destination": "/zh-cn/docs/user-documentation/developers/client-side-mcp-server",
+      "destination": "/zh-Hans/docs/user-documentation/developers/client-side-mcp-server",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/developer-platform/dust-api-documentation/openapi-and-postman",
-      "destination": "/zh-cn/docs/developer-platform/counso-api-documentation/openapi-and-postman",
+      "destination": "/zh-Hans/docs/developer-platform/counso-api-documentation/openapi-and-postman",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/developer-platform/dust-api-documentation/openapi.json",
-      "destination": "/zh-cn/docs/developer-platform/counso-api-documentation/openapi.json",
+      "destination": "/zh-Hans/docs/developer-platform/counso-api-documentation/openapi.json",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/developer-platform/dust-api-documentation/swagger.json",
-      "destination": "/zh-cn/docs/developer-platform/counso-api-documentation/swagger.json",
+      "destination": "/zh-Hans/docs/developer-platform/counso-api-documentation/swagger.json",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/developer-platform/dust-cli/dust-cli",
-      "destination": "/zh-cn/docs/developer-platform/counso-cli/counso-cli",
+      "destination": "/zh-Hans/docs/developer-platform/counso-cli/counso-cli",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/agents/dust-support",
-      "destination": "/zh-cn/docs/user-documentation/agents/counso-support",
+      "destination": "/zh-Hans/docs/user-documentation/agents/counso-support",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-join",
-      "destination": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-reply",
-      "destination": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows",
-      "destination": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-teams",
-      "destination": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-teams",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-teams",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/agents/integrations/dust-in-zendesk",
-      "destination": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-zendesk",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-zendesk",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/agents/integrations/dust-mcp-server",
-      "destination": "/zh-cn/docs/user-documentation/agents/integrations/counso-mcp-server",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/counso-mcp-server",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/admin-guide-set-up-your-dust-workspace",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/build-your-builder-community",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/designing-use-cases",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/educate-activate",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/launch-strategy",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/measure-expand",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/team-onboarding-material",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/dust-rollout-guide/welcome-to-dust",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/how-does-dust-handle-user-data",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-dust",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-dust",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-dust",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-dust",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-dust",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-dust-agents-in-different-languages",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/does-the-dust-agent-give-accurate-and-safe-responses",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-dust-conversation-api",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-counso-conversation-api",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-counso-conversation-api",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-dust-remember-and-incorporate-my-feedback-in-the-future",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-dust-down",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-dust-slow-or-my-agent-taking-too-long-to-respond",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond",
       "permanent": true
     },
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/intro-to-dust",
-      "destination": "/zh-cn/docs/user-documentation/getting-started/intro-to-counso",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/intro-to-counso",
       "permanent": true
     },
     {
       "source": "/zh-cn/reference",
-      "destination": "/zh-cn/docs/developer-platform/overview/developer-platform",
+      "destination": "/zh-Hans/docs/developer-platform/overview/developer-platform",
       "permanent": true
     },
     {
       "source": "/zh-cn/reference/",
-      "destination": "/zh-cn/docs/developer-platform/overview/developer-platform",
+      "destination": "/zh-Hans/docs/developer-platform/overview/developer-platform",
       "permanent": true
     },
     {
       "source": "/zh-cn/reference/developer-platform-overview",
-      "destination": "/zh-cn/docs/developer-platform/overview/developer-platform",
+      "destination": "/zh-Hans/docs/developer-platform/overview/developer-platform",
       "permanent": true
     },
     {
       "source": "/zh-cn/reference/post_api-v1-w-wid-vaults-vid-apps-aid-runs",
-      "destination": "/zh-cn/api-reference/apps/create-an-app-run",
+      "destination": "/zh-Hans/api-reference/apps/create-an-app-run",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn",
+      "destination": "/zh-Hans",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/analytics",
+      "destination": "/zh-Hans/analytics",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/agents/archive-agent-configuration",
+      "destination": "/zh-Hans/api-reference/agents/archive-agent-configuration",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/agents/export-agent-configuration-as-yaml",
+      "destination": "/zh-Hans/api-reference/agents/export-agent-configuration-as-yaml",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/agents/get-agent-configuration",
+      "destination": "/zh-Hans/api-reference/agents/get-agent-configuration",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/agents/import-agent-configuration",
+      "destination": "/zh-Hans/api-reference/agents/import-agent-configuration",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/agents/list-agents",
+      "destination": "/zh-Hans/api-reference/agents/list-agents",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/agents/search-agents-by-name",
+      "destination": "/zh-Hans/api-reference/agents/search-agents-by-name",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/agents/update-agent-configuration",
+      "destination": "/zh-Hans/api-reference/agents/update-agent-configuration",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/analytics/export-workspace-analytics",
+      "destination": "/zh-Hans/api-reference/analytics/export-workspace-analytics",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/apps/create-an-app-run",
+      "destination": "/zh-Hans/api-reference/apps/create-an-app-run",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/apps/get-an-app-run",
+      "destination": "/zh-Hans/api-reference/apps/get-an-app-run",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/apps/list-apps",
+      "destination": "/zh-Hans/api-reference/apps/list-apps",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/conversations/answer-a-user-question-in-a-conversation-message",
+      "destination": "/zh-Hans/api-reference/conversations/answer-a-user-question-in-a-conversation-message",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/conversations/cancel-message-generation-in-a-conversation",
+      "destination": "/zh-Hans/api-reference/conversations/cancel-message-generation-in-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/conversations/create-a-content-fragment",
+      "destination": "/zh-Hans/api-reference/conversations/create-a-content-fragment",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/conversations/create-a-file-upload-url",
+      "destination": "/zh-Hans/api-reference/conversations/create-a-file-upload-url",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/conversations/create-a-message",
+      "destination": "/zh-Hans/api-reference/conversations/create-a-message",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/conversations/create-a-new-conversation",
+      "destination": "/zh-Hans/api-reference/conversations/create-a-new-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/conversations/download-a-conversation-scoped-file-by-path",
+      "destination": "/zh-Hans/api-reference/conversations/download-a-conversation-scoped-file-by-path",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/conversations/edit-an-existing-message-in-a-conversation",
+      "destination": "/zh-Hans/api-reference/conversations/edit-an-existing-message-in-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/conversations/get-a-conversation",
+      "destination": "/zh-Hans/api-reference/conversations/get-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/conversations/get-events-for-a-message",
+      "destination": "/zh-Hans/api-reference/conversations/get-events-for-a-message",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/conversations/get-the-events-for-a-conversation",
+      "destination": "/zh-Hans/api-reference/conversations/get-the-events-for-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/conversations/update-a-conversation",
+      "destination": "/zh-Hans/api-reference/conversations/update-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/conversations/validate-an-action-in-a-conversation-message",
+      "destination": "/zh-Hans/api-reference/conversations/validate-an-action-in-a-conversation-message",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/check-the-upsert-queue-status-for-a-data-source",
+      "destination": "/zh-Hans/api-reference/datasources/check-the-upsert-queue-status-for-a-data-source",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/delete-a-document-from-a-data-source",
+      "destination": "/zh-Hans/api-reference/datasources/delete-a-document-from-a-data-source",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/delete-a-row",
+      "destination": "/zh-Hans/api-reference/datasources/delete-a-row",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/delete-a-table",
+      "destination": "/zh-Hans/api-reference/datasources/delete-a-table",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/get-a-row",
+      "destination": "/zh-Hans/api-reference/datasources/get-a-row",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/get-a-table",
+      "destination": "/zh-Hans/api-reference/datasources/get-a-table",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/get-data-sources",
+      "destination": "/zh-Hans/api-reference/datasources/get-data-sources",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/get-documents",
+      "destination": "/zh-Hans/api-reference/datasources/get-documents",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/get-tables",
+      "destination": "/zh-Hans/api-reference/datasources/get-tables",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/list-rows",
+      "destination": "/zh-Hans/api-reference/datasources/list-rows",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/retrieve-a-document-from-a-data-source",
+      "destination": "/zh-Hans/api-reference/datasources/retrieve-a-document-from-a-data-source",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/search-the-data-source",
+      "destination": "/zh-Hans/api-reference/datasources/search-the-data-source",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/update-the-parents-of-a-document",
+      "destination": "/zh-Hans/api-reference/datasources/update-the-parents-of-a-document",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/upsert-a-document-in-a-data-source",
+      "destination": "/zh-Hans/api-reference/datasources/upsert-a-document-in-a-data-source",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/upsert-a-table",
+      "destination": "/zh-Hans/api-reference/datasources/upsert-a-table",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasources/upsert-rows",
+      "destination": "/zh-Hans/api-reference/datasources/upsert-rows",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasourceviews/delete-a-data-source-view",
+      "destination": "/zh-Hans/api-reference/datasourceviews/delete-a-data-source-view",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasourceviews/get-a-data-source-view",
+      "destination": "/zh-Hans/api-reference/datasourceviews/get-a-data-source-view",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasourceviews/list-data-source-views",
+      "destination": "/zh-Hans/api-reference/datasourceviews/list-data-source-views",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasourceviews/search-the-data-source-view",
+      "destination": "/zh-Hans/api-reference/datasourceviews/search-the-data-source-view",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/datasourceviews/update-a-data-source-view",
+      "destination": "/zh-Hans/api-reference/datasourceviews/update-a-data-source-view",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/feedbacks/delete-feedback-for-a-specific-message",
+      "destination": "/zh-Hans/api-reference/feedbacks/delete-feedback-for-a-specific-message",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/feedbacks/get-feedbacks-for-a-conversation",
+      "destination": "/zh-Hans/api-reference/feedbacks/get-feedbacks-for-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation",
+      "destination": "/zh-Hans/api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/mcp/deregister-a-client-side-mcp-server",
+      "destination": "/zh-Hans/api-reference/mcp/deregister-a-client-side-mcp-server",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/mcp/register-a-client-side-mcp-server",
+      "destination": "/zh-Hans/api-reference/mcp/register-a-client-side-mcp-server",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace",
+      "destination": "/zh-Hans/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/mcp/submit-mcp-tool-execution-results",
+      "destination": "/zh-Hans/api-reference/mcp/submit-mcp-tool-execution-results",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server",
+      "destination": "/zh-Hans/api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/mentions/get-mention-suggestions",
+      "destination": "/zh-Hans/api-reference/mentions/get-mention-suggestions",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/mentions/get-mention-suggestions-for-a-conversation",
+      "destination": "/zh-Hans/api-reference/mentions/get-mention-suggestions-for-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/mentions/parse-mentions-in-markdown-text",
+      "destination": "/zh-Hans/api-reference/mentions/parse-mentions-in-markdown-text",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-agents/create-an-agent-configuration",
+      "destination": "/zh-Hans/api-reference/private-agents/create-an-agent-configuration",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-agents/list-agent-configurations",
+      "destination": "/zh-Hans/api-reference/private-agents/list-agent-configurations",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-analytics/list-consumption-analytics-facets",
+      "destination": "/zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-analytics/list-consumption-analytics-facets-1",
+      "destination": "/zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets-1",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-analytics/list-consumption-analytics-facets-2",
+      "destination": "/zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets-2",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-assistant/resolve-a-conversation-go-template-draft",
+      "destination": "/zh-Hans/api-reference/private-assistant/resolve-a-conversation-go-template-draft",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-authentication/exchange-code-or-refresh-token",
+      "destination": "/zh-Hans/api-reference/private-authentication/exchange-code-or-refresh-token",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-authentication/initiate-workos-login",
+      "destination": "/zh-Hans/api-reference/private-authentication/initiate-workos-login",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-authentication/revoke-a-session",
+      "destination": "/zh-Hans/api-reference/private-authentication/revoke-a-session",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/add-a-participant-to-a-conversation",
+      "destination": "/zh-Hans/api-reference/private-conversations/add-a-participant-to-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/cancel-a-wake-up",
+      "destination": "/zh-Hans/api-reference/private-conversations/cancel-a-wake-up",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/cancel-message-generation",
+      "destination": "/zh-Hans/api-reference/private-conversations/cancel-message-generation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/compact-a-conversation",
+      "destination": "/zh-Hans/api-reference/private-conversations/compact-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/create-a-content-fragment",
+      "destination": "/zh-Hans/api-reference/private-conversations/create-a-content-fragment",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/create-a-conversation",
+      "destination": "/zh-Hans/api-reference/private-conversations/create-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/delete-or-leave-a-conversation",
+      "destination": "/zh-Hans/api-reference/private-conversations/delete-or-leave-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/get-a-conversation",
+      "destination": "/zh-Hans/api-reference/private-conversations/get-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/get-a-conversation-credit-attribution",
+      "destination": "/zh-Hans/api-reference/private-conversations/get-a-conversation-credit-attribution",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/get-conversation-feedbacks",
+      "destination": "/zh-Hans/api-reference/private-conversations/get-conversation-feedbacks",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/get-conversation-participants",
+      "destination": "/zh-Hans/api-reference/private-conversations/get-conversation-participants",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/list-conversations",
+      "destination": "/zh-Hans/api-reference/private-conversations/list-conversations",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/list-selectable-spaces",
+      "destination": "/zh-Hans/api-reference/private-conversations/list-selectable-spaces",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/list-wake-ups-for-a-conversation",
+      "destination": "/zh-Hans/api-reference/private-conversations/list-wake-ups-for-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/select-spaces-for-a-conversation",
+      "destination": "/zh-Hans/api-reference/private-conversations/select-spaces-for-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-conversations/update-a-conversation",
+      "destination": "/zh-Hans/api-reference/private-conversations/update-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-events/stream-conversation-events",
+      "destination": "/zh-Hans/api-reference/private-events/stream-conversation-events",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-events/stream-message-events",
+      "destination": "/zh-Hans/api-reference/private-events/stream-message-events",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-events/stream-sandbox-function-invocation-events",
+      "destination": "/zh-Hans/api-reference/private-events/stream-sandbox-function-invocation-events",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-extension/get-extension-configuration",
+      "destination": "/zh-Hans/api-reference/private-extension/get-extension-configuration",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-files/create-a-file-upload",
+      "destination": "/zh-Hans/api-reference/private-files/create-a-file-upload",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-files/delete-a-file",
+      "destination": "/zh-Hans/api-reference/private-files/delete-a-file",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-files/get-or-download-a-file",
+      "destination": "/zh-Hans/api-reference/private-files/get-or-download-a-file",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-files/upload-file-content",
+      "destination": "/zh-Hans/api-reference/private-files/upload-file-content",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-mentions/get-mention-suggestions",
+      "destination": "/zh-Hans/api-reference/private-mentions/get-mention-suggestions",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-messages/delete-a-message",
+      "destination": "/zh-Hans/api-reference/private-messages/delete-a-message",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-messages/delete-message-feedback",
+      "destination": "/zh-Hans/api-reference/private-messages/delete-message-feedback",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-messages/edit-a-message",
+      "destination": "/zh-Hans/api-reference/private-messages/edit-a-message",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-messages/get-a-message",
+      "destination": "/zh-Hans/api-reference/private-messages/get-a-message",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-messages/get-a-single-action",
+      "destination": "/zh-Hans/api-reference/private-messages/get-a-single-action",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-messages/get-an-agent-message-credit-attribution",
+      "destination": "/zh-Hans/api-reference/private-messages/get-an-agent-message-credit-attribution",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-messages/list-messages-in-a-conversation",
+      "destination": "/zh-Hans/api-reference/private-messages/list-messages-in-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-messages/post-a-message-to-a-conversation",
+      "destination": "/zh-Hans/api-reference/private-messages/post-a-message-to-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-messages/retry-an-agent-message",
+      "destination": "/zh-Hans/api-reference/private-messages/retry-an-agent-message",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-messages/submit-message-feedback",
+      "destination": "/zh-Hans/api-reference/private-messages/submit-message-feedback",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-spaces/create-a-data-source-view",
+      "destination": "/zh-Hans/api-reference/private-spaces/create-a-data-source-view",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-spaces/create-a-space",
+      "destination": "/zh-Hans/api-reference/private-spaces/create-a-space",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-spaces/delete-a-data-source-view",
+      "destination": "/zh-Hans/api-reference/private-spaces/delete-a-data-source-view",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-spaces/delete-a-space",
+      "destination": "/zh-Hans/api-reference/private-spaces/delete-a-space",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-spaces/get-a-data-source-view",
+      "destination": "/zh-Hans/api-reference/private-spaces/get-a-data-source-view",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-spaces/get-a-space",
+      "destination": "/zh-Hans/api-reference/private-spaces/get-a-space",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-spaces/get-project-notification-preference",
+      "destination": "/zh-Hans/api-reference/private-spaces/get-project-notification-preference",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-spaces/list-data-source-views",
+      "destination": "/zh-Hans/api-reference/private-spaces/list-data-source-views",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-spaces/list-spaces",
+      "destination": "/zh-Hans/api-reference/private-spaces/list-spaces",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-spaces/set-project-notification-preference",
+      "destination": "/zh-Hans/api-reference/private-spaces/set-project-notification-preference",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-spaces/update-a-data-source-view",
+      "destination": "/zh-Hans/api-reference/private-spaces/update-a-data-source-view",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-spaces/update-a-space",
+      "destination": "/zh-Hans/api-reference/private-spaces/update-a-space",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-user/get-current-user",
+      "destination": "/zh-Hans/api-reference/private-user/get-current-user",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-user/update-current-user",
+      "destination": "/zh-Hans/api-reference/private-user/update-current-user",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/private-workspace/get-workspace-feature-flags",
+      "destination": "/zh-Hans/api-reference/private-workspace/get-workspace-feature-flags",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/search/search-for-nodes-in-the-workspace",
+      "destination": "/zh-Hans/api-reference/search/search-for-nodes-in-the-workspace",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/search/search-for-nodes-in-the-workspace-streaming",
+      "destination": "/zh-Hans/api-reference/search/search-for-nodes-in-the-workspace-streaming",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/search/upload-a-tool-file",
+      "destination": "/zh-Hans/api-reference/search/upload-a-tool-file",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/skills/archive-a-skill",
+      "destination": "/zh-Hans/api-reference/skills/archive-a-skill",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/skills/import-skills-from-uploaded-files",
+      "destination": "/zh-Hans/api-reference/skills/import-skills-from-uploaded-files",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/skills/list-skills",
+      "destination": "/zh-Hans/api-reference/skills/list-skills",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/spaces/list-available-spaces",
+      "destination": "/zh-Hans/api-reference/spaces/list-available-spaces",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/tools/list-available-mcp-server-views",
+      "destination": "/zh-Hans/api-reference/tools/list-available-mcp-server-views",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/triggers/get-a-trigger",
+      "destination": "/zh-Hans/api-reference/triggers/get-a-trigger",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/triggers/list-triggers",
+      "destination": "/zh-Hans/api-reference/triggers/list-triggers",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/api-reference/triggers/receive-external-webhook-to-trigger-flows",
+      "destination": "/zh-Hans/api-reference/triggers/receive-external-webhook-to-trigger-flows",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/core-concepts/chunks-and-documents",
+      "destination": "/zh-Hans/docs/developer-platform/core-concepts/chunks-and-documents",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/core-concepts/datasources",
+      "destination": "/zh-Hans/docs/developer-platform/core-concepts/datasources",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/core-concepts/rate-limits",
+      "destination": "/zh-Hans/docs/developer-platform/core-concepts/rate-limits",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/counso-api-documentation/openapi-and-postman",
+      "destination": "/zh-Hans/docs/developer-platform/counso-api-documentation/openapi-and-postman",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/counso-api-documentation/openapi.json",
+      "destination": "/zh-Hans/docs/developer-platform/counso-api-documentation/openapi.json",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/counso-api-documentation/postman.collection.json",
+      "destination": "/zh-Hans/docs/developer-platform/counso-api-documentation/postman.collection.json",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/counso-api-documentation/postman.environment.json",
+      "destination": "/zh-Hans/docs/developer-platform/counso-api-documentation/postman.environment.json",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/counso-api-documentation/swagger.json",
+      "destination": "/zh-Hans/docs/developer-platform/counso-api-documentation/swagger.json",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/counso-cli/counso-cli",
+      "destination": "/zh-Hans/docs/developer-platform/counso-cli/counso-cli",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/overview/developer-platform",
+      "destination": "/zh-Hans/docs/developer-platform/overview/developer-platform",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/developer-platform/overview/javascript-sdk",
+      "destination": "/zh-Hans/docs/developer-platform/overview/javascript-sdk",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/admin-governance/access-controls-and-permissions",
+      "destination": "/zh-Hans/docs/user-documentation/admins/admin-governance/access-controls-and-permissions",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/admin-governance/single-sign-on-sso/saml-sso",
+      "destination": "/zh-Hans/docs/user-documentation/admins/admin-governance/single-sign-on-sso/saml-sso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/admin-governance/single-sign-on-sso/single-sign-on-sso",
+      "destination": "/zh-Hans/docs/user-documentation/admins/admin-governance/single-sign-on-sso/single-sign-on-sso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/admin-governance/users-and-groups-provisioning",
+      "destination": "/zh-Hans/docs/user-documentation/admins/admin-governance/users-and-groups-provisioning",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions",
+      "destination": "/zh-Hans/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting",
+      "destination": "/zh-Hans/docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting",
+      "destination": "/zh-Hans/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/agents-management",
+      "destination": "/zh-Hans/docs/user-documentation/admins/agents-management",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/audit-logs/audit-logs",
+      "destination": "/zh-Hans/docs/user-documentation/admins/audit-logs/audit-logs",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/audit-logs/audit-logs-events-reference",
+      "destination": "/zh-Hans/docs/user-documentation/admins/audit-logs/audit-logs-events-reference",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/billing/subscriptions-and-payments",
+      "destination": "/zh-Hans/docs/user-documentation/admins/billing/subscriptions-and-payments",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/connections-management",
+      "destination": "/zh-Hans/docs/user-documentation/admins/connections-management",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/connections-management/bigquery",
+      "destination": "/zh-Hans/docs/user-documentation/admins/connections-management/bigquery",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/connections-management/confluence",
+      "destination": "/zh-Hans/docs/user-documentation/admins/connections-management/confluence",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/connections-management/github",
+      "destination": "/zh-Hans/docs/user-documentation/admins/connections-management/github",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/connections-management/gong",
+      "destination": "/zh-Hans/docs/user-documentation/admins/connections-management/gong",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/connections-management/google-drive",
+      "destination": "/zh-Hans/docs/user-documentation/admins/connections-management/google-drive",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/connections-management/intercom",
+      "destination": "/zh-Hans/docs/user-documentation/admins/connections-management/intercom",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/connections-management/microsoft",
+      "destination": "/zh-Hans/docs/user-documentation/admins/connections-management/microsoft",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/connections-management/notion",
+      "destination": "/zh-Hans/docs/user-documentation/admins/connections-management/notion",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/connections-management/slack",
+      "destination": "/zh-Hans/docs/user-documentation/admins/connections-management/slack",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/connections-management/snowflake",
+      "destination": "/zh-Hans/docs/user-documentation/admins/connections-management/snowflake",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/connections-management/zendesk",
+      "destination": "/zh-Hans/docs/user-documentation/admins/connections-management/zendesk",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/quickstart",
+      "destination": "/zh-Hans/docs/user-documentation/admins/quickstart",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/spaces-management",
+      "destination": "/zh-Hans/docs/user-documentation/admins/spaces-management",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/tools-management/adding-an-mcp-server",
+      "destination": "/zh-Hans/docs/user-documentation/admins/tools-management/adding-an-mcp-server",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/tools-management/computer-admin-setup",
+      "destination": "/zh-Hans/docs/user-documentation/admins/tools-management/computer-admin-setup",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/tools-management/managing-microsoft-tools",
+      "destination": "/zh-Hans/docs/user-documentation/admins/tools-management/managing-microsoft-tools",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/tools-management/personal-vs-shared-credentials",
+      "destination": "/zh-Hans/docs/user-documentation/admins/tools-management/personal-vs-shared-credentials",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/tools-management/salesforce/salesforce",
+      "destination": "/zh-Hans/docs/user-documentation/admins/tools-management/salesforce/salesforce",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/tools-management/salesforce/salesforce-notes-on-api-limit-and-permissions",
+      "destination": "/zh-Hans/docs/user-documentation/admins/tools-management/salesforce/salesforce-notes-on-api-limit-and-permissions",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/usage-seats-and-credits/credit-management",
+      "destination": "/zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/credit-management",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/usage-seats-and-credits/credits",
+      "destination": "/zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/credits",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers",
+      "destination": "/zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/usage-seats-and-credits/optimize-credit-consumption",
+      "destination": "/zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/optimize-credit-consumption",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/usage-seats-and-credits/seat-management",
+      "destination": "/zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/seat-management",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/admins/usage-seats-and-credits/train-team-credit-optimization",
+      "destination": "/zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/train-team-credit-optimization",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/agent-builder-sidekick",
+      "destination": "/zh-Hans/docs/user-documentation/agents/agent-builder-sidekick",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/branch-a-conversation",
+      "destination": "/zh-Hans/docs/user-documentation/agents/branch-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/context-compaction",
+      "destination": "/zh-Hans/docs/user-documentation/agents/context-compaction",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/counso-support",
+      "destination": "/zh-Hans/docs/user-documentation/agents/counso-support",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/create-your-first-agent",
+      "destination": "/zh-Hans/docs/user-documentation/agents/create-your-first-agent",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/deep-dive-agent",
+      "destination": "/zh-Hans/docs/user-documentation/agents/deep-dive-agent",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/discover-knowledge",
+      "destination": "/zh-Hans/docs/user-documentation/agents/discover-knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/discover-skills",
+      "destination": "/zh-Hans/docs/user-documentation/agents/discover-skills",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/discover-tools",
+      "destination": "/zh-Hans/docs/user-documentation/agents/discover-tools",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/frames/white-labeled-frames",
+      "destination": "/zh-Hans/docs/user-documentation/agents/frames/white-labeled-frames",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/go-deep",
+      "destination": "/zh-Hans/docs/user-documentation/agents/go-deep",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/browser-extension",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/browser-extension",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-teams",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-teams",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-zendesk",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-zendesk",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/counso-mcp-server",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/counso-mcp-server",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/google-sheets-add-on",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/google-sheets-add-on",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/make-com",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/make-com",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/meeting-transcripts",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/meeting-transcripts",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/n8n",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/n8n",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/power-automate",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/power-automate",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/raycast-extension",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/raycast-extension",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/integrations/zapier",
+      "destination": "/zh-Hans/docs/user-documentation/agents/integrations/zapier",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/knowledge",
+      "destination": "/zh-Hans/docs/user-documentation/agents/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/knowledge/extract-data",
+      "destination": "/zh-Hans/docs/user-documentation/agents/knowledge/extract-data",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/knowledge/include-data",
+      "destination": "/zh-Hans/docs/user-documentation/agents/knowledge/include-data",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/knowledge/search-data-sources",
+      "destination": "/zh-Hans/docs/user-documentation/agents/knowledge/search-data-sources",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/knowledge/table-queries",
+      "destination": "/zh-Hans/docs/user-documentation/agents/knowledge/table-queries",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/llm-best-practices/choosing-the-right-ai-model",
+      "destination": "/zh-Hans/docs/user-documentation/agents/llm-best-practices/choosing-the-right-ai-model",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/llm-best-practices/how-to-write-effective-instructions",
+      "destination": "/zh-Hans/docs/user-documentation/agents/llm-best-practices/how-to-write-effective-instructions",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-llm-limitations",
+      "destination": "/zh-Hans/docs/user-documentation/agents/llm-best-practices/understanding-llm-limitations",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-llms-context-windows",
+      "destination": "/zh-Hans/docs/user-documentation/agents/llm-best-practices/understanding-llms-context-windows",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-rag",
+      "destination": "/zh-Hans/docs/user-documentation/agents/llm-best-practices/understanding-rag",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/model-selection",
+      "destination": "/zh-Hans/docs/user-documentation/agents/model-selection",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/self-improving-skills",
+      "destination": "/zh-Hans/docs/user-documentation/agents/self-improving-skills",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/skill-availability",
+      "destination": "/zh-Hans/docs/user-documentation/agents/skill-availability",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/skills/skill-examples",
+      "destination": "/zh-Hans/docs/user-documentation/agents/skills/skill-examples",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/skills/skills-overview",
+      "destination": "/zh-Hans/docs/user-documentation/agents/skills/skills-overview",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/steering-conversations",
+      "destination": "/zh-Hans/docs/user-documentation/agents/steering-conversations",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/structured-output-format",
+      "destination": "/zh-Hans/docs/user-documentation/agents/structured-output-format",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/templates",
+      "destination": "/zh-Hans/docs/user-documentation/agents/templates",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/agent-memory",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/agent-memory",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/airtable",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/airtable",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/asana",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/asana",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/ashby",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/ashby",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/attio",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/attio",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/canva",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/canva",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/computer",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/computer",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/confluence",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/confluence",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/databricks",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/databricks",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/fathom",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/fathom",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/file-generation",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/file-generation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/freshservice",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/freshservice",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/front",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/front",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/github",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/github",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/gmail",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/gmail",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/gong",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/gong",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/google-calendar",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/google-calendar",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/google-drive",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/google-drive",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/google-sheets-deprecated",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/google-sheets-deprecated",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/hubspot",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/hubspot",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/image-generation",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/image-generation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/jira",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/jira",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/jit-tools",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/jit-tools",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/microsoft-excel",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/microsoft-excel",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/microsoft-outlook",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/microsoft-outlook",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/microsoft-sharepoint-and-onedrive",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/microsoft-sharepoint-and-onedrive",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/microsoft-teams",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/microsoft-teams",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/miro",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/miro",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/monday-com",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/monday-com",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/netsuite",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/netsuite",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/notion",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/notion",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/power-bi",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/power-bi",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/productboard",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/productboard",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/run-agent",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/run-agent",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/salesloft",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/salesloft",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/semrush",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/semrush",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/slab",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/slab",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/slack-tools",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/slack-tools",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/snowflake",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/snowflake",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/statuspage",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/statuspage",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/ukg-ready",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/ukg-ready",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/val-town",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/val-town",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/vanta",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/vanta",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/voice-and-sound-generation",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/voice-and-sound-generation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/wake-ups",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/wake-ups",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/web-search-and-browse",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/web-search-and-browse",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/zendesk",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/zendesk",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/triggers/credits-usage",
+      "destination": "/zh-Hans/docs/user-documentation/agents/triggers/credits-usage",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/triggers/schedules",
+      "destination": "/zh-Hans/docs/user-documentation/agents/triggers/schedules",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload",
+      "destination": "/zh-Hans/docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/triggers/webhooks/rate-limiting",
+      "destination": "/zh-Hans/docs/user-documentation/agents/triggers/webhooks/rate-limiting",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/troubleshooting-your-agent",
+      "destination": "/zh-Hans/docs/user-documentation/agents/troubleshooting-your-agent",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/data-sources/connections",
+      "destination": "/zh-Hans/docs/user-documentation/data-sources/connections",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/data-sources/conversation-files/conversation-files",
+      "destination": "/zh-Hans/docs/user-documentation/data-sources/conversation-files/conversation-files",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/data-sources/conversation-files/read-images",
+      "destination": "/zh-Hans/docs/user-documentation/data-sources/conversation-files/read-images",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-dropbox-files",
+      "destination": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-dropbox-files",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-front-conversations",
+      "destination": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-front-conversations",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-guru-cards",
+      "destination": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-guru-cards",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-hubspot-data",
+      "destination": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-hubspot-data",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-jira-issues",
+      "destination": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-jira-issues",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-linear-issues",
+      "destination": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-linear-issues",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-salesforce-data",
+      "destination": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-salesforce-data",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/data-sources/custom-connections/zapier-automatically-add-datasource",
+      "destination": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/zapier-automatically-add-datasource",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/data-sources/folders",
+      "destination": "/zh-Hans/docs/user-documentation/data-sources/folders",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/data-sources/overview",
+      "destination": "/zh-Hans/docs/user-documentation/data-sources/overview",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/data-sources/websites",
+      "destination": "/zh-Hans/docs/user-documentation/data-sources/websites",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/developers/client-side-mcp-server",
+      "destination": "/zh-Hans/docs/user-documentation/developers/client-side-mcp-server",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/file-size-limits",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/file-size-limits",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-agents-create-a-new-file-or-document-directly-into-notion-google-drive-or-other-connected-platforms",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/can-agents-create-a-new-file-or-document-directly-into-notion-google-drive-or-other-connected-platforms",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-delete-or-rename-a-conversation",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/can-i-delete-or-rename-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-share-a-conversation",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/can-i-share-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/do-the-agents-have-access-to-the-internet",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/do-the-agents-have-access-to-the-internet",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/how-can-i-find-the-id-of-an-agent",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/how-can-i-find-the-id-of-an-agent",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/how-do-i-edit-a-custom-agent",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/how-do-i-edit-a-custom-agent",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/i-dont-know-how-to-start-creating-an-agent-what-should-i-do",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/i-dont-know-how-to-start-creating-an-agent-what-should-i-do",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-counso-conversation-api",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-counso-conversation-api",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/what-data-do-the-agents-have-access-to",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/what-data-do-the-agents-have-access-to",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/what-settings-model-should-i-use",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/what-settings-model-should-i-use",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-doesnt-the-agent-remember-what-i-said-earlier-in-a-conversation",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-doesnt-the-agent-remember-what-i-said-earlier-in-a-conversation",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-isnt-my-recently-updated-document-showing-in-agent-responses",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-isnt-my-recently-updated-document-showing-in-agent-responses",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/intro-to-counso",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/intro-to-counso",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/collaboration",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/collaboration",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/customer-support",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/customer-support",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/data-analytics",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/data-analytics",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/engineering",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/engineering",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/knowledge",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/marketing",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/marketing",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/product-and-design",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/product-and-design",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/recruiting-and-people",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/recruiting-and-people",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/sales",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/sales",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/admin-controls",
+      "destination": "/zh-Hans/docs/user-documentation/pods/admin-controls",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/agent-tools",
+      "destination": "/zh-Hans/docs/user-documentation/pods/agent-tools",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/conversations",
+      "destination": "/zh-Hans/docs/user-documentation/pods/conversations",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/examples/competitive-intelligence",
+      "destination": "/zh-Hans/docs/user-documentation/pods/examples/competitive-intelligence",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/examples/content-and-editorial-production",
+      "destination": "/zh-Hans/docs/user-documentation/pods/examples/content-and-editorial-production",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/examples/initiative-and-project-management",
+      "destination": "/zh-Hans/docs/user-documentation/pods/examples/initiative-and-project-management",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/examples/one-pod-per-customer",
+      "destination": "/zh-Hans/docs/user-documentation/pods/examples/one-pod-per-customer",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/examples/personal-second-brain",
+      "destination": "/zh-Hans/docs/user-documentation/pods/examples/personal-second-brain",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/examples/shared-asset-library",
+      "destination": "/zh-Hans/docs/user-documentation/pods/examples/shared-asset-library",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/examples/ticket-handling-and-support-knowledge",
+      "destination": "/zh-Hans/docs/user-documentation/pods/examples/ticket-handling-and-support-knowledge",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/files",
+      "destination": "/zh-Hans/docs/user-documentation/pods/files",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/frames",
+      "destination": "/zh-Hans/docs/user-documentation/pods/frames",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/members-and-roles",
+      "destination": "/zh-Hans/docs/user-documentation/pods/members-and-roles",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/overview",
+      "destination": "/zh-Hans/docs/user-documentation/pods/overview",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/pods/tasks",
+      "destination": "/zh-Hans/docs/user-documentation/pods/tasks",
       "permanent": true
     }
   ]

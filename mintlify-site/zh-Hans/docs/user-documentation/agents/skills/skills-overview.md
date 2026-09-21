@@ -1,0 +1,44 @@
+---
+title: "Skills（技能）"
+---
+Skill 是可复用的指令、知识引用和能力组合，适用于经常重复的一类工作。若多个智能体需要遵循同一流程，或主指令已经太长，可以把流程整理成 Skill。工作区成员可以使用已提供的 Skill；创建和编辑需要相应的 Builder 或管理员权限。
+
+## Skill 包含什么
+
+创建 Skill 时，填写**名称和说明**，说明智能体**何时应该使用它**，并写明需要遵循的**指导内容**。指导可以包含操作流程、公司约定，以及应使用哪些能力。内置 Skill 可能用于发现文档、查找工具、深入研究或创建 MiniApp；自定义 Skill 则可以整理团队自己的流程。可参考[Skill 示例](/zh-Hans/docs/user-documentation/agents/skills/skill-examples)。
+
+## 在指令中加入工具或其他 Skill
+
+在指令编辑器中输入 **/**，搜索 Tool 或 Skill 并插入到光标位置；也可以点击 **Add capabilities（添加能力）** 打开同一个选择器。插入项会显示为一个标签，指令下方的只读区域会列出所引用的能力。
+
+Skill 可以引用更小的 Skill，让较大的工作流程保持模块化。要在父 Skill 中清楚说明智能体何时使用每个子 Skill。运行时，被引用的 Skill 会作为可用能力提供给智能体；智能体根据任务和你写的指引决定是否启用。
+
+## 附加 Knowledge
+
+如需为 Skill 提供参考资料，在指导内容编辑器中输入 **/** 或点击 **Attach knowledge（附加知识）**。可以按标题搜索，也可以粘贴受支持的内容链接。附加后，使用该 Skill 的智能体可以搜索或浏览这些资料，但仍受来源本身的访问规则约束。
+
+## 定制共享 Skill
+
+可以基于已有的全局 Skill 创建组织专用版本，而不改动原版。在 **Manage Skills（管理 Skills）** 中，打开该 Skill 的 **...** 菜单并选择 **Customize skill（定制 Skill）**。在新建的 Skill 中添加自己的指令、Knowledge 或能力。详情会显示它基于哪个全局 Skill 创建；后续修改不会影响原版。打开 Skill 页面后可使用 **Copy link（复制链接）** 分享该 Skill。
+
+## 将 Skill 添加到智能体
+
+在 Agent Builder 中选择智能体要使用的 Skill。智能体会结合任务和指令判断是否启用，因此应说明适用场景。添加 Skill 不会绕过智能体对其底层工具或知识来源的访问权限。
+
+## Space 访问范围和编辑者
+
+如果 Skill 依赖特定 Space 中的资料，只有能够访问所有必需 Space 的智能体才能使用它。这样 Skill 的数据依赖就会与智能体的访问范围保持一致。Skill 所需的 Space 发生变化时，也要检查使用它的智能体。
+
+通过 **Editors（编辑者）** 指定谁可以修改 Skill 的指令、能力和设置。工作区管理员可以用只读模式打开任意 Skill；若需要编辑，可在适用时选择 **Become an editor（成为编辑者）**。
+
+## 查看修改历史和使用情况
+
+Skill 会保留版本历史。在 Skill Builder 的 Guidelines 区域打开 **history（历史记录）**，可查看过去版本、日期、作者，以及选定版本的修改内容。共享流程发生变化时，可以借此回顾调整过程。
+
+如果工作区提供 Skill 使用记录，也可以查看该记录，了解 Skill 的使用情况，并据此判断是否需要改进指引或停止使用。
+
+## 开始使用
+
+先选一项重复发生的流程，写明适用条件和智能体应遵循的步骤。只附加完成这些步骤所需的知识和能力。将 Skill 加到智能体后，用一个有代表性的任务试用、检查结果，再统一调整 Skill，让所有关联智能体都能使用更新后的版本。
+
+访问与发现方式见[Skill 可用性](/zh-Hans/docs/user-documentation/agents/skill-availability)和[发现 Skills](/zh-Hans/docs/user-documentation/agents/discover-skills)。

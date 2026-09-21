@@ -9,7 +9,7 @@
   "publication": {
     "default_language": "en",
     "english_route_prefix": "",
-    "chinese_route_prefix": "/zh-cn",
+    "chinese_route_prefix": "/zh-Hans",
     "api": "included",
     "route_policy": "counso-brand-slugs-with-legacy-redirects"
   },
@@ -52,7 +52,7 @@
         "zh-cn": {
           "title": "Counso 简介",
           "file": "zh-cn/docs/user-documentation/getting-started/intro-to-counso.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/intro-to-counso",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/intro-to-counso",
           "sha256": "4d7dadf7ef99bcd756387fff0f681f8ea9ffc155228e7198b7791e0c9e33a470"
         }
       },
@@ -77,7 +77,7 @@
         "zh-cn": {
           "title": "Counso 团队落地指南",
           "file": "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/index.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide",
           "sha256": "924bf5965d3e2a81c951f039af4400076ae0e1bd31aeca67bb36e9f869414f40"
         }
       },
@@ -102,7 +102,7 @@
         "zh-cn": {
           "title": "欢迎使用 Counso",
           "file": "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso",
           "sha256": "e8f5d35d47258b9a8e412d52f2247ad797fa0f057a009a33560af2b8f075bdc6"
         }
       },
@@ -127,7 +127,7 @@
         "zh-cn": {
           "title": "制定团队试用计划",
           "file": "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy",
           "sha256": "ae6f7149e9bca985db1d4db562e2a37f95a1c7851383b80c842b35b298516e16"
         }
       },
@@ -152,7 +152,7 @@
         "zh-cn": {
           "title": "团队入门培训材料",
           "file": "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/team-onboarding-material",
           "sha256": "b2a479f63d3837fea5b85b55bceb365f4433fe9e7d7ee1523f1edc10eef3f6d4"
         }
       },
@@ -177,7 +177,7 @@
         "zh-cn": {
           "title": "支持团队中的智能体创建者",
           "file": "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/build-your-builder-community",
           "sha256": "31a1d7dbc0076e3dae1c72dee5c0700493f7916260ec80cdd11ff30577d700e5"
         }
       },
@@ -202,7 +202,7 @@
         "zh-cn": {
           "title": "设置 Counso 工作区",
           "file": "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/admin-guide-set-up-your-counso-workspace",
           "sha256": "a715261c08310da2487c02475e0be4c34760cbfc6d941f324c38384466d56662"
         }
       },
@@ -227,7 +227,7 @@
         "zh-cn": {
           "title": "设计可落地的使用场景",
           "file": "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases",
           "sha256": "d68d1035b61e9e0137ba1534b1396f4bd21e038294e80b7f537944fdaae90169"
         }
       },
@@ -252,7 +252,7 @@
         "zh-cn": {
           "title": "培训并支持团队",
           "file": "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate",
           "sha256": "a19b5a70dc8863a65e462d0e7b1229076c54671686d8ce025dca18b74f8732ea"
         }
       },
@@ -277,7 +277,7 @@
         "zh-cn": {
           "title": "衡量效果并谨慎扩大",
           "file": "zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand",
           "sha256": "6e02cdfae3b7af0b50e9fb6f4ae59630138c589f4591d5f1c74c332a5d7ee491"
         }
       },
@@ -302,7 +302,7 @@
         "zh-cn": {
           "title": "团队使用场景与指南",
           "file": "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/index.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides",
           "sha256": "963ff5250847b3188d51dfeddc2be41791a352a361de2c8517d16f27e145f965"
         }
       },
@@ -327,7 +327,7 @@
         "zh-cn": {
           "title": "销售场景",
           "file": "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/sales.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/sales",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/sales",
           "sha256": "0ffbd1d300d5996ccd48d55ee12d7f169d578a5ba549a551e2365771c3e4789b"
         }
       },
@@ -352,7 +352,7 @@
         "zh-cn": {
           "title": "客户支持场景",
           "file": "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/customer-support.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/customer-support",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/customer-support",
           "sha256": "bd86827224cbe1b2208544198654cccec6c5331cb058873fdbc102180799553f"
         }
       },
@@ -377,7 +377,7 @@
         "zh-cn": {
           "title": "市场与内容场景",
           "file": "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/marketing.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/marketing",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/marketing",
           "sha256": "674a60bc76596ab474ff4b3711cf56d2b5f1726b4a96392a2f59c94b08ba5bda"
         }
       },
@@ -402,7 +402,7 @@
         "zh-cn": {
           "title": "工程团队场景",
           "file": "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/engineering.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/engineering",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/engineering",
           "sha256": "2e466210ee61e2d9b2075752306359605aefd310cae58b878390ca8f43539733"
         }
       },
@@ -427,7 +427,7 @@
         "zh-cn": {
           "title": "数据分析场景",
           "file": "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/data-analytics.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/data-analytics",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/data-analytics",
           "sha256": "7b60620978cecc99d3b0d5ccc681ad7f59279448a0a9f7a8083bbbcc176d48b7"
         }
       },
@@ -452,7 +452,7 @@
         "zh-cn": {
           "title": "知识检索与信息整理场景",
           "file": "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/knowledge.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/knowledge",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/knowledge",
           "sha256": "2071cbb118174ad0487e74e462f4b9c775da03cc9c54068adef9380f486e91aa"
         }
       },
@@ -477,7 +477,7 @@
         "zh-cn": {
           "title": "招聘与员工支持场景",
           "file": "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/recruiting-and-people.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/recruiting-and-people",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/recruiting-and-people",
           "sha256": "764b3e626951df7ccc92eb8fbd763e44a5370e31aecb541e679c30e2a0260b0e"
         }
       },
@@ -502,7 +502,7 @@
         "zh-cn": {
           "title": "产品与设计场景",
           "file": "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/product-and-design.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/product-and-design",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/product-and-design",
           "sha256": "55209629989689a69d92cfba8d433982700b352cd317d5df561b651cc93331f2"
         }
       },
@@ -527,7 +527,7 @@
         "zh-cn": {
           "title": "在对话中协作",
           "file": "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/collaboration.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/collaboration",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/collaboration",
           "sha256": "4adba71e7229f70a93f289a14dedac4fd7e551876abd06f812f01138b179eb3d"
         }
       },
@@ -552,7 +552,7 @@
         "zh-cn": {
           "title": "常见问题",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/index.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq",
           "sha256": "d2209afc6186ef012069306f48841343dad42142a825469b5e8578628a2af06d"
         }
       },
@@ -577,7 +577,7 @@
         "zh-cn": {
           "title": "Counso 可以连接哪些数据源？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-counso",
           "sha256": "b23ce944e460090a7fab298b5e52942b23820791c83f4420ac427583ff314d3a"
         }
       },
@@ -602,7 +602,7 @@
         "zh-cn": {
           "title": "Counso 提供哪些 AI 模型？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-counso",
           "sha256": "0e061df3c892d97fa3a1aa8ecb46caa95c528c09a5d47d3126b65c5c575193ea"
         }
       },
@@ -627,7 +627,7 @@
         "zh-cn": {
           "title": "Counso 提供哪些工具？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-counso",
           "sha256": "af4c62aa4ad706a3da39ae3d2a5cb64bff8a401e17d6f2b98059bace4380ac71"
         }
       },
@@ -652,7 +652,7 @@
         "zh-cn": {
           "title": "Counso 如何计费？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-counso",
           "sha256": "5412e34eec707e2d965ad9622e07f1da71a7e15a63259a13ace039c3d28224d1"
         }
       },
@@ -677,7 +677,7 @@
         "zh-cn": {
           "title": "Counso 如何处理用户数据？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/general-questions/how-does-counso-handle-user-data",
           "sha256": "cfa45ca72fa3563f607f85a5442442d258d34a807bf17413bcd30723b17be662"
         }
       },
@@ -702,7 +702,7 @@
         "zh-cn": {
           "title": "如何开始创建智能体？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/i-dont-know-how-to-start-creating-an-agent-what-should-i-do.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/i-dont-know-how-to-start-creating-an-agent-what-should-i-do",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/i-dont-know-how-to-start-creating-an-agent-what-should-i-do",
           "sha256": "c91150db9e12538b1b8295e4d04c768026014f789a0aed260bd9394e6b55ece5"
         }
       },
@@ -727,7 +727,7 @@
         "zh-cn": {
           "title": "如何编辑自定义智能体？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/how-do-i-edit-a-custom-agent.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/how-do-i-edit-a-custom-agent",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/how-do-i-edit-a-custom-agent",
           "sha256": "06d2220f332a2c25ea688a569dfb5ca13d1035bcb767a3a7946565228e1e3a9d"
         }
       },
@@ -752,7 +752,7 @@
         "zh-cn": {
           "title": "应如何选择智能体设置和模型？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/what-settings-model-should-i-use.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/what-settings-model-should-i-use",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/what-settings-model-should-i-use",
           "sha256": "757e7b3ca52b1bc4a4890d81a1008a7e003c9224c7662cd3de0c10e5b5c0b155"
         }
       },
@@ -777,7 +777,7 @@
         "zh-cn": {
           "title": "智能体能直接在已连接平台创建文档吗？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-agents-create-a-new-file-or-document-directly-into-notion-google-drive-or-other-connected-platforms.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-agents-create-a-new-file-or-document-directly-into-notion-google-drive-or-other-connected-platforms",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/can-agents-create-a-new-file-or-document-directly-into-notion-google-drive-or-other-connected-platforms",
           "sha256": "69a1780b457a4edb74380f89cf1bd454290b0ee6765447969bd3c7a8821c81db"
         }
       },
@@ -802,7 +802,7 @@
         "zh-cn": {
           "title": "智能体可以访问哪些数据？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/what-data-do-the-agents-have-access-to.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/what-data-do-the-agents-have-access-to",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/what-data-do-the-agents-have-access-to",
           "sha256": "5ab67f30c5066ca6f2dae5f35672b0d981f40a6635bb43fb63aec6b0e413e87f"
         }
       },
@@ -827,7 +827,7 @@
         "zh-cn": {
           "title": "智能体可以访问互联网吗？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/do-the-agents-have-access-to-the-internet.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/do-the-agents-have-access-to-the-internet",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/do-the-agents-have-access-to-the-internet",
           "sha256": "4386c3a1b98f46d5452f673bb95b36d0094522c9b92c1ba3fe836049fa3e1df0"
         }
       },
@@ -852,7 +852,7 @@
         "zh-cn": {
           "title": "智能体的回答准确且安全吗？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/does-the-counso-agent-give-accurate-and-safe-responses",
           "sha256": "c6754bc346991dc1164d50f5ce90c83747d7c9bed31f1b930b7225a75631bbd1"
         }
       },
@@ -877,7 +877,7 @@
         "zh-cn": {
           "title": "Counso 提供 Conversations API 吗？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-counso-conversation-api.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-counso-conversation-api",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-counso-conversation-api",
           "sha256": "acce6e4388048777fe2dc4c730e0088d84ccfef5964814e82ca8c83b99138b57"
         }
       },
@@ -902,7 +902,7 @@
         "zh-cn": {
           "title": "可以分享对话吗？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-share-a-conversation.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-share-a-conversation",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/can-i-share-a-conversation",
           "sha256": "988959bd1d87d7473bcf909ac3bfa72c4b23add5def34b2f771ea82d49e4df14"
         }
       },
@@ -927,7 +927,7 @@
         "zh-cn": {
           "title": "可以删除或重命名对话吗？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-delete-or-rename-a-conversation.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-delete-or-rename-a-conversation",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/can-i-delete-or-rename-a-conversation",
           "sha256": "bbd39877771b0de80c08b17cc2c7858bf8a37fa52c11b40dd11a7600ac01bc7d"
         }
       },
@@ -952,7 +952,7 @@
         "zh-cn": {
           "title": "智能体可以使用不同语言吗？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages",
           "sha256": "22522ba63af9d0a159ff4d4b2c1834116a7fdbf9fa953077d6530a7591b06737"
         }
       },
@@ -977,7 +977,7 @@
         "zh-cn": {
           "title": "如何查找智能体 ID？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/managing-agents/how-can-i-find-the-id-of-an-agent.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/managing-agents/how-can-i-find-the-id-of-an-agent",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/managing-agents/how-can-i-find-the-id-of-an-agent",
           "sha256": "b6538dd8c9f9c0b256f15565a786892c23c08c2f3b37f17d16992c22c94027f7"
         }
       },
@@ -1002,7 +1002,7 @@
         "zh-cn": {
           "title": "为什么 Slack 链接有时没有指向具体消息？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one",
           "sha256": "e46b450c12f4cbfd283d159e38b6d992f1cea3a89c120e0185919237b14df948"
         }
       },
@@ -1027,7 +1027,7 @@
         "zh-cn": {
           "title": "没有收到邀请或无法登录怎么办？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in",
           "sha256": "346c325b0121a22cddfb1541d5262d3f1089ac96748d455c34cc3e2d0e60db50"
         }
       },
@@ -1052,7 +1052,7 @@
         "zh-cn": {
           "title": "表格分析为什么不完整或不准确？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work",
           "sha256": "b012354ac1a70230b7d9e312c7468f4a9ea4d70a58a76a7614e7de54666df0be"
         }
       },
@@ -1077,7 +1077,7 @@
         "zh-cn": {
           "title": "智能体为什么会给出失效链接或没有依据的结论？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on",
           "sha256": "a82361aa2f091bea87d64d6d6dc4f829eac76012a5f4ce5766ea297afe4c87d4"
         }
       },
@@ -1102,7 +1102,7 @@
         "zh-cn": {
           "title": "智能体为什么没记住前面说过的内容？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-doesnt-the-agent-remember-what-i-said-earlier-in-a-conversation.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-doesnt-the-agent-remember-what-i-said-earlier-in-a-conversation",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-doesnt-the-agent-remember-what-i-said-earlier-in-a-conversation",
           "sha256": "e9000ca8e735ecc7cf535e155f2de75d8967dac3acc22d33d45348d1d4c4d504"
         }
       },
@@ -1127,7 +1127,7 @@
         "zh-cn": {
           "title": "更新后的文件为什么没有出现在智能体回答中？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-isnt-my-recently-updated-document-showing-in-agent-responses.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-isnt-my-recently-updated-document-showing-in-agent-responses",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-isnt-my-recently-updated-document-showing-in-agent-responses",
           "sha256": "160fc65d875a39a2fda9e763b3d6f37b22c74d08677f1f0821295a94e14c3b07"
         }
       },
@@ -1152,7 +1152,7 @@
         "zh-cn": {
           "title": "智能体会自动记住并应用我的反馈吗？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-counso-remember-and-incorporate-my-feedback-in-the-future",
           "sha256": "96b9e1b74ad42c408d70e0b1a3d2e76fa9adabfb9c3f9a386b0f85c0cba60cb7"
         }
       },
@@ -1177,7 +1177,7 @@
         "zh-cn": {
           "title": "如何确认 Counso 是否出现服务故障？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-counso-down",
           "sha256": "18409091cbf3f49aa7ff93d8a9e30ea8325e1ca639c4e905e4b0574fe6a9ca41"
         }
       },
@@ -1202,7 +1202,7 @@
         "zh-cn": {
           "title": "智能体为什么响应很慢？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-counso-slow-or-my-agent-taking-too-long-to-respond",
           "sha256": "5bdcac1208b533b1b0dc70ee040ebeae0330a51be946bb8cbdf7a1ee4a8210bd"
         }
       },
@@ -1227,7 +1227,7 @@
         "zh-cn": {
           "title": "文件上传限制",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/file-size-limits.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/file-size-limits",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/file-size-limits",
           "sha256": "7acf6df32b0dc4bba8e647acbb96c6cf52e51c5d152726c4976bcddb0d0d732b"
         }
       },
@@ -1252,7 +1252,7 @@
         "zh-cn": {
           "title": "如何更换登录邮箱？",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso.md",
-          "route": "/zh-cn/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-counso",
           "sha256": "301a4f9053c0eb1eb764fb7acfc5e9f908fecfa9dd70ea174c2ea706a5d22131"
         }
       },
@@ -1277,7 +1277,7 @@
         "zh-cn": {
           "title": "创建第一个智能体",
           "file": "zh-cn/docs/user-documentation/agents/create-your-first-agent.md",
-          "route": "/zh-cn/docs/user-documentation/agents/create-your-first-agent",
+          "route": "/zh-Hans/docs/user-documentation/agents/create-your-first-agent",
           "sha256": "40c8e6885302b6abaa7ad786478c819032f603ed3771a24bb325b7d754e4abcd"
         }
       },
@@ -1302,7 +1302,7 @@
         "zh-cn": {
           "title": "为智能体或对话选择模型",
           "file": "zh-cn/docs/user-documentation/agents/model-selection.md",
-          "route": "/zh-cn/docs/user-documentation/agents/model-selection",
+          "route": "/zh-Hans/docs/user-documentation/agents/model-selection",
           "sha256": "6b8115d4cef717da017c195d21d1152b7b6139848d8b74dc70c86c549ad163ee"
         }
       },
@@ -1327,7 +1327,7 @@
         "zh-cn": {
           "title": "编写有效的智能体指令",
           "file": "zh-cn/docs/user-documentation/agents/llm-best-practices/how-to-write-effective-instructions.md",
-          "route": "/zh-cn/docs/user-documentation/agents/llm-best-practices/how-to-write-effective-instructions",
+          "route": "/zh-Hans/docs/user-documentation/agents/llm-best-practices/how-to-write-effective-instructions",
           "sha256": "64e351d236d0c801753d897c2e35b2e6358056aad9f9be72a0958302c159ed7f"
         }
       },
@@ -1352,7 +1352,7 @@
         "zh-cn": {
           "title": "按任务选择合适的模型",
           "file": "zh-cn/docs/user-documentation/agents/llm-best-practices/choosing-the-right-ai-model.md",
-          "route": "/zh-cn/docs/user-documentation/agents/llm-best-practices/choosing-the-right-ai-model",
+          "route": "/zh-Hans/docs/user-documentation/agents/llm-best-practices/choosing-the-right-ai-model",
           "sha256": "4b12d911738a71f1c79b21b4c1787fcc43e4c95f1a6d5c69ee7a5d7721303551"
         }
       },
@@ -1377,7 +1377,7 @@
         "zh-cn": {
           "title": "了解上下文窗口",
           "file": "zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-llms-context-windows.md",
-          "route": "/zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-llms-context-windows",
+          "route": "/zh-Hans/docs/user-documentation/agents/llm-best-practices/understanding-llms-context-windows",
           "sha256": "694f0b103afc650530a5252ed42f553c3b91525cbb1254ae0a3ab30cdee1e02e"
         }
       },
@@ -1402,7 +1402,7 @@
         "zh-cn": {
           "title": "为什么语言模型可能算不准或读错结构化数据",
           "file": "zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-llm-limitations.md",
-          "route": "/zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-llm-limitations",
+          "route": "/zh-Hans/docs/user-documentation/agents/llm-best-practices/understanding-llm-limitations",
           "sha256": "9e87596c77fb6410b4933ff27f2852cfc70e2db390c916648e65b49f7d7f0ccd"
         }
       },
@@ -1427,7 +1427,7 @@
         "zh-cn": {
           "title": "了解检索增强回答",
           "file": "zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-rag.md",
-          "route": "/zh-cn/docs/user-documentation/agents/llm-best-practices/understanding-rag",
+          "route": "/zh-Hans/docs/user-documentation/agents/llm-best-practices/understanding-rag",
           "sha256": "9e16b901eac9f5d697806518ed97c72e660f35cebd11671e682dd129759380ed"
         }
       },
@@ -1452,7 +1452,7 @@
         "zh-cn": {
           "title": "从模板创建智能体",
           "file": "zh-cn/docs/user-documentation/agents/templates.md",
-          "route": "/zh-cn/docs/user-documentation/agents/templates",
+          "route": "/zh-Hans/docs/user-documentation/agents/templates",
           "sha256": "ff45fc963c0f1e86f7cc239fcdab6aa5d46be13ab5d21cb48610482a1372d89d"
         }
       },
@@ -1477,7 +1477,7 @@
         "zh-cn": {
           "title": "Deep Dive 智能体",
           "file": "zh-cn/docs/user-documentation/agents/deep-dive-agent.md",
-          "route": "/zh-cn/docs/user-documentation/agents/deep-dive-agent",
+          "route": "/zh-Hans/docs/user-documentation/agents/deep-dive-agent",
           "sha256": "afa60c8ef16ecc022ad22535c2af9b8c19ba2474a3b104fb0225d60ee5a2ca62"
         }
       },
@@ -1502,7 +1502,7 @@
         "zh-cn": {
           "title": "Agent Builder 中的构建助手",
           "file": "zh-cn/docs/user-documentation/agents/agent-builder-sidekick.md",
-          "route": "/zh-cn/docs/user-documentation/agents/agent-builder-sidekick",
+          "route": "/zh-Hans/docs/user-documentation/agents/agent-builder-sidekick",
           "sha256": "4b814af34f50a17b2a2f7625a2284a77cceb9dada0ba5b88c5e38c32a16940bd"
         }
       },
@@ -1527,7 +1527,7 @@
         "zh-cn": {
           "title": "排查智能体问题",
           "file": "zh-cn/docs/user-documentation/agents/troubleshooting-your-agent.md",
-          "route": "/zh-cn/docs/user-documentation/agents/troubleshooting-your-agent",
+          "route": "/zh-Hans/docs/user-documentation/agents/troubleshooting-your-agent",
           "sha256": "1c62f862fb1034c1a02d121815b9647053e71f8c80dcebafd06a45344e681aa6"
         }
       },
@@ -1552,7 +1552,7 @@
         "zh-cn": {
           "title": "要求结构化响应",
           "file": "zh-cn/docs/user-documentation/agents/structured-output-format.md",
-          "route": "/zh-cn/docs/user-documentation/agents/structured-output-format",
+          "route": "/zh-Hans/docs/user-documentation/agents/structured-output-format",
           "sha256": "8f575d0d641af99cae85b22c0ca073d186509d5de04e81b53517e42f907d6de2"
         }
       },
@@ -1577,7 +1577,7 @@
         "zh-cn": {
           "title": "调整进行中的对话",
           "file": "zh-cn/docs/user-documentation/agents/steering-conversations.md",
-          "route": "/zh-cn/docs/user-documentation/agents/steering-conversations",
+          "route": "/zh-Hans/docs/user-documentation/agents/steering-conversations",
           "sha256": "02ce4ede3b957e7c964b14f7312ba07b35f4597ed8e5cc17186d2b4a6280f221"
         }
       },
@@ -1602,7 +1602,7 @@
         "zh-cn": {
           "title": "创建对话分支",
           "file": "zh-cn/docs/user-documentation/agents/branch-a-conversation.md",
-          "route": "/zh-cn/docs/user-documentation/agents/branch-a-conversation",
+          "route": "/zh-Hans/docs/user-documentation/agents/branch-a-conversation",
           "sha256": "134097673cfed838ad7f7e7b74cd65effbfdc80307f07082fa8da79da0e81f28"
         }
       },
@@ -1627,7 +1627,7 @@
         "zh-cn": {
           "title": "压缩长对话的上下文",
           "file": "zh-cn/docs/user-documentation/agents/context-compaction.md",
-          "route": "/zh-cn/docs/user-documentation/agents/context-compaction",
+          "route": "/zh-Hans/docs/user-documentation/agents/context-compaction",
           "sha256": "022a8e44abe8e5025928d662fd3232ed689c63335d502fc7feafb42a07ea9cce"
         }
       },
@@ -1652,7 +1652,7 @@
         "zh-cn": {
           "title": "Skills（技能）",
           "file": "zh-cn/docs/user-documentation/agents/skills/skills-overview.md",
-          "route": "/zh-cn/docs/user-documentation/agents/skills/skills-overview",
+          "route": "/zh-Hans/docs/user-documentation/agents/skills/skills-overview",
           "sha256": "0afaad9abf71aac2e553df7b3c828674ed2e868cc17e6d3f517abb4eba153fd3"
         }
       },
@@ -1677,7 +1677,7 @@
         "zh-cn": {
           "title": "Skill 示例",
           "file": "zh-cn/docs/user-documentation/agents/skills/skill-examples.md",
-          "route": "/zh-cn/docs/user-documentation/agents/skills/skill-examples",
+          "route": "/zh-Hans/docs/user-documentation/agents/skills/skill-examples",
           "sha256": "4405f641b47165426fedf4faa3ec93c0549b8ea256b78f796d595b30054dcab9"
         }
       },
@@ -1702,7 +1702,7 @@
         "zh-cn": {
           "title": "管理 Skill 的发现和使用范围",
           "file": "zh-cn/docs/user-documentation/agents/skill-availability.md",
-          "route": "/zh-cn/docs/user-documentation/agents/skill-availability",
+          "route": "/zh-Hans/docs/user-documentation/agents/skill-availability",
           "sha256": "1421147c91a47892c5f96c777b423c1bd1595873413abd2d576bb867188728de"
         }
       },
@@ -1727,7 +1727,7 @@
         "zh-cn": {
           "title": "为智能体添加 Discover Knowledge",
           "file": "zh-cn/docs/user-documentation/agents/discover-knowledge.md",
-          "route": "/zh-cn/docs/user-documentation/agents/discover-knowledge",
+          "route": "/zh-Hans/docs/user-documentation/agents/discover-knowledge",
           "sha256": "55e21a3a117b9f4473cc7c6b80c22fdae5d2496600d1605adc560f10f52f8306"
         }
       },
@@ -1752,7 +1752,7 @@
         "zh-cn": {
           "title": "让智能体发现 Skills",
           "file": "zh-cn/docs/user-documentation/agents/discover-skills.md",
-          "route": "/zh-cn/docs/user-documentation/agents/discover-skills",
+          "route": "/zh-Hans/docs/user-documentation/agents/discover-skills",
           "sha256": "1827001085f5fb3006d981a16b8647c100383cce697e9051469db137c302b391"
         }
       },
@@ -1777,7 +1777,7 @@
         "zh-cn": {
           "title": "Discover Tools（发现工具）",
           "file": "zh-cn/docs/user-documentation/agents/discover-tools.md",
-          "route": "/zh-cn/docs/user-documentation/agents/discover-tools",
+          "route": "/zh-Hans/docs/user-documentation/agents/discover-tools",
           "sha256": "7e6cfe6e19319038ce19152689fdedf98b4741afa05ea8fa1f090fd2c81f64fc"
         }
       },
@@ -1802,7 +1802,7 @@
         "zh-cn": {
           "title": "Go Deep（深入研究）",
           "file": "zh-cn/docs/user-documentation/agents/go-deep.md",
-          "route": "/zh-cn/docs/user-documentation/agents/go-deep",
+          "route": "/zh-Hans/docs/user-documentation/agents/go-deep",
           "sha256": "0cf66245ad246bb691dfd182cddb2cb7f115855f302dd733a812471f0dfa8320"
         }
       },
@@ -1827,7 +1827,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/agents/counso-support",
+          "route": "/zh-Hans/docs/user-documentation/agents/counso-support",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -1843,7 +1843,7 @@
         "zh-cn": {
           "title": "产品支持指引",
           "file": "prepared/zh-cn/docs/user-documentation/agents/counso-support.md",
-          "route": "/zh-cn/docs/user-documentation/agents/counso-support",
+          "route": "/zh-Hans/docs/user-documentation/agents/counso-support",
           "sha256": "2641ee43a3d065521ece014c09d723b8dfb85bba5f829df72e4c4760caaf168e"
         }
       }
@@ -1867,7 +1867,7 @@
         "zh-cn": {
           "title": "查看 Skill 改进建议",
           "file": "zh-cn/docs/user-documentation/agents/self-improving-skills.md",
-          "route": "/zh-cn/docs/user-documentation/agents/self-improving-skills",
+          "route": "/zh-Hans/docs/user-documentation/agents/self-improving-skills",
           "sha256": "b1a64da9acd30928d875cd2f9b398bec2c42d14596d54cba257d456b503f95a4"
         }
       },
@@ -1892,7 +1892,7 @@
         "zh-cn": {
           "title": "智能体的 Knowledge（知识）",
           "file": "zh-cn/docs/user-documentation/agents/knowledge/index.md",
-          "route": "/zh-cn/docs/user-documentation/agents/knowledge",
+          "route": "/zh-Hans/docs/user-documentation/agents/knowledge",
           "sha256": "78dca7e391d2feb93d85cf4236e3fa86535504551b96abf378758a3a28ae3ab4"
         }
       },
@@ -1917,7 +1917,7 @@
         "zh-cn": {
           "title": "搜索已连接的数据源",
           "file": "zh-cn/docs/user-documentation/agents/knowledge/search-data-sources.md",
-          "route": "/zh-cn/docs/user-documentation/agents/knowledge/search-data-sources",
+          "route": "/zh-Hans/docs/user-documentation/agents/knowledge/search-data-sources",
           "sha256": "4f274343deac3927b643658ba9a20067b44b7f6b05aa2eff81ba542ecbe1e971"
         }
       },
@@ -1942,7 +1942,7 @@
         "zh-cn": {
           "title": "表格查询",
           "file": "zh-cn/docs/user-documentation/agents/knowledge/table-queries.md",
-          "route": "/zh-cn/docs/user-documentation/agents/knowledge/table-queries",
+          "route": "/zh-Hans/docs/user-documentation/agents/knowledge/table-queries",
           "sha256": "10384e1754ea8a6b9d7e1e45643ad8cb207718cfdeb0a5419d7256bbc70a3a41"
         }
       },
@@ -1967,7 +1967,7 @@
         "zh-cn": {
           "title": "Extract Data（提取数据）",
           "file": "zh-cn/docs/user-documentation/agents/knowledge/extract-data.md",
-          "route": "/zh-cn/docs/user-documentation/agents/knowledge/extract-data",
+          "route": "/zh-Hans/docs/user-documentation/agents/knowledge/extract-data",
           "sha256": "8f53c03058476fe0d68271540195e0156d9bb034f6a5e7426926620a8e9fb713"
         }
       },
@@ -1992,7 +1992,7 @@
         "zh-cn": {
           "title": "纳入数据",
           "file": "zh-cn/docs/user-documentation/agents/knowledge/include-data.md",
-          "route": "/zh-cn/docs/user-documentation/agents/knowledge/include-data",
+          "route": "/zh-Hans/docs/user-documentation/agents/knowledge/include-data",
           "sha256": "2934912ea099ae05802772c90d12e059433b5838c66702aa68ac49a35598c340"
         }
       },
@@ -2017,7 +2017,7 @@
         "zh-cn": {
           "title": "数据源与工具",
           "file": "zh-cn/docs/user-documentation/data-sources/overview.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/overview",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/overview",
           "sha256": "8979b2fceb835468134e715cdb0726798b4360be9b1cb61d449f0366d30357a8"
         }
       },
@@ -2042,7 +2042,7 @@
         "zh-cn": {
           "title": "Connections（连接）",
           "file": "zh-cn/docs/user-documentation/data-sources/connections.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/connections",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/connections",
           "sha256": "432599d7cc1a743c7baba6ba940b991f7b97da76563acdf061e4f4450c18404e"
         }
       },
@@ -2067,7 +2067,7 @@
         "zh-cn": {
           "title": "网站数据源",
           "file": "zh-cn/docs/user-documentation/data-sources/websites.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/websites",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/websites",
           "sha256": "90e939b46fe1334e3d44e04c553bffc5c6140fe30d71186118e8299b213e00de"
         }
       },
@@ -2092,7 +2092,7 @@
         "zh-cn": {
           "title": "Folders（文件夹）",
           "file": "zh-cn/docs/user-documentation/data-sources/folders.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/folders",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/folders",
           "sha256": "ce02eb662cd631f4dfc2f116e5936811fda607436c30d822251d4e95827f34e4"
         }
       },
@@ -2117,7 +2117,7 @@
         "zh-cn": {
           "title": "会话文件",
           "file": "zh-cn/docs/user-documentation/data-sources/conversation-files/conversation-files.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/conversation-files/conversation-files",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/conversation-files/conversation-files",
           "sha256": "61f9963004bf560ab1f1cb26b5d2b0837b38b8a6f7486a2e8c5b3691cea751a6"
         }
       },
@@ -2142,7 +2142,7 @@
         "zh-cn": {
           "title": "请 Agent 检查图片",
           "file": "zh-cn/docs/user-documentation/data-sources/conversation-files/read-images.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/conversation-files/read-images",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/conversation-files/read-images",
           "sha256": "46d1acd65327cce43b436c56d7c4b98603ec1ce249624bf6dfec13b7736a70f4"
         }
       },
@@ -2167,7 +2167,7 @@
         "zh-cn": {
           "title": "Agent 工具",
           "file": "zh-cn/docs/user-documentation/agents/tools/index.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools",
           "sha256": "c12329657db1eab20ba455aaf53ece5ce9990a64be42bdf9eb5241c16177f5ac"
         }
       },
@@ -2192,7 +2192,7 @@
         "zh-cn": {
           "title": "Airtable",
           "file": "zh-cn/docs/user-documentation/agents/tools/airtable.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/airtable",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/airtable",
           "sha256": "9fd801a51d8d4f8383f4fe21e882a5be36a345d8d5ed5fc7fdf94714ec6d8d15"
         }
       },
@@ -2217,7 +2217,7 @@
         "zh-cn": {
           "title": "Agent 记忆",
           "file": "zh-cn/docs/user-documentation/agents/tools/agent-memory.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/agent-memory",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/agent-memory",
           "sha256": "839537609fb49b77970db2914c6a3f17dd37a4bba4f5d09e34e5f4950ade23ea"
         }
       },
@@ -2242,7 +2242,7 @@
         "zh-cn": {
           "title": "Asana",
           "file": "zh-cn/docs/user-documentation/agents/tools/asana.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/asana",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/asana",
           "sha256": "e98a3c471616d1c6d7373b4e06293eacbc8fec89aa12346bc83f90a562d54c76"
         }
       },
@@ -2267,7 +2267,7 @@
         "zh-cn": {
           "title": "Ashby",
           "file": "zh-cn/docs/user-documentation/agents/tools/ashby.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/ashby",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/ashby",
           "sha256": "6b1a643f835599c729134407dda0ccce116c9c6cad00ef0c8bfacbe59fe88c29"
         }
       },
@@ -2292,7 +2292,7 @@
         "zh-cn": {
           "title": "Attio",
           "file": "zh-cn/docs/user-documentation/agents/tools/attio.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/attio",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/attio",
           "sha256": "8b234422c492636949d0fd4f3160f95f1b51da177f143b1e691161ed0e69c577"
         }
       },
@@ -2317,7 +2317,7 @@
         "zh-cn": {
           "title": "Canva",
           "file": "zh-cn/docs/user-documentation/agents/tools/canva.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/canva",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/canva",
           "sha256": "1b6571fc050f74b6009d46940b01972ca64881afda39ac459afc52d2c08c145e"
         }
       },
@@ -2342,7 +2342,7 @@
         "zh-cn": {
           "title": "Confluence",
           "file": "zh-cn/docs/user-documentation/agents/tools/confluence.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/confluence",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/confluence",
           "sha256": "6d78605dd36bc2a74159fa8e4537d953dbe38438f41ffc6cc50e81cc130c4886"
         }
       },
@@ -2367,7 +2367,7 @@
         "zh-cn": {
           "title": "Databricks",
           "file": "zh-cn/docs/user-documentation/agents/tools/databricks.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/databricks",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/databricks",
           "sha256": "7fca5d250933f9fb109aeea586cc7ff67148d98b6db25fc96143fa04d6b24f5b"
         }
       },
@@ -2392,7 +2392,7 @@
         "zh-cn": {
           "title": "文件生成",
           "file": "zh-cn/docs/user-documentation/agents/tools/file-generation.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/file-generation",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/file-generation",
           "sha256": "1d880e1e1563538d5849771aa86fa403af2d12b93a9ccbae75c96e26d280f59f"
         }
       },
@@ -2417,7 +2417,7 @@
         "zh-cn": {
           "title": "Fathom",
           "file": "zh-cn/docs/user-documentation/agents/tools/fathom.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/fathom",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/fathom",
           "sha256": "1a9def6592f7088db7383fa0afc3101df38ef1ea1aef8fb93ca25d40acc66a0c"
         }
       },
@@ -2442,7 +2442,7 @@
         "zh-cn": {
           "title": "Gong",
           "file": "zh-cn/docs/user-documentation/agents/tools/gong.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/gong",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/gong",
           "sha256": "242a971237ca8df3f5ce2e117da92d6226651ae79933ff605bbb02acc5650630"
         }
       },
@@ -2467,7 +2467,7 @@
         "zh-cn": {
           "title": "Freshservice",
           "file": "zh-cn/docs/user-documentation/agents/tools/freshservice.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/freshservice",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/freshservice",
           "sha256": "3f8e051a9458b8455dfec2f64f9a5c3f8b81c00eff1ed3764b7658c6ebe5e582"
         }
       },
@@ -2492,7 +2492,7 @@
         "zh-cn": {
           "title": "Front",
           "file": "zh-cn/docs/user-documentation/agents/tools/front.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/front",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/front",
           "sha256": "167a5f3caba18251aef833960a16bdc422d8a28db4fb50ac635950b720dff2a7"
         }
       },
@@ -2517,7 +2517,7 @@
         "zh-cn": {
           "title": "GitHub",
           "file": "zh-cn/docs/user-documentation/agents/tools/github.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/github",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/github",
           "sha256": "a407f446bd2c52f018a4c0182dac53cae1f02543c02057fdce43db4e298071ce"
         }
       },
@@ -2542,7 +2542,7 @@
         "zh-cn": {
           "title": "Gmail",
           "file": "zh-cn/docs/user-documentation/agents/tools/gmail.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/gmail",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/gmail",
           "sha256": "7fedee164da97193bc8de9073d65278880fb7b5fc8dbdaa4bfb5a9105a9b66e4"
         }
       },
@@ -2567,7 +2567,7 @@
         "zh-cn": {
           "title": "Google Calendar",
           "file": "zh-cn/docs/user-documentation/agents/tools/google-calendar.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/google-calendar",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/google-calendar",
           "sha256": "9c2ec25847e0c211f03d44feba6e42724beccd19b7d4e4f874a1fe2dbae4308f"
         }
       },
@@ -2592,7 +2592,7 @@
         "zh-cn": {
           "title": "Google Drive",
           "file": "zh-cn/docs/user-documentation/agents/tools/google-drive.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/google-drive",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/google-drive",
           "sha256": "ebc1662a33cb25fb4a00e37d24a48e74b343342a094d754e3d21425bc8d94999"
         }
       },
@@ -2617,7 +2617,7 @@
         "zh-cn": {
           "title": "HubSpot",
           "file": "zh-cn/docs/user-documentation/agents/tools/hubspot.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/hubspot",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/hubspot",
           "sha256": "225ecbf770cc8773d7e6e3ade4c321824e785056f1e35a80f3eeb6e1e226f7ef"
         }
       },
@@ -2642,7 +2642,7 @@
         "zh-cn": {
           "title": "图片生成",
           "file": "zh-cn/docs/user-documentation/agents/tools/image-generation.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/image-generation",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/image-generation",
           "sha256": "2873413bfb39213f104baea3933a3733d8ca9a0bc456e0599d6518cb3f573cdc"
         }
       },
@@ -2667,7 +2667,7 @@
         "zh-cn": {
           "title": "Jira",
           "file": "zh-cn/docs/user-documentation/agents/tools/jira.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/jira",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/jira",
           "sha256": "67f41c31ba7dba136688f6bb3dbe8cc9b66c93c15786df7f005dfb182e7d6b7f"
         }
       },
@@ -2692,7 +2692,7 @@
         "zh-cn": {
           "title": "按需启用工具",
           "file": "zh-cn/docs/user-documentation/agents/tools/jit-tools.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/jit-tools",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/jit-tools",
           "sha256": "b942ed02ec808a9a487d86e1e11f4fda6c14159ce03ccc3f262829ced1aa059e"
         }
       },
@@ -2717,7 +2717,7 @@
         "zh-cn": {
           "title": "Microsoft Outlook",
           "file": "zh-cn/docs/user-documentation/agents/tools/microsoft-outlook.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/microsoft-outlook",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/microsoft-outlook",
           "sha256": "d37fd64d95ab075cf5887da428f2efb2978201c300e94c25221a990719ba9e15"
         }
       },
@@ -2742,7 +2742,7 @@
         "zh-cn": {
           "title": "Microsoft SharePoint 和 OneDrive 工具",
           "file": "zh-cn/docs/user-documentation/agents/tools/microsoft-sharepoint-and-onedrive.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/microsoft-sharepoint-and-onedrive",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/microsoft-sharepoint-and-onedrive",
           "sha256": "273903b2bbf9e266f751d1981e5bb90d8f7d7cd92329f9901b8297fb4c416f7a"
         }
       },
@@ -2767,7 +2767,7 @@
         "zh-cn": {
           "title": "Microsoft Teams",
           "file": "zh-cn/docs/user-documentation/agents/tools/microsoft-teams.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/microsoft-teams",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/microsoft-teams",
           "sha256": "084d51443fab587098b3faf662cd729da6ceac58965d111d1571a667de01c8f6"
         }
       },
@@ -2792,7 +2792,7 @@
         "zh-cn": {
           "title": "Microsoft Excel",
           "file": "zh-cn/docs/user-documentation/agents/tools/microsoft-excel.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/microsoft-excel",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/microsoft-excel",
           "sha256": "c9d2b914cb620562bf3db25bd47f46379ed32795e476388b90e4be237dd620c0"
         }
       },
@@ -2817,7 +2817,7 @@
         "zh-cn": {
           "title": "Miro",
           "file": "zh-cn/docs/user-documentation/agents/tools/miro.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/miro",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/miro",
           "sha256": "dbe9f2398c09cd1429ff6d426e74b230e3189ec0b655bcead69ab34420385ba4"
         }
       },
@@ -2842,7 +2842,7 @@
         "zh-cn": {
           "title": "Monday.com",
           "file": "zh-cn/docs/user-documentation/agents/tools/monday-com.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/monday-com",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/monday-com",
           "sha256": "973993fc535592c801c040dc91e6c66bee826405fad4f0073afa65d96ed7a3c4"
         }
       },
@@ -2867,7 +2867,7 @@
         "zh-cn": {
           "title": "NetSuite",
           "file": "zh-cn/docs/user-documentation/agents/tools/netsuite.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/netsuite",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/netsuite",
           "sha256": "ed33902e0595559c28abe1b7e952db2b1d8f3fad3582eec24f8795f35b04dae2"
         }
       },
@@ -2892,7 +2892,7 @@
         "zh-cn": {
           "title": "Notion",
           "file": "zh-cn/docs/user-documentation/agents/tools/notion.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/notion",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/notion",
           "sha256": "54d054fb116eb5f8bb26555fcd8dba061f08cf1814ce77ecb2320a48b70c593f"
         }
       },
@@ -2917,7 +2917,7 @@
         "zh-cn": {
           "title": "Power BI",
           "file": "zh-cn/docs/user-documentation/agents/tools/power-bi.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/power-bi",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/power-bi",
           "sha256": "0a5c7fdf79339e61d64519bbaaeee3957c0e134aa012672f23d7015041d49ee9"
         }
       },
@@ -2942,7 +2942,7 @@
         "zh-cn": {
           "title": "Productboard",
           "file": "zh-cn/docs/user-documentation/agents/tools/productboard.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/productboard",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/productboard",
           "sha256": "d13f3b02e3e1dcfd69aa63b15c429d0a12dfe8271a04e2935fe428d100d7354d"
         }
       },
@@ -2967,7 +2967,7 @@
         "zh-cn": {
           "title": "Slack 工具",
           "file": "zh-cn/docs/user-documentation/agents/tools/slack-tools.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/slack-tools",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/slack-tools",
           "sha256": "264dcae81074208f6f0a1269503df26d2d81241c5b7ceaa2b074066505feb1db"
         }
       },
@@ -2992,7 +2992,7 @@
         "zh-cn": {
           "title": "UKG Ready",
           "file": "zh-cn/docs/user-documentation/agents/tools/ukg-ready.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/ukg-ready",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/ukg-ready",
           "sha256": "1319c58df289cf87aa64feb2523d401aa8ce7c3d7cdaa738da8f2333723ccd82"
         }
       },
@@ -3017,7 +3017,7 @@
         "zh-cn": {
           "title": "Val Town",
           "file": "zh-cn/docs/user-documentation/agents/tools/val-town.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/val-town",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/val-town",
           "sha256": "021cf7df784f62d741e1f7877596424038ff8af92f0796d4ddca5f3f39b67717"
         }
       },
@@ -3042,7 +3042,7 @@
         "zh-cn": {
           "title": "Vanta",
           "file": "zh-cn/docs/user-documentation/agents/tools/vanta.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/vanta",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/vanta",
           "sha256": "5fba6504c4aacb095fb55151eb5922b701c92baf6f35af6be40611f53bef5afe"
         }
       },
@@ -3067,7 +3067,7 @@
         "zh-cn": {
           "title": "语音与声音生成",
           "file": "zh-cn/docs/user-documentation/agents/tools/voice-and-sound-generation.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/voice-and-sound-generation",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/voice-and-sound-generation",
           "sha256": "6a1a2da2211d86a846ded3d8ef584f59a7ac45ebf66a4205d9d3fadc5340d530"
         }
       },
@@ -3092,7 +3092,7 @@
         "zh-cn": {
           "title": "Salesloft",
           "file": "zh-cn/docs/user-documentation/agents/tools/salesloft.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/salesloft",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/salesloft",
           "sha256": "4b7fb69706259fa1dd764d2a71559e08697d27cc3df1464aec8649611357159e"
         }
       },
@@ -3117,7 +3117,7 @@
         "zh-cn": {
           "title": "Semrush",
           "file": "zh-cn/docs/user-documentation/agents/tools/semrush.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/semrush",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/semrush",
           "sha256": "5d7cf06cae929009df072b20ec57b14c40113018e9a4b8bda25a8734806042d9"
         }
       },
@@ -3142,7 +3142,7 @@
         "zh-cn": {
           "title": "Slab",
           "file": "zh-cn/docs/user-documentation/agents/tools/slab.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/slab",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/slab",
           "sha256": "f49859e2aafffe3b8bdbbe45d2507635c324c1e57d751be243234b156ae2291c"
         }
       },
@@ -3167,7 +3167,7 @@
         "zh-cn": {
           "title": "Snowflake",
           "file": "zh-cn/docs/user-documentation/agents/tools/snowflake.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/snowflake",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/snowflake",
           "sha256": "ed31de49361699af56ed4ce461c7c168b91d02963e57f8c93ed2ef32c58851fc"
         }
       },
@@ -3192,7 +3192,7 @@
         "zh-cn": {
           "title": "Statuspage",
           "file": "zh-cn/docs/user-documentation/agents/tools/statuspage.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/statuspage",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/statuspage",
           "sha256": "e2fca0041d883e1ed1de3778e3259eb877bbd784f3c3c8e2c9029281d5674025"
         }
       },
@@ -3217,7 +3217,7 @@
         "zh-cn": {
           "title": "调用其他 Agent",
           "file": "zh-cn/docs/user-documentation/agents/tools/run-agent.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/run-agent",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/run-agent",
           "sha256": "5587c2aeb58cee57380fb1817d94f5a056afd30656dbadf58b8d0b4d03ce8a2e"
         }
       },
@@ -3242,7 +3242,7 @@
         "zh-cn": {
           "title": "网页搜索与浏览",
           "file": "zh-cn/docs/user-documentation/agents/tools/web-search-and-browse.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/web-search-and-browse",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/web-search-and-browse",
           "sha256": "4244acd228d696fd5808b3d0e72b9144f7bb8987ccc8ef1c9e1e942efb4ee735"
         }
       },
@@ -3267,7 +3267,7 @@
         "zh-cn": {
           "title": "Zendesk",
           "file": "zh-cn/docs/user-documentation/agents/tools/zendesk.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/zendesk",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/zendesk",
           "sha256": "8841293fff378176bbf65f2fe6a709467ade875680f6f61b1ed291a95a13b5e9"
         }
       },
@@ -3292,7 +3292,7 @@
         "zh-cn": {
           "title": "定时唤醒",
           "file": "zh-cn/docs/user-documentation/agents/tools/wake-ups.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/wake-ups",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/wake-ups",
           "sha256": "4dced642554842d825e0d16e854319ef58d2c6807b288e158fc18ca58e17d16d"
         }
       },
@@ -3317,7 +3317,7 @@
         "zh-cn": {
           "title": "Computer",
           "file": "zh-cn/docs/user-documentation/agents/tools/computer.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/computer",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/computer",
           "sha256": "d4483a333d4efc13fc823604e5a24b99c80a080731e052ae6c9efda97f6c9b12"
         }
       },
@@ -3342,7 +3342,7 @@
         "zh-cn": {
           "title": "将 Google Sheets 工作迁移到 Google Drive",
           "file": "zh-cn/docs/user-documentation/agents/tools/google-sheets-deprecated.md",
-          "route": "/zh-cn/docs/user-documentation/agents/tools/google-sheets-deprecated",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/google-sheets-deprecated",
           "sha256": "ddc7f9ee21623043226751d5f5aaf7ed81d9f66e8cc6e4b89bdd6a8183429745"
         }
       },
@@ -3367,7 +3367,7 @@
         "zh-cn": {
           "title": "为触发器选择 credits 来源",
           "file": "zh-cn/docs/user-documentation/agents/triggers/credits-usage.md",
-          "route": "/zh-cn/docs/user-documentation/agents/triggers/credits-usage",
+          "route": "/zh-Hans/docs/user-documentation/agents/triggers/credits-usage",
           "sha256": "45dee6d8a3fdb63b8157076cd65b659de614f082439c9044506209e58350b320"
         }
       },
@@ -3392,7 +3392,7 @@
         "zh-cn": {
           "title": "为智能体设置时间表",
           "file": "zh-cn/docs/user-documentation/agents/triggers/schedules.md",
-          "route": "/zh-cn/docs/user-documentation/agents/triggers/schedules",
+          "route": "/zh-Hans/docs/user-documentation/agents/triggers/schedules",
           "sha256": "21648eaf3d082c6e36dac19ba95677538bf80f2386f0b3e7b24dd583fb90ee0b"
         }
       },
@@ -3417,7 +3417,7 @@
         "zh-cn": {
           "title": "筛选 Webhook 负载",
           "file": "zh-cn/docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload.md",
-          "route": "/zh-cn/docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload",
+          "route": "/zh-Hans/docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload",
           "sha256": "3071e3ae84bfaa2384672c1681bee662f7e6060dab428800fc775e9c9e907d33"
         }
       },
@@ -3442,7 +3442,7 @@
         "zh-cn": {
           "title": "设置 Webhook 触发器的频率限制",
           "file": "zh-cn/docs/user-documentation/agents/triggers/webhooks/rate-limiting.md",
-          "route": "/zh-cn/docs/user-documentation/agents/triggers/webhooks/rate-limiting",
+          "route": "/zh-Hans/docs/user-documentation/agents/triggers/webhooks/rate-limiting",
           "sha256": "bf1d7a1299ad0e04c0a60f04c9dab42d4c30fd158cdc8242b8815c778f4db9ec"
         }
       },
@@ -3467,7 +3467,7 @@
         "zh-cn": {
           "title": "为共享 MiniApp 添加品牌信息",
           "file": "zh-cn/docs/user-documentation/agents/frames/white-labeled-frames.md",
-          "route": "/zh-cn/docs/user-documentation/agents/frames/white-labeled-frames",
+          "route": "/zh-Hans/docs/user-documentation/agents/frames/white-labeled-frames",
           "sha256": "6e5c4c59239e9c649d82ce57ee18a2f3c36c4ca737402404e19d5e4baf02d3a6"
         }
       },
@@ -3492,7 +3492,7 @@
         "zh-cn": {
           "title": "将 MCP 客户端连接到 Counso",
           "file": "zh-cn/docs/user-documentation/agents/integrations/counso-mcp-server.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/counso-mcp-server",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-mcp-server",
           "sha256": "4347880a04661ec7895aaabacc3ca7b4f2662a684e22977103c36700bdb8221c"
         }
       },
@@ -3517,7 +3517,7 @@
         "zh-cn": {
           "title": "在 Slack 频道设置自动回复",
           "file": "zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
           "sha256": "bbda609a5ec810047950453fe18456c87bcf17baa453e9270135c1d1f4edd44e"
         }
       },
@@ -3542,7 +3542,7 @@
         "zh-cn": {
           "title": "在 Slack Workflow 中使用智能体",
           "file": "zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
           "sha256": "505f9f8397c5120a5934d36915d8bd8afa6ec4cd7f926d5f0bb45c5e38a3abf1"
         }
       },
@@ -3567,7 +3567,7 @@
         "zh-cn": {
           "title": "自动加入新的 Slack 频道",
           "file": "zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
           "sha256": "fd925ea7f7333ee374ea0c4037484dcdc6287c0d50a70eedce3f4bb146f23182"
         }
       },
@@ -3592,7 +3592,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -3608,7 +3608,7 @@
         "zh-cn": {
           "title": "通过邮件联系智能体",
           "file": "prepared/zh-cn/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents",
           "sha256": "ced7f0fb6404b54d5d89a7aa06a8185e384b9a46030e5a1a898d784f32baba1a"
         }
       }
@@ -3632,7 +3632,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/zapier",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/zapier",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -3648,7 +3648,7 @@
         "zh-cn": {
           "title": "通过 Zapier 运行智能体",
           "file": "prepared/zh-cn/docs/user-documentation/agents/integrations/zapier.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/zapier",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/zapier",
           "sha256": "98fd986be85a1c06eaa21c945cf20b1e8fff2ddd0aed3517e066ac1d478dcc87"
         }
       }
@@ -3672,7 +3672,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/make-com",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/make-com",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -3688,7 +3688,7 @@
         "zh-cn": {
           "title": "通过 Make 运行智能体",
           "file": "prepared/zh-cn/docs/user-documentation/agents/integrations/make-com.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/make-com",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/make-com",
           "sha256": "51197cc8bf1a79f28d133b2d0748532defc655a552556424ae0b8a4d21c0737e"
         }
       }
@@ -3712,7 +3712,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/n8n",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/n8n",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -3728,7 +3728,7 @@
         "zh-cn": {
           "title": "在 n8n 中使用 Counso",
           "file": "prepared/zh-cn/docs/user-documentation/agents/integrations/n8n.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/n8n",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/n8n",
           "sha256": "e0179372a5ae7639371cd4a9e002c6ea0ccefe9a081830c21664b3b9cb66b134"
         }
       }
@@ -3752,7 +3752,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/power-automate",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/power-automate",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -3768,7 +3768,7 @@
         "zh-cn": {
           "title": "在 Power Automate 中使用 Counso",
           "file": "prepared/zh-cn/docs/user-documentation/agents/integrations/power-automate.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/power-automate",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/power-automate",
           "sha256": "4f35bcd5259892248ca47c0a901a996cb45f919305711f0097c00ebcd1c2c0e7"
         }
       }
@@ -3792,7 +3792,7 @@
         "zh-cn": {
           "title": "使用会议转录",
           "file": "zh-cn/docs/user-documentation/agents/integrations/meeting-transcripts.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/meeting-transcripts",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/meeting-transcripts",
           "sha256": "c71d42c8d31c41d3574fab65c36579eff394468670e63d9e3ce17d3ccfe44314"
         }
       },
@@ -3817,7 +3817,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/google-sheets-add-on",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/google-sheets-add-on",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -3833,7 +3833,7 @@
         "zh-cn": {
           "title": "在 Google Sheets 中使用 Counso",
           "file": "prepared/zh-cn/docs/user-documentation/agents/integrations/google-sheets-add-on.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/google-sheets-add-on",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/google-sheets-add-on",
           "sha256": "4af869d5caa36edbf150d7641f76cb907678f4ce91b492de293ba5cf76c99e3b"
         }
       }
@@ -3857,7 +3857,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-zendesk",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-zendesk",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -3873,7 +3873,7 @@
         "zh-cn": {
           "title": "在 Zendesk 中使用 Counso",
           "file": "prepared/zh-cn/docs/user-documentation/agents/integrations/counso-in-zendesk.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-zendesk",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-zendesk",
           "sha256": "a399549345a6c69a214c1412cdfa48d8a02cce3e4d998b75ea5730c0be312975"
         }
       }
@@ -3897,7 +3897,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/browser-extension",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/browser-extension",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -3913,7 +3913,7 @@
         "zh-cn": {
           "title": "在浏览器中使用智能体",
           "file": "prepared/zh-cn/docs/user-documentation/agents/integrations/browser-extension.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/browser-extension",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/browser-extension",
           "sha256": "9778f3ba3a02af883ef551f8bb5e560b6e09924651a9528c3b472081332572cf"
         }
       }
@@ -3937,7 +3937,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/raycast-extension",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/raycast-extension",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -3953,7 +3953,7 @@
         "zh-cn": {
           "title": "通过 Raycast 使用 Counso",
           "file": "prepared/zh-cn/docs/user-documentation/agents/integrations/raycast-extension.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/raycast-extension",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/raycast-extension",
           "sha256": "1a5043452542ae0399dc0834d398d024e7526f5d0710625d8560a74e38587474"
         }
       }
@@ -3977,7 +3977,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-teams",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-teams",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -3993,7 +3993,7 @@
         "zh-cn": {
           "title": "在 Microsoft Teams 中使用智能体",
           "file": "prepared/zh-cn/docs/user-documentation/agents/integrations/counso-in-teams.md",
-          "route": "/zh-cn/docs/user-documentation/agents/integrations/counso-in-teams",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-teams",
           "sha256": "647a20813016450f6b71b94f4c67756e0d6ee043f71ba81aa17e6c48f9140fe5"
         }
       }
@@ -4017,7 +4017,7 @@
         "zh-cn": {
           "title": "了解 Pods",
           "file": "zh-cn/docs/user-documentation/pods/overview.md",
-          "route": "/zh-cn/docs/user-documentation/pods/overview",
+          "route": "/zh-Hans/docs/user-documentation/pods/overview",
           "sha256": "a4e01963154eca265526aa8b252ce8668e941b7696329a8ad0b068b76d1bfb04"
         }
       },
@@ -4042,7 +4042,7 @@
         "zh-cn": {
           "title": "Pod 成员与角色",
           "file": "zh-cn/docs/user-documentation/pods/members-and-roles.md",
-          "route": "/zh-cn/docs/user-documentation/pods/members-and-roles",
+          "route": "/zh-Hans/docs/user-documentation/pods/members-and-roles",
           "sha256": "eff5f0363d9138bd6425e45b5e41e92985c5031fbc43067d39b1962880dbdb2a"
         }
       },
@@ -4067,7 +4067,7 @@
         "zh-cn": {
           "title": "管理 Pod 任务",
           "file": "zh-cn/docs/user-documentation/pods/tasks.md",
-          "route": "/zh-cn/docs/user-documentation/pods/tasks",
+          "route": "/zh-Hans/docs/user-documentation/pods/tasks",
           "sha256": "fe80f5fa9014132b7d1a184899741852c76eb67d5fd1f8c9378ddf08459cdf63"
         }
       },
@@ -4092,7 +4092,7 @@
         "zh-cn": {
           "title": "Pod 对话",
           "file": "zh-cn/docs/user-documentation/pods/conversations.md",
-          "route": "/zh-cn/docs/user-documentation/pods/conversations",
+          "route": "/zh-Hans/docs/user-documentation/pods/conversations",
           "sha256": "ccf0206d507d9d591b6a2fd3b8c073e81b50ab88576a9449f2c91a0ae345002e"
         }
       },
@@ -4117,7 +4117,7 @@
         "zh-cn": {
           "title": "使用 Pod 文件",
           "file": "zh-cn/docs/user-documentation/pods/files.md",
-          "route": "/zh-cn/docs/user-documentation/pods/files",
+          "route": "/zh-Hans/docs/user-documentation/pods/files",
           "sha256": "a2f180baca71d07978c6aa3794a65e8b84384d60b79f4ef39f0eb1ccaeffac5a"
         }
       },
@@ -4142,7 +4142,7 @@
         "zh-cn": {
           "title": "创建和使用 MiniApp",
           "file": "zh-cn/docs/user-documentation/pods/frames.md",
-          "route": "/zh-cn/docs/user-documentation/pods/frames",
+          "route": "/zh-Hans/docs/user-documentation/pods/frames",
           "sha256": "aa90b011f06a257178588807db309c1922008a0383beb26b0cdc5e2a3602f20d"
         }
       },
@@ -4167,7 +4167,7 @@
         "zh-cn": {
           "title": "智能体在 Pod 中可以做什么",
           "file": "zh-cn/docs/user-documentation/pods/agent-tools.md",
-          "route": "/zh-cn/docs/user-documentation/pods/agent-tools",
+          "route": "/zh-Hans/docs/user-documentation/pods/agent-tools",
           "sha256": "14b866edd691ef32c8767723f5ef4cdb97873e025b0cd735db377f377d53ab63"
         }
       },
@@ -4192,7 +4192,7 @@
         "zh-cn": {
           "title": "工作区管理员的 Pod 政策设置",
           "file": "zh-cn/docs/user-documentation/pods/admin-controls.md",
-          "route": "/zh-cn/docs/user-documentation/pods/admin-controls",
+          "route": "/zh-Hans/docs/user-documentation/pods/admin-controls",
           "sha256": "ce146d504650ee413c3adb808c497c41709623a7d4b559896f59d7fa8b04e21b"
         }
       },
@@ -4217,7 +4217,7 @@
         "zh-cn": {
           "title": "示例：共享素材库",
           "file": "zh-cn/docs/user-documentation/pods/examples/shared-asset-library.md",
-          "route": "/zh-cn/docs/user-documentation/pods/examples/shared-asset-library",
+          "route": "/zh-Hans/docs/user-documentation/pods/examples/shared-asset-library",
           "sha256": "41d180d9abb195bc315c7da9a8113fddee606af738f808cd25c65c0849070cf2"
         }
       },
@@ -4242,7 +4242,7 @@
         "zh-cn": {
           "title": "示例：个人知识 Pod",
           "file": "zh-cn/docs/user-documentation/pods/examples/personal-second-brain.md",
-          "route": "/zh-cn/docs/user-documentation/pods/examples/personal-second-brain",
+          "route": "/zh-Hans/docs/user-documentation/pods/examples/personal-second-brain",
           "sha256": "c6154f24793014e2e3c064b15a985a7e9547cfdbee7ebf6fb5e0c1efd1610707"
         }
       },
@@ -4267,7 +4267,7 @@
         "zh-cn": {
           "title": "示例：项目 Pod",
           "file": "zh-cn/docs/user-documentation/pods/examples/initiative-and-project-management.md",
-          "route": "/zh-cn/docs/user-documentation/pods/examples/initiative-and-project-management",
+          "route": "/zh-Hans/docs/user-documentation/pods/examples/initiative-and-project-management",
           "sha256": "bede3fabb93a2d7c85cfeef3669ccb7510ad6d63fbedd08787498873c277d92f"
         }
       },
@@ -4292,7 +4292,7 @@
         "zh-cn": {
           "title": "示例：在 Pod 中协作处理支持案例",
           "file": "zh-cn/docs/user-documentation/pods/examples/ticket-handling-and-support-knowledge.md",
-          "route": "/zh-cn/docs/user-documentation/pods/examples/ticket-handling-and-support-knowledge",
+          "route": "/zh-Hans/docs/user-documentation/pods/examples/ticket-handling-and-support-knowledge",
           "sha256": "2063e35c941eac77113e09515537260708f8bf26ccd2065c1c117eef184b91ce"
         }
       },
@@ -4317,7 +4317,7 @@
         "zh-cn": {
           "title": "示例：每位客户使用一个 Pod",
           "file": "zh-cn/docs/user-documentation/pods/examples/one-pod-per-customer.md",
-          "route": "/zh-cn/docs/user-documentation/pods/examples/one-pod-per-customer",
+          "route": "/zh-Hans/docs/user-documentation/pods/examples/one-pod-per-customer",
           "sha256": "816ea2c1280ddf56cbd2851b0798b401c64239b714fc960810a1e7e249fb7954"
         }
       },
@@ -4342,7 +4342,7 @@
         "zh-cn": {
           "title": "示例：内容制作 Pod",
           "file": "zh-cn/docs/user-documentation/pods/examples/content-and-editorial-production.md",
-          "route": "/zh-cn/docs/user-documentation/pods/examples/content-and-editorial-production",
+          "route": "/zh-Hans/docs/user-documentation/pods/examples/content-and-editorial-production",
           "sha256": "59a2ea3e12b4321744f80a92ab9df66a43f9fd89f329aed6e2204c827a6e49f8"
         }
       },
@@ -4367,7 +4367,7 @@
         "zh-cn": {
           "title": "示例：竞争研究 Pod",
           "file": "zh-cn/docs/user-documentation/pods/examples/competitive-intelligence.md",
-          "route": "/zh-cn/docs/user-documentation/pods/examples/competitive-intelligence",
+          "route": "/zh-Hans/docs/user-documentation/pods/examples/competitive-intelligence",
           "sha256": "f11737519ed25a9fb3b90c955f471e9798e06f57ef1fc8e09fa4acd04fef3fec"
         }
       },
@@ -4392,7 +4392,7 @@
         "zh-cn": {
           "title": "配置工作区",
           "file": "zh-cn/docs/user-documentation/admins/quickstart.md",
-          "route": "/zh-cn/docs/user-documentation/admins/quickstart",
+          "route": "/zh-Hans/docs/user-documentation/admins/quickstart",
           "sha256": "db732e71eb076f4ca06440463a30e1f422e37fe2fa055237eb1a0f64a8f4032f"
         }
       },
@@ -4417,7 +4417,7 @@
         "zh-cn": {
           "title": "工作区角色、群组和权限",
           "file": "zh-cn/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions.md",
-          "route": "/zh-cn/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions",
+          "route": "/zh-Hans/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions",
           "sha256": "f45d1b4c61fc123d1b5540fe5ab756bb187ae0240cf25b6c0f8e1e8851bca42a"
         }
       },
@@ -4442,7 +4442,7 @@
         "zh-cn": {
           "title": "规划工作区数据访问范围",
           "file": "zh-cn/docs/user-documentation/admins/admin-governance/access-controls-and-permissions.md",
-          "route": "/zh-cn/docs/user-documentation/admins/admin-governance/access-controls-and-permissions",
+          "route": "/zh-Hans/docs/user-documentation/admins/admin-governance/access-controls-and-permissions",
           "sha256": "b987ced91b2635131de33d0783cebdd2a6a21f8aa79664918755827bb7f3c527"
         }
       },
@@ -4467,7 +4467,7 @@
         "zh-cn": {
           "title": "配置单点登录",
           "file": "zh-cn/docs/user-documentation/admins/admin-governance/single-sign-on-sso/single-sign-on-sso.md",
-          "route": "/zh-cn/docs/user-documentation/admins/admin-governance/single-sign-on-sso/single-sign-on-sso",
+          "route": "/zh-Hans/docs/user-documentation/admins/admin-governance/single-sign-on-sso/single-sign-on-sso",
           "sha256": "f438fc84ffb4ae3b70f5a6b54a0ab1bd527ba8c646f30ad2613ba32fbdb5fdef"
         }
       },
@@ -4492,7 +4492,7 @@
         "zh-cn": {
           "title": "配置 SAML 单点登录",
           "file": "zh-cn/docs/user-documentation/admins/admin-governance/single-sign-on-sso/saml-sso.md",
-          "route": "/zh-cn/docs/user-documentation/admins/admin-governance/single-sign-on-sso/saml-sso",
+          "route": "/zh-Hans/docs/user-documentation/admins/admin-governance/single-sign-on-sso/saml-sso",
           "sha256": "68ed1c721e50c01e1dedee38d8384efcdcb395a062702172c6ef4968267b7ac0"
         }
       },
@@ -4517,7 +4517,7 @@
         "zh-cn": {
           "title": "配置工作区用户和群组同步",
           "file": "zh-cn/docs/user-documentation/admins/admin-governance/users-and-groups-provisioning.md",
-          "route": "/zh-cn/docs/user-documentation/admins/admin-governance/users-and-groups-provisioning",
+          "route": "/zh-Hans/docs/user-documentation/admins/admin-governance/users-and-groups-provisioning",
           "sha256": "37aedeaa475282eaedf73839a15c32381310f142fbd2b093d921625ad11ae6f8"
         }
       },
@@ -4542,7 +4542,7 @@
         "zh-cn": {
           "title": "管理 Spaces",
           "file": "zh-cn/docs/user-documentation/admins/spaces-management.md",
-          "route": "/zh-cn/docs/user-documentation/admins/spaces-management",
+          "route": "/zh-Hans/docs/user-documentation/admins/spaces-management",
           "sha256": "709305ba886afd2badf2489123d0140e6058b8fbef9c9b7d13511b0c44048121"
         }
       },
@@ -4567,7 +4567,7 @@
         "zh-cn": {
           "title": "管理智能体",
           "file": "zh-cn/docs/user-documentation/admins/agents-management.md",
-          "route": "/zh-cn/docs/user-documentation/admins/agents-management",
+          "route": "/zh-Hans/docs/user-documentation/admins/agents-management",
           "sha256": "75a956cf04b3105e7f5b1cc42b85a8a6217950c2291287eda18a66c965f83233"
         }
       },
@@ -4592,7 +4592,7 @@
         "zh-cn": {
           "title": "管理数据连接",
           "file": "zh-cn/docs/user-documentation/admins/connections-management/index.md",
-          "route": "/zh-cn/docs/user-documentation/admins/connections-management",
+          "route": "/zh-Hans/docs/user-documentation/admins/connections-management",
           "sha256": "acf74fe900c9d839d0a1b405ad25936feebd86e2f1790f11f9e99851caceab4a"
         }
       },
@@ -4617,7 +4617,7 @@
         "zh-cn": {
           "title": "连接 Google Drive",
           "file": "zh-cn/docs/user-documentation/admins/connections-management/google-drive.md",
-          "route": "/zh-cn/docs/user-documentation/admins/connections-management/google-drive",
+          "route": "/zh-Hans/docs/user-documentation/admins/connections-management/google-drive",
           "sha256": "a390e4455161720d182ed8476e444a206dce8e274cf457eef4e9b955c3ec20bf"
         }
       },
@@ -4642,7 +4642,7 @@
         "zh-cn": {
           "title": "连接 Notion",
           "file": "zh-cn/docs/user-documentation/admins/connections-management/notion.md",
-          "route": "/zh-cn/docs/user-documentation/admins/connections-management/notion",
+          "route": "/zh-Hans/docs/user-documentation/admins/connections-management/notion",
           "sha256": "229e51559fe5d8790693772616923c084b55f6358e5a2a5b0e1959929cbbd2b7"
         }
       },
@@ -4667,7 +4667,7 @@
         "zh-cn": {
           "title": "连接 Confluence",
           "file": "zh-cn/docs/user-documentation/admins/connections-management/confluence.md",
-          "route": "/zh-cn/docs/user-documentation/admins/connections-management/confluence",
+          "route": "/zh-Hans/docs/user-documentation/admins/connections-management/confluence",
           "sha256": "3e4dda02273c6ad67910231a116e8d53b4ddc8f3765661fc8d480e7def9f6a83"
         }
       },
@@ -4692,7 +4692,7 @@
         "zh-cn": {
           "title": "连接 Intercom",
           "file": "zh-cn/docs/user-documentation/admins/connections-management/intercom.md",
-          "route": "/zh-cn/docs/user-documentation/admins/connections-management/intercom",
+          "route": "/zh-Hans/docs/user-documentation/admins/connections-management/intercom",
           "sha256": "535c4ef6d663e251804cea68d6eea808d6dfe67c5da2c4ab0227764d68dd90e6"
         }
       },
@@ -4717,7 +4717,7 @@
         "zh-cn": {
           "title": "连接 GitHub",
           "file": "zh-cn/docs/user-documentation/admins/connections-management/github.md",
-          "route": "/zh-cn/docs/user-documentation/admins/connections-management/github",
+          "route": "/zh-Hans/docs/user-documentation/admins/connections-management/github",
           "sha256": "8f2cb9899982a6931d1bf1bd3353ed43565bcde4040eb53c2e2c6366e37580f1"
         }
       },
@@ -4742,7 +4742,7 @@
         "zh-cn": {
           "title": "连接 Microsoft",
           "file": "zh-cn/docs/user-documentation/admins/connections-management/microsoft.md",
-          "route": "/zh-cn/docs/user-documentation/admins/connections-management/microsoft",
+          "route": "/zh-Hans/docs/user-documentation/admins/connections-management/microsoft",
           "sha256": "1c396e96681d97db5ed48f3a91f936c1e46d41f5f32c22ac39f7c7b248de1c2f"
         }
       },
@@ -4767,7 +4767,7 @@
         "zh-cn": {
           "title": "连接 Zendesk",
           "file": "zh-cn/docs/user-documentation/admins/connections-management/zendesk.md",
-          "route": "/zh-cn/docs/user-documentation/admins/connections-management/zendesk",
+          "route": "/zh-Hans/docs/user-documentation/admins/connections-management/zendesk",
           "sha256": "569846d4e8407216d8e8444cdfef278da1be387d5be5bf12d7603244487c641f"
         }
       },
@@ -4792,7 +4792,7 @@
         "zh-cn": {
           "title": "连接 Snowflake",
           "file": "zh-cn/docs/user-documentation/admins/connections-management/snowflake.md",
-          "route": "/zh-cn/docs/user-documentation/admins/connections-management/snowflake",
+          "route": "/zh-Hans/docs/user-documentation/admins/connections-management/snowflake",
           "sha256": "e97dbafc704969502f807f614b1c73178083654e7ab1fb0a000acc61f908c7a0"
         }
       },
@@ -4817,7 +4817,7 @@
         "zh-cn": {
           "title": "连接 BigQuery",
           "file": "zh-cn/docs/user-documentation/admins/connections-management/bigquery.md",
-          "route": "/zh-cn/docs/user-documentation/admins/connections-management/bigquery",
+          "route": "/zh-Hans/docs/user-documentation/admins/connections-management/bigquery",
           "sha256": "797affa0725f435db308b5a73039494f17f51f0e3ed4a0296a4912ac960d7bc0"
         }
       },
@@ -4842,7 +4842,7 @@
         "zh-cn": {
           "title": "连接 Gong",
           "file": "zh-cn/docs/user-documentation/admins/connections-management/gong.md",
-          "route": "/zh-cn/docs/user-documentation/admins/connections-management/gong",
+          "route": "/zh-Hans/docs/user-documentation/admins/connections-management/gong",
           "sha256": "14925b5fa384d284c1a905840b22cf573cc2f4a6c53eb9f988115b254e51facd"
         }
       },
@@ -4867,7 +4867,7 @@
         "zh-cn": {
           "title": "连接 Slack 知识",
           "file": "zh-cn/docs/user-documentation/admins/connections-management/slack.md",
-          "route": "/zh-cn/docs/user-documentation/admins/connections-management/slack",
+          "route": "/zh-Hans/docs/user-documentation/admins/connections-management/slack",
           "sha256": "587818298ef0a7628a27f4c45cd4e5a71ebc2b5223fe06ba5572822440b60a97"
         }
       },
@@ -4892,7 +4892,7 @@
         "zh-cn": {
           "title": "添加远程 MCP 服务器",
           "file": "zh-cn/docs/user-documentation/admins/tools-management/adding-an-mcp-server.md",
-          "route": "/zh-cn/docs/user-documentation/admins/tools-management/adding-an-mcp-server",
+          "route": "/zh-Hans/docs/user-documentation/admins/tools-management/adding-an-mcp-server",
           "sha256": "10e94f26355e647ee7c45a625e9243033fa055d48cdbe693cdc80a6dd82d595c"
         }
       },
@@ -4917,7 +4917,7 @@
         "zh-cn": {
           "title": "工具的个人与共享凭据",
           "file": "zh-cn/docs/user-documentation/admins/tools-management/personal-vs-shared-credentials.md",
-          "route": "/zh-cn/docs/user-documentation/admins/tools-management/personal-vs-shared-credentials",
+          "route": "/zh-Hans/docs/user-documentation/admins/tools-management/personal-vs-shared-credentials",
           "sha256": "2d9f6656c8e0be44e6a773b21174d1460d391596ec51272904356641cc16a154"
         }
       },
@@ -4942,7 +4942,7 @@
         "zh-cn": {
           "title": "连接 Salesforce",
           "file": "zh-cn/docs/user-documentation/admins/tools-management/salesforce/salesforce.md",
-          "route": "/zh-cn/docs/user-documentation/admins/tools-management/salesforce/salesforce",
+          "route": "/zh-Hans/docs/user-documentation/admins/tools-management/salesforce/salesforce",
           "sha256": "76a2b5e69a04e4fa6053895ff0ba978301eb9070089361a31e77235ffda761f3"
         }
       },
@@ -4967,7 +4967,7 @@
         "zh-cn": {
           "title": "Salesforce 查询限额与访问权限",
           "file": "zh-cn/docs/user-documentation/admins/tools-management/salesforce/salesforce-notes-on-api-limit-and-permissions.md",
-          "route": "/zh-cn/docs/user-documentation/admins/tools-management/salesforce/salesforce-notes-on-api-limit-and-permissions",
+          "route": "/zh-Hans/docs/user-documentation/admins/tools-management/salesforce/salesforce-notes-on-api-limit-and-permissions",
           "sha256": "137ad7a98b528e063a113411c07b5c194aa558eeb69ddd0159475f6d538b9c2d"
         }
       },
@@ -4992,7 +4992,7 @@
         "zh-cn": {
           "title": "管理 Microsoft 工具",
           "file": "zh-cn/docs/user-documentation/admins/tools-management/managing-microsoft-tools.md",
-          "route": "/zh-cn/docs/user-documentation/admins/tools-management/managing-microsoft-tools",
+          "route": "/zh-Hans/docs/user-documentation/admins/tools-management/managing-microsoft-tools",
           "sha256": "81627c76cfa3d94b02022cc18a8d617ebac017ce6e22a863e78f6017e1bd03ea"
         }
       },
@@ -5017,7 +5017,7 @@
         "zh-cn": {
           "title": "管理 Computer",
           "file": "zh-cn/docs/user-documentation/admins/tools-management/computer-admin-setup.md",
-          "route": "/zh-cn/docs/user-documentation/admins/tools-management/computer-admin-setup",
+          "route": "/zh-Hans/docs/user-documentation/admins/tools-management/computer-admin-setup",
           "sha256": "f2bb994b704def33bb64c1e899b01168c200fdc2326a87333d661dc1bdd65ae8"
         }
       },
@@ -5042,7 +5042,7 @@
         "zh-cn": {
           "title": "工作区用量分析",
           "file": "zh-cn/analytics.md",
-          "route": "/zh-cn/analytics",
+          "route": "/zh-Hans/analytics",
           "sha256": "8d1835850115b6bd73171574aa8e4a2b3289705b07b95a69d46b4797448814e0"
         }
       },
@@ -5067,7 +5067,7 @@
         "zh-cn": {
           "title": "查看工作区审计日志",
           "file": "zh-cn/docs/user-documentation/admins/audit-logs/audit-logs.md",
-          "route": "/zh-cn/docs/user-documentation/admins/audit-logs/audit-logs",
+          "route": "/zh-Hans/docs/user-documentation/admins/audit-logs/audit-logs",
           "sha256": "a9c35e254172c269134918710359df377cc3be69e6aef1fe47c9228d4da43378"
         }
       },
@@ -5092,7 +5092,7 @@
         "zh-cn": {
           "title": "审计日志事件参考",
           "file": "zh-cn/docs/user-documentation/admins/audit-logs/audit-logs-events-reference.md",
-          "route": "/zh-cn/docs/user-documentation/admins/audit-logs/audit-logs-events-reference",
+          "route": "/zh-Hans/docs/user-documentation/admins/audit-logs/audit-logs-events-reference",
           "sha256": "0f5f21095dcd757ef1cc2a8ef8ae36637b8a55cd26101023f5959ceec4b802e1"
         }
       },
@@ -5117,7 +5117,7 @@
         "zh-cn": {
           "title": "席位管理",
           "file": "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/seat-management.md",
-          "route": "/zh-cn/docs/user-documentation/admins/usage-seats-and-credits/seat-management",
+          "route": "/zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/seat-management",
           "sha256": "48efc8f80603f5b05b8c437df83cddfa269114085175166d812d59db6f7ec1bb"
         }
       },
@@ -5142,7 +5142,7 @@
         "zh-cn": {
           "title": "用量积分",
           "file": "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/credits.md",
-          "route": "/zh-cn/docs/user-documentation/admins/usage-seats-and-credits/credits",
+          "route": "/zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/credits",
           "sha256": "b8a186a7dcdfe4b73c036f36b7cdf6c11f003c9ec31cb6fa87577e14bc21a15a"
         }
       },
@@ -5167,7 +5167,7 @@
         "zh-cn": {
           "title": "积分管理",
           "file": "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/credit-management.md",
-          "route": "/zh-cn/docs/user-documentation/admins/usage-seats-and-credits/credit-management",
+          "route": "/zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/credit-management",
           "sha256": "1c48245b3e7a9d5fb2732a7f530b9dd1472e452c1e8ef84a50026f27d9126890"
         }
       },
@@ -5192,7 +5192,7 @@
         "zh-cn": {
           "title": "优化积分使用",
           "file": "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/optimize-credit-consumption.md",
-          "route": "/zh-cn/docs/user-documentation/admins/usage-seats-and-credits/optimize-credit-consumption",
+          "route": "/zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/optimize-credit-consumption",
           "sha256": "0ab20ce2483361602725f6f374d022e0ecfb7c9a4216fef9293653316f753f71"
         }
       },
@@ -5217,7 +5217,7 @@
         "zh-cn": {
           "title": "模型访问层级",
           "file": "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers.md",
-          "route": "/zh-cn/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers",
+          "route": "/zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers",
           "sha256": "1c7a719e6dff104bfe1d80324bca44d3db1b6773ce80d4d6155db64563e38f66"
         }
       },
@@ -5242,7 +5242,7 @@
         "zh-cn": {
           "title": "培训团队优化积分使用",
           "file": "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/train-team-credit-optimization.md",
-          "route": "/zh-cn/docs/user-documentation/admins/usage-seats-and-credits/train-team-credit-optimization",
+          "route": "/zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/train-team-credit-optimization",
           "sha256": "6f4a4db78c269aaaf619e61dce03b369483640fa18a17ff108d0b0d3bba84d9d"
         }
       },
@@ -5267,7 +5267,7 @@
         "zh-cn": {
           "title": "订阅与账单",
           "file": "zh-cn/docs/user-documentation/admins/billing/subscriptions-and-payments.md",
-          "route": "/zh-cn/docs/user-documentation/admins/billing/subscriptions-and-payments",
+          "route": "/zh-Hans/docs/user-documentation/admins/billing/subscriptions-and-payments",
           "sha256": "19ed2a9668e33ad6cc3456438b3d2e24f2fe2f75e9d287d45531a1533e25836b"
         }
       },
@@ -5292,7 +5292,7 @@
         "zh-cn": {
           "title": "排查工作区管理问题",
           "file": "zh-cn/docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting.md",
-          "route": "/zh-cn/docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting",
+          "route": "/zh-Hans/docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting",
           "sha256": "8731a639d4c0d0a9f6ae923c6b6258057bbd4b3b358c32b0806a4411fa3a7963"
         }
       },
@@ -5317,7 +5317,7 @@
         "zh-cn": {
           "title": "排查 Slack 连接与工具问题",
           "file": "zh-cn/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting.md",
-          "route": "/zh-cn/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting",
+          "route": "/zh-Hans/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting",
           "sha256": "fc3e3f68020e1fe6f426df80c5de96f4dbcd34c86ba5bf61bdd5124f827cfd5c"
         }
       },
@@ -5342,7 +5342,7 @@
         "zh-cn": {
           "title": "客户端 MCP Server",
           "file": "zh-cn/docs/user-documentation/developers/client-side-mcp-server.md",
-          "route": "/zh-cn/docs/user-documentation/developers/client-side-mcp-server",
+          "route": "/zh-Hans/docs/user-documentation/developers/client-side-mcp-server",
           "sha256": "062b1b4085ae89aa50378a023ba7a1b7580c6d97843fdb9b9b796c7ee132d952"
         }
       },
@@ -5367,7 +5367,7 @@
         "zh-cn": {
           "title": "Counso 开发者平台",
           "file": "zh-cn/docs/developer-platform/overview/developer-platform.md",
-          "route": "/zh-cn/docs/developer-platform/overview/developer-platform",
+          "route": "/zh-Hans/docs/developer-platform/overview/developer-platform",
           "sha256": "f58605e39f46660bb6d4558ee4addb34bd374d9ce0be28c2eeed814350875454"
         }
       },
@@ -5392,7 +5392,7 @@
         "zh-cn": {
           "title": "JavaScript SDK",
           "file": "zh-cn/docs/developer-platform/overview/javascript-sdk.md",
-          "route": "/zh-cn/docs/developer-platform/overview/javascript-sdk",
+          "route": "/zh-Hans/docs/developer-platform/overview/javascript-sdk",
           "sha256": "96eba15ce750b180a58e894184796fd3f98b5b513f3e47f7a5e5a376f1a751cd"
         }
       },
@@ -5417,7 +5417,7 @@
         "zh-cn": {
           "title": "数据源",
           "file": "zh-cn/docs/developer-platform/core-concepts/datasources.md",
-          "route": "/zh-cn/docs/developer-platform/core-concepts/datasources",
+          "route": "/zh-Hans/docs/developer-platform/core-concepts/datasources",
           "sha256": "ac9362173dc7c277bf629cc3096e1e6cfa7fd0ed8711923b9338ff47e157641b"
         }
       },
@@ -5442,7 +5442,7 @@
         "zh-cn": {
           "title": "文本块与文档",
           "file": "zh-cn/docs/developer-platform/core-concepts/chunks-and-documents.md",
-          "route": "/zh-cn/docs/developer-platform/core-concepts/chunks-and-documents",
+          "route": "/zh-Hans/docs/developer-platform/core-concepts/chunks-and-documents",
           "sha256": "4e189757bd183d09266c75c03441a87ded3a24eb3ad21e37d41720af2f6e0111"
         }
       },
@@ -5467,7 +5467,7 @@
         "zh-cn": {
           "title": "API 速率限制",
           "file": "zh-cn/docs/developer-platform/core-concepts/rate-limits.md",
-          "route": "/zh-cn/docs/developer-platform/core-concepts/rate-limits",
+          "route": "/zh-Hans/docs/developer-platform/core-concepts/rate-limits",
           "sha256": "9857f1b6f5c2b51f6b6a5da5eb329086ae14e7d32bd0d6d796a5499ad941a55a"
         }
       },
@@ -5492,7 +5492,7 @@
         "zh-cn": {
           "title": "API 规范与 Postman",
           "file": "zh-cn/docs/developer-platform/counso-api-documentation/openapi-and-postman.md",
-          "route": "/zh-cn/docs/developer-platform/counso-api-documentation/openapi-and-postman",
+          "route": "/zh-Hans/docs/developer-platform/counso-api-documentation/openapi-and-postman",
           "sha256": "b43d0ed1833a06e466ce82c38c8d2c96ab71d505a2552d850809284fa5296b8b"
         }
       },
@@ -5517,7 +5517,7 @@
         "zh-cn": {
           "title": "获取当前用户",
           "file": "zh-cn/api-reference/private-user/get-current-user.md",
-          "route": "/zh-cn/api-reference/private-user/get-current-user",
+          "route": "/zh-Hans/api-reference/private-user/get-current-user",
           "sha256": "0b517fc6c039e13b8bf105c5b012e360e284b549de8ff672f12511b2eb90e94e"
         }
       },
@@ -5547,7 +5547,7 @@
         "zh-cn": {
           "title": "更新当前用户资料",
           "file": "zh-cn/api-reference/private-user/update-current-user.md",
-          "route": "/zh-cn/api-reference/private-user/update-current-user",
+          "route": "/zh-Hans/api-reference/private-user/update-current-user",
           "sha256": "a1f46f7d6d95df1049d5b960f51884a0f869a56c15155d03153501310a3ed6b2"
         }
       },
@@ -5577,7 +5577,7 @@
         "zh-cn": {
           "title": "导出工作区分析数据",
           "file": "zh-cn/api-reference/analytics/export-workspace-analytics.md",
-          "route": "/zh-cn/api-reference/analytics/export-workspace-analytics",
+          "route": "/zh-Hans/api-reference/analytics/export-workspace-analytics",
           "sha256": "01a49f9776744cddc6bfb0cb86f481869241c4ebbfe7feaf3c36385727e2c8be"
         }
       },
@@ -5607,7 +5607,7 @@
         "zh-cn": {
           "title": "列出智能体配置",
           "file": "zh-cn/api-reference/agents/list-agents.md",
-          "route": "/zh-cn/api-reference/agents/list-agents",
+          "route": "/zh-Hans/api-reference/agents/list-agents",
           "sha256": "ad844d1c0ff369322455162c63966264e8b118d7ca89c102265d1e7406fb0c8f"
         }
       },
@@ -5637,7 +5637,7 @@
         "zh-cn": {
           "title": "以 YAML 导出智能体配置",
           "file": "zh-cn/api-reference/agents/export-agent-configuration-as-yaml.md",
-          "route": "/zh-cn/api-reference/agents/export-agent-configuration-as-yaml",
+          "route": "/zh-Hans/api-reference/agents/export-agent-configuration-as-yaml",
           "sha256": "08f560e55244d839d54b536053fae5cdec1834ea5dbf21583e81d90a87959931"
         }
       },
@@ -5667,7 +5667,7 @@
         "zh-cn": {
           "title": "获取智能体配置",
           "file": "zh-cn/api-reference/agents/get-agent-configuration.md",
-          "route": "/zh-cn/api-reference/agents/get-agent-configuration",
+          "route": "/zh-Hans/api-reference/agents/get-agent-configuration",
           "sha256": "289bfe52a960b124951ea9749fb054d1ba1a57667dbd1d3e41328bd560a26eb3"
         }
       },
@@ -5697,7 +5697,7 @@
         "zh-cn": {
           "title": "归档智能体配置",
           "file": "zh-cn/api-reference/agents/archive-agent-configuration.md",
-          "route": "/zh-cn/api-reference/agents/archive-agent-configuration",
+          "route": "/zh-Hans/api-reference/agents/archive-agent-configuration",
           "sha256": "ea8ac8983b0a7c7f3d63944c834a851f006dca847be492397cfc87e6415ab55e"
         }
       },
@@ -5727,7 +5727,7 @@
         "zh-cn": {
           "title": "更新智能体配置",
           "file": "zh-cn/api-reference/agents/update-agent-configuration.md",
-          "route": "/zh-cn/api-reference/agents/update-agent-configuration",
+          "route": "/zh-Hans/api-reference/agents/update-agent-configuration",
           "sha256": "03efc4f9c9f9854cbca2101657da6b5936805198a636f5d1d7a6a2bfcc3a00a5"
         }
       },
@@ -5757,7 +5757,7 @@
         "zh-cn": {
           "title": "导入智能体配置",
           "file": "zh-cn/api-reference/agents/import-agent-configuration.md",
-          "route": "/zh-cn/api-reference/agents/import-agent-configuration",
+          "route": "/zh-Hans/api-reference/agents/import-agent-configuration",
           "sha256": "16517af911ef8f2fff2f307e086ecdb0fd149f7deba0d7c6b4add614276ab403"
         }
       },
@@ -5787,7 +5787,7 @@
         "zh-cn": {
           "title": "按名称搜索智能体",
           "file": "zh-cn/api-reference/agents/search-agents-by-name.md",
-          "route": "/zh-cn/api-reference/agents/search-agents-by-name",
+          "route": "/zh-Hans/api-reference/agents/search-agents-by-name",
           "sha256": "f7587c35d67c59890c48980cae1ee7e687a1fd771eb8ff2da396ccb55fcb5852"
         }
       },
@@ -5817,7 +5817,7 @@
         "zh-cn": {
           "title": "取消对话中的消息生成",
           "file": "zh-cn/api-reference/conversations/cancel-message-generation-in-a-conversation.md",
-          "route": "/zh-cn/api-reference/conversations/cancel-message-generation-in-a-conversation",
+          "route": "/zh-Hans/api-reference/conversations/cancel-message-generation-in-a-conversation",
           "sha256": "f9c8ca9bbd1fcb17c218c4af5484055e00dcbcda2730e2e6cfbdc9aef7812e3b"
         }
       },
@@ -5847,7 +5847,7 @@
         "zh-cn": {
           "title": "创建内容片段",
           "file": "zh-cn/api-reference/conversations/create-a-content-fragment.md",
-          "route": "/zh-cn/api-reference/conversations/create-a-content-fragment",
+          "route": "/zh-Hans/api-reference/conversations/create-a-content-fragment",
           "sha256": "0e11797b55b000e154f3a317635525359413379125cba281a2ef348d1f034c1b"
         }
       },
@@ -5877,7 +5877,7 @@
         "zh-cn": {
           "title": "获取对话事件",
           "file": "zh-cn/api-reference/conversations/get-the-events-for-a-conversation.md",
-          "route": "/zh-cn/api-reference/conversations/get-the-events-for-a-conversation",
+          "route": "/zh-Hans/api-reference/conversations/get-the-events-for-a-conversation",
           "sha256": "dd4d5eaecbe768c1176bac4a116be3af554a6d072fd6e38edd80fc60a2d94726"
         }
       },
@@ -5907,7 +5907,7 @@
         "zh-cn": {
           "title": "按路径下载对话文件",
           "file": "zh-cn/api-reference/conversations/download-a-conversation-scoped-file-by-path.md",
-          "route": "/zh-cn/api-reference/conversations/download-a-conversation-scoped-file-by-path",
+          "route": "/zh-Hans/api-reference/conversations/download-a-conversation-scoped-file-by-path",
           "sha256": "4cf8996644f030afb0af7c98dfc9bba2b8f82e7944a9675023127e41b9445247"
         }
       },
@@ -5937,7 +5937,7 @@
         "zh-cn": {
           "title": "获取对话",
           "file": "zh-cn/api-reference/conversations/get-a-conversation.md",
-          "route": "/zh-cn/api-reference/conversations/get-a-conversation",
+          "route": "/zh-Hans/api-reference/conversations/get-a-conversation",
           "sha256": "e448725273f21c2239b45bc426b7247867113c54214840dec8c7179613a48378"
         }
       },
@@ -5967,7 +5967,7 @@
         "zh-cn": {
           "title": "更新对话",
           "file": "zh-cn/api-reference/conversations/update-a-conversation.md",
-          "route": "/zh-cn/api-reference/conversations/update-a-conversation",
+          "route": "/zh-Hans/api-reference/conversations/update-a-conversation",
           "sha256": "a356fd55a05036fac3ccac0648cf1ee7949719759843ccf6e2bf4c578d61d5d8"
         }
       },
@@ -5997,7 +5997,7 @@
         "zh-cn": {
           "title": "回答对话消息中的用户问题",
           "file": "zh-cn/api-reference/conversations/answer-a-user-question-in-a-conversation-message.md",
-          "route": "/zh-cn/api-reference/conversations/answer-a-user-question-in-a-conversation-message",
+          "route": "/zh-Hans/api-reference/conversations/answer-a-user-question-in-a-conversation-message",
           "sha256": "7bc10f4abba6570fcaa04fa79b33b28c4645128836b3b296e3a076be48095e22"
         }
       },
@@ -6027,7 +6027,7 @@
         "zh-cn": {
           "title": "编辑对话中的现有消息",
           "file": "zh-cn/api-reference/conversations/edit-an-existing-message-in-a-conversation.md",
-          "route": "/zh-cn/api-reference/conversations/edit-an-existing-message-in-a-conversation",
+          "route": "/zh-Hans/api-reference/conversations/edit-an-existing-message-in-a-conversation",
           "sha256": "b0ced3598b706459fb570caa0b067bf8f22a59ab662a11f0197eded00baba7fb"
         }
       },
@@ -6057,7 +6057,7 @@
         "zh-cn": {
           "title": "获取消息事件",
           "file": "zh-cn/api-reference/conversations/get-events-for-a-message.md",
-          "route": "/zh-cn/api-reference/conversations/get-events-for-a-message",
+          "route": "/zh-Hans/api-reference/conversations/get-events-for-a-message",
           "sha256": "279a9eb80c38e9213750e35dc4d84b6991f574340dacefec638652533d4ca56d"
         }
       },
@@ -6087,7 +6087,7 @@
         "zh-cn": {
           "title": "审核对话消息中的操作",
           "file": "zh-cn/api-reference/conversations/validate-an-action-in-a-conversation-message.md",
-          "route": "/zh-cn/api-reference/conversations/validate-an-action-in-a-conversation-message",
+          "route": "/zh-Hans/api-reference/conversations/validate-an-action-in-a-conversation-message",
           "sha256": "968520bd1309619aec353e728037496f988a18691df4e057ca7f25458085d8cd"
         }
       },
@@ -6117,7 +6117,7 @@
         "zh-cn": {
           "title": "创建对话消息",
           "file": "zh-cn/api-reference/conversations/create-a-message.md",
-          "route": "/zh-cn/api-reference/conversations/create-a-message",
+          "route": "/zh-Hans/api-reference/conversations/create-a-message",
           "sha256": "8d4817d113fad8fb0a173cf9760029733b3a92020103a1faa663905748895232"
         }
       },
@@ -6147,7 +6147,7 @@
         "zh-cn": {
           "title": "创建新对话",
           "file": "zh-cn/api-reference/conversations/create-a-new-conversation.md",
-          "route": "/zh-cn/api-reference/conversations/create-a-new-conversation",
+          "route": "/zh-Hans/api-reference/conversations/create-a-new-conversation",
           "sha256": "e956a44d9c258ad20ca9264c20079b135c8543a552cc2290e404009cdc629bbc"
         }
       },
@@ -6177,7 +6177,7 @@
         "zh-cn": {
           "title": "创建文件上传地址",
           "file": "zh-cn/api-reference/conversations/create-a-file-upload-url.md",
-          "route": "/zh-cn/api-reference/conversations/create-a-file-upload-url",
+          "route": "/zh-Hans/api-reference/conversations/create-a-file-upload-url",
           "sha256": "9eaeffc3fbebbc8ea51e4298e3c88804a8c819eb4a07eaa1c9775bd6332e11c3"
         }
       },
@@ -6207,7 +6207,7 @@
         "zh-cn": {
           "title": "获取对话反馈",
           "file": "zh-cn/api-reference/feedbacks/get-feedbacks-for-a-conversation.md",
-          "route": "/zh-cn/api-reference/feedbacks/get-feedbacks-for-a-conversation",
+          "route": "/zh-Hans/api-reference/feedbacks/get-feedbacks-for-a-conversation",
           "sha256": "0d5d971899bd6f7f38c9cd8a33de203cf7cb539948cff052e4344757b35230c3"
         }
       },
@@ -6237,7 +6237,7 @@
         "zh-cn": {
           "title": "提交消息反馈",
           "file": "zh-cn/api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation.md",
-          "route": "/zh-cn/api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation",
+          "route": "/zh-Hans/api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation",
           "sha256": "b75177fc0aa453572fb38922cb3febd17d720cb6f7cd61d7e436290ef21f16a3"
         }
       },
@@ -6267,7 +6267,7 @@
         "zh-cn": {
           "title": "删除消息反馈",
           "file": "zh-cn/api-reference/feedbacks/delete-feedback-for-a-specific-message.md",
-          "route": "/zh-cn/api-reference/feedbacks/delete-feedback-for-a-specific-message",
+          "route": "/zh-Hans/api-reference/feedbacks/delete-feedback-for-a-specific-message",
           "sha256": "64b6895c2ffb0ed2d17daab297981f937bbaf083357e0c8a37fd32e73e75d1c4"
         }
       },
@@ -6297,7 +6297,7 @@
         "zh-cn": {
           "title": "获取对话中的提及建议",
           "file": "zh-cn/api-reference/mentions/get-mention-suggestions-for-a-conversation.md",
-          "route": "/zh-cn/api-reference/mentions/get-mention-suggestions-for-a-conversation",
+          "route": "/zh-Hans/api-reference/mentions/get-mention-suggestions-for-a-conversation",
           "sha256": "66b4b3687b914191a982312f5d9cf9c2b6b37575a12a4e0d64d500b8a52d1d22"
         }
       },
@@ -6327,7 +6327,7 @@
         "zh-cn": {
           "title": "解析 Markdown 中的提及",
           "file": "zh-cn/api-reference/mentions/parse-mentions-in-markdown-text.md",
-          "route": "/zh-cn/api-reference/mentions/parse-mentions-in-markdown-text",
+          "route": "/zh-Hans/api-reference/mentions/parse-mentions-in-markdown-text",
           "sha256": "29406ab2475123c097cda915c281b5c6e2f7c1d35e47a2d70d2c262d94cc0744"
         }
       },
@@ -6357,7 +6357,7 @@
         "zh-cn": {
           "title": "获取提及建议",
           "file": "zh-cn/api-reference/mentions/get-mention-suggestions.md",
-          "route": "/zh-cn/api-reference/mentions/get-mention-suggestions",
+          "route": "/zh-Hans/api-reference/mentions/get-mention-suggestions",
           "sha256": "2ddc853c9193f9dd691b3b428db6bdca4744b1c3724f2cba199ba2918935f5ba"
         }
       },
@@ -6387,7 +6387,7 @@
         "zh-cn": {
           "title": "注销客户端 MCP 服务器",
           "file": "zh-cn/api-reference/mcp/deregister-a-client-side-mcp-server.md",
-          "route": "/zh-cn/api-reference/mcp/deregister-a-client-side-mcp-server",
+          "route": "/zh-Hans/api-reference/mcp/deregister-a-client-side-mcp-server",
           "sha256": "51434909ed4220e03c77343b1c04aa04f2ae6df0f2696f975949930eea954651"
         }
       },
@@ -6417,7 +6417,7 @@
         "zh-cn": {
           "title": "更新客户端 MCP 服务器心跳",
           "file": "zh-cn/api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server.md",
-          "route": "/zh-cn/api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server",
+          "route": "/zh-Hans/api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server",
           "sha256": "fc5ae60f7ec826c585a3bbb5543784d728d6ec9daf02e9f58b609f5a27db1f99"
         }
       },
@@ -6447,7 +6447,7 @@
         "zh-cn": {
           "title": "注册客户端 MCP 服务器",
           "file": "zh-cn/api-reference/mcp/register-a-client-side-mcp-server.md",
-          "route": "/zh-cn/api-reference/mcp/register-a-client-side-mcp-server",
+          "route": "/zh-Hans/api-reference/mcp/register-a-client-side-mcp-server",
           "sha256": "4d2036cd4ce95c37805308a2813fd82ed41b5e75d94f648d71e8109ad4d1ede4"
         }
       },
@@ -6477,7 +6477,7 @@
         "zh-cn": {
           "title": "接收工作区 MCP 工具请求流",
           "file": "zh-cn/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace.md",
-          "route": "/zh-cn/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace",
+          "route": "/zh-Hans/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace",
           "sha256": "86250f9f61e14eadc51bb1571d64874dbe330e0217bc57392c9f2d3066e592b7"
         }
       },
@@ -6507,7 +6507,7 @@
         "zh-cn": {
           "title": "提交 MCP 工具执行结果",
           "file": "zh-cn/api-reference/mcp/submit-mcp-tool-execution-results.md",
-          "route": "/zh-cn/api-reference/mcp/submit-mcp-tool-execution-results",
+          "route": "/zh-Hans/api-reference/mcp/submit-mcp-tool-execution-results",
           "sha256": "6f63516352a173004fede1b6dd04fdc3c6fce2d1ae4d8b8fbab633659abe6390"
         }
       },
@@ -6537,7 +6537,7 @@
         "zh-cn": {
           "title": "流式搜索工作区节点",
           "file": "zh-cn/api-reference/search/search-for-nodes-in-the-workspace-streaming.md",
-          "route": "/zh-cn/api-reference/search/search-for-nodes-in-the-workspace-streaming",
+          "route": "/zh-Hans/api-reference/search/search-for-nodes-in-the-workspace-streaming",
           "sha256": "ae200454ad6be124e44bb303231fd20d4141e343cfa20a4c05f3b7bcb6176eb6"
         }
       },
@@ -6567,7 +6567,7 @@
         "zh-cn": {
           "title": "搜索工作区节点",
           "file": "zh-cn/api-reference/search/search-for-nodes-in-the-workspace.md",
-          "route": "/zh-cn/api-reference/search/search-for-nodes-in-the-workspace",
+          "route": "/zh-Hans/api-reference/search/search-for-nodes-in-the-workspace",
           "sha256": "f77f783b1b56ae999a4b96555c5985f1d23ebb90429c85332803ae2f9f08fc09"
         }
       },
@@ -6597,7 +6597,7 @@
         "zh-cn": {
           "title": "上传工具文件",
           "file": "zh-cn/api-reference/search/upload-a-tool-file.md",
-          "route": "/zh-cn/api-reference/search/upload-a-tool-file",
+          "route": "/zh-Hans/api-reference/search/upload-a-tool-file",
           "sha256": "be32aab672037021155cee2ef7ccf55da75d229ef5ceb1be54cddc4087a9f4ed"
         }
       },
@@ -6627,7 +6627,7 @@
         "zh-cn": {
           "title": "归档 Skill",
           "file": "zh-cn/api-reference/skills/archive-a-skill.md",
-          "route": "/zh-cn/api-reference/skills/archive-a-skill",
+          "route": "/zh-Hans/api-reference/skills/archive-a-skill",
           "sha256": "1ead8edd651178efa56e6b137ea14801e015cd9cfe76d554d32de1b894ab9bc4"
         }
       },
@@ -6657,7 +6657,7 @@
         "zh-cn": {
           "title": "列出 Skills",
           "file": "zh-cn/api-reference/skills/list-skills.md",
-          "route": "/zh-cn/api-reference/skills/list-skills",
+          "route": "/zh-Hans/api-reference/skills/list-skills",
           "sha256": "e86caa9232677ec78f13715c99a02604ad72b142556ad25bb4702fd6131c590c"
         }
       },
@@ -6687,7 +6687,7 @@
         "zh-cn": {
           "title": "从上传文件导入 Skills",
           "file": "zh-cn/api-reference/skills/import-skills-from-uploaded-files.md",
-          "route": "/zh-cn/api-reference/skills/import-skills-from-uploaded-files",
+          "route": "/zh-Hans/api-reference/skills/import-skills-from-uploaded-files",
           "sha256": "6f00c413899825f6e7458a2347e0bb44fb4c7c96eeffe12c5300941d9885837c"
         }
       },
@@ -6717,7 +6717,7 @@
         "zh-cn": {
           "title": "获取应用运行记录",
           "file": "zh-cn/api-reference/apps/get-an-app-run.md",
-          "route": "/zh-cn/api-reference/apps/get-an-app-run",
+          "route": "/zh-Hans/api-reference/apps/get-an-app-run",
           "sha256": "b1edf48dd2a0242b986c5f2e2e2094b763053210f9974341e8227d99720204ce"
         }
       },
@@ -6747,7 +6747,7 @@
         "zh-cn": {
           "title": "创建并运行应用",
           "file": "zh-cn/api-reference/apps/create-an-app-run.md",
-          "route": "/zh-cn/api-reference/apps/create-an-app-run",
+          "route": "/zh-Hans/api-reference/apps/create-an-app-run",
           "sha256": "a57ec12beecedd75d001c91be824dfb35213a29630036d526e384ada1f35cdb9"
         }
       },
@@ -6777,7 +6777,7 @@
         "zh-cn": {
           "title": "列出 Space 中的应用",
           "file": "zh-cn/api-reference/apps/list-apps.md",
-          "route": "/zh-cn/api-reference/apps/list-apps",
+          "route": "/zh-Hans/api-reference/apps/list-apps",
           "sha256": "d9447a9353fc48a7101a829c3b16f3594f0306b0a9484c82cbaa9b166cc59669"
         }
       },
@@ -6807,7 +6807,7 @@
         "zh-cn": {
           "title": "获取数据源视图",
           "file": "zh-cn/api-reference/datasourceviews/get-a-data-source-view.md",
-          "route": "/zh-cn/api-reference/datasourceviews/get-a-data-source-view",
+          "route": "/zh-Hans/api-reference/datasourceviews/get-a-data-source-view",
           "sha256": "557092a839fc974955baee9755aa130cf239d619a596e9736327c02819aa4aea"
         }
       },
@@ -6837,7 +6837,7 @@
         "zh-cn": {
           "title": "删除数据源视图",
           "file": "zh-cn/api-reference/datasourceviews/delete-a-data-source-view.md",
-          "route": "/zh-cn/api-reference/datasourceviews/delete-a-data-source-view",
+          "route": "/zh-Hans/api-reference/datasourceviews/delete-a-data-source-view",
           "sha256": "8f0eac9bc14edcbcb604ab6307ae8553a712331425b4828973bdb0ddb5710fc8"
         }
       },
@@ -6867,7 +6867,7 @@
         "zh-cn": {
           "title": "更新数据源视图",
           "file": "zh-cn/api-reference/datasourceviews/update-a-data-source-view.md",
-          "route": "/zh-cn/api-reference/datasourceviews/update-a-data-source-view",
+          "route": "/zh-Hans/api-reference/datasourceviews/update-a-data-source-view",
           "sha256": "ca118aa4086264625654df3db6eb1adf55ceeb6288b9afd8d9b7dd7744bb933a"
         }
       },
@@ -6897,7 +6897,7 @@
         "zh-cn": {
           "title": "搜索数据源视图",
           "file": "zh-cn/api-reference/datasourceviews/search-the-data-source-view.md",
-          "route": "/zh-cn/api-reference/datasourceviews/search-the-data-source-view",
+          "route": "/zh-Hans/api-reference/datasourceviews/search-the-data-source-view",
           "sha256": "2eb1cd5fddbe3f7e8acccda83f873cb5817ed8376ecfed39262af9a1ca0a6022"
         }
       },
@@ -6927,7 +6927,7 @@
         "zh-cn": {
           "title": "列出数据源视图",
           "file": "zh-cn/api-reference/datasourceviews/list-data-source-views.md",
-          "route": "/zh-cn/api-reference/datasourceviews/list-data-source-views",
+          "route": "/zh-Hans/api-reference/datasourceviews/list-data-source-views",
           "sha256": "5bdee64c7349b80746705b0f406ab26eb54ea7e43aef6cc4e88edc5688e64833"
         }
       },
@@ -6957,7 +6957,7 @@
         "zh-cn": {
           "title": "检查数据源的写入队列状态",
           "file": "zh-cn/api-reference/datasources/check-the-upsert-queue-status-for-a-data-source.md",
-          "route": "/zh-cn/api-reference/datasources/check-the-upsert-queue-status-for-a-data-source",
+          "route": "/zh-Hans/api-reference/datasources/check-the-upsert-queue-status-for-a-data-source",
           "sha256": "8f1b2023fe4cda842d5cbb586849a68cc251fde72f54d667b51129ccdd937f3a"
         }
       },
@@ -6987,7 +6987,7 @@
         "zh-cn": {
           "title": "从数据源读取文档",
           "file": "zh-cn/api-reference/datasources/retrieve-a-document-from-a-data-source.md",
-          "route": "/zh-cn/api-reference/datasources/retrieve-a-document-from-a-data-source",
+          "route": "/zh-Hans/api-reference/datasources/retrieve-a-document-from-a-data-source",
           "sha256": "bf7a6533ecb99365415b15d5871f23b5e80b55d81c806a464557723ca4e5c1fc"
         }
       },
@@ -7017,7 +7017,7 @@
         "zh-cn": {
           "title": "写入或更新数据源文档",
           "file": "zh-cn/api-reference/datasources/upsert-a-document-in-a-data-source.md",
-          "route": "/zh-cn/api-reference/datasources/upsert-a-document-in-a-data-source",
+          "route": "/zh-Hans/api-reference/datasources/upsert-a-document-in-a-data-source",
           "sha256": "ed6fca1b040a63a96860f6cef6b8ece2c6c4c899b0460dca1ae7999fedd7da1d"
         }
       },
@@ -7047,7 +7047,7 @@
         "zh-cn": {
           "title": "从数据源删除文档",
           "file": "zh-cn/api-reference/datasources/delete-a-document-from-a-data-source.md",
-          "route": "/zh-cn/api-reference/datasources/delete-a-document-from-a-data-source",
+          "route": "/zh-Hans/api-reference/datasources/delete-a-document-from-a-data-source",
           "sha256": "a3828bd2f0b4dcd36e7c9d33be85f75abfb0bb799e52aaadd34c5242ed2ff703"
         }
       },
@@ -7077,7 +7077,7 @@
         "zh-cn": {
           "title": "更新文档的父级关系",
           "file": "zh-cn/api-reference/datasources/update-the-parents-of-a-document.md",
-          "route": "/zh-cn/api-reference/datasources/update-the-parents-of-a-document",
+          "route": "/zh-Hans/api-reference/datasources/update-the-parents-of-a-document",
           "sha256": "9f0dbd68564c83f187e34e239c219e97d71af578fd1e762330abdc2d6ae404b3"
         }
       },
@@ -7107,7 +7107,7 @@
         "zh-cn": {
           "title": "列出数据源文档",
           "file": "zh-cn/api-reference/datasources/get-documents.md",
-          "route": "/zh-cn/api-reference/datasources/get-documents",
+          "route": "/zh-Hans/api-reference/datasources/get-documents",
           "sha256": "28b93782ba0967f18e12ca153d5af375dd8c2a211eb025d0bb0bfcd1d2932c79"
         }
       },
@@ -7137,7 +7137,7 @@
         "zh-cn": {
           "title": "搜索数据源",
           "file": "zh-cn/api-reference/datasources/search-the-data-source.md",
-          "route": "/zh-cn/api-reference/datasources/search-the-data-source",
+          "route": "/zh-Hans/api-reference/datasources/search-the-data-source",
           "sha256": "389da5021d74f3d0272853e7a584982439d6f8f4d4cf6aef53133965276171e5"
         }
       },
@@ -7167,7 +7167,7 @@
         "zh-cn": {
           "title": "获取数据表",
           "file": "zh-cn/api-reference/datasources/get-a-table.md",
-          "route": "/zh-cn/api-reference/datasources/get-a-table",
+          "route": "/zh-Hans/api-reference/datasources/get-a-table",
           "sha256": "e2f7b8dc8321cd8bab27389400e3023067f685e85f3fc6a054e49e051e41c180"
         }
       },
@@ -7197,7 +7197,7 @@
         "zh-cn": {
           "title": "删除数据表",
           "file": "zh-cn/api-reference/datasources/delete-a-table.md",
-          "route": "/zh-cn/api-reference/datasources/delete-a-table",
+          "route": "/zh-Hans/api-reference/datasources/delete-a-table",
           "sha256": "6508420d022b1b854f7e9ea8e92c446b9169962da0d29d218fb6eebfb8980524"
         }
       },
@@ -7227,7 +7227,7 @@
         "zh-cn": {
           "title": "获取表格行",
           "file": "zh-cn/api-reference/datasources/get-a-row.md",
-          "route": "/zh-cn/api-reference/datasources/get-a-row",
+          "route": "/zh-Hans/api-reference/datasources/get-a-row",
           "sha256": "99228ff115b8b967ccde5ea5532649ac5c5d6fe86faaafc0b30174fdcdff26ca"
         }
       },
@@ -7257,7 +7257,7 @@
         "zh-cn": {
           "title": "删除表格行",
           "file": "zh-cn/api-reference/datasources/delete-a-row.md",
-          "route": "/zh-cn/api-reference/datasources/delete-a-row",
+          "route": "/zh-Hans/api-reference/datasources/delete-a-row",
           "sha256": "346c3d3e9373988156dc87c38d304737c0a653f877c5b87b015200c0a18da4c1"
         }
       },
@@ -7287,7 +7287,7 @@
         "zh-cn": {
           "title": "列出表格行",
           "file": "zh-cn/api-reference/datasources/list-rows.md",
-          "route": "/zh-cn/api-reference/datasources/list-rows",
+          "route": "/zh-Hans/api-reference/datasources/list-rows",
           "sha256": "39dbe173825e0a08acbef0a3b30e035fdbd2556652b16c0320fece520d283298"
         }
       },
@@ -7317,7 +7317,7 @@
         "zh-cn": {
           "title": "批量写入或更新表格行",
           "file": "zh-cn/api-reference/datasources/upsert-rows.md",
-          "route": "/zh-cn/api-reference/datasources/upsert-rows",
+          "route": "/zh-Hans/api-reference/datasources/upsert-rows",
           "sha256": "f7e1cd7ae96895399197866ab205f45813aebd25e753ee9e9e0c04bdf1702475"
         }
       },
@@ -7347,7 +7347,7 @@
         "zh-cn": {
           "title": "列出数据源表格",
           "file": "zh-cn/api-reference/datasources/get-tables.md",
-          "route": "/zh-cn/api-reference/datasources/get-tables",
+          "route": "/zh-Hans/api-reference/datasources/get-tables",
           "sha256": "9ea1680a25d8b1084fa4dbdbf2e9e1eea2a41b2524c4129a31c2e817761411c7"
         }
       },
@@ -7377,7 +7377,7 @@
         "zh-cn": {
           "title": "写入或更新数据表",
           "file": "zh-cn/api-reference/datasources/upsert-a-table.md",
-          "route": "/zh-cn/api-reference/datasources/upsert-a-table",
+          "route": "/zh-Hans/api-reference/datasources/upsert-a-table",
           "sha256": "c23acbf0bddc8356db06eb24f266b01529cef91d4c888cf93f8638dc6553c75d"
         }
       },
@@ -7407,7 +7407,7 @@
         "zh-cn": {
           "title": "列出工作区数据源",
           "file": "zh-cn/api-reference/datasources/get-data-sources.md",
-          "route": "/zh-cn/api-reference/datasources/get-data-sources",
+          "route": "/zh-Hans/api-reference/datasources/get-data-sources",
           "sha256": "646b347263c83e1c24fd238dc913c20cd9a076972b6ebaa74624b163c44e355c"
         }
       },
@@ -7437,7 +7437,7 @@
         "zh-cn": {
           "title": "列出可用 MCP 服务器视图",
           "file": "zh-cn/api-reference/tools/list-available-mcp-server-views.md",
-          "route": "/zh-cn/api-reference/tools/list-available-mcp-server-views",
+          "route": "/zh-Hans/api-reference/tools/list-available-mcp-server-views",
           "sha256": "82092341b4e9268f2504320a6162c36bc9e9c3c74f09b079cd16d0b19bbe6074"
         }
       },
@@ -7467,7 +7467,7 @@
         "zh-cn": {
           "title": "列出可访问的 Space",
           "file": "zh-cn/api-reference/spaces/list-available-spaces.md",
-          "route": "/zh-cn/api-reference/spaces/list-available-spaces",
+          "route": "/zh-Hans/api-reference/spaces/list-available-spaces",
           "sha256": "f231f87b25025224fdf5af99e8629278ec1e6121ddee19e2db81998dcef4b49b"
         }
       },
@@ -7497,7 +7497,7 @@
         "zh-cn": {
           "title": "获取触发器",
           "file": "zh-cn/api-reference/triggers/get-a-trigger.md",
-          "route": "/zh-cn/api-reference/triggers/get-a-trigger",
+          "route": "/zh-Hans/api-reference/triggers/get-a-trigger",
           "sha256": "b1f347e2d746409095dcff2332c2cd168ca7c0d2ae7ec6836264120ffe07de1e"
         }
       },
@@ -7527,7 +7527,7 @@
         "zh-cn": {
           "title": "接收用于触发流程的外部 Webhook",
           "file": "zh-cn/api-reference/triggers/receive-external-webhook-to-trigger-flows.md",
-          "route": "/zh-cn/api-reference/triggers/receive-external-webhook-to-trigger-flows",
+          "route": "/zh-Hans/api-reference/triggers/receive-external-webhook-to-trigger-flows",
           "sha256": "66c54547a566bfd25295d7e7ab77329198d9904a0dbbf20bd062e7e0af054767"
         }
       },
@@ -7557,7 +7557,7 @@
         "zh-cn": {
           "title": "列出触发器",
           "file": "zh-cn/api-reference/triggers/list-triggers.md",
-          "route": "/zh-cn/api-reference/triggers/list-triggers",
+          "route": "/zh-Hans/api-reference/triggers/list-triggers",
           "sha256": "18c7dd944722d33fc92300f9e1d7ead14ee33d026e3f1b33478a89489f2bb0a3"
         }
       },
@@ -7587,7 +7587,7 @@
         "zh-cn": {
           "title": "列出用量分析筛选值",
           "file": "zh-cn/api-reference/private-analytics/list-consumption-analytics-facets.md",
-          "route": "/zh-cn/api-reference/private-analytics/list-consumption-analytics-facets",
+          "route": "/zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets",
           "sha256": "d16704db24fc2ad8416f2650674b939e517f3988c6c473b5e05dfba90aa86382"
         }
       },
@@ -7617,7 +7617,7 @@
         "zh-cn": {
           "title": "列出个人用量筛选项",
           "file": "zh-cn/api-reference/private-analytics/list-consumption-analytics-facets-1.md",
-          "route": "/zh-cn/api-reference/private-analytics/list-consumption-analytics-facets-1",
+          "route": "/zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets-1",
           "sha256": "69b1d1797c6dce1eda725a11f296fc42a412f3404f1c20c32d53e33b534968c7"
         }
       },
@@ -7647,7 +7647,7 @@
         "zh-cn": {
           "title": "列出智能体用量筛选项",
           "file": "zh-cn/api-reference/private-analytics/list-consumption-analytics-facets-2.md",
-          "route": "/zh-cn/api-reference/private-analytics/list-consumption-analytics-facets-2",
+          "route": "/zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets-2",
           "sha256": "eda62339f1fe6ed85f32341674d42d04b29aafbd00f7473dee9734f7dceef308"
         }
       },
@@ -7677,7 +7677,7 @@
         "zh-cn": {
           "title": "列出智能体配置",
           "file": "zh-cn/api-reference/private-agents/list-agent-configurations.md",
-          "route": "/zh-cn/api-reference/private-agents/list-agent-configurations",
+          "route": "/zh-Hans/api-reference/private-agents/list-agent-configurations",
           "sha256": "ffc9bc7dd17bf067ca6de71dedfa4743a03a3f8807ff11d4ced0bb22a1d60aab"
         }
       },
@@ -7707,7 +7707,7 @@
         "zh-cn": {
           "title": "创建智能体配置",
           "file": "zh-cn/api-reference/private-agents/create-an-agent-configuration.md",
-          "route": "/zh-cn/api-reference/private-agents/create-an-agent-configuration",
+          "route": "/zh-Hans/api-reference/private-agents/create-an-agent-configuration",
           "sha256": "c1d362aec7c8c034b6a47aec1f54fcf9a6a5689607456db248d39f0c35d37123"
         }
       },
@@ -7737,7 +7737,7 @@
         "zh-cn": {
           "title": "取消消息生成",
           "file": "zh-cn/api-reference/private-conversations/cancel-message-generation.md",
-          "route": "/zh-cn/api-reference/private-conversations/cancel-message-generation",
+          "route": "/zh-Hans/api-reference/private-conversations/cancel-message-generation",
           "sha256": "430d9c1053a5bbb4633b53cf8fb75b8fa81669bb54064b944cc05e5e55080a0c"
         }
       },
@@ -7767,7 +7767,7 @@
         "zh-cn": {
           "title": "压缩对话上下文",
           "file": "zh-cn/api-reference/private-conversations/compact-a-conversation.md",
-          "route": "/zh-cn/api-reference/private-conversations/compact-a-conversation",
+          "route": "/zh-Hans/api-reference/private-conversations/compact-a-conversation",
           "sha256": "0d0b4dbdc10067d3f804cd53879b9bad83409cfedf4edfab2a8d6a5d1c208d62"
         }
       },
@@ -7797,7 +7797,7 @@
         "zh-cn": {
           "title": "获取对话的 credits 归因",
           "file": "zh-cn/api-reference/private-conversations/get-a-conversation-credit-attribution.md",
-          "route": "/zh-cn/api-reference/private-conversations/get-a-conversation-credit-attribution",
+          "route": "/zh-Hans/api-reference/private-conversations/get-a-conversation-credit-attribution",
           "sha256": "9e977409f22b41850932ccdf520f2bed361bc351c67f65f76fd0aa545d6ed4bd"
         }
       },
@@ -7827,7 +7827,7 @@
         "zh-cn": {
           "title": "创建对话内容片段",
           "file": "zh-cn/api-reference/private-conversations/create-a-content-fragment.md",
-          "route": "/zh-cn/api-reference/private-conversations/create-a-content-fragment",
+          "route": "/zh-Hans/api-reference/private-conversations/create-a-content-fragment",
           "sha256": "488e0ccae8f1a39a7ec3f0abcf30873940ca19b18bf5ab96e3535f357efb32ce"
         }
       },
@@ -7857,7 +7857,7 @@
         "zh-cn": {
           "title": "获取当前用户提交的对话反馈",
           "file": "zh-cn/api-reference/private-conversations/get-conversation-feedbacks.md",
-          "route": "/zh-cn/api-reference/private-conversations/get-conversation-feedbacks",
+          "route": "/zh-Hans/api-reference/private-conversations/get-conversation-feedbacks",
           "sha256": "1511aa411ce4eb2ae77e4e43933a3b24746aabce10a4d9615ebfc8d069bf20b4"
         }
       },
@@ -7887,7 +7887,7 @@
         "zh-cn": {
           "title": "获取对话详情",
           "file": "zh-cn/api-reference/private-conversations/get-a-conversation.md",
-          "route": "/zh-cn/api-reference/private-conversations/get-a-conversation",
+          "route": "/zh-Hans/api-reference/private-conversations/get-a-conversation",
           "sha256": "c0e10439e5aeede2e2b221fb7966056495a4b75d44786a440ad6d4183a665cdd"
         }
       },
@@ -7917,7 +7917,7 @@
         "zh-cn": {
           "title": "删除或退出对话",
           "file": "zh-cn/api-reference/private-conversations/delete-or-leave-a-conversation.md",
-          "route": "/zh-cn/api-reference/private-conversations/delete-or-leave-a-conversation",
+          "route": "/zh-Hans/api-reference/private-conversations/delete-or-leave-a-conversation",
           "sha256": "c466cfb4a065e41867d5759d88fb11606e5d6bcbd1b1a5188dc9bf323fed76c7"
         }
       },
@@ -7947,7 +7947,7 @@
         "zh-cn": {
           "title": "更新对话",
           "file": "zh-cn/api-reference/private-conversations/update-a-conversation.md",
-          "route": "/zh-cn/api-reference/private-conversations/update-a-conversation",
+          "route": "/zh-Hans/api-reference/private-conversations/update-a-conversation",
           "sha256": "e7bdf3be96d8fd5b31b05ce6ae2fd370e48276d792fd0ada67699d1f8455f98b"
         }
       },
@@ -7977,7 +7977,7 @@
         "zh-cn": {
           "title": "获取对话参与者",
           "file": "zh-cn/api-reference/private-conversations/get-conversation-participants.md",
-          "route": "/zh-cn/api-reference/private-conversations/get-conversation-participants",
+          "route": "/zh-Hans/api-reference/private-conversations/get-conversation-participants",
           "sha256": "63a6f64f9cdf0ad3540d2051afe0390449f32a1c1fcd90c98d254cd9a4aae914"
         }
       },
@@ -8007,7 +8007,7 @@
         "zh-cn": {
           "title": "添加对话参与者",
           "file": "zh-cn/api-reference/private-conversations/add-a-participant-to-a-conversation.md",
-          "route": "/zh-cn/api-reference/private-conversations/add-a-participant-to-a-conversation",
+          "route": "/zh-Hans/api-reference/private-conversations/add-a-participant-to-a-conversation",
           "sha256": "693530ff95577050ffa147dbe074de86e40feb029d4df7ec66c9b6e6bcef4faf"
         }
       },
@@ -8037,7 +8037,7 @@
         "zh-cn": {
           "title": "列出可选 Space",
           "file": "zh-cn/api-reference/private-conversations/list-selectable-spaces.md",
-          "route": "/zh-cn/api-reference/private-conversations/list-selectable-spaces",
+          "route": "/zh-Hans/api-reference/private-conversations/list-selectable-spaces",
           "sha256": "d4c31a48423bde00cc826a0f9eadd6d8d85877229fa9d8d01b7c15038e121c47"
         }
       },
@@ -8067,7 +8067,7 @@
         "zh-cn": {
           "title": "为对话选择 Space",
           "file": "zh-cn/api-reference/private-conversations/select-spaces-for-a-conversation.md",
-          "route": "/zh-cn/api-reference/private-conversations/select-spaces-for-a-conversation",
+          "route": "/zh-Hans/api-reference/private-conversations/select-spaces-for-a-conversation",
           "sha256": "6731c8496f9022f036b62ac96b290003df8a952cf5eeab03bf13366d919e3e2c"
         }
       },
@@ -8097,7 +8097,7 @@
         "zh-cn": {
           "title": "取消定时唤醒",
           "file": "zh-cn/api-reference/private-conversations/cancel-a-wake-up.md",
-          "route": "/zh-cn/api-reference/private-conversations/cancel-a-wake-up",
+          "route": "/zh-Hans/api-reference/private-conversations/cancel-a-wake-up",
           "sha256": "fc7ea1d9be15be7b96c920db50aa268baec8aebe40bb2dd5bf339f7affb19acf"
         }
       },
@@ -8127,7 +8127,7 @@
         "zh-cn": {
           "title": "列出对话的定时唤醒",
           "file": "zh-cn/api-reference/private-conversations/list-wake-ups-for-a-conversation.md",
-          "route": "/zh-cn/api-reference/private-conversations/list-wake-ups-for-a-conversation",
+          "route": "/zh-Hans/api-reference/private-conversations/list-wake-ups-for-a-conversation",
           "sha256": "b29c180934163819b1f656520b3c01d64ca1271ce321f1c25b55fe4a78723a5a"
         }
       },
@@ -8157,7 +8157,7 @@
         "zh-cn": {
           "title": "列出当前用户的对话",
           "file": "zh-cn/api-reference/private-conversations/list-conversations.md",
-          "route": "/zh-cn/api-reference/private-conversations/list-conversations",
+          "route": "/zh-Hans/api-reference/private-conversations/list-conversations",
           "sha256": "3d572fe7e091d8e9cc945f6348965680e9e3f05210bb8b1e04acecca95380eb2"
         }
       },
@@ -8187,7 +8187,7 @@
         "zh-cn": {
           "title": "创建对话",
           "file": "zh-cn/api-reference/private-conversations/create-a-conversation.md",
-          "route": "/zh-cn/api-reference/private-conversations/create-a-conversation",
+          "route": "/zh-Hans/api-reference/private-conversations/create-a-conversation",
           "sha256": "34f971cc77503d6953dc4dd668199cb7831ccbcf4738192880de0e0d8a4feb74"
         }
       },
@@ -8217,7 +8217,7 @@
         "zh-cn": {
           "title": "实时接收对话事件",
           "file": "zh-cn/api-reference/private-events/stream-conversation-events.md",
-          "route": "/zh-cn/api-reference/private-events/stream-conversation-events",
+          "route": "/zh-Hans/api-reference/private-events/stream-conversation-events",
           "sha256": "e145c0425ca6d9deda97f887603897fe96f8bb69cfa85510a1903d2b10f544de"
         }
       },
@@ -8247,7 +8247,7 @@
         "zh-cn": {
           "title": "实时接收消息事件",
           "file": "zh-cn/api-reference/private-events/stream-message-events.md",
-          "route": "/zh-cn/api-reference/private-events/stream-message-events",
+          "route": "/zh-Hans/api-reference/private-events/stream-message-events",
           "sha256": "ab654b65763ccfd5bb004920c9699af50ababeca62f9ee8fde8af11ee0c17e1b"
         }
       },
@@ -8277,7 +8277,7 @@
         "zh-cn": {
           "title": "实时接收 Pod 函数调用事件",
           "file": "zh-cn/api-reference/private-events/stream-sandbox-function-invocation-events.md",
-          "route": "/zh-cn/api-reference/private-events/stream-sandbox-function-invocation-events",
+          "route": "/zh-Hans/api-reference/private-events/stream-sandbox-function-invocation-events",
           "sha256": "5ce7a690dd7f442e3a46fa25c0aff585c064e9ea57319977a317970e8e6c02af"
         }
       },
@@ -8307,7 +8307,7 @@
         "zh-cn": {
           "title": "获取单项操作",
           "file": "zh-cn/api-reference/private-messages/get-a-single-action.md",
-          "route": "/zh-cn/api-reference/private-messages/get-a-single-action",
+          "route": "/zh-Hans/api-reference/private-messages/get-a-single-action",
           "sha256": "9718f6ce7bf4702777357cc84a4446afffa4d2e169b46b1ec104b42ac5d85695"
         }
       },
@@ -8337,7 +8337,7 @@
         "zh-cn": {
           "title": "获取智能体消息的 credits 归因",
           "file": "zh-cn/api-reference/private-messages/get-an-agent-message-credit-attribution.md",
-          "route": "/zh-cn/api-reference/private-messages/get-an-agent-message-credit-attribution",
+          "route": "/zh-Hans/api-reference/private-messages/get-an-agent-message-credit-attribution",
           "sha256": "6b10c318f9e729eb195debb697fbf78ae6262d24362ce3523fe168b818358669"
         }
       },
@@ -8367,7 +8367,7 @@
         "zh-cn": {
           "title": "编辑消息",
           "file": "zh-cn/api-reference/private-messages/edit-a-message.md",
-          "route": "/zh-cn/api-reference/private-messages/edit-a-message",
+          "route": "/zh-Hans/api-reference/private-messages/edit-a-message",
           "sha256": "ee7a4b186aae314af47f8f69493343070b9aece60d461ee8949ef53a09006576"
         }
       },
@@ -8397,7 +8397,7 @@
         "zh-cn": {
           "title": "提交消息反馈",
           "file": "zh-cn/api-reference/private-messages/submit-message-feedback.md",
-          "route": "/zh-cn/api-reference/private-messages/submit-message-feedback",
+          "route": "/zh-Hans/api-reference/private-messages/submit-message-feedback",
           "sha256": "0815cc346e02e8a96b19dfa8589c4aa08bd83a32e285be75868a88c4b026bc48"
         }
       },
@@ -8427,7 +8427,7 @@
         "zh-cn": {
           "title": "删除消息反馈",
           "file": "zh-cn/api-reference/private-messages/delete-message-feedback.md",
-          "route": "/zh-cn/api-reference/private-messages/delete-message-feedback",
+          "route": "/zh-Hans/api-reference/private-messages/delete-message-feedback",
           "sha256": "9cc3d4dd78f4a15ad7ae6f832c8459453a37bea804c6c57eefed767b68c66c06"
         }
       },
@@ -8457,7 +8457,7 @@
         "zh-cn": {
           "title": "获取消息",
           "file": "zh-cn/api-reference/private-messages/get-a-message.md",
-          "route": "/zh-cn/api-reference/private-messages/get-a-message",
+          "route": "/zh-Hans/api-reference/private-messages/get-a-message",
           "sha256": "4d3bb916c7fbaea479d6b22b7977328533517e81f569410de4c0c54441f30c01"
         }
       },
@@ -8487,7 +8487,7 @@
         "zh-cn": {
           "title": "删除消息",
           "file": "zh-cn/api-reference/private-messages/delete-a-message.md",
-          "route": "/zh-cn/api-reference/private-messages/delete-a-message",
+          "route": "/zh-Hans/api-reference/private-messages/delete-a-message",
           "sha256": "270e7a08584b26c20489901060c4f35ea80dfa69afb7d603d7f00aa7d3c91e0a"
         }
       },
@@ -8517,7 +8517,7 @@
         "zh-cn": {
           "title": "重试智能体消息",
           "file": "zh-cn/api-reference/private-messages/retry-an-agent-message.md",
-          "route": "/zh-cn/api-reference/private-messages/retry-an-agent-message",
+          "route": "/zh-Hans/api-reference/private-messages/retry-an-agent-message",
           "sha256": "64d874119e22fa56117cf86bcbce673442d0bd0029bfaaf523d593bbfa8d594e"
         }
       },
@@ -8547,7 +8547,7 @@
         "zh-cn": {
           "title": "列出对话消息",
           "file": "zh-cn/api-reference/private-messages/list-messages-in-a-conversation.md",
-          "route": "/zh-cn/api-reference/private-messages/list-messages-in-a-conversation",
+          "route": "/zh-Hans/api-reference/private-messages/list-messages-in-a-conversation",
           "sha256": "7478c7bb27f8626b28ff0f6eb6945c2c49da6e9d5e0671cde13882e3a365099d"
         }
       },
@@ -8577,7 +8577,7 @@
         "zh-cn": {
           "title": "向对话发送消息",
           "file": "zh-cn/api-reference/private-messages/post-a-message-to-a-conversation.md",
-          "route": "/zh-cn/api-reference/private-messages/post-a-message-to-a-conversation",
+          "route": "/zh-Hans/api-reference/private-messages/post-a-message-to-a-conversation",
           "sha256": "9e312b2935d85bb5e7caa61a204d0363d1619dfcf6e3368413cc697a7997442b"
         }
       },
@@ -8607,7 +8607,7 @@
         "zh-cn": {
           "title": "生成对话模板草稿",
           "file": "zh-cn/api-reference/private-assistant/resolve-a-conversation-go-template-draft.md",
-          "route": "/zh-cn/api-reference/private-assistant/resolve-a-conversation-go-template-draft",
+          "route": "/zh-Hans/api-reference/private-assistant/resolve-a-conversation-go-template-draft",
           "sha256": "371bc8486b670f3fc1eacaffdbf2bcec92af442b73300bc0b6a3725aedd1ef35"
         }
       },
@@ -8637,7 +8637,7 @@
         "zh-cn": {
           "title": "获取工作区提及建议",
           "file": "zh-cn/api-reference/private-mentions/get-mention-suggestions.md",
-          "route": "/zh-cn/api-reference/private-mentions/get-mention-suggestions",
+          "route": "/zh-Hans/api-reference/private-mentions/get-mention-suggestions",
           "sha256": "3b865d39c362e7626367cd0331e97dde21f1d0276f896ce4aa17e53b5fc737f9"
         }
       },
@@ -8667,7 +8667,7 @@
         "zh-cn": {
           "title": "获取扩展配置",
           "file": "zh-cn/api-reference/private-extension/get-extension-configuration.md",
-          "route": "/zh-cn/api-reference/private-extension/get-extension-configuration",
+          "route": "/zh-Hans/api-reference/private-extension/get-extension-configuration",
           "sha256": "612d5ee45beb0415903a21f75f251db0a994008cad55e27c0c07dcfb7e1dca21"
         }
       },
@@ -8697,7 +8697,7 @@
         "zh-cn": {
           "title": "获取工作区功能开关",
           "file": "zh-cn/api-reference/private-workspace/get-workspace-feature-flags.md",
-          "route": "/zh-cn/api-reference/private-workspace/get-workspace-feature-flags",
+          "route": "/zh-Hans/api-reference/private-workspace/get-workspace-feature-flags",
           "sha256": "6eee16d6b4baad09da74395834739a5300bc911255db90759bde6704b00d9311"
         }
       },
@@ -8727,7 +8727,7 @@
         "zh-cn": {
           "title": "查看或下载文件",
           "file": "zh-cn/api-reference/private-files/get-or-download-a-file.md",
-          "route": "/zh-cn/api-reference/private-files/get-or-download-a-file",
+          "route": "/zh-Hans/api-reference/private-files/get-or-download-a-file",
           "sha256": "0b650c4df5aba3a704e2bfa5a77781d90ce58da34a8f2f9bbce88fb4c530f80f"
         }
       },
@@ -8757,7 +8757,7 @@
         "zh-cn": {
           "title": "上传文件内容",
           "file": "zh-cn/api-reference/private-files/upload-file-content.md",
-          "route": "/zh-cn/api-reference/private-files/upload-file-content",
+          "route": "/zh-Hans/api-reference/private-files/upload-file-content",
           "sha256": "4cc07c319a627c599e8f5c6882dec223b8eb9d53870a56303c3c81cb5ebbf838"
         }
       },
@@ -8787,7 +8787,7 @@
         "zh-cn": {
           "title": "删除文件",
           "file": "zh-cn/api-reference/private-files/delete-a-file.md",
-          "route": "/zh-cn/api-reference/private-files/delete-a-file",
+          "route": "/zh-Hans/api-reference/private-files/delete-a-file",
           "sha256": "a153fec1f05179180313566512b507f6b5fe667e2c53cc98e9d4896a401a9dc1"
         }
       },
@@ -8817,7 +8817,7 @@
         "zh-cn": {
           "title": "创建文件上传记录",
           "file": "zh-cn/api-reference/private-files/create-a-file-upload.md",
-          "route": "/zh-cn/api-reference/private-files/create-a-file-upload",
+          "route": "/zh-Hans/api-reference/private-files/create-a-file-upload",
           "sha256": "491525738924e7feb487cc0d72d37658f14efcf646be1704ada78f521a50c66c"
         }
       },
@@ -8847,7 +8847,7 @@
         "zh-cn": {
           "title": "获取数据源视图",
           "file": "zh-cn/api-reference/private-spaces/get-a-data-source-view.md",
-          "route": "/zh-cn/api-reference/private-spaces/get-a-data-source-view",
+          "route": "/zh-Hans/api-reference/private-spaces/get-a-data-source-view",
           "sha256": "c0b6889d09aad8c441737e5d56345aa18ae9d64445f3e86395f1b07beb5a7c59"
         }
       },
@@ -8877,7 +8877,7 @@
         "zh-cn": {
           "title": "删除数据源视图",
           "file": "zh-cn/api-reference/private-spaces/delete-a-data-source-view.md",
-          "route": "/zh-cn/api-reference/private-spaces/delete-a-data-source-view",
+          "route": "/zh-Hans/api-reference/private-spaces/delete-a-data-source-view",
           "sha256": "2ec8c918cb23e03d871b43aa7f92aff7f5fc2b0c26d337ffc91cdf4735161643"
         }
       },
@@ -8907,7 +8907,7 @@
         "zh-cn": {
           "title": "更新数据源视图",
           "file": "zh-cn/api-reference/private-spaces/update-a-data-source-view.md",
-          "route": "/zh-cn/api-reference/private-spaces/update-a-data-source-view",
+          "route": "/zh-Hans/api-reference/private-spaces/update-a-data-source-view",
           "sha256": "0cd4602ab8f6cfc60c5639c58148e629bfe4bf471c8738ebae3ded9bd684b22e"
         }
       },
@@ -8937,7 +8937,7 @@
         "zh-cn": {
           "title": "列出数据源视图",
           "file": "zh-cn/api-reference/private-spaces/list-data-source-views.md",
-          "route": "/zh-cn/api-reference/private-spaces/list-data-source-views",
+          "route": "/zh-Hans/api-reference/private-spaces/list-data-source-views",
           "sha256": "51abbd0fbcb32913478b30121d07823f109d5292b56904cd10158b4950db788d"
         }
       },
@@ -8967,7 +8967,7 @@
         "zh-cn": {
           "title": "创建数据源视图",
           "file": "zh-cn/api-reference/private-spaces/create-a-data-source-view.md",
-          "route": "/zh-cn/api-reference/private-spaces/create-a-data-source-view",
+          "route": "/zh-Hans/api-reference/private-spaces/create-a-data-source-view",
           "sha256": "87b5ff1b17e71f776681a87c11f53eb3600a6426699c22d3e3d04a21ac4d15d5"
         }
       },
@@ -8997,7 +8997,7 @@
         "zh-cn": {
           "title": "获取 Space 详情",
           "file": "zh-cn/api-reference/private-spaces/get-a-space.md",
-          "route": "/zh-cn/api-reference/private-spaces/get-a-space",
+          "route": "/zh-Hans/api-reference/private-spaces/get-a-space",
           "sha256": "479256d996ee94e47f18a4ed55c3c51636c063411c03e14b594281c412a279aa"
         }
       },
@@ -9027,7 +9027,7 @@
         "zh-cn": {
           "title": "删除 Space",
           "file": "zh-cn/api-reference/private-spaces/delete-a-space.md",
-          "route": "/zh-cn/api-reference/private-spaces/delete-a-space",
+          "route": "/zh-Hans/api-reference/private-spaces/delete-a-space",
           "sha256": "4e146362e7afab120f39c784c33b6fc54bfdce98c79593fb5746d0727f18fc75"
         }
       },
@@ -9057,7 +9057,7 @@
         "zh-cn": {
           "title": "更新 Space",
           "file": "zh-cn/api-reference/private-spaces/update-a-space.md",
-          "route": "/zh-cn/api-reference/private-spaces/update-a-space",
+          "route": "/zh-Hans/api-reference/private-spaces/update-a-space",
           "sha256": "a0a51f53b1614dac44f5a7ba818c3f6614f3fc4c24148e2cafc56c30669d1e73"
         }
       },
@@ -9087,7 +9087,7 @@
         "zh-cn": {
           "title": "获取项目 Space 通知偏好",
           "file": "zh-cn/api-reference/private-spaces/get-project-notification-preference.md",
-          "route": "/zh-cn/api-reference/private-spaces/get-project-notification-preference",
+          "route": "/zh-Hans/api-reference/private-spaces/get-project-notification-preference",
           "sha256": "3cc16a392538a820a6d0cdbc86889c9ff013b75a726f6349c69f0ca83f785212"
         }
       },
@@ -9117,7 +9117,7 @@
         "zh-cn": {
           "title": "设置项目 Space 通知偏好",
           "file": "zh-cn/api-reference/private-spaces/set-project-notification-preference.md",
-          "route": "/zh-cn/api-reference/private-spaces/set-project-notification-preference",
+          "route": "/zh-Hans/api-reference/private-spaces/set-project-notification-preference",
           "sha256": "f03021a96bb16570501f2ca811e32bc454a0ea93425fe99b1e2d260ffee78d94"
         }
       },
@@ -9147,7 +9147,7 @@
         "zh-cn": {
           "title": "列出工作区 Space",
           "file": "zh-cn/api-reference/private-spaces/list-spaces.md",
-          "route": "/zh-cn/api-reference/private-spaces/list-spaces",
+          "route": "/zh-Hans/api-reference/private-spaces/list-spaces",
           "sha256": "11ebc3c28fe5236245ff5474394029faecdb52d7ff1136099e3bb05fec42d931"
         }
       },
@@ -9177,7 +9177,7 @@
         "zh-cn": {
           "title": "创建 Space",
           "file": "zh-cn/api-reference/private-spaces/create-a-space.md",
-          "route": "/zh-cn/api-reference/private-spaces/create-a-space",
+          "route": "/zh-Hans/api-reference/private-spaces/create-a-space",
           "sha256": "6592b3878b6dd01356bd6fa0b4a245a750b5e223f4d4ed915f0def6756ae6794"
         }
       },
@@ -9207,7 +9207,7 @@
         "zh-cn": {
           "title": "发起 WorkOS 登录",
           "file": "zh-cn/api-reference/private-authentication/initiate-workos-login.md",
-          "route": "/zh-cn/api-reference/private-authentication/initiate-workos-login",
+          "route": "/zh-Hans/api-reference/private-authentication/initiate-workos-login",
           "sha256": "9e1bea9ed9111aae9e6c0ee4d48f03948573dab00f988e0bfa05a11e9823ca54"
         }
       },
@@ -9237,7 +9237,7 @@
         "zh-cn": {
           "title": "兑换授权码或刷新令牌",
           "file": "zh-cn/api-reference/private-authentication/exchange-code-or-refresh-token.md",
-          "route": "/zh-cn/api-reference/private-authentication/exchange-code-or-refresh-token",
+          "route": "/zh-Hans/api-reference/private-authentication/exchange-code-or-refresh-token",
           "sha256": "b9cceccd2226afcb9b11d7b7582478c9f3f2e1fa7ca25815b9fdff636103cc47"
         }
       },
@@ -9267,7 +9267,7 @@
         "zh-cn": {
           "title": "撤销登录会话",
           "file": "zh-cn/api-reference/private-authentication/revoke-a-session.md",
-          "route": "/zh-cn/api-reference/private-authentication/revoke-a-session",
+          "route": "/zh-Hans/api-reference/private-authentication/revoke-a-session",
           "sha256": "abcaf5acdbc7c998df513190ed3c90c5d95ccbf9219bf4b871974d9b6ac40676"
         }
       },
@@ -9311,7 +9311,7 @@
         "zh-cn": {
           "title": "文档更新中",
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/developer-platform/counso-cli/counso-cli",
+          "route": "/zh-Hans/docs/developer-platform/counso-cli/counso-cli",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae"
         }
       },
@@ -9325,7 +9325,7 @@
         "zh-cn": {
           "title": "Counso CLI",
           "file": "prepared/zh-cn/docs/developer-platform/counso-cli/counso-cli.md",
-          "route": "/zh-cn/docs/developer-platform/counso-cli/counso-cli",
+          "route": "/zh-Hans/docs/developer-platform/counso-cli/counso-cli",
           "sha256": "bf1bc34d48f96f4ba82537a3f01ef2243b633801d6f91a4c6b91d4281c03ba88"
         }
       }
@@ -9385,7 +9385,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-dropbox-files",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-dropbox-files",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -9401,7 +9401,7 @@
         "zh-cn": {
           "title": "将 Dropbox 文件导入 Counso",
           "file": "prepared/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-dropbox-files.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-dropbox-files",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-dropbox-files",
           "sha256": "c4a1e5efb3455a5b517c883158f89615e3bebda74bf871dada0f39aa2d58eaec"
         }
       }
@@ -9425,7 +9425,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-front-conversations",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-front-conversations",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -9441,7 +9441,7 @@
         "zh-cn": {
           "title": "将 Front 会话导入 Counso",
           "file": "prepared/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-front-conversations.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-front-conversations",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-front-conversations",
           "sha256": "25608aa59e66e5340b5780636e5743ab95829ae439eeea5dea2e81dedce066c5"
         }
       }
@@ -9465,7 +9465,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-guru-cards",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-guru-cards",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -9481,7 +9481,7 @@
         "zh-cn": {
           "title": "将 Guru 卡片导入 Counso",
           "file": "prepared/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-guru-cards.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-guru-cards",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-guru-cards",
           "sha256": "08c017749c45a054f8bf33793ff3448656cf747adecb6d7e5cbb20486cedfc33"
         }
       }
@@ -9505,7 +9505,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-hubspot-data",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-hubspot-data",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -9521,7 +9521,7 @@
         "zh-cn": {
           "title": "将 HubSpot 公司摘要导入 Counso",
           "file": "prepared/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-hubspot-data.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-hubspot-data",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-hubspot-data",
           "sha256": "09c6f8151cf364ae94735ce43b0e33aad5d98a9dad3dc303dfd6fd8f52f0e066"
         }
       }
@@ -9545,7 +9545,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-jira-issues",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-jira-issues",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -9561,7 +9561,7 @@
         "zh-cn": {
           "title": "将 Jira Issue 导入 Counso",
           "file": "prepared/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-jira-issues.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-jira-issues",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-jira-issues",
           "sha256": "cccf8f8b27774a18bf288ea8ab1a33bca5c678f5ea16c5701083a55e4051fcb4"
         }
       }
@@ -9585,7 +9585,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-linear-issues",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-linear-issues",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -9601,7 +9601,7 @@
         "zh-cn": {
           "title": "将 Linear Issue 导入 Counso",
           "file": "prepared/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-linear-issues.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-linear-issues",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-linear-issues",
           "sha256": "bf90ea2dcbe6fbfe9b251219c41398abf725da13da56b642418ba12b16c94315"
         }
       }
@@ -9625,7 +9625,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-salesforce-data",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-salesforce-data",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -9641,7 +9641,7 @@
         "zh-cn": {
           "title": "将 Salesforce 客户摘要导入 Counso",
           "file": "prepared/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-salesforce-data.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-salesforce-data",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/beta-import-salesforce-data",
           "sha256": "81ca4c26071f3392813cf2709282748d28448a12c091a8fdcaec06057d90a1f7"
         }
       }
@@ -9665,7 +9665,7 @@
         },
         "zh-cn": {
           "file": "zh-cn/UPDATING.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/zapier-automatically-add-datasource",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/zapier-automatically-add-datasource",
           "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae",
           "title": "文档更新中"
         }
@@ -9681,7 +9681,7 @@
         "zh-cn": {
           "title": "通过 Zapier 上传文档",
           "file": "prepared/zh-cn/docs/user-documentation/data-sources/custom-connections/zapier-automatically-add-datasource.md",
-          "route": "/zh-cn/docs/user-documentation/data-sources/custom-connections/zapier-automatically-add-datasource",
+          "route": "/zh-Hans/docs/user-documentation/data-sources/custom-connections/zapier-automatically-add-datasource",
           "sha256": "c8c17d28c70cef1e089f12f4c7ea3b08a947ef3981f31c581286637f048aea76"
         }
       }
@@ -9754,7 +9754,7 @@
         "zh-cn": {
           "title": "Counso API",
           "file": "zh-cn/docs/developer-platform/counso-api-documentation/openapi.json",
-          "route": "/zh-cn/docs/developer-platform/counso-api-documentation/openapi.json",
+          "route": "/zh-Hans/docs/developer-platform/counso-api-documentation/openapi.json",
           "sha256": "61ae6dc3ee6530b7294cf63c6505e4874af6ee2dbdd73afd405acb0c8b7352a6",
           "format": "openapi"
         }
@@ -9781,7 +9781,7 @@
         "zh-cn": {
           "title": "Counso API",
           "file": "zh-cn/docs/developer-platform/counso-api-documentation/swagger.json",
-          "route": "/zh-cn/docs/developer-platform/counso-api-documentation/swagger.json",
+          "route": "/zh-Hans/docs/developer-platform/counso-api-documentation/swagger.json",
           "sha256": "61ae6dc3ee6530b7294cf63c6505e4874af6ee2dbdd73afd405acb0c8b7352a6",
           "format": "openapi"
         }
@@ -9806,7 +9806,7 @@
         "zh-cn": {
           "title": "Counso API",
           "file": "zh-cn/docs/developer-platform/counso-api-documentation/postman.collection.json",
-          "route": "/zh-cn/docs/developer-platform/counso-api-documentation/postman.collection.json",
+          "route": "/zh-Hans/docs/developer-platform/counso-api-documentation/postman.collection.json",
           "sha256": "30a624090c4e17f29083cc459a5672329d751716a0ad51114f75274d4f689fd8",
           "format": "postman"
         }
@@ -9828,7 +9828,7 @@
         "zh-cn": {
           "title": "Counso",
           "file": "zh-cn/docs/developer-platform/counso-api-documentation/postman.environment.json",
-          "route": "/zh-cn/docs/developer-platform/counso-api-documentation/postman.environment.json",
+          "route": "/zh-Hans/docs/developer-platform/counso-api-documentation/postman.environment.json",
           "sha256": "8a27d8849aebedf4bba18377a1fa99b57ffeb164f5158614b73ec48f59b5a5ee",
           "format": "postman"
         }

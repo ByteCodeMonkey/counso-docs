@@ -1,0 +1,14 @@
+---
+title: "Counso 团队落地指南"
+---
+本指南帮助团队从一个具体流程开始，逐步形成可复用的工作方式。先明确负责人、可用资料和复核人，再决定是否扩大范围。
+
+## 建议的推进顺序
+
+1. [了解 Counso](/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/welcome-to-counso)：说明工作区用途和适用边界。
+2. [制定试用计划](/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/launch-strategy)：确定负责人、参与人和衡量方式。
+3. [梳理使用场景](/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/designing-use-cases)：找出适合先试的重复工作。
+4. [培训和支持团队](/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/educate-activate)：让成员会提问、核对来源并处理不确定结果。
+5. [回顾效果](/zh-Hans/docs/user-documentation/getting-started/counso-rollout-guide/measure-expand)：根据质量、耗时和返工情况决定下一步。
+
+管理员还应检查成员权限、连接器和可用工具。先在小范围内跑通一个真实但低风险的流程，再复用有效做法。

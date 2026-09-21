@@ -10,6 +10,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "mintlify-site" / "docs.json"
+CHINESE_LANGUAGE = "zh-Hans"
+CHINESE_ROUTE_PREFIX = "/zh-Hans"
+LEGACY_CHINESE_ROUTE_PREFIX = "/zh-cn"
 
 
 def walk_groups(items):
@@ -34,10 +37,10 @@ expected = {
             "Troubleshooting",
         },
     ),
-    "zh-Hans": (
-        "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides",
-        "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/sales",
-        "zh-cn/docs/user-documentation/getting-started/faq",
+    CHINESE_LANGUAGE: (
+        "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides",
+        "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/sales",
+        "zh-Hans/docs/user-documentation/getting-started/faq",
         {
             "一般问题",
             "智能体与对话",
@@ -82,7 +85,7 @@ for language in languages:
         f"{code}: API reference should be nested under Developers"
     )
 
-for prefix in ("", "zh-cn/"):
+for prefix in ("", "zh-Hans/"):
     asset_dir = ROOT / "mintlify-site" / prefix / "docs/developer-platform/counso-api-documentation"
     for filename in ("postman.collection.json", "postman.environment.json"):
         asset = asset_dir / filename
@@ -99,5 +102,42 @@ for pattern in ("*.md", "*.mdx"):
         assert not legacy_brand.search(page.read_text(encoding="utf-8")), (
             f"legacy brand leaked into rendered documentation: {page.relative_to(ROOT)}"
         )
+
+assert not (ROOT / "mintlify-site" / "zh-cn").exists(), (
+    "legacy Chinese path was generated instead of zh-Hans"
+)
+
+translations = json.loads((ROOT / "translations.json").read_text(encoding="utf-8"))
+chinese_routes = {CHINESE_ROUTE_PREFIX}
+for page in translations["pages"]:
+    entries = (
+        page.get("translations")
+        if page["status"] == "publish"
+        else page.get("notice")
+        if page["status"] == "updating"
+        else None
+    )
+    if entries and entries.get("zh-cn"):
+        chinese_route = entries["zh-cn"]["route"]
+        assert chinese_route == CHINESE_ROUTE_PREFIX + entries["en"]["route"], (
+            f"language routes do not pair: {entries['en']['route']} and {chinese_route}"
+        )
+        chinese_routes.add(chinese_route)
+for artifact in translations.get("artifacts", []):
+    entries = artifact["translations"]
+    chinese_route = entries["zh-cn"]["route"]
+    assert chinese_route == CHINESE_ROUTE_PREFIX + entries["en"]["route"], (
+        f"artifact language routes do not pair: {entries['en']['route']} and {chinese_route}"
+    )
+    chinese_routes.add(chinese_route)
+
+redirect_map = {item["source"]: item["destination"] for item in config["redirects"]}
+assert len(redirect_map) == len(config["redirects"]), "duplicate redirect source"
+for destination in chinese_routes:
+    assert destination.startswith(CHINESE_ROUTE_PREFIX), f"wrong Chinese route: {destination}"
+    source = LEGACY_CHINESE_ROUTE_PREFIX + destination.removeprefix(CHINESE_ROUTE_PREFIX)
+    assert redirect_map.get(source) == destination, (
+        f"missing Chinese path redirect: {source} -> {destination}"
+    )
 
 print("navigation: collapsible hierarchy verified")
