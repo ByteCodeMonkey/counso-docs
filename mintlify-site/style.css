@@ -22,7 +22,16 @@ card:hover {
   box-shadow: 0 10px 28px rgb(12 132 254 / 10%);
 }
 
+/* Desktop nav keeps flex layout below the mobile breakpoint; prevent the logo
+   link from shrinking when search and actions compress the navbar. */
+#navbar a:has(> img.nav-logo) {
+  flex-shrink: 0;
+  min-width: max-content;
+}
+
 img.nav-logo {
   height: 2rem !important;
   width: auto !important;
+  max-width: none !important;
+  flex-shrink: 0;
 }
