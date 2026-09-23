@@ -4,7 +4,8 @@
     "repository": "internal-source-archive",
     "commit": null,
     "url_index": "source/url-index.json",
-    "sitemap": "source/sitemap.xml"
+    "sitemap": "source/sitemap.xml",
+    "manifest": "source/manifest.json"
   },
   "publication": {
     "default_language": "en",
@@ -14,18 +15,18 @@
     "route_policy": "counso-brand-slugs-with-legacy-redirects"
   },
   "counts": {
-    "source_files": 358,
-    "sitemap_urls": 356,
+    "source_files": 302,
+    "sitemap_urls": 300,
     "exclude_upstream": 9,
-    "publish": 329,
-    "updating": 20
+    "publish": 272,
+    "updating": 21
   },
   "pages": [
     {
       "original_url": "https://docs.dust.tt/docs/changelog",
       "original_file": "source/docs/changelog.md",
       "original_repository_path": "docs/changelog.md",
-      "original_sha256": "c25adf153b3432e7cd8252264d6b3fe2d24da4c387f4b3bc8763f339bd250606",
+      "original_sha256": "ebf510cc2f2cfc2d80b2ea47f87462655721480e61102f53f9fbec699043048c",
       "original_source": "source/docs/changelog.md",
       "in_sitemap": true,
       "status": "exclude_upstream",
@@ -1877,7 +1878,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/knowledge",
       "original_file": "source/docs/user-documentation/agents/knowledge/index.md",
       "original_repository_path": "docs/user-documentation/agents/knowledge/index.md",
-      "original_sha256": "feea0c0af374ae9aa914c98c58984bfaf8a0493fe0407976194ca11722dea1ce",
+      "original_sha256": "c8fb05d95e3be372296a103d801549d5234112a9120f22aa35364074ff9f5aec",
       "original_source": "source/docs/user-documentation/agents/knowledge/index.md",
       "in_sitemap": true,
       "status": "publish",
@@ -1887,13 +1888,13 @@
           "title": "Knowledge for Agents",
           "file": "en/docs/user-documentation/agents/knowledge/index.md",
           "route": "/docs/user-documentation/agents/knowledge",
-          "sha256": "6e962b9a784fa1d4bccadd94c56ccca1ef8c1e633a0dcf3c835ceb54b0a5c04f"
+          "sha256": "c07e12874f7e1dd8d6c5c34aa80f92cd20a4b3bd3957df5d5c21d86705517a00"
         },
         "zh-cn": {
           "title": "智能体的 Knowledge（知识）",
           "file": "zh-cn/docs/user-documentation/agents/knowledge/index.md",
           "route": "/zh-Hans/docs/user-documentation/agents/knowledge",
-          "sha256": "78dca7e391d2feb93d85cf4236e3fa86535504551b96abf378758a3a28ae3ab4"
+          "sha256": "2e6af58356a23a4baf2703535ff4e6fdd41bed873a5bc691d608e236156fba89"
         }
       },
       "original_title": "Knowledge"
@@ -1902,7 +1903,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/knowledge/search-data-sources",
       "original_file": "source/docs/user-documentation/agents/knowledge/search-data-sources.md",
       "original_repository_path": "docs/user-documentation/agents/knowledge/search-data-sources.md",
-      "original_sha256": "1f3f48c9fa49019f8e415d4a6552612ac9b4b87be63b0069fd2368707a36bf55",
+      "original_sha256": "02e236113ad56a299bc2c14d5830de5d97cffb46ea0b48bbda7cfb95bd401036",
       "original_source": "source/docs/user-documentation/agents/knowledge/search-data-sources.md",
       "in_sitemap": true,
       "status": "publish",
@@ -1912,13 +1913,13 @@
           "title": "Search connected data sources",
           "file": "en/docs/user-documentation/agents/knowledge/search-data-sources.md",
           "route": "/docs/user-documentation/agents/knowledge/search-data-sources",
-          "sha256": "2e2f7c43dd14154002b416abbe154851eb4fac087dac09ef8badedf10e153741"
+          "sha256": "59c3aa01674654940d611e2d7173cf65a5960e65145717b4d833bd8638e71522"
         },
         "zh-cn": {
           "title": "搜索已连接的数据源",
           "file": "zh-cn/docs/user-documentation/agents/knowledge/search-data-sources.md",
           "route": "/zh-Hans/docs/user-documentation/agents/knowledge/search-data-sources",
-          "sha256": "4f274343deac3927b643658ba9a20067b44b7f6b05aa2eff81ba542ecbe1e971"
+          "sha256": "68fd37cc3ffa2e532123ddc38fbdeb69319f77a269ca5cb8fc0c6f40b590627c"
         }
       },
       "original_title": "Search data sources"
@@ -2177,7 +2178,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/airtable",
       "original_file": "source/docs/user-documentation/agents/tools/airtable.md",
       "original_repository_path": "docs/user-documentation/agents/tools/airtable.md",
-      "original_sha256": "3381e8e777901728a8f197ea7a39800218243ea5831087c76e8f0915c8e23e2b",
+      "original_sha256": "4c3275b2579273e524bf7df208caa2a9e63e7e1d1a56bfda3362e3713c1c4efd",
       "original_source": "source/docs/user-documentation/agents/tools/airtable.md",
       "in_sitemap": true,
       "status": "publish",
@@ -2227,7 +2228,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/asana",
       "original_file": "source/docs/user-documentation/agents/tools/asana.md",
       "original_repository_path": "docs/user-documentation/agents/tools/asana.md",
-      "original_sha256": "66b519b06bbd38aab65d61ae8bcd47e50e831a4b5f7c81d16a6052ede4236b23",
+      "original_sha256": "36a359c999c50ee6433419b1de5bf0ba74453d3d403116e7b4c2eee042d06727",
       "original_source": "source/docs/user-documentation/agents/tools/asana.md",
       "in_sitemap": true,
       "status": "publish",
@@ -2352,7 +2353,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/databricks",
       "original_file": "source/docs/user-documentation/agents/tools/databricks.md",
       "original_repository_path": "docs/user-documentation/agents/tools/databricks.md",
-      "original_sha256": "60a889cee46b2291193d42f6aaf88bd9fdf1b413ebee1402c88a71a3b5dd8454",
+      "original_sha256": "5c2c8b646f23295d1b3962250b686da6de90470717ad27736a10d772090d2346",
       "original_source": "source/docs/user-documentation/agents/tools/databricks.md",
       "in_sitemap": true,
       "status": "publish",
@@ -2852,7 +2853,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/netsuite",
       "original_file": "source/docs/user-documentation/agents/tools/netsuite.md",
       "original_repository_path": "docs/user-documentation/agents/tools/netsuite.md",
-      "original_sha256": "ec4c0ad17c3c0b3f0f6362b135de8d98156975dcc2e03580ab95569f1cd7d7ed",
+      "original_sha256": "5aa4e2a0a2d43f12afdd20842f67766b934cbe33751eebd45c74c4abc2030fca",
       "original_source": "source/docs/user-documentation/agents/tools/netsuite.md",
       "in_sitemap": true,
       "status": "publish",
@@ -2902,7 +2903,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/power-bi",
       "original_file": "source/docs/user-documentation/agents/tools/power-bi.md",
       "original_repository_path": "docs/user-documentation/agents/tools/power-bi.md",
-      "original_sha256": "dff67383d55fc3736f5c90ac0db248f5edeace5b3129a56c4fb426335d97a302",
+      "original_sha256": "4de8310916e1e0a82fd795b95ea36d0afd74a73e347d5f4ae8b80b37598d7ea2",
       "original_source": "source/docs/user-documentation/agents/tools/power-bi.md",
       "in_sitemap": true,
       "status": "publish",
@@ -2977,7 +2978,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/ukg-ready",
       "original_file": "source/docs/user-documentation/agents/tools/ukg-ready.md",
       "original_repository_path": "docs/user-documentation/agents/tools/ukg-ready.md",
-      "original_sha256": "a082785d5411cca208027d67149a1adc35887b71334a7ef33c2b095bef4ad299",
+      "original_sha256": "0e6a33ae200092e1f1944d7648d49318a3d2c323dc7d2ea28451af262840257d",
       "original_source": "source/docs/user-documentation/agents/tools/ukg-ready.md",
       "in_sitemap": true,
       "status": "publish",
@@ -3124,6 +3125,46 @@
       "original_title": "Semrush"
     },
     {
+      "original_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/servicenow",
+      "original_file": "source/docs/user-documentation/agents/tools/servicenow.md",
+      "original_repository_path": "docs/user-documentation/agents/tools/servicenow.md",
+      "original_sha256": "e687477c89aeb767534f669149b2b822df926c51adeefcbca203e019e3062723",
+      "original_source": "source/docs/user-documentation/agents/tools/servicenow.md",
+      "in_sitemap": true,
+      "original_title": "ServiceNow",
+      "status": "updating",
+      "reason": "Counso 的 ServiceNow 工具、OAuth 回调和读写权限流程尚待部署验证。",
+      "translations": null,
+      "notice": {
+        "en": {
+          "file": "en/UPDATING.md",
+          "route": "/docs/user-documentation/agents/tools/servicenow",
+          "title": "Documentation update",
+          "sha256": "f1d9428214126f7efa16ac58c1ee57dc3d86f926d06abeeda61b53fa4035f7cd"
+        },
+        "zh-cn": {
+          "file": "zh-cn/UPDATING.md",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/servicenow",
+          "title": "文档更新中",
+          "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae"
+        }
+      },
+      "prepared": {
+        "en": {
+          "file": "prepared/en/docs/user-documentation/agents/tools/servicenow.md",
+          "route": "/docs/user-documentation/agents/tools/servicenow",
+          "title": "ServiceNow",
+          "sha256": "354ef513f99b3ff8317674798c0a6a0dbb392348ca15ded6285dc03d77d997ab"
+        },
+        "zh-cn": {
+          "file": "prepared/zh-cn/docs/user-documentation/agents/tools/servicenow.md",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/servicenow",
+          "title": "ServiceNow",
+          "sha256": "8209cd9f549ac0f6f825d4eebc777cf4527b0874ecee5ae2ad74e27b022a66c7"
+        }
+      }
+    },
+    {
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/slab",
       "original_file": "source/docs/user-documentation/agents/tools/slab.md",
       "original_repository_path": "docs/user-documentation/agents/tools/slab.md",
@@ -3152,7 +3193,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/snowflake",
       "original_file": "source/docs/user-documentation/agents/tools/snowflake.md",
       "original_repository_path": "docs/user-documentation/agents/tools/snowflake.md",
-      "original_sha256": "8e2aa6b9658b3cd63609c63547684731197222faa731fb410517c7bbc1af396f",
+      "original_sha256": "795adbfbd6dd434bbc5675b4e39e560d596c3c5dc60d05642113d91a95c10ae6",
       "original_source": "source/docs/user-documentation/agents/tools/snowflake.md",
       "in_sitemap": true,
       "status": "publish",
@@ -3327,7 +3368,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/google-sheets-deprecated",
       "original_file": "source/docs/user-documentation/agents/tools/google-sheets-deprecated.md",
       "original_repository_path": "docs/user-documentation/agents/tools/google-sheets-deprecated.md",
-      "original_sha256": "a555b21e41a608557e2cf878f04e67e591bfeb210cdd16fddc0ef5e45a505bb6",
+      "original_sha256": "bde05553d96178443e3dea118a877daf4956f97262fc318b96d64eb2dcfdb3cc",
       "original_source": "source/docs/user-documentation/agents/tools/google-sheets-deprecated.md",
       "in_sitemap": true,
       "status": "publish",
@@ -3352,7 +3393,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/triggers/credits-usage",
       "original_file": "source/docs/user-documentation/agents/triggers/credits-usage.md",
       "original_repository_path": "docs/user-documentation/agents/triggers/credits-usage.md",
-      "original_sha256": "3de61e3dde89a59ddeec2bc4f784aff83d3782090fb5496ed92cc31019e18fff",
+      "original_sha256": "d6b6b0f42e8f1c4b0363b78acbbca978f3b735f3350263e90630b7445c244f12",
       "original_source": "source/docs/user-documentation/agents/triggers/credits-usage.md",
       "in_sitemap": true,
       "status": "publish",
@@ -3449,6 +3490,31 @@
       "original_title": "Rate Limiting"
     },
     {
+      "original_url": "https://docs.dust.tt/docs/user-documentation/agents/frames/overview",
+      "original_file": "source/docs/user-documentation/agents/frames/overview.md",
+      "original_repository_path": "docs/user-documentation/agents/frames/overview.md",
+      "original_sha256": "814df2b523c0503a50999b8c1c69aa18f089180de46b5a7147c4a3fd5e59b4d5",
+      "original_source": "source/docs/user-documentation/agents/frames/overview.md",
+      "in_sitemap": true,
+      "original_title": "Overview",
+      "status": "publish",
+      "reason": "提供中英文正文。",
+      "translations": {
+        "en": {
+          "title": "MiniApps overview",
+          "file": "en/docs/user-documentation/agents/frames/overview.md",
+          "route": "/docs/user-documentation/agents/frames/overview",
+          "sha256": "e34a735843b9f57f86d8d799ff9187b535eb6b4018e0d921e3d3ef732837d9ee"
+        },
+        "zh-cn": {
+          "title": "MiniApps 概览",
+          "file": "zh-cn/docs/user-documentation/agents/frames/overview.md",
+          "route": "/zh-Hans/docs/user-documentation/agents/frames/overview",
+          "sha256": "d547bee771c3073009f727fa034076e22b334bb2f1ec2e92ed5bbef07b3e992e"
+        }
+      }
+    },
+    {
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/frames/white-labeled-frames",
       "original_file": "source/docs/user-documentation/agents/frames/white-labeled-frames.md",
       "original_repository_path": "docs/user-documentation/agents/frames/white-labeled-frames.md",
@@ -3527,7 +3593,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows",
       "original_file": "source/docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows.md",
       "original_repository_path": "docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows.md",
-      "original_sha256": "961db7bef36761f807dd353addd6df0a0d6f0bee62ee14c94a6ac8fb5548699c",
+      "original_sha256": "271834efb0676f35cd657f254f2d85d6185af4638d06590df89758403555a759",
       "original_source": "source/docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows.md",
       "in_sitemap": true,
       "status": "publish",
@@ -3537,13 +3603,13 @@
           "title": "Use an Agent in Slack workflows",
           "file": "en/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows.md",
           "route": "/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
-          "sha256": "3bdd74f8e76d5ee7b15da49f131ce7db64ed1f77bc8ab0d980022a25a232ac8d"
+          "sha256": "d7ee73eb2f333a30f0fdd931e8f5fcd0e0dae32c7387c65d022d1cf84def0806"
         },
         "zh-cn": {
           "title": "在 Slack Workflow 中使用智能体",
           "file": "zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows.md",
           "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
-          "sha256": "505f9f8397c5120a5934d36915d8bd8afa6ec4cd7f926d5f0bb45c5e38a3abf1"
+          "sha256": "89b5618c0ddb6b02ce81629a22ae20293e8b3f51e05bc7a3c62129d2bbb18d22"
         }
       },
       "original_title": "Slack workflows"
@@ -3922,7 +3988,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/raycast-extension",
       "original_file": "source/docs/user-documentation/agents/integrations/raycast-extension.md",
       "original_repository_path": "docs/user-documentation/agents/integrations/raycast-extension.md",
-      "original_sha256": "9ace0955216963fe5b06b6c90a6c6132a40bf2ca2d3d093653bb1c05157c287d",
+      "original_sha256": "c8a13cea11bdee6dae590719d3a23a17df1d155d62e0c8338e59a2e07b53d0e4",
       "original_source": "source/docs/user-documentation/agents/integrations/raycast-extension.md",
       "in_sitemap": true,
       "status": "updating",
@@ -3948,13 +4014,13 @@
           "title": "Use Counso from Raycast",
           "file": "prepared/en/docs/user-documentation/agents/integrations/raycast-extension.md",
           "route": "/docs/user-documentation/agents/integrations/raycast-extension",
-          "sha256": "0e04bdf72eacad4e5ef487f5d0d069dddc1f10bcd90c942af0e8431d47a6f1ae"
+          "sha256": "d731d0508c33da18d5f984aead49aea88feca2f5a55061902b8049eb5087db59"
         },
         "zh-cn": {
           "title": "通过 Raycast 使用 Counso",
           "file": "prepared/zh-cn/docs/user-documentation/agents/integrations/raycast-extension.md",
           "route": "/zh-Hans/docs/user-documentation/agents/integrations/raycast-extension",
-          "sha256": "1a5043452542ae0399dc0834d398d024e7526f5d0710625d8560a74e38587474"
+          "sha256": "8a39f7a2449d814d0914211d7f7af3bbde42fdae50844c3b212f53877a83546b"
         }
       }
     },
@@ -4727,7 +4793,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/admins/connections-management/microsoft",
       "original_file": "source/docs/user-documentation/admins/connections-management/microsoft.md",
       "original_repository_path": "docs/user-documentation/admins/connections-management/microsoft.md",
-      "original_sha256": "078080c1f134f513ce37aabc6042e95cb2db9788bea21cc0d56e79a356887408",
+      "original_sha256": "222baa646f9cdb81ddc0727d44bcd009ff193ed44513f08f8061b5074717e1a1",
       "original_source": "source/docs/user-documentation/admins/connections-management/microsoft.md",
       "in_sitemap": true,
       "status": "publish",
@@ -4852,7 +4918,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/admins/connections-management/slack",
       "original_file": "source/docs/user-documentation/admins/connections-management/slack.md",
       "original_repository_path": "docs/user-documentation/admins/connections-management/slack.md",
-      "original_sha256": "6ba0f1815fd02369e5dd4c35aa614b160cc7cfcd247e859d329d3bb9c1881f0a",
+      "original_sha256": "c9d69716dd0fbbd09d3dc8c4d779e85a49f8116999f2ec7435ea88015e69620a",
       "original_source": "source/docs/user-documentation/admins/connections-management/slack.md",
       "in_sitemap": true,
       "status": "publish",
@@ -4877,7 +4943,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/admins/tools-management/adding-an-mcp-server",
       "original_file": "source/docs/user-documentation/admins/tools-management/adding-an-mcp-server.md",
       "original_repository_path": "docs/user-documentation/admins/tools-management/adding-an-mcp-server.md",
-      "original_sha256": "c453e7d77e6528bab1d6ea4f81adc812c3e0c4930a8c5862d385201ba68dd26e",
+      "original_sha256": "6a99222bd068561a6aac2dfc4802d57c098f484f364230d615edd268068b3568",
       "original_source": "source/docs/user-documentation/admins/tools-management/adding-an-mcp-server.md",
       "in_sitemap": true,
       "status": "publish",
@@ -4927,7 +4993,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/admins/tools-management/salesforce/salesforce",
       "original_file": "source/docs/user-documentation/admins/tools-management/salesforce/salesforce.md",
       "original_repository_path": "docs/user-documentation/admins/tools-management/salesforce/salesforce.md",
-      "original_sha256": "57ef0e41a0f8a91fee451203dc0eb023b8c0b208b301123d51e0391879d657a1",
+      "original_sha256": "351d7d24d2bb412c7a365108ccacf7a2fa49fcfa551164cfad6eb879f7df8711",
       "original_source": "source/docs/user-documentation/admins/tools-management/salesforce/salesforce.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5027,7 +5093,7 @@
       "original_url": "https://docs.dust.tt/analytics",
       "original_file": "source/analytics.md",
       "original_repository_path": "analytics.md",
-      "original_sha256": "fc3d4967f1660014679a8079bfda2b137011f0429919dc43bb1541832f38cab7",
+      "original_sha256": "6d6549f2efef96ba018b8d938ec4c77853bf82fab6252f63f12a08bdcc3fda73",
       "original_source": "source/analytics.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5202,7 +5268,7 @@
       "original_url": "https://docs.dust.tt/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers",
       "original_file": "source/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers.md",
       "original_repository_path": "docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers.md",
-      "original_sha256": "71df50f1af213c7ef1377390c0c3480f182126182bf390806ce41dbd45287304",
+      "original_sha256": "602329adae03522ac32f4a974c7cba743e14e8284ea7e6a9473fe0bc8ed6f301",
       "original_source": "source/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5212,13 +5278,13 @@
           "title": "Model access tiers",
           "file": "en/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers.md",
           "route": "/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers",
-          "sha256": "77ea1143b284f7f5c95f19a7deafaad74cecad69f40ce7fe8e163627454d5ad0"
+          "sha256": "ba1176aacee5484cdde9266dc629c95e65819d294df538407880877ed201f9e5"
         },
         "zh-cn": {
           "title": "模型访问层级",
           "file": "zh-cn/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers.md",
           "route": "/zh-Hans/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers",
-          "sha256": "1c7a719e6dff104bfe1d80324bca44d3db1b6773ce80d4d6155db64563e38f66"
+          "sha256": "91d12785932e549b5f326513f002a9991965cfb352d9f3352506b345fc6368e8"
         }
       },
       "original_title": "Model access tiers"
@@ -5499,70 +5565,40 @@
       "original_title": "OpenAPI & Postman"
     },
     {
-      "original_url": "https://docs.dust.tt/api-reference/private-user/get-current-user",
-      "original_file": "source/api-reference/private-user/get-current-user.md",
-      "original_repository_path": "api-reference/private-user/get-current-user.md",
-      "original_sha256": "93c80d03699a3fd78b33cb207bc7acb9bbef74f68dac58e2e1f00b10e41db6d8",
-      "original_source": "source/api-reference/private-user/get-current-user.md",
+      "original_url": "https://docs.dust.tt/api-reference/analytics/export-consumption-analytics",
+      "original_file": "source/api-reference/analytics/export-consumption-analytics.md",
+      "original_repository_path": "api-reference/analytics/export-consumption-analytics.md",
+      "original_sha256": "3507ff2da063b99bbc7dbe137ca5f3ad221a15e21a2d0397b940fa410dd630c0",
+      "original_source": "source/api-reference/analytics/export-consumption-analytics.md",
       "in_sitemap": true,
+      "original_title": "Export consumption analytics",
       "status": "publish",
-      "reason": "",
+      "reason": "提供中英文正文。",
       "translations": {
         "en": {
-          "title": "Get current user",
-          "file": "en/api-reference/private-user/get-current-user.md",
-          "route": "/api-reference/private-user/get-current-user",
-          "sha256": "3ac9ea768c2a478c56fcddbcccf8bcc005a11fdaf296349bd757c771b1d601e4"
+          "title": "Export consumption analytics",
+          "file": "en/api-reference/analytics/export-consumption-analytics.md",
+          "route": "/api-reference/analytics/export-consumption-analytics",
+          "sha256": "57dc12d84221956f46a2a88af42d62e9cb55e394a3174f862bdc414e7ce25383"
         },
         "zh-cn": {
-          "title": "获取当前用户",
-          "file": "zh-cn/api-reference/private-user/get-current-user.md",
-          "route": "/zh-Hans/api-reference/private-user/get-current-user",
-          "sha256": "0b517fc6c039e13b8bf105c5b012e360e284b549de8ff672f12511b2eb90e94e"
+          "title": "导出消费分析数据",
+          "file": "zh-cn/api-reference/analytics/export-consumption-analytics.md",
+          "route": "/zh-Hans/api-reference/analytics/export-consumption-analytics",
+          "sha256": "4376862e5bf88c14d6df0f4aa56e1eb81f9a6943eb70cc246cda6989f7b03dfa"
         }
       },
-      "original_title": "Get current user",
       "api": {
-        "path": "/api/user",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-user/update-current-user",
-      "original_file": "source/api-reference/private-user/update-current-user.md",
-      "original_repository_path": "api-reference/private-user/update-current-user.md",
-      "original_sha256": "3f70b5917d5c0e3d85c25759f6811302f5703cd72498d3d6bf4a5ef42e411957",
-      "original_source": "source/api-reference/private-user/update-current-user.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Update current user",
-          "file": "en/api-reference/private-user/update-current-user.md",
-          "route": "/api-reference/private-user/update-current-user",
-          "sha256": "235630b4c477f7f07e886b2a12e5d16edfe70679d7a8a156623a8e46c741e582"
-        },
-        "zh-cn": {
-          "title": "更新当前用户资料",
-          "file": "zh-cn/api-reference/private-user/update-current-user.md",
-          "route": "/zh-Hans/api-reference/private-user/update-current-user",
-          "sha256": "a1f46f7d6d95df1049d5b960f51884a0f869a56c15155d03153501310a3ed6b2"
-        }
-      },
-      "original_title": "Update current user",
-      "api": {
-        "path": "/api/user",
-        "method": "patch",
-        "auth": "user"
+        "path": "/api/v1/w/{wId}/analytics/consumption/export",
+        "method": "post",
+        "auth": "workspace"
       }
     },
     {
       "original_url": "https://docs.dust.tt/api-reference/analytics/export-workspace-analytics",
       "original_file": "source/api-reference/analytics/export-workspace-analytics.md",
       "original_repository_path": "api-reference/analytics/export-workspace-analytics.md",
-      "original_sha256": "cbc23beb9b4e67e68fedded1b83fdaa4dc03ec42c2e69c7446048b2f2aa2ca24",
+      "original_sha256": "2e4d2ed7625e5336cfe0e14f6f19b78283b5ad400ff11b182575a423ba4d3797",
       "original_source": "source/api-reference/analytics/export-workspace-analytics.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5592,7 +5628,7 @@
       "original_url": "https://docs.dust.tt/api-reference/agents/list-agents",
       "original_file": "source/api-reference/agents/list-agents.md",
       "original_repository_path": "api-reference/agents/list-agents.md",
-      "original_sha256": "c73b0917efaf5711eab643a1fd24d9427ac0d7568e2fd1eb774e2c7d84f04f01",
+      "original_sha256": "3adf53f68c7508cd781347e2daa5735120efd875b1732333b141884a33862c93",
       "original_source": "source/api-reference/agents/list-agents.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5622,7 +5658,7 @@
       "original_url": "https://docs.dust.tt/api-reference/agents/export-agent-configuration-as-yaml",
       "original_file": "source/api-reference/agents/export-agent-configuration-as-yaml.md",
       "original_repository_path": "api-reference/agents/export-agent-configuration-as-yaml.md",
-      "original_sha256": "5a9f408f85935e1486d6e65ba0c730102e4799fbd36a1fc54d60e94ea511bfdb",
+      "original_sha256": "515a5fd5a7e9c48999a7687362450436ad8812b4700c2f694aef992301911c51",
       "original_source": "source/api-reference/agents/export-agent-configuration-as-yaml.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5652,7 +5688,7 @@
       "original_url": "https://docs.dust.tt/api-reference/agents/get-agent-configuration",
       "original_file": "source/api-reference/agents/get-agent-configuration.md",
       "original_repository_path": "api-reference/agents/get-agent-configuration.md",
-      "original_sha256": "9b5b19943f21e50c86466128a18e7688dd7131011f2c912c9567ce1c50e6dcba",
+      "original_sha256": "239c9071a20bf29dc3c6fd8a2063d59909b5f370a94638b1460cfbb670d84d60",
       "original_source": "source/api-reference/agents/get-agent-configuration.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5682,7 +5718,7 @@
       "original_url": "https://docs.dust.tt/api-reference/agents/archive-agent-configuration",
       "original_file": "source/api-reference/agents/archive-agent-configuration.md",
       "original_repository_path": "api-reference/agents/archive-agent-configuration.md",
-      "original_sha256": "0f5892cc74f256538fd8eed9838adb19c1d1546753f1a4bd3fb144e6c410ecef",
+      "original_sha256": "7f3db925e6766acd94a0e0c2fefc97fc426c833eec0fa6e35ab5eee98f9eda90",
       "original_source": "source/api-reference/agents/archive-agent-configuration.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5712,7 +5748,7 @@
       "original_url": "https://docs.dust.tt/api-reference/agents/update-agent-configuration",
       "original_file": "source/api-reference/agents/update-agent-configuration.md",
       "original_repository_path": "api-reference/agents/update-agent-configuration.md",
-      "original_sha256": "a3c907c394cd15110085625cf9fbabac77b288c008a216f3a14a821147d80366",
+      "original_sha256": "a7baa55c42138ec294566f05c048ac85d939ca099621d8393b7497056de885ac",
       "original_source": "source/api-reference/agents/update-agent-configuration.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5742,7 +5778,7 @@
       "original_url": "https://docs.dust.tt/api-reference/agents/import-agent-configuration",
       "original_file": "source/api-reference/agents/import-agent-configuration.md",
       "original_repository_path": "api-reference/agents/import-agent-configuration.md",
-      "original_sha256": "6352e0c8ea4d11bc058445194fa78b058ea10c57c89e05d36426f7a2879fd4e0",
+      "original_sha256": "450b480e1285209999fe5d2a5d9ff501d2e27ce97860b7276c10239cb54cf305",
       "original_source": "source/api-reference/agents/import-agent-configuration.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5772,7 +5808,7 @@
       "original_url": "https://docs.dust.tt/api-reference/agents/search-agents-by-name",
       "original_file": "source/api-reference/agents/search-agents-by-name.md",
       "original_repository_path": "api-reference/agents/search-agents-by-name.md",
-      "original_sha256": "c3c0ed83712259b32b2a9ad5fab0c431987017426594e842e287d2ca606ba31d",
+      "original_sha256": "24a5be14c32d5b3409bfdb9b817da6ba86b59ff949c47c366208fb041bc25682",
       "original_source": "source/api-reference/agents/search-agents-by-name.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5802,7 +5838,7 @@
       "original_url": "https://docs.dust.tt/api-reference/conversations/cancel-message-generation-in-a-conversation",
       "original_file": "source/api-reference/conversations/cancel-message-generation-in-a-conversation.md",
       "original_repository_path": "api-reference/conversations/cancel-message-generation-in-a-conversation.md",
-      "original_sha256": "27f4d426d43390de2f1bcc7b3555ec19cc52d91d052661b3c74e6234d189d070",
+      "original_sha256": "a7678d884a642669320e6266ac4430dc6c5db13b761efd5ed721e9e2a3d58a06",
       "original_source": "source/api-reference/conversations/cancel-message-generation-in-a-conversation.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5832,7 +5868,7 @@
       "original_url": "https://docs.dust.tt/api-reference/conversations/create-a-content-fragment",
       "original_file": "source/api-reference/conversations/create-a-content-fragment.md",
       "original_repository_path": "api-reference/conversations/create-a-content-fragment.md",
-      "original_sha256": "8ca6d4ee6100e7b0668e638f265cf15bbfd594c7ef98eb21e6300bfffd920298",
+      "original_sha256": "fae6bb7ed8bc102eba965dbde77bdae726a8ba3620f3760d174a102c392aa935",
       "original_source": "source/api-reference/conversations/create-a-content-fragment.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5862,7 +5898,7 @@
       "original_url": "https://docs.dust.tt/api-reference/conversations/get-the-events-for-a-conversation",
       "original_file": "source/api-reference/conversations/get-the-events-for-a-conversation.md",
       "original_repository_path": "api-reference/conversations/get-the-events-for-a-conversation.md",
-      "original_sha256": "7e6a2e9ed0048c944648e0f4c736f8753b4a1cc6f55e4ff366964c8b8db8f182",
+      "original_sha256": "e31aec56ba63111e1a970b6bb528ed390afee3f6c30a4e6a50b7717548094d85",
       "original_source": "source/api-reference/conversations/get-the-events-for-a-conversation.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5892,7 +5928,7 @@
       "original_url": "https://docs.dust.tt/api-reference/conversations/download-a-conversation-scoped-file-by-path",
       "original_file": "source/api-reference/conversations/download-a-conversation-scoped-file-by-path.md",
       "original_repository_path": "api-reference/conversations/download-a-conversation-scoped-file-by-path.md",
-      "original_sha256": "ec6257224e8508aab6c7f3a594c0708a4705e54264b8f54af64ab0039f160ada",
+      "original_sha256": "86f53b9120eb9e44f64a245b238828f4d8f208ff4817069989840ddabd73e26d",
       "original_source": "source/api-reference/conversations/download-a-conversation-scoped-file-by-path.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5922,7 +5958,7 @@
       "original_url": "https://docs.dust.tt/api-reference/conversations/get-a-conversation",
       "original_file": "source/api-reference/conversations/get-a-conversation.md",
       "original_repository_path": "api-reference/conversations/get-a-conversation.md",
-      "original_sha256": "ca8e3bf26fd004afb7cafbcdc2899a3396c4c765a1f204ac7722422fe04381c2",
+      "original_sha256": "d01d733daf9f060db0b00f53ede00d886ccaa372d6a1778f719d4c1dbb654010",
       "original_source": "source/api-reference/conversations/get-a-conversation.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5952,7 +5988,7 @@
       "original_url": "https://docs.dust.tt/api-reference/conversations/update-a-conversation",
       "original_file": "source/api-reference/conversations/update-a-conversation.md",
       "original_repository_path": "api-reference/conversations/update-a-conversation.md",
-      "original_sha256": "829fd9a7fedcda15342d382c1ce802ea43a0a5be216203019e49a6852a111c4b",
+      "original_sha256": "b3997fb4b3e60c6c864efa15fa4572eb76b13c31d805b8e2553b568a11d21a0b",
       "original_source": "source/api-reference/conversations/update-a-conversation.md",
       "in_sitemap": true,
       "status": "publish",
@@ -5982,7 +6018,7 @@
       "original_url": "https://docs.dust.tt/api-reference/conversations/answer-a-user-question-in-a-conversation-message",
       "original_file": "source/api-reference/conversations/answer-a-user-question-in-a-conversation-message.md",
       "original_repository_path": "api-reference/conversations/answer-a-user-question-in-a-conversation-message.md",
-      "original_sha256": "084348c931d103972173948b66460611c981e7d55dccfd0b8118dc4b52d70b6b",
+      "original_sha256": "71fbd25790188fbb5912af708e2be59caa551bee96048c6d8dac6c384881c6d6",
       "original_source": "source/api-reference/conversations/answer-a-user-question-in-a-conversation-message.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6012,7 +6048,7 @@
       "original_url": "https://docs.dust.tt/api-reference/conversations/edit-an-existing-message-in-a-conversation",
       "original_file": "source/api-reference/conversations/edit-an-existing-message-in-a-conversation.md",
       "original_repository_path": "api-reference/conversations/edit-an-existing-message-in-a-conversation.md",
-      "original_sha256": "f8f89f10c598cad257e5380a53957d01ad9ef5809d9f33c3d8ae36fe96341b2e",
+      "original_sha256": "a606897513c472258c956491c953e9987f9c865cd7fbb1e727af096edcdc2d11",
       "original_source": "source/api-reference/conversations/edit-an-existing-message-in-a-conversation.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6042,7 +6078,7 @@
       "original_url": "https://docs.dust.tt/api-reference/conversations/get-events-for-a-message",
       "original_file": "source/api-reference/conversations/get-events-for-a-message.md",
       "original_repository_path": "api-reference/conversations/get-events-for-a-message.md",
-      "original_sha256": "76f12b7547514de221f7298941afbed69aacf68c216a7be236c9aef6ca592915",
+      "original_sha256": "19e240024d2a9dde89b4abdc2a10ad5f448d76783432895465f25f5ded00e5f9",
       "original_source": "source/api-reference/conversations/get-events-for-a-message.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6072,7 +6108,7 @@
       "original_url": "https://docs.dust.tt/api-reference/conversations/validate-an-action-in-a-conversation-message",
       "original_file": "source/api-reference/conversations/validate-an-action-in-a-conversation-message.md",
       "original_repository_path": "api-reference/conversations/validate-an-action-in-a-conversation-message.md",
-      "original_sha256": "25a5d3899e7ef4a2ab8c8d12d93699c508048d9d638ba8f97b33eefba1043d16",
+      "original_sha256": "59bddfdc4bacb26209de9678c941fe47a381e34310b2288777807737d0338827",
       "original_source": "source/api-reference/conversations/validate-an-action-in-a-conversation-message.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6102,7 +6138,7 @@
       "original_url": "https://docs.dust.tt/api-reference/conversations/create-a-message",
       "original_file": "source/api-reference/conversations/create-a-message.md",
       "original_repository_path": "api-reference/conversations/create-a-message.md",
-      "original_sha256": "87c8ce743e7c77c6f17d9f2fa7e24f427505258a0451c29c3a7e675a2461d6cf",
+      "original_sha256": "afc3684e8e2bdb16e5f8aaf5ec1d4f5bfc63d7feeb223cf7105b127dd4b1dc38",
       "original_source": "source/api-reference/conversations/create-a-message.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6132,7 +6168,7 @@
       "original_url": "https://docs.dust.tt/api-reference/conversations/create-a-new-conversation",
       "original_file": "source/api-reference/conversations/create-a-new-conversation.md",
       "original_repository_path": "api-reference/conversations/create-a-new-conversation.md",
-      "original_sha256": "ec5ac9d26264eca3932dcba9f14d1c008c78d1e1612d1f4c601137a95dd34b68",
+      "original_sha256": "aaae9083bd05ff19dd199ab04878c6f66f1a369053d8c94aa5f024aba22bcdf7",
       "original_source": "source/api-reference/conversations/create-a-new-conversation.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6162,7 +6198,7 @@
       "original_url": "https://docs.dust.tt/api-reference/conversations/create-a-file-upload-url",
       "original_file": "source/api-reference/conversations/create-a-file-upload-url.md",
       "original_repository_path": "api-reference/conversations/create-a-file-upload-url.md",
-      "original_sha256": "245e18ab5e96144b2e9b3ebb22474b7546dcf98df2f72d91a18ca0fbb5a92949",
+      "original_sha256": "44dde68f0c9984ec5b35b0548889d74a4c6f8666f783a3a6d52f6d7fac4a5ad6",
       "original_source": "source/api-reference/conversations/create-a-file-upload-url.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6192,7 +6228,7 @@
       "original_url": "https://docs.dust.tt/api-reference/feedbacks/get-feedbacks-for-a-conversation",
       "original_file": "source/api-reference/feedbacks/get-feedbacks-for-a-conversation.md",
       "original_repository_path": "api-reference/feedbacks/get-feedbacks-for-a-conversation.md",
-      "original_sha256": "a51d4244c8e862c433ff10f8bda243ebefc915fc56e0c1b8f0652b64a3aaf2a4",
+      "original_sha256": "f3153f174492c94cc5b8eeaeafcaa6c99d4fd92c19fac18bb162b505525bb131",
       "original_source": "source/api-reference/feedbacks/get-feedbacks-for-a-conversation.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6222,7 +6258,7 @@
       "original_url": "https://docs.dust.tt/api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation",
       "original_file": "source/api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation.md",
       "original_repository_path": "api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation.md",
-      "original_sha256": "41982ee622399264f87598a4a1002fbf4dd423732e666c4e18dc37a499f7c912",
+      "original_sha256": "371994ea0357753c5136ba9cc21c91b94b7c801fdf1b05b16b8c86d1b8155fb6",
       "original_source": "source/api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6252,7 +6288,7 @@
       "original_url": "https://docs.dust.tt/api-reference/feedbacks/delete-feedback-for-a-specific-message",
       "original_file": "source/api-reference/feedbacks/delete-feedback-for-a-specific-message.md",
       "original_repository_path": "api-reference/feedbacks/delete-feedback-for-a-specific-message.md",
-      "original_sha256": "45cf9750dce93288847d04cc561c187de86a8be7d5060c3dbfffcce1164c35e6",
+      "original_sha256": "af4a317c3045be64d488400f3e75ba8a0b1ca4966f8b7b7385a0abeccfc4f81d",
       "original_source": "source/api-reference/feedbacks/delete-feedback-for-a-specific-message.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6282,7 +6318,7 @@
       "original_url": "https://docs.dust.tt/api-reference/mentions/get-mention-suggestions-for-a-conversation",
       "original_file": "source/api-reference/mentions/get-mention-suggestions-for-a-conversation.md",
       "original_repository_path": "api-reference/mentions/get-mention-suggestions-for-a-conversation.md",
-      "original_sha256": "8dbf4ba5e8d56f4a2e0725f041838cfc35d7b23f8e46112bca52408f994cd623",
+      "original_sha256": "4ca78c30bebbfbbb73d4f2f4d0b04d7f496c139f05fa9445d60f2823c0e49899",
       "original_source": "source/api-reference/mentions/get-mention-suggestions-for-a-conversation.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6312,7 +6348,7 @@
       "original_url": "https://docs.dust.tt/api-reference/mentions/parse-mentions-in-markdown-text",
       "original_file": "source/api-reference/mentions/parse-mentions-in-markdown-text.md",
       "original_repository_path": "api-reference/mentions/parse-mentions-in-markdown-text.md",
-      "original_sha256": "6ec586b228bd8aaf39b7feacc11527f0112f071d9569e674fba850c43495be6f",
+      "original_sha256": "cb438d7356f4bbca9a9cced7ca875044b483ec311769030b2e50858fa61bb413",
       "original_source": "source/api-reference/mentions/parse-mentions-in-markdown-text.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6342,7 +6378,7 @@
       "original_url": "https://docs.dust.tt/api-reference/mentions/get-mention-suggestions",
       "original_file": "source/api-reference/mentions/get-mention-suggestions.md",
       "original_repository_path": "api-reference/mentions/get-mention-suggestions.md",
-      "original_sha256": "167a11f47eb7f52793383d999be353f051e1989a7c3d8b05f43f8663cc38cfc4",
+      "original_sha256": "2048a54b9dacce522279ffc9afc40df6899a38f0051660a4233a775f8c076267",
       "original_source": "source/api-reference/mentions/get-mention-suggestions.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6372,7 +6408,7 @@
       "original_url": "https://docs.dust.tt/api-reference/mcp/deregister-a-client-side-mcp-server",
       "original_file": "source/api-reference/mcp/deregister-a-client-side-mcp-server.md",
       "original_repository_path": "api-reference/mcp/deregister-a-client-side-mcp-server.md",
-      "original_sha256": "2e9f8983fd8973333171c3c32e65ec9522e06f01e1f0214193f4a08987cf6922",
+      "original_sha256": "a42c0585952861c43c0311863c7a5dbbe2d64c31e9a7f78eac8b61b9bf7a5556",
       "original_source": "source/api-reference/mcp/deregister-a-client-side-mcp-server.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6395,14 +6431,14 @@
       "api": {
         "path": "/api/v1/w/{wId}/mcp/deregister",
         "method": "post",
-        "auth": "mcp"
+        "auth": "workspace"
       }
     },
     {
       "original_url": "https://docs.dust.tt/api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server",
       "original_file": "source/api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server.md",
       "original_repository_path": "api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server.md",
-      "original_sha256": "930448bb039a3356e425eca006f61386eb98dfcdaaf2812c507d6f0a003736cf",
+      "original_sha256": "3cdbb57860039b002b8869b77d48563347229d16ff75692ed7fffe9e050ef2b2",
       "original_source": "source/api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6425,14 +6461,14 @@
       "api": {
         "path": "/api/v1/w/{wId}/mcp/heartbeat",
         "method": "post",
-        "auth": "mcp"
+        "auth": "workspace"
       }
     },
     {
       "original_url": "https://docs.dust.tt/api-reference/mcp/register-a-client-side-mcp-server",
       "original_file": "source/api-reference/mcp/register-a-client-side-mcp-server.md",
       "original_repository_path": "api-reference/mcp/register-a-client-side-mcp-server.md",
-      "original_sha256": "7557f58643d6fc8726d0b7c13a22378c9c6cf78b68372d876c4548fabb76e3b8",
+      "original_sha256": "8a6810894d5916e47bc6e2c8c6528b7be7f1045f9ea34181a29544d940390e66",
       "original_source": "source/api-reference/mcp/register-a-client-side-mcp-server.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6455,14 +6491,14 @@
       "api": {
         "path": "/api/v1/w/{wId}/mcp/register",
         "method": "post",
-        "auth": "mcp"
+        "auth": "workspace"
       }
     },
     {
       "original_url": "https://docs.dust.tt/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace",
       "original_file": "source/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace.md",
       "original_repository_path": "api-reference/mcp/stream-mcp-tool-requests-for-a-workspace.md",
-      "original_sha256": "a064f8106e45ac1e83a2f34d17d5c4ef27c4a454df0d53bede8a2103d41cf646",
+      "original_sha256": "bc5aff860253878613ae1387e803fd2de6f1753fa2352846226ff38b7d379f7f",
       "original_source": "source/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6485,14 +6521,14 @@
       "api": {
         "path": "/api/v1/w/{wId}/mcp/requests",
         "method": "get",
-        "auth": "mcp"
+        "auth": "workspace"
       }
     },
     {
       "original_url": "https://docs.dust.tt/api-reference/mcp/submit-mcp-tool-execution-results",
       "original_file": "source/api-reference/mcp/submit-mcp-tool-execution-results.md",
       "original_repository_path": "api-reference/mcp/submit-mcp-tool-execution-results.md",
-      "original_sha256": "f7f836dbdd6014d42914742037b92149fdb54392c6c278e06228ef69c6fe2575",
+      "original_sha256": "5c6431abec7e9f68f91b1c00fb1cf54b4c0dbb699027820fada207dadd8575bd",
       "original_source": "source/api-reference/mcp/submit-mcp-tool-execution-results.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6515,14 +6551,14 @@
       "api": {
         "path": "/api/v1/w/{wId}/mcp/results",
         "method": "post",
-        "auth": "mcp"
+        "auth": "workspace"
       }
     },
     {
       "original_url": "https://docs.dust.tt/api-reference/search/search-for-nodes-in-the-workspace-streaming",
       "original_file": "source/api-reference/search/search-for-nodes-in-the-workspace-streaming.md",
       "original_repository_path": "api-reference/search/search-for-nodes-in-the-workspace-streaming.md",
-      "original_sha256": "61322ff0d358d989e36aaeedb5777b05865aa10685a6622f2405a928d471fa03",
+      "original_sha256": "6ef4d243e577d12d1f8469c09ace03ded1412e430fad96aad80dff7ef157e2ba",
       "original_source": "source/api-reference/search/search-for-nodes-in-the-workspace-streaming.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6552,7 +6588,7 @@
       "original_url": "https://docs.dust.tt/api-reference/search/search-for-nodes-in-the-workspace",
       "original_file": "source/api-reference/search/search-for-nodes-in-the-workspace.md",
       "original_repository_path": "api-reference/search/search-for-nodes-in-the-workspace.md",
-      "original_sha256": "414abfd06121b31ee1822d02be52ead95cda9076def444590e05c780a7b04bf9",
+      "original_sha256": "9c4166c14f3681d68e1f2cb15e75135ab1b7534495b56239f54e2171e794cdb8",
       "original_source": "source/api-reference/search/search-for-nodes-in-the-workspace.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6582,7 +6618,7 @@
       "original_url": "https://docs.dust.tt/api-reference/search/upload-a-tool-file",
       "original_file": "source/api-reference/search/upload-a-tool-file.md",
       "original_repository_path": "api-reference/search/upload-a-tool-file.md",
-      "original_sha256": "52b68f2d4f80a54db2116ab151ef4319c696edf09b91268a452b4e3c4716fa8e",
+      "original_sha256": "f10cf3b4e34dc033fe527c42bc93f3e2f83d3b27ab93900702241cbb3b9a6e28",
       "original_source": "source/api-reference/search/upload-a-tool-file.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6612,7 +6648,7 @@
       "original_url": "https://docs.dust.tt/api-reference/skills/archive-a-skill",
       "original_file": "source/api-reference/skills/archive-a-skill.md",
       "original_repository_path": "api-reference/skills/archive-a-skill.md",
-      "original_sha256": "cace6f3d72df15973b255e2ca2a05f44bfdca4125f51db722cdefd9ec9180c22",
+      "original_sha256": "ca857707220c13fde9cdc4a9fda39c6b03cf8cd77b03b7164793d7d0202f5c19",
       "original_source": "source/api-reference/skills/archive-a-skill.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6642,7 +6678,7 @@
       "original_url": "https://docs.dust.tt/api-reference/skills/list-skills",
       "original_file": "source/api-reference/skills/list-skills.md",
       "original_repository_path": "api-reference/skills/list-skills.md",
-      "original_sha256": "d60c1feef65d740cc50d422dd997de295f6ffa62b967f497183ba9e8b42fd811",
+      "original_sha256": "ce212d78d7d2fa790493e23325268f233f2d0644b4f2dcf1ae33801f8ce1b99c",
       "original_source": "source/api-reference/skills/list-skills.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6672,7 +6708,7 @@
       "original_url": "https://docs.dust.tt/api-reference/skills/import-skills-from-uploaded-files",
       "original_file": "source/api-reference/skills/import-skills-from-uploaded-files.md",
       "original_repository_path": "api-reference/skills/import-skills-from-uploaded-files.md",
-      "original_sha256": "6ba34be828370340e07a3ffc092120716bbbd9bcf4d0bec0c3f9f4de30c89000",
+      "original_sha256": "ae1552a4be720d2b3907df89c60dc085566557ef429f8e978c043bd4808ae252",
       "original_source": "source/api-reference/skills/import-skills-from-uploaded-files.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6702,7 +6738,7 @@
       "original_url": "https://docs.dust.tt/api-reference/apps/get-an-app-run",
       "original_file": "source/api-reference/apps/get-an-app-run.md",
       "original_repository_path": "api-reference/apps/get-an-app-run.md",
-      "original_sha256": "18c17e632de753e32519ed4a8a4e76bdb12edddfb307fe9419a35e13a7143e2c",
+      "original_sha256": "b9a10930c2aab0431cf85d916211b3fd7037afa0472d4d5be0a38bac2f9da743",
       "original_source": "source/api-reference/apps/get-an-app-run.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6732,7 +6768,7 @@
       "original_url": "https://docs.dust.tt/api-reference/apps/create-an-app-run",
       "original_file": "source/api-reference/apps/create-an-app-run.md",
       "original_repository_path": "api-reference/apps/create-an-app-run.md",
-      "original_sha256": "be3d32b1299caa34e23bf9aa6a414d58ff4d26af513ce08c50e76f3b655fa4d8",
+      "original_sha256": "13ed861764a5bd31135758a1bd53dc7e26385949773cbb77537fe44bcb5dc7e1",
       "original_source": "source/api-reference/apps/create-an-app-run.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6762,7 +6798,7 @@
       "original_url": "https://docs.dust.tt/api-reference/apps/list-apps",
       "original_file": "source/api-reference/apps/list-apps.md",
       "original_repository_path": "api-reference/apps/list-apps.md",
-      "original_sha256": "313a2cbe16bfe9b656c234371b5f5b113d6bc33fe1cf1b23d96c9bce0d712cf5",
+      "original_sha256": "a85a3a0b146541fac58271a2cdbc05d0303d0e7b6a4b9d36c0abc1761e36e828",
       "original_source": "source/api-reference/apps/list-apps.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6792,7 +6828,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasourceviews/get-a-data-source-view",
       "original_file": "source/api-reference/datasourceviews/get-a-data-source-view.md",
       "original_repository_path": "api-reference/datasourceviews/get-a-data-source-view.md",
-      "original_sha256": "40e58f9a9173716035fb0a23240f48d46a654d59b53c905d98410b06271c83a4",
+      "original_sha256": "5372eae8f42f4f6168599e703c4d55394fc0b3bcdfc8f999ab899a7f9df9df7b",
       "original_source": "source/api-reference/datasourceviews/get-a-data-source-view.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6822,7 +6858,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasourceviews/delete-a-data-source-view",
       "original_file": "source/api-reference/datasourceviews/delete-a-data-source-view.md",
       "original_repository_path": "api-reference/datasourceviews/delete-a-data-source-view.md",
-      "original_sha256": "ae8ec4f6a3310645d67bed1f85bc9fb047698d825d2f5eb9103c459c0963d82e",
+      "original_sha256": "08e901537bd960b4632ad3575af7f82dfb7ce3607c995ec25e52293e757fdbcf",
       "original_source": "source/api-reference/datasourceviews/delete-a-data-source-view.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6852,7 +6888,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasourceviews/update-a-data-source-view",
       "original_file": "source/api-reference/datasourceviews/update-a-data-source-view.md",
       "original_repository_path": "api-reference/datasourceviews/update-a-data-source-view.md",
-      "original_sha256": "8c635a7809bdd79039e8727392e026078b655a08ec83b420a7326786110ccb31",
+      "original_sha256": "f6d0905dd34a41fa9c65bcfb9281434190f4060dd8261631a0f58d7a40cda031",
       "original_source": "source/api-reference/datasourceviews/update-a-data-source-view.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6882,7 +6918,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasourceviews/search-the-data-source-view",
       "original_file": "source/api-reference/datasourceviews/search-the-data-source-view.md",
       "original_repository_path": "api-reference/datasourceviews/search-the-data-source-view.md",
-      "original_sha256": "ae5e75d424ec3b6c617841a52ec21916ec1fc351dbf5136d43ac75117c52c30b",
+      "original_sha256": "f87d4ca678abdaccaa3163a9bd05926b09eba6f4dd4dc5b897eb4ee63f746cf8",
       "original_source": "source/api-reference/datasourceviews/search-the-data-source-view.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6912,7 +6948,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasourceviews/list-data-source-views",
       "original_file": "source/api-reference/datasourceviews/list-data-source-views.md",
       "original_repository_path": "api-reference/datasourceviews/list-data-source-views.md",
-      "original_sha256": "36ab5ad36f9a853f606afb7f101274792fa81764c0a173974a157dffc61c02b8",
+      "original_sha256": "dc96d1153dd1e7d7c7924cbbb53faabf5c4414584f9365708d01efa4c6f9edd0",
       "original_source": "source/api-reference/datasourceviews/list-data-source-views.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6942,7 +6978,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/check-the-upsert-queue-status-for-a-data-source",
       "original_file": "source/api-reference/datasources/check-the-upsert-queue-status-for-a-data-source.md",
       "original_repository_path": "api-reference/datasources/check-the-upsert-queue-status-for-a-data-source.md",
-      "original_sha256": "65a4696ae72d510a311f88ee1394c02b4bdd8b9c2febc5ee27f1d5b111d19471",
+      "original_sha256": "d763c68adeacc1b611440a40c43c95e4e285c689a599b1b37cbd60ca0f59b665",
       "original_source": "source/api-reference/datasources/check-the-upsert-queue-status-for-a-data-source.md",
       "in_sitemap": true,
       "status": "publish",
@@ -6972,7 +7008,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/retrieve-a-document-from-a-data-source",
       "original_file": "source/api-reference/datasources/retrieve-a-document-from-a-data-source.md",
       "original_repository_path": "api-reference/datasources/retrieve-a-document-from-a-data-source.md",
-      "original_sha256": "5a937da7738dff43cf37fb0e9f656fd2f60f08cf08eba9291038d36c2c78b35c",
+      "original_sha256": "4ce1ff97cb216473fd32b6268a3a2e7647d971582afb288fb16ed115a078e5b5",
       "original_source": "source/api-reference/datasources/retrieve-a-document-from-a-data-source.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7002,7 +7038,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/upsert-a-document-in-a-data-source",
       "original_file": "source/api-reference/datasources/upsert-a-document-in-a-data-source.md",
       "original_repository_path": "api-reference/datasources/upsert-a-document-in-a-data-source.md",
-      "original_sha256": "180ce7bb0384d3ac1515fe12a536c8d94d94105c04d0341f038acea36729e25f",
+      "original_sha256": "bf88dbc8d561fffad63fcaa5d26dc519397f3f5607544c6db527a36bd693d53d",
       "original_source": "source/api-reference/datasources/upsert-a-document-in-a-data-source.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7032,7 +7068,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/delete-a-document-from-a-data-source",
       "original_file": "source/api-reference/datasources/delete-a-document-from-a-data-source.md",
       "original_repository_path": "api-reference/datasources/delete-a-document-from-a-data-source.md",
-      "original_sha256": "a46c3af280819dca8a20a6c06dc3f7d76bb260f3cf9bcd77ff8e5866fc08a61e",
+      "original_sha256": "26b8590b4586785dfac7e38e6617f194e10371db6f960e588940c29dddb8cb69",
       "original_source": "source/api-reference/datasources/delete-a-document-from-a-data-source.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7062,7 +7098,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/update-the-parents-of-a-document",
       "original_file": "source/api-reference/datasources/update-the-parents-of-a-document.md",
       "original_repository_path": "api-reference/datasources/update-the-parents-of-a-document.md",
-      "original_sha256": "e20a0e7cb4567b9122498a29be4f86150cf84d721f9072d14c886faa5f24cec9",
+      "original_sha256": "8c85648123373c505a79e30295419f86d0f679f5318f22f6bf6fac7cfcace5a5",
       "original_source": "source/api-reference/datasources/update-the-parents-of-a-document.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7092,7 +7128,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/get-documents",
       "original_file": "source/api-reference/datasources/get-documents.md",
       "original_repository_path": "api-reference/datasources/get-documents.md",
-      "original_sha256": "d42417e86603f621aa1b0631bb4eb2db55b1026385852d661c22c0c5a141c943",
+      "original_sha256": "e81e4e55169613a90462a7a2e3df50e298d35cc6d1227988c0ea7d696531328c",
       "original_source": "source/api-reference/datasources/get-documents.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7122,7 +7158,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/search-the-data-source",
       "original_file": "source/api-reference/datasources/search-the-data-source.md",
       "original_repository_path": "api-reference/datasources/search-the-data-source.md",
-      "original_sha256": "f4b8506e873f10070c8334f57a9a79a4e2681d81d228aae4e2ffce615f217cda",
+      "original_sha256": "c698f196c8f39773f59892bb01642a4f7d72a00caaab0133e3a3429a1609310b",
       "original_source": "source/api-reference/datasources/search-the-data-source.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7152,7 +7188,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/get-a-table",
       "original_file": "source/api-reference/datasources/get-a-table.md",
       "original_repository_path": "api-reference/datasources/get-a-table.md",
-      "original_sha256": "9c42ffb22f306274098060be03003f0c5e38ed2db0045c00e24360da4339cb04",
+      "original_sha256": "a1f6cd887256f2709ba3cd599ece1f62cee040b3a7a9296dd52bb6572ccfde69",
       "original_source": "source/api-reference/datasources/get-a-table.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7182,7 +7218,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/delete-a-table",
       "original_file": "source/api-reference/datasources/delete-a-table.md",
       "original_repository_path": "api-reference/datasources/delete-a-table.md",
-      "original_sha256": "fad795151846770600df71d5f15ec26e4964b3bf77ecb0b3540a15a18ad50e72",
+      "original_sha256": "86f6eccf053bdb4cf5a938bb01399d224cd9c6f5d840189be1933f75877aee12",
       "original_source": "source/api-reference/datasources/delete-a-table.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7212,7 +7248,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/get-a-row",
       "original_file": "source/api-reference/datasources/get-a-row.md",
       "original_repository_path": "api-reference/datasources/get-a-row.md",
-      "original_sha256": "e41ebaf91811444911fdae61d9708d1ac098284fe3b7ad06e824407f8f22bc3c",
+      "original_sha256": "1a731ff68548c94ba737d2ed51a323545a2e7bce53c32a728f220f4c3939f353",
       "original_source": "source/api-reference/datasources/get-a-row.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7242,7 +7278,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/delete-a-row",
       "original_file": "source/api-reference/datasources/delete-a-row.md",
       "original_repository_path": "api-reference/datasources/delete-a-row.md",
-      "original_sha256": "456e6c0b22f19f1df4c34a63a2c4aa79ceb56e2439ff25c43cdb9ee7f9866fa8",
+      "original_sha256": "b4e7ec9d6bb3a61d7c911ce7c33fe55a7cc25ab54f3ca217c1203b86048ed04a",
       "original_source": "source/api-reference/datasources/delete-a-row.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7272,7 +7308,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/list-rows",
       "original_file": "source/api-reference/datasources/list-rows.md",
       "original_repository_path": "api-reference/datasources/list-rows.md",
-      "original_sha256": "993bd134bb25cf02ed418f19b6e76f6c5fa45d913d2dba2ab1187bc2b4f59f76",
+      "original_sha256": "7b4dbdc1431d9e538af3a22f4b1906110f2057ead527804427ce379b4d0bc2a7",
       "original_source": "source/api-reference/datasources/list-rows.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7302,7 +7338,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/upsert-rows",
       "original_file": "source/api-reference/datasources/upsert-rows.md",
       "original_repository_path": "api-reference/datasources/upsert-rows.md",
-      "original_sha256": "855d05d2dbb7816af22adacf8e3a853a5b4b24da42fc4a3513e3ab15d938cca0",
+      "original_sha256": "207e875e9b155d20db6df1fd9accb696899030e25bbce5e19f726f945b49739f",
       "original_source": "source/api-reference/datasources/upsert-rows.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7332,7 +7368,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/get-tables",
       "original_file": "source/api-reference/datasources/get-tables.md",
       "original_repository_path": "api-reference/datasources/get-tables.md",
-      "original_sha256": "493c673db138553b9c1cd443f1e631038855c583044f8d20c6bc55628382039f",
+      "original_sha256": "5a332a9c291de5319b8f92c8299eec7eb7b229858fa6ccefb8c69790794b886c",
       "original_source": "source/api-reference/datasources/get-tables.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7362,7 +7398,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/upsert-a-table",
       "original_file": "source/api-reference/datasources/upsert-a-table.md",
       "original_repository_path": "api-reference/datasources/upsert-a-table.md",
-      "original_sha256": "6e6f9398144d7ce29feb799610d0b1d44825873c1b726dcec013307a89fc445c",
+      "original_sha256": "7898e0a6d258197ad6256e81209c71761d3475ca691f24b658f5eaba768007ea",
       "original_source": "source/api-reference/datasources/upsert-a-table.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7392,7 +7428,7 @@
       "original_url": "https://docs.dust.tt/api-reference/datasources/get-data-sources",
       "original_file": "source/api-reference/datasources/get-data-sources.md",
       "original_repository_path": "api-reference/datasources/get-data-sources.md",
-      "original_sha256": "042defeb3ea3c61c576957272a6bcbf653dbce90fe8fdd4b5e0207fc77f9f6da",
+      "original_sha256": "aa13d11763f2b925f7c0e3c9d14a3b4bfac0d8f548584e2e2e9a011748f47ed8",
       "original_source": "source/api-reference/datasources/get-data-sources.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7422,7 +7458,7 @@
       "original_url": "https://docs.dust.tt/api-reference/tools/list-available-mcp-server-views",
       "original_file": "source/api-reference/tools/list-available-mcp-server-views.md",
       "original_repository_path": "api-reference/tools/list-available-mcp-server-views.md",
-      "original_sha256": "0bcd772f9a2e7c269a9159a1ee4bc41b00210cef91520160504f3a3cfca609a8",
+      "original_sha256": "6c38689425b1505562211e16714b6141b7859aedadd0532d6c80bf63d29b4d1f",
       "original_source": "source/api-reference/tools/list-available-mcp-server-views.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7452,7 +7488,7 @@
       "original_url": "https://docs.dust.tt/api-reference/spaces/list-available-spaces",
       "original_file": "source/api-reference/spaces/list-available-spaces.md",
       "original_repository_path": "api-reference/spaces/list-available-spaces.md",
-      "original_sha256": "5e936e54c9dfaad4957aa130bf17ba88b1a892210ffb94cab26d681590e61247",
+      "original_sha256": "c546db389f3a0754e54a556c9e43f3891a0449f2ed5e0712a65d220afe8a73a0",
       "original_source": "source/api-reference/spaces/list-available-spaces.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7482,7 +7518,7 @@
       "original_url": "https://docs.dust.tt/api-reference/triggers/get-a-trigger",
       "original_file": "source/api-reference/triggers/get-a-trigger.md",
       "original_repository_path": "api-reference/triggers/get-a-trigger.md",
-      "original_sha256": "62f3bc501b285a09f2a916b63b4f9d22b14ca3b91b14a7c490b9f6e5a4fb3670",
+      "original_sha256": "afb485551b106c8200f15bf9266c8de23847426c611a25563207eb92ec9c3c21",
       "original_source": "source/api-reference/triggers/get-a-trigger.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7512,7 +7548,7 @@
       "original_url": "https://docs.dust.tt/api-reference/triggers/receive-external-webhook-to-trigger-flows",
       "original_file": "source/api-reference/triggers/receive-external-webhook-to-trigger-flows.md",
       "original_repository_path": "api-reference/triggers/receive-external-webhook-to-trigger-flows.md",
-      "original_sha256": "022f31ee08996a9f3fc6bcb470a60794e226c59a1a5d778e059437d9c43ac6a5",
+      "original_sha256": "be390e194cd04742ae8d672926692596ec27eddb8b6121a8fe8387d3ca7b8d43",
       "original_source": "source/api-reference/triggers/receive-external-webhook-to-trigger-flows.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7522,18 +7558,18 @@
           "title": "Receive external webhook to trigger flows",
           "file": "en/api-reference/triggers/receive-external-webhook-to-trigger-flows.md",
           "route": "/api-reference/triggers/receive-external-webhook-to-trigger-flows",
-          "sha256": "3744bbf6df460b11cad05cf6acf5a98534c0202d731824d1e2d3480d7ab622bb"
+          "sha256": "f12079c0776551ad0149337e09a10d234fe31fa42fb2cb92939644f599b3c5f2"
         },
         "zh-cn": {
           "title": "接收用于触发流程的外部 Webhook",
           "file": "zh-cn/api-reference/triggers/receive-external-webhook-to-trigger-flows.md",
           "route": "/zh-Hans/api-reference/triggers/receive-external-webhook-to-trigger-flows",
-          "sha256": "66c54547a566bfd25295d7e7ab77329198d9904a0dbbf20bd062e7e0af054767"
+          "sha256": "5dce1a3b1d6114dd4690cb5b92e7002a2af4def89c7ebb361a4c3f10d9f58009"
         }
       },
       "original_title": "Receive external webhook to trigger flows",
       "api": {
-        "path": "/api/v1/w/{wId}/triggers/hooks/{webhookSourceId}/{webhookSourceUrlSecret}",
+        "path": "/api/v1/w/{wId}/triggers/hooks/{webhookSourceId}",
         "method": "post",
         "auth": "webhook"
       }
@@ -7542,7 +7578,7 @@
       "original_url": "https://docs.dust.tt/api-reference/triggers/list-triggers",
       "original_file": "source/api-reference/triggers/list-triggers.md",
       "original_repository_path": "api-reference/triggers/list-triggers.md",
-      "original_sha256": "99132037fa95f7918de2665fd710dc1cb6c074d273e801b35e60675d23a325c4",
+      "original_sha256": "b8d60457ff5bdd507004b152f85f8fb8e2933f4f78a7330d9590e17db75523f4",
       "original_source": "source/api-reference/triggers/list-triggers.md",
       "in_sitemap": true,
       "status": "publish",
@@ -7566,1716 +7602,6 @@
         "path": "/api/v1/w/{wId}/triggers",
         "method": "get",
         "auth": "workspace"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-analytics/list-consumption-analytics-facets",
-      "original_file": "source/api-reference/private-analytics/list-consumption-analytics-facets.md",
-      "original_repository_path": "api-reference/private-analytics/list-consumption-analytics-facets.md",
-      "original_sha256": "1cae3363bd8eacbcea0bec7faca08a8f02936e0c8422eeb5b6f774139e03a354",
-      "original_source": "source/api-reference/private-analytics/list-consumption-analytics-facets.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "List consumption analytics facets",
-          "file": "en/api-reference/private-analytics/list-consumption-analytics-facets.md",
-          "route": "/api-reference/private-analytics/list-consumption-analytics-facets",
-          "sha256": "4f6c117c41efaef220ab92fcbcb41ac9656a6af861e2d6e6b181c5f285f29450"
-        },
-        "zh-cn": {
-          "title": "列出用量分析筛选值",
-          "file": "zh-cn/api-reference/private-analytics/list-consumption-analytics-facets.md",
-          "route": "/zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets",
-          "sha256": "d16704db24fc2ad8416f2650674b939e517f3988c6c473b5e05dfba90aa86382"
-        }
-      },
-      "original_title": "List consumption analytics facets",
-      "api": {
-        "path": "/api/w/{wId}/analytics/consumption/facets",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-analytics/list-consumption-analytics-facets-1",
-      "original_file": "source/api-reference/private-analytics/list-consumption-analytics-facets-1.md",
-      "original_repository_path": "api-reference/private-analytics/list-consumption-analytics-facets-1.md",
-      "original_sha256": "a30da6642227fa7e787d160085bb393785f592912a26867fdaa96c48865d9723",
-      "original_source": "source/api-reference/private-analytics/list-consumption-analytics-facets-1.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "List personal consumption analytics facets",
-          "file": "en/api-reference/private-analytics/list-consumption-analytics-facets-1.md",
-          "route": "/api-reference/private-analytics/list-consumption-analytics-facets-1",
-          "sha256": "b817ea0c44659f6dd555677333fe93b7c51b3ed3013d076c95fee706313ff0f0"
-        },
-        "zh-cn": {
-          "title": "列出个人用量筛选项",
-          "file": "zh-cn/api-reference/private-analytics/list-consumption-analytics-facets-1.md",
-          "route": "/zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets-1",
-          "sha256": "69b1d1797c6dce1eda725a11f296fc42a412f3404f1c20c32d53e33b534968c7"
-        }
-      },
-      "original_title": "List consumption analytics facets",
-      "api": {
-        "path": "/api/w/{wId}/me/analytics/consumption/facets",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-analytics/list-consumption-analytics-facets-2",
-      "original_file": "source/api-reference/private-analytics/list-consumption-analytics-facets-2.md",
-      "original_repository_path": "api-reference/private-analytics/list-consumption-analytics-facets-2.md",
-      "original_sha256": "a30da6642227fa7e787d160085bb393785f592912a26867fdaa96c48865d9723",
-      "original_source": "source/api-reference/private-analytics/list-consumption-analytics-facets-2.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "List agent consumption analytics facets",
-          "file": "en/api-reference/private-analytics/list-consumption-analytics-facets-2.md",
-          "route": "/api-reference/private-analytics/list-consumption-analytics-facets-2",
-          "sha256": "e9fda08826c53bdceaa66f8310d5bfef2e808ca3ae742e7df432e9c992274040"
-        },
-        "zh-cn": {
-          "title": "列出智能体用量筛选项",
-          "file": "zh-cn/api-reference/private-analytics/list-consumption-analytics-facets-2.md",
-          "route": "/zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets-2",
-          "sha256": "eda62339f1fe6ed85f32341674d42d04b29aafbd00f7473dee9734f7dceef308"
-        }
-      },
-      "original_title": "List consumption analytics facets",
-      "api": {
-        "path": "/api/w/{wId}/assistant/agent_configurations/{aId}/analytics/consumption/facets",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-agents/list-agent-configurations",
-      "original_file": "source/api-reference/private-agents/list-agent-configurations.md",
-      "original_repository_path": "api-reference/private-agents/list-agent-configurations.md",
-      "original_sha256": "8f0b476b32803efbba5f046dda61a046bd82f5ca4ec05efd1d28145a5be0d0c2",
-      "original_source": "source/api-reference/private-agents/list-agent-configurations.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "List agent configurations",
-          "file": "en/api-reference/private-agents/list-agent-configurations.md",
-          "route": "/api-reference/private-agents/list-agent-configurations",
-          "sha256": "cbd3df1d7b0625292e27d92253068ec9ff15da447aea5c8a980b78f3ec2a68ca"
-        },
-        "zh-cn": {
-          "title": "列出智能体配置",
-          "file": "zh-cn/api-reference/private-agents/list-agent-configurations.md",
-          "route": "/zh-Hans/api-reference/private-agents/list-agent-configurations",
-          "sha256": "ffc9bc7dd17bf067ca6de71dedfa4743a03a3f8807ff11d4ced0bb22a1d60aab"
-        }
-      },
-      "original_title": "List agent configurations",
-      "api": {
-        "path": "/api/w/{wId}/assistant/agent_configurations",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-agents/create-an-agent-configuration",
-      "original_file": "source/api-reference/private-agents/create-an-agent-configuration.md",
-      "original_repository_path": "api-reference/private-agents/create-an-agent-configuration.md",
-      "original_sha256": "14966220a803aab53ce4e379029a7bf01d2d9c203f87c7222191c0ed56b94042",
-      "original_source": "source/api-reference/private-agents/create-an-agent-configuration.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Create an agent configuration",
-          "file": "en/api-reference/private-agents/create-an-agent-configuration.md",
-          "route": "/api-reference/private-agents/create-an-agent-configuration",
-          "sha256": "cd77bf20102573e0de96f574a24b550c82ac5f52c8c84300b68889a2c8fa72b2"
-        },
-        "zh-cn": {
-          "title": "创建智能体配置",
-          "file": "zh-cn/api-reference/private-agents/create-an-agent-configuration.md",
-          "route": "/zh-Hans/api-reference/private-agents/create-an-agent-configuration",
-          "sha256": "c1d362aec7c8c034b6a47aec1f54fcf9a6a5689607456db248d39f0c35d37123"
-        }
-      },
-      "original_title": "Create an agent configuration",
-      "api": {
-        "path": "/api/w/{wId}/assistant/agent_configurations",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/cancel-message-generation",
-      "original_file": "source/api-reference/private-conversations/cancel-message-generation.md",
-      "original_repository_path": "api-reference/private-conversations/cancel-message-generation.md",
-      "original_sha256": "85d9eaeaed86574d51c876ca8b0fff85b459a8ceac123be021ef9924325ec46a",
-      "original_source": "source/api-reference/private-conversations/cancel-message-generation.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Cancel message generation",
-          "file": "en/api-reference/private-conversations/cancel-message-generation.md",
-          "route": "/api-reference/private-conversations/cancel-message-generation",
-          "sha256": "4cf3e833becdbaef351854be9fe5384aabcf3a75f2a80be38c0ea122b7cc7f14"
-        },
-        "zh-cn": {
-          "title": "取消消息生成",
-          "file": "zh-cn/api-reference/private-conversations/cancel-message-generation.md",
-          "route": "/zh-Hans/api-reference/private-conversations/cancel-message-generation",
-          "sha256": "430d9c1053a5bbb4633b53cf8fb75b8fa81669bb54064b944cc05e5e55080a0c"
-        }
-      },
-      "original_title": "Cancel message generation",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/cancel",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/compact-a-conversation",
-      "original_file": "source/api-reference/private-conversations/compact-a-conversation.md",
-      "original_repository_path": "api-reference/private-conversations/compact-a-conversation.md",
-      "original_sha256": "a44b37f28c023f3d4c560cebf5ffdc14d009a884ae1b2e879de3e976485b6826",
-      "original_source": "source/api-reference/private-conversations/compact-a-conversation.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Compact a conversation",
-          "file": "en/api-reference/private-conversations/compact-a-conversation.md",
-          "route": "/api-reference/private-conversations/compact-a-conversation",
-          "sha256": "60c419592af4a4490f68f35e6c08db706b7b1d5bee5ca3b36cb016b0c32a17b2"
-        },
-        "zh-cn": {
-          "title": "压缩对话上下文",
-          "file": "zh-cn/api-reference/private-conversations/compact-a-conversation.md",
-          "route": "/zh-Hans/api-reference/private-conversations/compact-a-conversation",
-          "sha256": "0d0b4dbdc10067d3f804cd53879b9bad83409cfedf4edfab2a8d6a5d1c208d62"
-        }
-      },
-      "original_title": "Compact a conversation",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/compactions",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/get-a-conversation-credit-attribution",
-      "original_file": "source/api-reference/private-conversations/get-a-conversation-credit-attribution.md",
-      "original_repository_path": "api-reference/private-conversations/get-a-conversation-credit-attribution.md",
-      "original_sha256": "6e83e2b4eba3be3adf4c76e0a8412f8985bc9b932b7cba460df2e62c7c9678b5",
-      "original_source": "source/api-reference/private-conversations/get-a-conversation-credit-attribution.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Get a conversation credit attribution",
-          "file": "en/api-reference/private-conversations/get-a-conversation-credit-attribution.md",
-          "route": "/api-reference/private-conversations/get-a-conversation-credit-attribution",
-          "sha256": "1c31cbb1838fbbfb4053c6ca9b44e27876666cc6e2599deaa6c291d3728c4728"
-        },
-        "zh-cn": {
-          "title": "获取对话的 credits 归因",
-          "file": "zh-cn/api-reference/private-conversations/get-a-conversation-credit-attribution.md",
-          "route": "/zh-Hans/api-reference/private-conversations/get-a-conversation-credit-attribution",
-          "sha256": "9e977409f22b41850932ccdf520f2bed361bc351c67f65f76fd0aa545d6ed4bd"
-        }
-      },
-      "original_title": "Get a conversation credit attribution",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/consumption",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/create-a-content-fragment",
-      "original_file": "source/api-reference/private-conversations/create-a-content-fragment.md",
-      "original_repository_path": "api-reference/private-conversations/create-a-content-fragment.md",
-      "original_sha256": "19f4fffe985e7ce7575164dc138e3e10948a3e693133dc95fb922bb1bd82f675",
-      "original_source": "source/api-reference/private-conversations/create-a-content-fragment.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Create a content fragment",
-          "file": "en/api-reference/private-conversations/create-a-content-fragment.md",
-          "route": "/api-reference/private-conversations/create-a-content-fragment",
-          "sha256": "501cce39bf232079dac9292aea859e246afda5d0d90ec32d3b10898ec5d4660e"
-        },
-        "zh-cn": {
-          "title": "创建对话内容片段",
-          "file": "zh-cn/api-reference/private-conversations/create-a-content-fragment.md",
-          "route": "/zh-Hans/api-reference/private-conversations/create-a-content-fragment",
-          "sha256": "488e0ccae8f1a39a7ec3f0abcf30873940ca19b18bf5ab96e3535f357efb32ce"
-        }
-      },
-      "original_title": "Create a content fragment",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/content_fragment",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/get-conversation-feedbacks",
-      "original_file": "source/api-reference/private-conversations/get-conversation-feedbacks.md",
-      "original_repository_path": "api-reference/private-conversations/get-conversation-feedbacks.md",
-      "original_sha256": "30d1038fea78e65a1fb0500c540b51637e4b5c3ac406884beddbab42949cd74e",
-      "original_source": "source/api-reference/private-conversations/get-conversation-feedbacks.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Get conversation feedbacks",
-          "file": "en/api-reference/private-conversations/get-conversation-feedbacks.md",
-          "route": "/api-reference/private-conversations/get-conversation-feedbacks",
-          "sha256": "0998463c947d7384eeaabe3d9f7cbb7b83ca53d1e699e4685b7c73f419c41f50"
-        },
-        "zh-cn": {
-          "title": "获取当前用户提交的对话反馈",
-          "file": "zh-cn/api-reference/private-conversations/get-conversation-feedbacks.md",
-          "route": "/zh-Hans/api-reference/private-conversations/get-conversation-feedbacks",
-          "sha256": "1511aa411ce4eb2ae77e4e43933a3b24746aabce10a4d9615ebfc8d069bf20b4"
-        }
-      },
-      "original_title": "Get conversation feedbacks",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/feedbacks",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/get-a-conversation",
-      "original_file": "source/api-reference/private-conversations/get-a-conversation.md",
-      "original_repository_path": "api-reference/private-conversations/get-a-conversation.md",
-      "original_sha256": "cf61dbc064fe464e87f7dabcfd9ddabdd0f76fe65708973e94b52188e4531aed",
-      "original_source": "source/api-reference/private-conversations/get-a-conversation.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Get a conversation",
-          "file": "en/api-reference/private-conversations/get-a-conversation.md",
-          "route": "/api-reference/private-conversations/get-a-conversation",
-          "sha256": "f88c1e3ba611deb9cc20db814f1db7e96c9401a86c328963d2d6aef560d93802"
-        },
-        "zh-cn": {
-          "title": "获取对话详情",
-          "file": "zh-cn/api-reference/private-conversations/get-a-conversation.md",
-          "route": "/zh-Hans/api-reference/private-conversations/get-a-conversation",
-          "sha256": "c0e10439e5aeede2e2b221fb7966056495a4b75d44786a440ad6d4183a665cdd"
-        }
-      },
-      "original_title": "Get a conversation",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/delete-or-leave-a-conversation",
-      "original_file": "source/api-reference/private-conversations/delete-or-leave-a-conversation.md",
-      "original_repository_path": "api-reference/private-conversations/delete-or-leave-a-conversation.md",
-      "original_sha256": "3bebf288d6ddf2a75a08929ae8ceb8e6e88ad0bbf8aa0c8f585a6cddab5a0f93",
-      "original_source": "source/api-reference/private-conversations/delete-or-leave-a-conversation.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Delete or leave a conversation",
-          "file": "en/api-reference/private-conversations/delete-or-leave-a-conversation.md",
-          "route": "/api-reference/private-conversations/delete-or-leave-a-conversation",
-          "sha256": "f9af270e97421fb3cacfc3229d76abae05c6e053e413866ba9678001fda459dc"
-        },
-        "zh-cn": {
-          "title": "删除或退出对话",
-          "file": "zh-cn/api-reference/private-conversations/delete-or-leave-a-conversation.md",
-          "route": "/zh-Hans/api-reference/private-conversations/delete-or-leave-a-conversation",
-          "sha256": "c466cfb4a065e41867d5759d88fb11606e5d6bcbd1b1a5188dc9bf323fed76c7"
-        }
-      },
-      "original_title": "Delete or leave a conversation",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}",
-        "method": "delete",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/update-a-conversation",
-      "original_file": "source/api-reference/private-conversations/update-a-conversation.md",
-      "original_repository_path": "api-reference/private-conversations/update-a-conversation.md",
-      "original_sha256": "6e0e8ba27edaa52bd1bec01f0f7d5eb737e7360583a85e157840f6f96ce269f6",
-      "original_source": "source/api-reference/private-conversations/update-a-conversation.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Update a conversation",
-          "file": "en/api-reference/private-conversations/update-a-conversation.md",
-          "route": "/api-reference/private-conversations/update-a-conversation",
-          "sha256": "33936df9479bc50d4bc095e98406fbcbb86815f5f7fba03bc3138efe069afe23"
-        },
-        "zh-cn": {
-          "title": "更新对话",
-          "file": "zh-cn/api-reference/private-conversations/update-a-conversation.md",
-          "route": "/zh-Hans/api-reference/private-conversations/update-a-conversation",
-          "sha256": "e7bdf3be96d8fd5b31b05ce6ae2fd370e48276d792fd0ada67699d1f8455f98b"
-        }
-      },
-      "original_title": "Update a conversation",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}",
-        "method": "patch",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/get-conversation-participants",
-      "original_file": "source/api-reference/private-conversations/get-conversation-participants.md",
-      "original_repository_path": "api-reference/private-conversations/get-conversation-participants.md",
-      "original_sha256": "8f133f96c7df9ef8f39c1c88307a5a4edeca211f7334982cfd19c4388abbd88d",
-      "original_source": "source/api-reference/private-conversations/get-conversation-participants.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Get conversation participants",
-          "file": "en/api-reference/private-conversations/get-conversation-participants.md",
-          "route": "/api-reference/private-conversations/get-conversation-participants",
-          "sha256": "7b4835a593573d45178a7985e5abc21985a8b875e95cf9b307cb1d7404042bec"
-        },
-        "zh-cn": {
-          "title": "获取对话参与者",
-          "file": "zh-cn/api-reference/private-conversations/get-conversation-participants.md",
-          "route": "/zh-Hans/api-reference/private-conversations/get-conversation-participants",
-          "sha256": "63a6f64f9cdf0ad3540d2051afe0390449f32a1c1fcd90c98d254cd9a4aae914"
-        }
-      },
-      "original_title": "Get conversation participants",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/participants",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/add-a-participant-to-a-conversation",
-      "original_file": "source/api-reference/private-conversations/add-a-participant-to-a-conversation.md",
-      "original_repository_path": "api-reference/private-conversations/add-a-participant-to-a-conversation.md",
-      "original_sha256": "d60dbb8ab43153b9f14e439fd249f2bc05be677bcacb1161b22644f839353afb",
-      "original_source": "source/api-reference/private-conversations/add-a-participant-to-a-conversation.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Add a participant to a conversation",
-          "file": "en/api-reference/private-conversations/add-a-participant-to-a-conversation.md",
-          "route": "/api-reference/private-conversations/add-a-participant-to-a-conversation",
-          "sha256": "f5062ef6b172b4ef5a42a25d5403c1b1c9113a1ce50959aa486c7953956d36a3"
-        },
-        "zh-cn": {
-          "title": "添加对话参与者",
-          "file": "zh-cn/api-reference/private-conversations/add-a-participant-to-a-conversation.md",
-          "route": "/zh-Hans/api-reference/private-conversations/add-a-participant-to-a-conversation",
-          "sha256": "693530ff95577050ffa147dbe074de86e40feb029d4df7ec66c9b6e6bcef4faf"
-        }
-      },
-      "original_title": "Add a participant to a conversation",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/participants",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/list-selectable-spaces",
-      "original_file": "source/api-reference/private-conversations/list-selectable-spaces.md",
-      "original_repository_path": "api-reference/private-conversations/list-selectable-spaces.md",
-      "original_sha256": "088ae975766ee4cbcacd5204b751bc730c13a37d254f602fd329c5a45880919f",
-      "original_source": "source/api-reference/private-conversations/list-selectable-spaces.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "List selectable Spaces",
-          "file": "en/api-reference/private-conversations/list-selectable-spaces.md",
-          "route": "/api-reference/private-conversations/list-selectable-spaces",
-          "sha256": "4d51e0b486074b160ab4b88aa5aa12f27a7041d549ff4da2195257d4b704889d"
-        },
-        "zh-cn": {
-          "title": "列出可选 Space",
-          "file": "zh-cn/api-reference/private-conversations/list-selectable-spaces.md",
-          "route": "/zh-Hans/api-reference/private-conversations/list-selectable-spaces",
-          "sha256": "d4c31a48423bde00cc826a0f9eadd6d8d85877229fa9d8d01b7c15038e121c47"
-        }
-      },
-      "original_title": "List selectable Spaces",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/selectable_spaces",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/select-spaces-for-a-conversation",
-      "original_file": "source/api-reference/private-conversations/select-spaces-for-a-conversation.md",
-      "original_repository_path": "api-reference/private-conversations/select-spaces-for-a-conversation.md",
-      "original_sha256": "e7488ad9a4d5659a572ee8972577491ec6c647d59356eb25665878ac0c3bfd6f",
-      "original_source": "source/api-reference/private-conversations/select-spaces-for-a-conversation.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Select Spaces for a conversation",
-          "file": "en/api-reference/private-conversations/select-spaces-for-a-conversation.md",
-          "route": "/api-reference/private-conversations/select-spaces-for-a-conversation",
-          "sha256": "840f1f3379ec27fcf679811a08020f9b9b5234d271270fe9527a28c080d951a9"
-        },
-        "zh-cn": {
-          "title": "为对话选择 Space",
-          "file": "zh-cn/api-reference/private-conversations/select-spaces-for-a-conversation.md",
-          "route": "/zh-Hans/api-reference/private-conversations/select-spaces-for-a-conversation",
-          "sha256": "6731c8496f9022f036b62ac96b290003df8a952cf5eeab03bf13366d919e3e2c"
-        }
-      },
-      "original_title": "Select Spaces for a conversation",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/selected_spaces",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/cancel-a-wake-up",
-      "original_file": "source/api-reference/private-conversations/cancel-a-wake-up.md",
-      "original_repository_path": "api-reference/private-conversations/cancel-a-wake-up.md",
-      "original_sha256": "b727728352c9bea813ae856cce47dc10936ea03645541aee56e1913c53229189",
-      "original_source": "source/api-reference/private-conversations/cancel-a-wake-up.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Cancel a wake-up",
-          "file": "en/api-reference/private-conversations/cancel-a-wake-up.md",
-          "route": "/api-reference/private-conversations/cancel-a-wake-up",
-          "sha256": "1a8a4726e382bd736e13346839d20c6f4fdc43eaaf12791e01db4e0a9b84c6c3"
-        },
-        "zh-cn": {
-          "title": "取消定时唤醒",
-          "file": "zh-cn/api-reference/private-conversations/cancel-a-wake-up.md",
-          "route": "/zh-Hans/api-reference/private-conversations/cancel-a-wake-up",
-          "sha256": "fc7ea1d9be15be7b96c920db50aa268baec8aebe40bb2dd5bf339f7affb19acf"
-        }
-      },
-      "original_title": "Cancel a wake-up",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/wakeups/{wuId}",
-        "method": "delete",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/list-wake-ups-for-a-conversation",
-      "original_file": "source/api-reference/private-conversations/list-wake-ups-for-a-conversation.md",
-      "original_repository_path": "api-reference/private-conversations/list-wake-ups-for-a-conversation.md",
-      "original_sha256": "b89c72dd5e224a095e2bb01ef366dc7b8e8dcf1b22ace14473fe79adbe0ea043",
-      "original_source": "source/api-reference/private-conversations/list-wake-ups-for-a-conversation.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "List wake-ups for a conversation",
-          "file": "en/api-reference/private-conversations/list-wake-ups-for-a-conversation.md",
-          "route": "/api-reference/private-conversations/list-wake-ups-for-a-conversation",
-          "sha256": "c36e79c9d20a08124ed1f687a7a085489fd09e5251e20dfa2467fc7b5a0526b4"
-        },
-        "zh-cn": {
-          "title": "列出对话的定时唤醒",
-          "file": "zh-cn/api-reference/private-conversations/list-wake-ups-for-a-conversation.md",
-          "route": "/zh-Hans/api-reference/private-conversations/list-wake-ups-for-a-conversation",
-          "sha256": "b29c180934163819b1f656520b3c01d64ca1271ce321f1c25b55fe4a78723a5a"
-        }
-      },
-      "original_title": "List wake-ups for a conversation",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/wakeups",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/list-conversations",
-      "original_file": "source/api-reference/private-conversations/list-conversations.md",
-      "original_repository_path": "api-reference/private-conversations/list-conversations.md",
-      "original_sha256": "9d9b1dc779801ad6d32525dd0ac914584d0583d77d858310199a4786fddfd713",
-      "original_source": "source/api-reference/private-conversations/list-conversations.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "List conversations",
-          "file": "en/api-reference/private-conversations/list-conversations.md",
-          "route": "/api-reference/private-conversations/list-conversations",
-          "sha256": "ad0647b7f42cc1c75aab133445f4e22bea39c28ef88fb345830e6e620a5992a5"
-        },
-        "zh-cn": {
-          "title": "列出当前用户的对话",
-          "file": "zh-cn/api-reference/private-conversations/list-conversations.md",
-          "route": "/zh-Hans/api-reference/private-conversations/list-conversations",
-          "sha256": "3d572fe7e091d8e9cc945f6348965680e9e3f05210bb8b1e04acecca95380eb2"
-        }
-      },
-      "original_title": "List conversations",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-conversations/create-a-conversation",
-      "original_file": "source/api-reference/private-conversations/create-a-conversation.md",
-      "original_repository_path": "api-reference/private-conversations/create-a-conversation.md",
-      "original_sha256": "bd3662f1126e3749dd2e7a9e4789cd706a946dd62bc3b0b46fa7053528fa4d36",
-      "original_source": "source/api-reference/private-conversations/create-a-conversation.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Create a conversation",
-          "file": "en/api-reference/private-conversations/create-a-conversation.md",
-          "route": "/api-reference/private-conversations/create-a-conversation",
-          "sha256": "634e0e86352aeb0bb86bf5b1a0a81f86d33fa3f7de7635a00554b73052cde2d2"
-        },
-        "zh-cn": {
-          "title": "创建对话",
-          "file": "zh-cn/api-reference/private-conversations/create-a-conversation.md",
-          "route": "/zh-Hans/api-reference/private-conversations/create-a-conversation",
-          "sha256": "34f971cc77503d6953dc4dd668199cb7831ccbcf4738192880de0e0d8a4feb74"
-        }
-      },
-      "original_title": "Create a conversation",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-events/stream-conversation-events",
-      "original_file": "source/api-reference/private-events/stream-conversation-events.md",
-      "original_repository_path": "api-reference/private-events/stream-conversation-events.md",
-      "original_sha256": "46624e2e3c87f100005a6c5899fa30654ab52135872fd912ee6468a407de5fa1",
-      "original_source": "source/api-reference/private-events/stream-conversation-events.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Stream conversation events",
-          "file": "en/api-reference/private-events/stream-conversation-events.md",
-          "route": "/api-reference/private-events/stream-conversation-events",
-          "sha256": "f9708e4299eef623b20026344f08ebac7db355d1ba81218cfa78ca6ef51c55da"
-        },
-        "zh-cn": {
-          "title": "实时接收对话事件",
-          "file": "zh-cn/api-reference/private-events/stream-conversation-events.md",
-          "route": "/zh-Hans/api-reference/private-events/stream-conversation-events",
-          "sha256": "e145c0425ca6d9deda97f887603897fe96f8bb69cfa85510a1903d2b10f544de"
-        }
-      },
-      "original_title": "Stream conversation events",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/events",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-events/stream-message-events",
-      "original_file": "source/api-reference/private-events/stream-message-events.md",
-      "original_repository_path": "api-reference/private-events/stream-message-events.md",
-      "original_sha256": "d3b1c187d634caab3dd2cd5e73bc76e617fc6dcca935dcd8c09b40ab67d94e63",
-      "original_source": "source/api-reference/private-events/stream-message-events.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Stream message events",
-          "file": "en/api-reference/private-events/stream-message-events.md",
-          "route": "/api-reference/private-events/stream-message-events",
-          "sha256": "90920e2f1cd1e6f45b2675dfe72cb72310c3f39f009b500a5ef965db4259ef48"
-        },
-        "zh-cn": {
-          "title": "实时接收消息事件",
-          "file": "zh-cn/api-reference/private-events/stream-message-events.md",
-          "route": "/zh-Hans/api-reference/private-events/stream-message-events",
-          "sha256": "ab654b65763ccfd5bb004920c9699af50ababeca62f9ee8fde8af11ee0c17e1b"
-        }
-      },
-      "original_title": "Stream message events",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/messages/{mId}/events",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-events/stream-sandbox-function-invocation-events",
-      "original_file": "source/api-reference/private-events/stream-sandbox-function-invocation-events.md",
-      "original_repository_path": "api-reference/private-events/stream-sandbox-function-invocation-events.md",
-      "original_sha256": "33a40ceb8f0eebfdba62f8277990ff74469c7b4e54c310b3ca048d791a6cbcf2",
-      "original_source": "source/api-reference/private-events/stream-sandbox-function-invocation-events.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Stream sandbox function invocation events",
-          "file": "en/api-reference/private-events/stream-sandbox-function-invocation-events.md",
-          "route": "/api-reference/private-events/stream-sandbox-function-invocation-events",
-          "sha256": "a687f00c0bb2513fc6a55c359f34a3c66666ce3246f5f4618f327161ea38194b"
-        },
-        "zh-cn": {
-          "title": "实时接收 Pod 函数调用事件",
-          "file": "zh-cn/api-reference/private-events/stream-sandbox-function-invocation-events.md",
-          "route": "/zh-Hans/api-reference/private-events/stream-sandbox-function-invocation-events",
-          "sha256": "5ce7a690dd7f442e3a46fa25c0aff585c064e9ea57319977a317970e8e6c02af"
-        }
-      },
-      "original_title": "Stream sandbox function invocation events",
-      "api": {
-        "path": "/api/w/{wId}/sandbox-functions/{functionId}/invocations/{invocationId}/events",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-messages/get-a-single-action",
-      "original_file": "source/api-reference/private-messages/get-a-single-action.md",
-      "original_repository_path": "api-reference/private-messages/get-a-single-action.md",
-      "original_sha256": "7289ef545221a1c824ec212dd5b5d1e56d2e0db01127f4693c6099289b0ec6fe",
-      "original_source": "source/api-reference/private-messages/get-a-single-action.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Get a single action",
-          "file": "en/api-reference/private-messages/get-a-single-action.md",
-          "route": "/api-reference/private-messages/get-a-single-action",
-          "sha256": "6377dca593b929b8aca37915d02645951432cefdaa92bb22b1dcc356713ebc2a"
-        },
-        "zh-cn": {
-          "title": "获取单项操作",
-          "file": "zh-cn/api-reference/private-messages/get-a-single-action.md",
-          "route": "/zh-Hans/api-reference/private-messages/get-a-single-action",
-          "sha256": "9718f6ce7bf4702777357cc84a4446afffa4d2e169b46b1ec104b42ac5d85695"
-        }
-      },
-      "original_title": "Get a single action",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/messages/{mId}/actions/{aId}",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-messages/get-an-agent-message-credit-attribution",
-      "original_file": "source/api-reference/private-messages/get-an-agent-message-credit-attribution.md",
-      "original_repository_path": "api-reference/private-messages/get-an-agent-message-credit-attribution.md",
-      "original_sha256": "11d7ce45e9c9e175bf030b353f2a939f1476846d82b78268ee0f3add831cdb9f",
-      "original_source": "source/api-reference/private-messages/get-an-agent-message-credit-attribution.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Get an agent message credit attribution",
-          "file": "en/api-reference/private-messages/get-an-agent-message-credit-attribution.md",
-          "route": "/api-reference/private-messages/get-an-agent-message-credit-attribution",
-          "sha256": "9d6e6ac0d52e440ce8af80315ae2c2d86c6167bf4bdde00891154a51a3ae1fdb"
-        },
-        "zh-cn": {
-          "title": "获取智能体消息的 credits 归因",
-          "file": "zh-cn/api-reference/private-messages/get-an-agent-message-credit-attribution.md",
-          "route": "/zh-Hans/api-reference/private-messages/get-an-agent-message-credit-attribution",
-          "sha256": "6b10c318f9e729eb195debb697fbf78ae6262d24362ce3523fe168b818358669"
-        }
-      },
-      "original_title": "Get an agent message credit attribution",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/messages/{mId}/consumption",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-messages/edit-a-message",
-      "original_file": "source/api-reference/private-messages/edit-a-message.md",
-      "original_repository_path": "api-reference/private-messages/edit-a-message.md",
-      "original_sha256": "2893303c4e4509beec026672f8b3b0df7bff40a8cea15ab9eb2d43fb46016594",
-      "original_source": "source/api-reference/private-messages/edit-a-message.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Edit a message",
-          "file": "en/api-reference/private-messages/edit-a-message.md",
-          "route": "/api-reference/private-messages/edit-a-message",
-          "sha256": "780e8648a2103ec1e31c202533aa02ad72d4297ce96b544ca270b834aeaee7dd"
-        },
-        "zh-cn": {
-          "title": "编辑消息",
-          "file": "zh-cn/api-reference/private-messages/edit-a-message.md",
-          "route": "/zh-Hans/api-reference/private-messages/edit-a-message",
-          "sha256": "ee7a4b186aae314af47f8f69493343070b9aece60d461ee8949ef53a09006576"
-        }
-      },
-      "original_title": "Edit a message",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/messages/{mId}/edit",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-messages/submit-message-feedback",
-      "original_file": "source/api-reference/private-messages/submit-message-feedback.md",
-      "original_repository_path": "api-reference/private-messages/submit-message-feedback.md",
-      "original_sha256": "17571c0b9ecd1e176ec253ae8a7729bbf5e4008661aa2691166a315510725d6b",
-      "original_source": "source/api-reference/private-messages/submit-message-feedback.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Submit message feedback",
-          "file": "en/api-reference/private-messages/submit-message-feedback.md",
-          "route": "/api-reference/private-messages/submit-message-feedback",
-          "sha256": "06311bbf3d2dd6d4efddb16227d30aa794155b6b0dd2baba9bc35a5496aba20a"
-        },
-        "zh-cn": {
-          "title": "提交消息反馈",
-          "file": "zh-cn/api-reference/private-messages/submit-message-feedback.md",
-          "route": "/zh-Hans/api-reference/private-messages/submit-message-feedback",
-          "sha256": "0815cc346e02e8a96b19dfa8589c4aa08bd83a32e285be75868a88c4b026bc48"
-        }
-      },
-      "original_title": "Submit message feedback",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/messages/{mId}/feedbacks",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-messages/delete-message-feedback",
-      "original_file": "source/api-reference/private-messages/delete-message-feedback.md",
-      "original_repository_path": "api-reference/private-messages/delete-message-feedback.md",
-      "original_sha256": "ebc2ea07b8599b1c5cac14ed4451f06d71eb306ec592cedfd4750b2e1fdcb8c4",
-      "original_source": "source/api-reference/private-messages/delete-message-feedback.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Delete message feedback",
-          "file": "en/api-reference/private-messages/delete-message-feedback.md",
-          "route": "/api-reference/private-messages/delete-message-feedback",
-          "sha256": "db994127f9feebc4cbb68c0db4f8f04f947623bc2411b32f9804b12ee6ace6cc"
-        },
-        "zh-cn": {
-          "title": "删除消息反馈",
-          "file": "zh-cn/api-reference/private-messages/delete-message-feedback.md",
-          "route": "/zh-Hans/api-reference/private-messages/delete-message-feedback",
-          "sha256": "9cc3d4dd78f4a15ad7ae6f832c8459453a37bea804c6c57eefed767b68c66c06"
-        }
-      },
-      "original_title": "Delete message feedback",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/messages/{mId}/feedbacks",
-        "method": "delete",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-messages/get-a-message",
-      "original_file": "source/api-reference/private-messages/get-a-message.md",
-      "original_repository_path": "api-reference/private-messages/get-a-message.md",
-      "original_sha256": "25e99cec3a8a951cf999d38eb2acdae2ac02d6480f619d922521edea4c0d4ace",
-      "original_source": "source/api-reference/private-messages/get-a-message.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Get a message",
-          "file": "en/api-reference/private-messages/get-a-message.md",
-          "route": "/api-reference/private-messages/get-a-message",
-          "sha256": "01ddd4b39da70319fa51286fda0df976ca1a2a17dc537afa8f845ae9e2e838e3"
-        },
-        "zh-cn": {
-          "title": "获取消息",
-          "file": "zh-cn/api-reference/private-messages/get-a-message.md",
-          "route": "/zh-Hans/api-reference/private-messages/get-a-message",
-          "sha256": "4d3bb916c7fbaea479d6b22b7977328533517e81f569410de4c0c54441f30c01"
-        }
-      },
-      "original_title": "Get a message",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/messages/{mId}",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-messages/delete-a-message",
-      "original_file": "source/api-reference/private-messages/delete-a-message.md",
-      "original_repository_path": "api-reference/private-messages/delete-a-message.md",
-      "original_sha256": "1f8e5d77e0a1f934282946cdfb1ee198e6a15337fbbd9768d2b59d3ee1b30752",
-      "original_source": "source/api-reference/private-messages/delete-a-message.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Delete a message",
-          "file": "en/api-reference/private-messages/delete-a-message.md",
-          "route": "/api-reference/private-messages/delete-a-message",
-          "sha256": "9b769dfffee76698223a0dd388233ccd58deed1b21986ef4fb4a8163ac8e1d44"
-        },
-        "zh-cn": {
-          "title": "删除消息",
-          "file": "zh-cn/api-reference/private-messages/delete-a-message.md",
-          "route": "/zh-Hans/api-reference/private-messages/delete-a-message",
-          "sha256": "270e7a08584b26c20489901060c4f35ea80dfa69afb7d603d7f00aa7d3c91e0a"
-        }
-      },
-      "original_title": "Delete a message",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/messages/{mId}",
-        "method": "delete",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-messages/retry-an-agent-message",
-      "original_file": "source/api-reference/private-messages/retry-an-agent-message.md",
-      "original_repository_path": "api-reference/private-messages/retry-an-agent-message.md",
-      "original_sha256": "423db194869386a622beb5413d1279430927d85db0e3fd90c00d411f7896c75f",
-      "original_source": "source/api-reference/private-messages/retry-an-agent-message.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Retry an agent message",
-          "file": "en/api-reference/private-messages/retry-an-agent-message.md",
-          "route": "/api-reference/private-messages/retry-an-agent-message",
-          "sha256": "e20543dd4f489a50daf006d42dbd9bf3fc9139fa0e5d3f4cadc4cb7aad3763f1"
-        },
-        "zh-cn": {
-          "title": "重试智能体消息",
-          "file": "zh-cn/api-reference/private-messages/retry-an-agent-message.md",
-          "route": "/zh-Hans/api-reference/private-messages/retry-an-agent-message",
-          "sha256": "64d874119e22fa56117cf86bcbce673442d0bd0029bfaaf523d593bbfa8d594e"
-        }
-      },
-      "original_title": "Retry an agent message",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/messages/{mId}/retry",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-messages/list-messages-in-a-conversation",
-      "original_file": "source/api-reference/private-messages/list-messages-in-a-conversation.md",
-      "original_repository_path": "api-reference/private-messages/list-messages-in-a-conversation.md",
-      "original_sha256": "db6c34cf712f3715d868a3cfdae4ac93796ae836c63eaed40155e76d48efb1f7",
-      "original_source": "source/api-reference/private-messages/list-messages-in-a-conversation.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "List messages in a conversation",
-          "file": "en/api-reference/private-messages/list-messages-in-a-conversation.md",
-          "route": "/api-reference/private-messages/list-messages-in-a-conversation",
-          "sha256": "1e6c2d168e6d70d350aafdb7a257975461e3bccafb9df453bc026c9f2389be8f"
-        },
-        "zh-cn": {
-          "title": "列出对话消息",
-          "file": "zh-cn/api-reference/private-messages/list-messages-in-a-conversation.md",
-          "route": "/zh-Hans/api-reference/private-messages/list-messages-in-a-conversation",
-          "sha256": "7478c7bb27f8626b28ff0f6eb6945c2c49da6e9d5e0671cde13882e3a365099d"
-        }
-      },
-      "original_title": "List messages in a conversation",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/messages",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-messages/post-a-message-to-a-conversation",
-      "original_file": "source/api-reference/private-messages/post-a-message-to-a-conversation.md",
-      "original_repository_path": "api-reference/private-messages/post-a-message-to-a-conversation.md",
-      "original_sha256": "bce3a907e0063d12f7df6cb8bf407688066a385768c0bc91f48ab3e6dcec3228",
-      "original_source": "source/api-reference/private-messages/post-a-message-to-a-conversation.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Post a message to a conversation",
-          "file": "en/api-reference/private-messages/post-a-message-to-a-conversation.md",
-          "route": "/api-reference/private-messages/post-a-message-to-a-conversation",
-          "sha256": "01eb3c3ee7ad18350252a0e011fa6fab7cfd4944e494406b7fcdd7f13a42114d"
-        },
-        "zh-cn": {
-          "title": "向对话发送消息",
-          "file": "zh-cn/api-reference/private-messages/post-a-message-to-a-conversation.md",
-          "route": "/zh-Hans/api-reference/private-messages/post-a-message-to-a-conversation",
-          "sha256": "9e312b2935d85bb5e7caa61a204d0363d1619dfcf6e3368413cc697a7997442b"
-        }
-      },
-      "original_title": "Post a message to a conversation",
-      "api": {
-        "path": "/api/w/{wId}/assistant/conversations/{cId}/messages",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-assistant/resolve-a-conversation-go-template-draft",
-      "original_file": "source/api-reference/private-assistant/resolve-a-conversation-go-template-draft.md",
-      "original_repository_path": "api-reference/private-assistant/resolve-a-conversation-go-template-draft.md",
-      "original_sha256": "5f5b5c3ac5994d05ccf25c329ab90bcfddd9b558b4af6ef77d69e4bc9abbf475",
-      "original_source": "source/api-reference/private-assistant/resolve-a-conversation-go-template-draft.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Resolve a conversation go template draft",
-          "file": "en/api-reference/private-assistant/resolve-a-conversation-go-template-draft.md",
-          "route": "/api-reference/private-assistant/resolve-a-conversation-go-template-draft",
-          "sha256": "005703d9cdde007dc6a96e2c0ef35d4eb876bf06c271329c3bde66157c73fead"
-        },
-        "zh-cn": {
-          "title": "生成对话模板草稿",
-          "file": "zh-cn/api-reference/private-assistant/resolve-a-conversation-go-template-draft.md",
-          "route": "/zh-Hans/api-reference/private-assistant/resolve-a-conversation-go-template-draft",
-          "sha256": "371bc8486b670f3fc1eacaffdbf2bcec92af442b73300bc0b6a3725aedd1ef35"
-        }
-      },
-      "original_title": "Resolve a conversation go template draft",
-      "api": {
-        "path": "/api/w/{wId}/assistant/go-template",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-mentions/get-mention-suggestions",
-      "original_file": "source/api-reference/private-mentions/get-mention-suggestions.md",
-      "original_repository_path": "api-reference/private-mentions/get-mention-suggestions.md",
-      "original_sha256": "e1a4420e505d464b0e3e20e61492bf63991d3f66e305283ea667fbef681b35e4",
-      "original_source": "source/api-reference/private-mentions/get-mention-suggestions.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Get mention suggestions",
-          "file": "en/api-reference/private-mentions/get-mention-suggestions.md",
-          "route": "/api-reference/private-mentions/get-mention-suggestions",
-          "sha256": "f3d8fc134be0aff32cf60150d84ed7c34b27e0f1d925d73a827a8dfd6f0800d1"
-        },
-        "zh-cn": {
-          "title": "获取工作区提及建议",
-          "file": "zh-cn/api-reference/private-mentions/get-mention-suggestions.md",
-          "route": "/zh-Hans/api-reference/private-mentions/get-mention-suggestions",
-          "sha256": "3b865d39c362e7626367cd0331e97dde21f1d0276f896ce4aa17e53b5fc737f9"
-        }
-      },
-      "original_title": "Get mention suggestions",
-      "api": {
-        "path": "/api/w/{wId}/assistant/mentions/suggestions",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-extension/get-extension-configuration",
-      "original_file": "source/api-reference/private-extension/get-extension-configuration.md",
-      "original_repository_path": "api-reference/private-extension/get-extension-configuration.md",
-      "original_sha256": "246cbc87c028397ce8b43988dfa28f67f2b3a64761fc9728392cae4824b60622",
-      "original_source": "source/api-reference/private-extension/get-extension-configuration.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Get extension configuration",
-          "file": "en/api-reference/private-extension/get-extension-configuration.md",
-          "route": "/api-reference/private-extension/get-extension-configuration",
-          "sha256": "62d079945ad507565710a700b50a84d3bcaf11360232d8a928f921fb640df1fc"
-        },
-        "zh-cn": {
-          "title": "获取扩展配置",
-          "file": "zh-cn/api-reference/private-extension/get-extension-configuration.md",
-          "route": "/zh-Hans/api-reference/private-extension/get-extension-configuration",
-          "sha256": "612d5ee45beb0415903a21f75f251db0a994008cad55e27c0c07dcfb7e1dca21"
-        }
-      },
-      "original_title": "Get extension configuration",
-      "api": {
-        "path": "/api/w/{wId}/extension/config",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-workspace/get-workspace-feature-flags",
-      "original_file": "source/api-reference/private-workspace/get-workspace-feature-flags.md",
-      "original_repository_path": "api-reference/private-workspace/get-workspace-feature-flags.md",
-      "original_sha256": "162001c7ebac67c6b6d6d2c2c0f6d250c5d61a01cdd66d900e5b7e72d09d470c",
-      "original_source": "source/api-reference/private-workspace/get-workspace-feature-flags.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Get workspace feature flags",
-          "file": "en/api-reference/private-workspace/get-workspace-feature-flags.md",
-          "route": "/api-reference/private-workspace/get-workspace-feature-flags",
-          "sha256": "e485785e27977fde64e978fd7d65c5326e0ace595696e9447a66208c86cee103"
-        },
-        "zh-cn": {
-          "title": "获取工作区功能开关",
-          "file": "zh-cn/api-reference/private-workspace/get-workspace-feature-flags.md",
-          "route": "/zh-Hans/api-reference/private-workspace/get-workspace-feature-flags",
-          "sha256": "6eee16d6b4baad09da74395834739a5300bc911255db90759bde6704b00d9311"
-        }
-      },
-      "original_title": "Get workspace feature flags",
-      "api": {
-        "path": "/api/w/{wId}/feature-flags",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-files/get-or-download-a-file",
-      "original_file": "source/api-reference/private-files/get-or-download-a-file.md",
-      "original_repository_path": "api-reference/private-files/get-or-download-a-file.md",
-      "original_sha256": "a4bf801851fe611c787ddb95faf8cf924bc8a3d1ca395297619300cb290b5cf7",
-      "original_source": "source/api-reference/private-files/get-or-download-a-file.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Get or download a file",
-          "file": "en/api-reference/private-files/get-or-download-a-file.md",
-          "route": "/api-reference/private-files/get-or-download-a-file",
-          "sha256": "b58c6ed131ba25a21754d472ae84ebf6d2145943860b8006cc4c919a313e9b2b"
-        },
-        "zh-cn": {
-          "title": "查看或下载文件",
-          "file": "zh-cn/api-reference/private-files/get-or-download-a-file.md",
-          "route": "/zh-Hans/api-reference/private-files/get-or-download-a-file",
-          "sha256": "0b650c4df5aba3a704e2bfa5a77781d90ce58da34a8f2f9bbce88fb4c530f80f"
-        }
-      },
-      "original_title": "Get or download a file",
-      "api": {
-        "path": "/api/w/{wId}/files/{fileId}",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-files/upload-file-content",
-      "original_file": "source/api-reference/private-files/upload-file-content.md",
-      "original_repository_path": "api-reference/private-files/upload-file-content.md",
-      "original_sha256": "009a7878e7d53261abfa0abb4dde408ac4fa0d2f62f9cd040a4db938fe1e7d7c",
-      "original_source": "source/api-reference/private-files/upload-file-content.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Upload file content",
-          "file": "en/api-reference/private-files/upload-file-content.md",
-          "route": "/api-reference/private-files/upload-file-content",
-          "sha256": "ed81435d822e016cd043a93d2752af4be260e351836d736949313603dfdeeb1d"
-        },
-        "zh-cn": {
-          "title": "上传文件内容",
-          "file": "zh-cn/api-reference/private-files/upload-file-content.md",
-          "route": "/zh-Hans/api-reference/private-files/upload-file-content",
-          "sha256": "4cc07c319a627c599e8f5c6882dec223b8eb9d53870a56303c3c81cb5ebbf838"
-        }
-      },
-      "original_title": "Upload file content",
-      "api": {
-        "path": "/api/w/{wId}/files/{fileId}",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-files/delete-a-file",
-      "original_file": "source/api-reference/private-files/delete-a-file.md",
-      "original_repository_path": "api-reference/private-files/delete-a-file.md",
-      "original_sha256": "5249781cf3b59209afde56267a708598c83cba270b1090db84b783b5dbb0a26d",
-      "original_source": "source/api-reference/private-files/delete-a-file.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Delete a file",
-          "file": "en/api-reference/private-files/delete-a-file.md",
-          "route": "/api-reference/private-files/delete-a-file",
-          "sha256": "5bcea98899f77eaa0b346b194fc70e7d6056bf43e95b43a4a56b499d931f42e8"
-        },
-        "zh-cn": {
-          "title": "删除文件",
-          "file": "zh-cn/api-reference/private-files/delete-a-file.md",
-          "route": "/zh-Hans/api-reference/private-files/delete-a-file",
-          "sha256": "a153fec1f05179180313566512b507f6b5fe667e2c53cc98e9d4896a401a9dc1"
-        }
-      },
-      "original_title": "Delete a file",
-      "api": {
-        "path": "/api/w/{wId}/files/{fileId}",
-        "method": "delete",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-files/create-a-file-upload",
-      "original_file": "source/api-reference/private-files/create-a-file-upload.md",
-      "original_repository_path": "api-reference/private-files/create-a-file-upload.md",
-      "original_sha256": "0a5ec4180bbb06ad28fb76e2161ec09dfcd8118d85767d5ba66057016058c8a3",
-      "original_source": "source/api-reference/private-files/create-a-file-upload.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Create a file upload",
-          "file": "en/api-reference/private-files/create-a-file-upload.md",
-          "route": "/api-reference/private-files/create-a-file-upload",
-          "sha256": "c2cc1cee0dee110751f119fa70fd2c36604b7646bb701b4bc741b4c499ca8b4a"
-        },
-        "zh-cn": {
-          "title": "创建文件上传记录",
-          "file": "zh-cn/api-reference/private-files/create-a-file-upload.md",
-          "route": "/zh-Hans/api-reference/private-files/create-a-file-upload",
-          "sha256": "491525738924e7feb487cc0d72d37658f14efcf646be1704ada78f521a50c66c"
-        }
-      },
-      "original_title": "Create a file upload",
-      "api": {
-        "path": "/api/w/{wId}/files",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-spaces/get-a-data-source-view",
-      "original_file": "source/api-reference/private-spaces/get-a-data-source-view.md",
-      "original_repository_path": "api-reference/private-spaces/get-a-data-source-view.md",
-      "original_sha256": "b5439d826dc6bf991f61b83f678f511128cb1a6f2db23d7d86d2f5fb3acbbb15",
-      "original_source": "source/api-reference/private-spaces/get-a-data-source-view.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Get a data source view",
-          "file": "en/api-reference/private-spaces/get-a-data-source-view.md",
-          "route": "/api-reference/private-spaces/get-a-data-source-view",
-          "sha256": "7bbdd8989f98a31182aa0677a68e1bc2692e759717cbf15e842c51a7476dbb18"
-        },
-        "zh-cn": {
-          "title": "获取数据源视图",
-          "file": "zh-cn/api-reference/private-spaces/get-a-data-source-view.md",
-          "route": "/zh-Hans/api-reference/private-spaces/get-a-data-source-view",
-          "sha256": "c0b6889d09aad8c441737e5d56345aa18ae9d64445f3e86395f1b07beb5a7c59"
-        }
-      },
-      "original_title": "Get a data source view",
-      "api": {
-        "path": "/api/w/{wId}/spaces/{spaceId}/data_source_views/{dsvId}",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-spaces/delete-a-data-source-view",
-      "original_file": "source/api-reference/private-spaces/delete-a-data-source-view.md",
-      "original_repository_path": "api-reference/private-spaces/delete-a-data-source-view.md",
-      "original_sha256": "dfd2a5e555021d19c43b98214ea2158b1dd5adadef1b508e5ee6ffee023db6e6",
-      "original_source": "source/api-reference/private-spaces/delete-a-data-source-view.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Delete a data source view",
-          "file": "en/api-reference/private-spaces/delete-a-data-source-view.md",
-          "route": "/api-reference/private-spaces/delete-a-data-source-view",
-          "sha256": "f3006dd146307251ebce7304aa12382f0489389cc17b78151ebd371f69cd3a61"
-        },
-        "zh-cn": {
-          "title": "删除数据源视图",
-          "file": "zh-cn/api-reference/private-spaces/delete-a-data-source-view.md",
-          "route": "/zh-Hans/api-reference/private-spaces/delete-a-data-source-view",
-          "sha256": "2ec8c918cb23e03d871b43aa7f92aff7f5fc2b0c26d337ffc91cdf4735161643"
-        }
-      },
-      "original_title": "Delete a data source view",
-      "api": {
-        "path": "/api/w/{wId}/spaces/{spaceId}/data_source_views/{dsvId}",
-        "method": "delete",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-spaces/update-a-data-source-view",
-      "original_file": "source/api-reference/private-spaces/update-a-data-source-view.md",
-      "original_repository_path": "api-reference/private-spaces/update-a-data-source-view.md",
-      "original_sha256": "7dc0e6f5cae110fbdad5723dc5f31b39513bc12bfd4d4b6668332f897494fb62",
-      "original_source": "source/api-reference/private-spaces/update-a-data-source-view.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Update a data source view",
-          "file": "en/api-reference/private-spaces/update-a-data-source-view.md",
-          "route": "/api-reference/private-spaces/update-a-data-source-view",
-          "sha256": "12f5c78223ad36ba295ea466bde63c0dcbce0be10d6ef886d691f620af171a68"
-        },
-        "zh-cn": {
-          "title": "更新数据源视图",
-          "file": "zh-cn/api-reference/private-spaces/update-a-data-source-view.md",
-          "route": "/zh-Hans/api-reference/private-spaces/update-a-data-source-view",
-          "sha256": "0cd4602ab8f6cfc60c5639c58148e629bfe4bf471c8738ebae3ded9bd684b22e"
-        }
-      },
-      "original_title": "Update a data source view",
-      "api": {
-        "path": "/api/w/{wId}/spaces/{spaceId}/data_source_views/{dsvId}",
-        "method": "patch",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-spaces/list-data-source-views",
-      "original_file": "source/api-reference/private-spaces/list-data-source-views.md",
-      "original_repository_path": "api-reference/private-spaces/list-data-source-views.md",
-      "original_sha256": "bfdcbaee71bef170ee0c21c6451aedc04ca34b87b42afdac7cdad2cd1e4440dd",
-      "original_source": "source/api-reference/private-spaces/list-data-source-views.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "List data source views",
-          "file": "en/api-reference/private-spaces/list-data-source-views.md",
-          "route": "/api-reference/private-spaces/list-data-source-views",
-          "sha256": "7575808769feb5e8c2c5168fa9c14d31864ec0ad2cfaaa99ffd0534f88eeb394"
-        },
-        "zh-cn": {
-          "title": "列出数据源视图",
-          "file": "zh-cn/api-reference/private-spaces/list-data-source-views.md",
-          "route": "/zh-Hans/api-reference/private-spaces/list-data-source-views",
-          "sha256": "51abbd0fbcb32913478b30121d07823f109d5292b56904cd10158b4950db788d"
-        }
-      },
-      "original_title": "List data source views",
-      "api": {
-        "path": "/api/w/{wId}/spaces/{spaceId}/data_source_views",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-spaces/create-a-data-source-view",
-      "original_file": "source/api-reference/private-spaces/create-a-data-source-view.md",
-      "original_repository_path": "api-reference/private-spaces/create-a-data-source-view.md",
-      "original_sha256": "f393b30d9ed43f87df0bda2976ef895138677a07f22eefb9c70f511d3e63b1b4",
-      "original_source": "source/api-reference/private-spaces/create-a-data-source-view.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Create a data source view",
-          "file": "en/api-reference/private-spaces/create-a-data-source-view.md",
-          "route": "/api-reference/private-spaces/create-a-data-source-view",
-          "sha256": "60af27bc65d85e814ae3a91265c24d5970b16bac3dc31ae1ce7d67e86ad9cc8c"
-        },
-        "zh-cn": {
-          "title": "创建数据源视图",
-          "file": "zh-cn/api-reference/private-spaces/create-a-data-source-view.md",
-          "route": "/zh-Hans/api-reference/private-spaces/create-a-data-source-view",
-          "sha256": "87b5ff1b17e71f776681a87c11f53eb3600a6426699c22d3e3d04a21ac4d15d5"
-        }
-      },
-      "original_title": "Create a data source view",
-      "api": {
-        "path": "/api/w/{wId}/spaces/{spaceId}/data_source_views",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-spaces/get-a-space",
-      "original_file": "source/api-reference/private-spaces/get-a-space.md",
-      "original_repository_path": "api-reference/private-spaces/get-a-space.md",
-      "original_sha256": "6902e1e7ca2d277eeac08aed7feaa4b2c9345d9a8b21b990fe14f8c8553ec3c1",
-      "original_source": "source/api-reference/private-spaces/get-a-space.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Get a space",
-          "file": "en/api-reference/private-spaces/get-a-space.md",
-          "route": "/api-reference/private-spaces/get-a-space",
-          "sha256": "aa629329f000252bf2840ce11e70d96193197d6c59d595adfb7a3f3a44b45b18"
-        },
-        "zh-cn": {
-          "title": "获取 Space 详情",
-          "file": "zh-cn/api-reference/private-spaces/get-a-space.md",
-          "route": "/zh-Hans/api-reference/private-spaces/get-a-space",
-          "sha256": "479256d996ee94e47f18a4ed55c3c51636c063411c03e14b594281c412a279aa"
-        }
-      },
-      "original_title": "Get a space",
-      "api": {
-        "path": "/api/w/{wId}/spaces/{spaceId}",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-spaces/delete-a-space",
-      "original_file": "source/api-reference/private-spaces/delete-a-space.md",
-      "original_repository_path": "api-reference/private-spaces/delete-a-space.md",
-      "original_sha256": "d33b0981cd6381a8ee89351ee7288ab7869cc4b8ac17435c440c3368527bd3fb",
-      "original_source": "source/api-reference/private-spaces/delete-a-space.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Delete a space",
-          "file": "en/api-reference/private-spaces/delete-a-space.md",
-          "route": "/api-reference/private-spaces/delete-a-space",
-          "sha256": "057d0e7704bc2f305fdce61c440e8682f734571b155cdff7d19219f0f6e87a1e"
-        },
-        "zh-cn": {
-          "title": "删除 Space",
-          "file": "zh-cn/api-reference/private-spaces/delete-a-space.md",
-          "route": "/zh-Hans/api-reference/private-spaces/delete-a-space",
-          "sha256": "4e146362e7afab120f39c784c33b6fc54bfdce98c79593fb5746d0727f18fc75"
-        }
-      },
-      "original_title": "Delete a space",
-      "api": {
-        "path": "/api/w/{wId}/spaces/{spaceId}",
-        "method": "delete",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-spaces/update-a-space",
-      "original_file": "source/api-reference/private-spaces/update-a-space.md",
-      "original_repository_path": "api-reference/private-spaces/update-a-space.md",
-      "original_sha256": "816c8d23daef9d06e5b9c74febac153d1208a203828de96e24b594ccfcc0423e",
-      "original_source": "source/api-reference/private-spaces/update-a-space.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Update a space",
-          "file": "en/api-reference/private-spaces/update-a-space.md",
-          "route": "/api-reference/private-spaces/update-a-space",
-          "sha256": "b6e7affb7cdb2d7e515641acc37907c00c4a9460dd93048927aa81008e317676"
-        },
-        "zh-cn": {
-          "title": "更新 Space",
-          "file": "zh-cn/api-reference/private-spaces/update-a-space.md",
-          "route": "/zh-Hans/api-reference/private-spaces/update-a-space",
-          "sha256": "a0a51f53b1614dac44f5a7ba818c3f6614f3fc4c24148e2cafc56c30669d1e73"
-        }
-      },
-      "original_title": "Update a space",
-      "api": {
-        "path": "/api/w/{wId}/spaces/{spaceId}",
-        "method": "patch",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-spaces/get-project-notification-preference",
-      "original_file": "source/api-reference/private-spaces/get-project-notification-preference.md",
-      "original_repository_path": "api-reference/private-spaces/get-project-notification-preference.md",
-      "original_sha256": "d261e3c13eaea60dddc2641121b2f46eb491e3cec3e179cdef7ac3c843775745",
-      "original_source": "source/api-reference/private-spaces/get-project-notification-preference.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Get project notification preference",
-          "file": "en/api-reference/private-spaces/get-project-notification-preference.md",
-          "route": "/api-reference/private-spaces/get-project-notification-preference",
-          "sha256": "956168cf45a7ace3612c5ecc0814733f43e58078345755a30d3c1d3debc847ba"
-        },
-        "zh-cn": {
-          "title": "获取项目 Space 通知偏好",
-          "file": "zh-cn/api-reference/private-spaces/get-project-notification-preference.md",
-          "route": "/zh-Hans/api-reference/private-spaces/get-project-notification-preference",
-          "sha256": "3cc16a392538a820a6d0cdbc86889c9ff013b75a726f6349c69f0ca83f785212"
-        }
-      },
-      "original_title": "Get project notification preference",
-      "api": {
-        "path": "/api/w/{wId}/spaces/{spaceId}/project_notification_preferences",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-spaces/set-project-notification-preference",
-      "original_file": "source/api-reference/private-spaces/set-project-notification-preference.md",
-      "original_repository_path": "api-reference/private-spaces/set-project-notification-preference.md",
-      "original_sha256": "43dbf7caa42a2ce347399f6b95094b3e2fc0ca88829eabc4a3c3fa438cfa61ec",
-      "original_source": "source/api-reference/private-spaces/set-project-notification-preference.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Set project notification preference",
-          "file": "en/api-reference/private-spaces/set-project-notification-preference.md",
-          "route": "/api-reference/private-spaces/set-project-notification-preference",
-          "sha256": "3417bb78ce188a3b3b277cbfbbe6a0a3991d779b0ec0869455fa46885d1ecb03"
-        },
-        "zh-cn": {
-          "title": "设置项目 Space 通知偏好",
-          "file": "zh-cn/api-reference/private-spaces/set-project-notification-preference.md",
-          "route": "/zh-Hans/api-reference/private-spaces/set-project-notification-preference",
-          "sha256": "f03021a96bb16570501f2ca811e32bc454a0ea93425fe99b1e2d260ffee78d94"
-        }
-      },
-      "original_title": "Set project notification preference",
-      "api": {
-        "path": "/api/w/{wId}/spaces/{spaceId}/project_notification_preferences",
-        "method": "patch",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-spaces/list-spaces",
-      "original_file": "source/api-reference/private-spaces/list-spaces.md",
-      "original_repository_path": "api-reference/private-spaces/list-spaces.md",
-      "original_sha256": "cc2fb2b3f48a4ada16fd2a64b930bc73f8e17e734949bc1edb21d96c2941c985",
-      "original_source": "source/api-reference/private-spaces/list-spaces.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "List spaces",
-          "file": "en/api-reference/private-spaces/list-spaces.md",
-          "route": "/api-reference/private-spaces/list-spaces",
-          "sha256": "8dcf84d53113ded3f38db1db989197de1fb4d32f758b86f15d47fbb77572469e"
-        },
-        "zh-cn": {
-          "title": "列出工作区 Space",
-          "file": "zh-cn/api-reference/private-spaces/list-spaces.md",
-          "route": "/zh-Hans/api-reference/private-spaces/list-spaces",
-          "sha256": "11ebc3c28fe5236245ff5474394029faecdb52d7ff1136099e3bb05fec42d931"
-        }
-      },
-      "original_title": "List spaces",
-      "api": {
-        "path": "/api/w/{wId}/spaces",
-        "method": "get",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-spaces/create-a-space",
-      "original_file": "source/api-reference/private-spaces/create-a-space.md",
-      "original_repository_path": "api-reference/private-spaces/create-a-space.md",
-      "original_sha256": "aabdc92797e998ad34f48575500deec05ad39e1871b342b4b625f61d4a1a5d3b",
-      "original_source": "source/api-reference/private-spaces/create-a-space.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Create a space",
-          "file": "en/api-reference/private-spaces/create-a-space.md",
-          "route": "/api-reference/private-spaces/create-a-space",
-          "sha256": "8ac7019333b809d0a53016b012991b334ac666cbe678ca18ffe0f0201e6f5d35"
-        },
-        "zh-cn": {
-          "title": "创建 Space",
-          "file": "zh-cn/api-reference/private-spaces/create-a-space.md",
-          "route": "/zh-Hans/api-reference/private-spaces/create-a-space",
-          "sha256": "6592b3878b6dd01356bd6fa0b4a245a750b5e223f4d4ed915f0def6756ae6794"
-        }
-      },
-      "original_title": "Create a space",
-      "api": {
-        "path": "/api/w/{wId}/spaces",
-        "method": "post",
-        "auth": "user"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-authentication/initiate-workos-login",
-      "original_file": "source/api-reference/private-authentication/initiate-workos-login.md",
-      "original_repository_path": "api-reference/private-authentication/initiate-workos-login.md",
-      "original_sha256": "d9e01090a8ecedd9d2c9e43b6d344f6e147d53d71933755e0b4e53dfb59becf2",
-      "original_source": "source/api-reference/private-authentication/initiate-workos-login.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Initiate WorkOS login",
-          "file": "en/api-reference/private-authentication/initiate-workos-login.md",
-          "route": "/api-reference/private-authentication/initiate-workos-login",
-          "sha256": "0d1cb149f5d899f20cbe3a3b001af966198d2144f821064e17cdd473d6db5085"
-        },
-        "zh-cn": {
-          "title": "发起 WorkOS 登录",
-          "file": "zh-cn/api-reference/private-authentication/initiate-workos-login.md",
-          "route": "/zh-Hans/api-reference/private-authentication/initiate-workos-login",
-          "sha256": "9e1bea9ed9111aae9e6c0ee4d48f03948573dab00f988e0bfa05a11e9823ca54"
-        }
-      },
-      "original_title": "Initiate WorkOS login",
-      "api": {
-        "path": "/api/workos/login",
-        "method": "get",
-        "auth": "login"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-authentication/exchange-code-or-refresh-token",
-      "original_file": "source/api-reference/private-authentication/exchange-code-or-refresh-token.md",
-      "original_repository_path": "api-reference/private-authentication/exchange-code-or-refresh-token.md",
-      "original_sha256": "27d2a2cb160a9f55cfac2e092d008fb9978e34c97143fa81cf464840bdd460f1",
-      "original_source": "source/api-reference/private-authentication/exchange-code-or-refresh-token.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Exchange code or refresh token",
-          "file": "en/api-reference/private-authentication/exchange-code-or-refresh-token.md",
-          "route": "/api-reference/private-authentication/exchange-code-or-refresh-token",
-          "sha256": "c3879f8cb9946b3dc27859777c8b5f4d5dbc83a9bd341464f7ee4f69cf09bba8"
-        },
-        "zh-cn": {
-          "title": "兑换授权码或刷新令牌",
-          "file": "zh-cn/api-reference/private-authentication/exchange-code-or-refresh-token.md",
-          "route": "/zh-Hans/api-reference/private-authentication/exchange-code-or-refresh-token",
-          "sha256": "b9cceccd2226afcb9b11d7b7582478c9f3f2e1fa7ca25815b9fdff636103cc47"
-        }
-      },
-      "original_title": "Exchange code or refresh token",
-      "api": {
-        "path": "/api/workos/authenticate",
-        "method": "post",
-        "auth": "login"
-      }
-    },
-    {
-      "original_url": "https://docs.dust.tt/api-reference/private-authentication/revoke-a-session",
-      "original_file": "source/api-reference/private-authentication/revoke-a-session.md",
-      "original_repository_path": "api-reference/private-authentication/revoke-a-session.md",
-      "original_sha256": "04c3bb9ee8f1b1a7058785b0c03eb8071c02d83b7ef08c24d1363c50686bf174",
-      "original_source": "source/api-reference/private-authentication/revoke-a-session.md",
-      "in_sitemap": true,
-      "status": "publish",
-      "reason": "",
-      "translations": {
-        "en": {
-          "title": "Revoke a session",
-          "file": "en/api-reference/private-authentication/revoke-a-session.md",
-          "route": "/api-reference/private-authentication/revoke-a-session",
-          "sha256": "43a24a4273a778f6d2436beeafa85d22e2ecaadb192c11684b3356d36b3f2bda"
-        },
-        "zh-cn": {
-          "title": "撤销登录会话",
-          "file": "zh-cn/api-reference/private-authentication/revoke-a-session.md",
-          "route": "/zh-Hans/api-reference/private-authentication/revoke-a-session",
-          "sha256": "abcaf5acdbc7c998df513190ed3c90c5d95ccbf9219bf4b871974d9b6ac40676"
-        }
-      },
-      "original_title": "Revoke a session",
-      "api": {
-        "path": "/api/workos/revoke-session",
-        "method": "post",
-        "auth": "login"
       }
     },
     {
@@ -9748,14 +8074,14 @@
           "title": "Counso API",
           "file": "en/docs/developer-platform/counso-api-documentation/openapi.json",
           "route": "/docs/developer-platform/counso-api-documentation/openapi.json",
-          "sha256": "61ae6dc3ee6530b7294cf63c6505e4874af6ee2dbdd73afd405acb0c8b7352a6",
+          "sha256": "cc55007cec13688aa4e794818248eadc89da2d30eb3b1def6bf698cda2fe216a",
           "format": "openapi"
         },
         "zh-cn": {
           "title": "Counso API",
           "file": "zh-cn/docs/developer-platform/counso-api-documentation/openapi.json",
           "route": "/zh-Hans/docs/developer-platform/counso-api-documentation/openapi.json",
-          "sha256": "61ae6dc3ee6530b7294cf63c6505e4874af6ee2dbdd73afd405acb0c8b7352a6",
+          "sha256": "cc55007cec13688aa4e794818248eadc89da2d30eb3b1def6bf698cda2fe216a",
           "format": "openapi"
         }
       },
@@ -9765,7 +8091,7 @@
       "original_url": "https://raw.githubusercontent.com/dust-tt/dust/refs/heads/main/front-api/public/swagger.json",
       "original_file": "source/docs/developer-platform/dust-api-documentation/swagger.json",
       "original_repository_path": "docs/developer-platform/dust-api-documentation/swagger.json",
-      "original_sha256": "67f17babfceb06a9fc6c013ad83a52d7fee8705e229c6e291c56b0317297a54f",
+      "original_sha256": "26fe672740f7b5e86fb88c198162d8c5bdc21e4080a92f095bc36eb5d26f2ad6",
       "original_source": "source/docs/developer-platform/dust-api-documentation/swagger.json",
       "in_sitemap": false,
       "status": "publish",
@@ -9775,14 +8101,14 @@
           "title": "Counso API",
           "file": "en/docs/developer-platform/counso-api-documentation/swagger.json",
           "route": "/docs/developer-platform/counso-api-documentation/swagger.json",
-          "sha256": "61ae6dc3ee6530b7294cf63c6505e4874af6ee2dbdd73afd405acb0c8b7352a6",
+          "sha256": "cc55007cec13688aa4e794818248eadc89da2d30eb3b1def6bf698cda2fe216a",
           "format": "openapi"
         },
         "zh-cn": {
           "title": "Counso API",
           "file": "zh-cn/docs/developer-platform/counso-api-documentation/swagger.json",
           "route": "/zh-Hans/docs/developer-platform/counso-api-documentation/swagger.json",
-          "sha256": "61ae6dc3ee6530b7294cf63c6505e4874af6ee2dbdd73afd405acb0c8b7352a6",
+          "sha256": "cc55007cec13688aa4e794818248eadc89da2d30eb3b1def6bf698cda2fe216a",
           "format": "openapi"
         }
       },
@@ -9800,14 +8126,14 @@
           "title": "Counso API",
           "file": "en/docs/developer-platform/counso-api-documentation/postman.collection.json",
           "route": "/docs/developer-platform/counso-api-documentation/postman.collection.json",
-          "sha256": "093596390c6cac5c010ed003ad2fb6c6889bbe622c7cc7edd34dc717e77372fd",
+          "sha256": "3f96c8dfb4e884b25e76920c228da1beb8b6484260d131b513beec790cb65192",
           "format": "postman"
         },
         "zh-cn": {
           "title": "Counso API",
           "file": "zh-cn/docs/developer-platform/counso-api-documentation/postman.collection.json",
           "route": "/zh-Hans/docs/developer-platform/counso-api-documentation/postman.collection.json",
-          "sha256": "30a624090c4e17f29083cc459a5672329d751716a0ad51114f75274d4f689fd8",
+          "sha256": "3f96c8dfb4e884b25e76920c228da1beb8b6484260d131b513beec790cb65192",
           "format": "postman"
         }
       }
@@ -9822,14 +8148,14 @@
           "title": "Counso",
           "file": "en/docs/developer-platform/counso-api-documentation/postman.environment.json",
           "route": "/docs/developer-platform/counso-api-documentation/postman.environment.json",
-          "sha256": "8a27d8849aebedf4bba18377a1fa99b57ffeb164f5158614b73ec48f59b5a5ee",
+          "sha256": "5da9157b5f1b9352955dfaacdda87d26d434ec7fd5fff97e24559ccbf026dfcb",
           "format": "postman"
         },
         "zh-cn": {
           "title": "Counso",
           "file": "zh-cn/docs/developer-platform/counso-api-documentation/postman.environment.json",
           "route": "/zh-Hans/docs/developer-platform/counso-api-documentation/postman.environment.json",
-          "sha256": "8a27d8849aebedf4bba18377a1fa99b57ffeb164f5158614b73ec48f59b5a5ee",
+          "sha256": "5da9157b5f1b9352955dfaacdda87d26d434ec7fd5fff97e24559ccbf026dfcb",
           "format": "postman"
         }
       }

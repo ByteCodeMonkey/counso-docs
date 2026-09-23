@@ -77,6 +77,18 @@ def strip_first_heading(markdown: str) -> str:
     return "\n".join(lines).strip() + "\n"
 
 
+def contains_visible_legacy_brand(source: Path, text: str) -> bool:
+    """Detect user-visible upstream branding without flagging executable identifiers."""
+    if source.suffix not in (".md", ".mdx"):
+        return False
+    visible = re.sub(r"^\s*(```|~~~).*?^\s*\1\s*$", "", text, flags=re.M | re.S)
+    visible = re.sub(r"\[([^]]+)]\([^)]+\)", r"\1", visible)
+    if source.as_posix().endswith("overview/javascript-sdk.md"):
+        visible = visible.replace("@dust-tt/client", "@client/package")
+        visible = visible.replace("DustAPI", "ClientAPI")
+    return bool(LEGACY_BRAND_RE.search(visible))
+
+
 def with_frontmatter(markdown: str, title: str, description: str | None = None) -> str:
     fields = ["---", f"title: {yaml_string(title)}"]
     if description:
@@ -520,7 +532,9 @@ def main() -> None:
             continue
         for translation in page["translations"].values():
             source = ROOT / translation["file"]
-            if source.exists() and LEGACY_BRAND_RE.search(source.read_text(encoding="utf-8")):
+            if source.exists() and contains_visible_legacy_brand(
+                source, source.read_text(encoding="utf-8")
+            ):
                 legacy_brand_files.add(translation["file"])
                 legacy_brand_routes.add(translation["route"])
 

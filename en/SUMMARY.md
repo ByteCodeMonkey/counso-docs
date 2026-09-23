@@ -106,6 +106,7 @@
 - [Schedule an Agent](docs/user-documentation/agents/triggers/schedules.md)
 - [Filter webhook payloads](docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload.md)
 - [Set limits for webhook triggers](docs/user-documentation/agents/triggers/webhooks/rate-limiting.md)
+- [MiniApps overview](docs/user-documentation/agents/frames/overview.md)
 - [Add your brand to shared MiniApps](docs/user-documentation/agents/frames/white-labeled-frames.md)
 
 ## Pods
@@ -175,7 +176,6 @@
 - [Automatically join new Slack channels](docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join.md)
 - [Work with meeting transcripts](docs/user-documentation/agents/integrations/meeting-transcripts.md)
 
-
 ## Developer documentation
 
 - [Is there a Counso Conversations API?](docs/user-documentation/getting-started/faq/managing-agents/is-there-a-counso-conversation-api.md)
@@ -189,14 +189,9 @@
 
 ## API reference
 
-
-### User session: User
-
-- [Get current user](api-reference/private-user/get-current-user.md)
-- [Update current user](api-reference/private-user/update-current-user.md)
-
 ### Analytics
 
+- [Export consumption analytics](api-reference/analytics/export-consumption-analytics.md)
 - [Export workspace analytics](api-reference/analytics/export-workspace-analytics.md)
 
 ### Agents
@@ -303,96 +298,3 @@
 - [Get a trigger](api-reference/triggers/get-a-trigger.md)
 - [Receive external webhook to trigger flows](api-reference/triggers/receive-external-webhook-to-trigger-flows.md)
 - [List triggers](api-reference/triggers/list-triggers.md)
-
-### User session: Analytics
-
-- [List consumption analytics facets](api-reference/private-analytics/list-consumption-analytics-facets.md)
-- [List personal consumption analytics facets](api-reference/private-analytics/list-consumption-analytics-facets-1.md)
-- [List agent consumption analytics facets](api-reference/private-analytics/list-consumption-analytics-facets-2.md)
-
-### User session: Agents
-
-- [List agent configurations](api-reference/private-agents/list-agent-configurations.md)
-- [Create an agent configuration](api-reference/private-agents/create-an-agent-configuration.md)
-
-### User session: Conversations
-
-- [Cancel message generation](api-reference/private-conversations/cancel-message-generation.md)
-- [Compact a conversation](api-reference/private-conversations/compact-a-conversation.md)
-- [Get a conversation credit attribution](api-reference/private-conversations/get-a-conversation-credit-attribution.md)
-- [Create a content fragment](api-reference/private-conversations/create-a-content-fragment.md)
-- [Get conversation feedbacks](api-reference/private-conversations/get-conversation-feedbacks.md)
-- [Get a conversation](api-reference/private-conversations/get-a-conversation.md)
-- [Delete or leave a conversation](api-reference/private-conversations/delete-or-leave-a-conversation.md)
-- [Update a conversation](api-reference/private-conversations/update-a-conversation.md)
-- [Get conversation participants](api-reference/private-conversations/get-conversation-participants.md)
-- [Add a participant to a conversation](api-reference/private-conversations/add-a-participant-to-a-conversation.md)
-- [List selectable Spaces](api-reference/private-conversations/list-selectable-spaces.md)
-- [Select Spaces for a conversation](api-reference/private-conversations/select-spaces-for-a-conversation.md)
-- [Cancel a wake-up](api-reference/private-conversations/cancel-a-wake-up.md)
-- [List wake-ups for a conversation](api-reference/private-conversations/list-wake-ups-for-a-conversation.md)
-- [List conversations](api-reference/private-conversations/list-conversations.md)
-- [Create a conversation](api-reference/private-conversations/create-a-conversation.md)
-
-### User session: Events
-
-- [Stream conversation events](api-reference/private-events/stream-conversation-events.md)
-- [Stream message events](api-reference/private-events/stream-message-events.md)
-- [Stream sandbox function invocation events](api-reference/private-events/stream-sandbox-function-invocation-events.md)
-
-### User session: Messages
-
-- [Get a single action](api-reference/private-messages/get-a-single-action.md)
-- [Get an agent message credit attribution](api-reference/private-messages/get-an-agent-message-credit-attribution.md)
-- [Edit a message](api-reference/private-messages/edit-a-message.md)
-- [Submit message feedback](api-reference/private-messages/submit-message-feedback.md)
-- [Delete message feedback](api-reference/private-messages/delete-message-feedback.md)
-- [Get a message](api-reference/private-messages/get-a-message.md)
-- [Delete a message](api-reference/private-messages/delete-a-message.md)
-- [Retry an agent message](api-reference/private-messages/retry-an-agent-message.md)
-- [List messages in a conversation](api-reference/private-messages/list-messages-in-a-conversation.md)
-- [Post a message to a conversation](api-reference/private-messages/post-a-message-to-a-conversation.md)
-
-### User session: Assistant
-
-- [Resolve a conversation go template draft](api-reference/private-assistant/resolve-a-conversation-go-template-draft.md)
-
-### User session: Mentions
-
-- [Get mention suggestions](api-reference/private-mentions/get-mention-suggestions.md)
-
-### User session: Extension
-
-- [Get extension configuration](api-reference/private-extension/get-extension-configuration.md)
-
-### User session: Workspace
-
-- [Get workspace feature flags](api-reference/private-workspace/get-workspace-feature-flags.md)
-
-### User session: Files
-
-- [Get or download a file](api-reference/private-files/get-or-download-a-file.md)
-- [Upload file content](api-reference/private-files/upload-file-content.md)
-- [Delete a file](api-reference/private-files/delete-a-file.md)
-- [Create a file upload](api-reference/private-files/create-a-file-upload.md)
-
-### User session: Spaces
-
-- [Get a data source view](api-reference/private-spaces/get-a-data-source-view.md)
-- [Delete a data source view](api-reference/private-spaces/delete-a-data-source-view.md)
-- [Update a data source view](api-reference/private-spaces/update-a-data-source-view.md)
-- [List data source views](api-reference/private-spaces/list-data-source-views.md)
-- [Create a data source view](api-reference/private-spaces/create-a-data-source-view.md)
-- [Get a space](api-reference/private-spaces/get-a-space.md)
-- [Delete a space](api-reference/private-spaces/delete-a-space.md)
-- [Update a space](api-reference/private-spaces/update-a-space.md)
-- [Get project notification preference](api-reference/private-spaces/get-project-notification-preference.md)
-- [Set project notification preference](api-reference/private-spaces/set-project-notification-preference.md)
-- [List spaces](api-reference/private-spaces/list-spaces.md)
-- [Create a space](api-reference/private-spaces/create-a-space.md)
-
-### Authentication
-
-- [Initiate WorkOS login](api-reference/private-authentication/initiate-workos-login.md)
-- [Exchange code or refresh token](api-reference/private-authentication/exchange-code-or-refresh-token.md)
-- [Revoke a session](api-reference/private-authentication/revoke-a-session.md)

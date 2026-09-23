@@ -1,13 +1,13 @@
 # 文档发布范围与准备稿
 
-当前提供 327 篇中英文正文、2 份接口规范和 Postman 导入文件，另有 20 篇中英文准备稿。是否进入用户目录，按教程依赖的内容判断；工作区尚未完成配置，本身不是隐藏配置教程的理由。
+当前提供 270 篇中英文正文、2 份接口规范和 Postman 导入文件，另有 21 篇中英文准备稿。是否进入用户目录，按教程依赖的内容判断；工作区尚未完成配置，本身不是隐藏配置教程的理由。
 
 ## 发布建议
 
 | 内容范围 | 建议 | 交接时需要明确的事项 |
 | --- | --- | --- |
-| 已纳入目录的 327 篇中英文正文、2 份接口规范及 Postman 文件 | 直接纳入文档目录 | 教程依赖的常规部署、应用注册与授权按正文配置；这项建议针对文档内容，不代表生产功能已逐项验收。 |
-| 下表 20 篇中英文准备稿 | 确认对应条件后发布 | 每篇列明需要确认的内容和未确认时可能出现的问题。已完成配置或已有交付物的，核对后即可转为正文，无需重新立项。 |
+| 已纳入目录的 270 篇中英文正文、2 份接口规范及 Postman 文件 | 直接纳入文档目录 | 教程依赖的常规部署、应用注册与授权按正文配置；这项建议针对文档内容，不代表生产功能已逐项验收。 |
+| 下表 21 篇中英文准备稿 | 确认对应条件后发布 | 每篇列明需要确认的内容和未确认时可能出现的问题。已完成配置或已有交付物的，核对后即可转为正文，无需重新立项。 |
 | 末表 9 项历史资料 | 不纳入用户目录 | 原产品更新历史、实验仓库导航和已弃用框架不作为 Counso 当前使用说明；原文仍保留在来源资料中。 |
 
 ## 配置与使用说明
@@ -33,7 +33,7 @@ Slack、GitHub 和 Monday 的源码提供配置自有应用的入口。原教程
 
 以下文章的双语品牌化稿件保存在 `prepared/`。正文保留用途、配置前提和使用流程；安装包、分发地址、脚本命令或服务地址须与实际交付对应。
 
-这 20 篇是当前文档的发布状态，不等于 Counso 缺少 20 项功能。原文及下列引用的上游实现已核对，但尚未逐项核对 Counso 当前部署的代码、配置和分发包。表中的条件用于核对发布依据，不能据此断言 Counso 尚未实现。
+这 21 篇是当前文档的发布状态，不等于 Counso 缺少 21 项功能。原文及下列引用的上游实现已核对，但尚未逐项核对 Counso 当前部署的代码、配置和分发包。表中的条件用于核对发布依据，不能据此断言 Counso 尚未实现。
 
 产品帮助 Skill 适合纳入 Counso 使用文档。上游已有内置 Skill，主要需要替换其产品名称、适用范围、检索来源和支持入口，无需另建一套客服系统。不过，原指令明确使用原产品文档与社区，并限制适用产品；只改文章名称，不能让实际回答自动改用 Counso 资料。当前保留准备稿，待确认部署中的 Skill 与文章描述一致后即可发布。
 
@@ -55,6 +55,7 @@ Slack、GitHub 和 Monday 的源码提供配置自有应用的入口。原教程
 | 在 Zendesk 中使用 Counso | Zendesk 应用 | [https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-zendesk](https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-zendesk) | 应用包确认后发布 | 确认 Counso 侧边栏应用的安装方式、服务地址、登录与账号匹配。它与 Zendesk 数据连接和工具不同。 | 安装了原品牌应用，或登录与会话仍进入原平台。 | [EN](prepared/en/docs/user-documentation/agents/integrations/counso-in-zendesk.md) · [中文](prepared/zh-cn/docs/user-documentation/agents/integrations/counso-in-zendesk.md) |
 | 在浏览器中使用智能体 | 浏览器扩展 | [https://docs.dust.tt/docs/user-documentation/agents/integrations/browser-extension](https://docs.dust.tt/docs/user-documentation/agents/integrations/browser-extension) | 扩展确认后发布 | 确认 Counso 扩展的构建与实际分发入口，核对登录地址、站点权限和文档中的安装步骤。 | 商店链接安装的是原品牌扩展，无法登录 Counso，或扩展没有所需站点权限。 | [EN](prepared/en/docs/user-documentation/agents/integrations/browser-extension.md) · [中文](prepared/zh-cn/docs/user-documentation/agents/integrations/browser-extension.md) |
 | 通过 Raycast 使用 Counso | Raycast 扩展 | [https://docs.dust.tt/docs/user-documentation/agents/integrations/raycast-extension](https://docs.dust.tt/docs/user-documentation/agents/integrations/raycast-extension) | 扩展确认后发布 | 确认实际安装来源、Counso 服务地址与 OAuth 客户端；已检查的上游扩展仍使用原站地址和登录配置。 | 扩展打开原产品登录页，或授权成功后请求的仍是原平台。 | [EN](prepared/en/docs/user-documentation/agents/integrations/raycast-extension.md) · [中文](prepared/zh-cn/docs/user-documentation/agents/integrations/raycast-extension.md) |
+| ServiceNow | Agent Tool | [https://docs.dust.tt/docs/user-documentation/agents/tools/servicenow](https://docs.dust.tt/docs/user-documentation/agents/tools/servicenow) | 工具与 OAuth 流程确认后发布 | 确认 Counso 已提供 ServiceNow 工具、实际 OAuth 回调地址、Table API 方法和集成账号权限。 | 按文档配置后找不到工具、OAuth 回调不匹配，或只能读取而不能创建和更新记录。 | [EN](prepared/en/docs/user-documentation/agents/tools/servicenow.md) · [中文](prepared/zh-cn/docs/user-documentation/agents/tools/servicenow.md) |
 | 在 Microsoft Teams 中使用智能体 | Teams 应用包 | [https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-teams](https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-teams) | 应用包与机器人确认后发布 | 确认 Teams 应用包、机器人注册、消息服务、授权和安装步骤一致；原文给的是原产品应用包。 | 可以安装图标但机器人不响应，或消息和授权仍进入原平台。 | [EN](prepared/en/docs/user-documentation/agents/integrations/counso-in-teams.md) · [中文](prepared/zh-cn/docs/user-documentation/agents/integrations/counso-in-teams.md) |
 | 将 Dropbox 文件导入 Counso | 导入脚本 | [https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-dropbox-files](https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-dropbox-files) | 脚本确认后发布 | 确认实际脚本与运行命令，Counso 上传目标、Dropbox 授权、选定目录及重复导入行为。 | 原脚本仍向原平台上传，或导入范围与教程不同；不能把脚本教程当作内置 Connection。 | [EN](prepared/en/docs/user-documentation/data-sources/custom-connections/beta-import-dropbox-files.md) · [中文](prepared/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-dropbox-files.md) |
 | 将 Front 会话导入 Counso | 导入脚本 | [https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-front-conversations](https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-front-conversations) | 脚本确认后发布 | 确认脚本、Counso 上传目标、Front 权限、会话筛选与时间窗口；窗口以交付脚本为准。 | 目标仍为原平台，或时间窗口不同造成遗漏、重复导入。 | [EN](prepared/en/docs/user-documentation/data-sources/custom-connections/beta-import-front-conversations.md) · [中文](prepared/zh-cn/docs/user-documentation/data-sources/custom-connections/beta-import-front-conversations.md) |
@@ -72,26 +73,20 @@ Slack、GitHub 和 Monday 的源码提供配置自有应用的入口。原教程
 
 ## API 与开发资料
 
-126 篇接口参考、8 篇开发指南和 2 份接口规范已纳入中英文文档。原始 URL、原文文件与改写正文仍逐篇对应；CLI 使用稿另列在准备稿中。普通配置尚未完成，不再作为排除 API 或连接器说明的理由。
+68 篇接口参考、8 篇开发指南和 2 份接口规范已纳入中英文文档。原始 URL、原文文件与改写正文仍逐篇对应；CLI 使用稿另列在准备稿中。普通配置尚未完成，不再作为排除 API 或连接器说明的理由。
 
 | 材料 | 内容 |
 | --- | --- |
 | API 参考 | 工作区 API、用户会话接口、客户端 MCP、登录流程与 Webhook；按各接口的认证方式使用。 |
-| OpenAPI / Swagger | 两个文件均为 OpenAPI 3.0 格式，统一包含 126 个操作，默认服务地址为 `https://app.counso.ai`。 |
+| OpenAPI / Swagger | 两个文件均为 OpenAPI 3.0 格式，统一包含最新公开 sitemap 对应的 68 个操作，默认服务地址为 `https://app.counso.ai`。 |
 | Postman | 集合与环境文件包含完整请求，分别使用工作区 API key、用户 token 或接口自身的认证参数；凭据值留空。 |
 | JavaScript SDK | 使用已发布的客户端包，并在初始化时明确指定 Counso 地址。包名、类名和 API 字段保留可执行的技术标识。 |
 
 [英文 API 入口](en/docs/developer-platform/counso-api-documentation/openapi-and-postman.md) · [中文 API 入口](zh-cn/docs/developer-platform/counso-api-documentation/openapi-and-postman.md)
 
-接口规范中有三处原始资料差异一并修正：
+接口资产现在以最新公开 `swagger.json` 为技术来源，保留 API path、字段、枚举和 `frames` 等技术标识；品牌化仅调整说明文字、服务地址和认证说明。旧版公开的 59 个 `private-*` 页面已随最新 sitemap 移出，新增消费分析导出接口，并按最新规范将 Webhook 路径保留为 `/api/v1/w/{wId}/triggers/hooks/{webhookSourceId}`。
 
-- `openapi.json` 原先少了列出触发器、获取触发器两个操作，已按同一来源的 `swagger.json` 补齐。
-- 两个用量筛选接口使用 Path Item 引用，原文章未展开请求定义。现已展开个人与智能体两个路径，并为智能体路径补上必填的 `aId` 参数，原文章 URL 不变。
-- Webhook 接收接口按实现保留生成 URL 的密钥路径，不再写成普通 Bearer 认证；配置签名校验时还需提交对应签名。会话 API 的用户身份与工作区 API key 也分别说明。
-
-认证和 Webhook 修正参考[认证中间件](https://github.com/dust-tt/dust/tree/c0dd3d7/front-api/middlewares)及[Webhook 路由](https://github.com/dust-tt/dust/tree/c0dd3d7/front-api/routes/v1/w/%5BwId%5D/triggers/hooks)。部署时，API 服务和身份服务须使用同一 Counso 环境的配置；这里的文档与格式校验不代表生产接口已逐项调用验收。
-
-资料源视图的父节点更新存在一处源契约歧义：`parentsIn` 的 OpenAPI `oneOf` 分支与实现中的联合校验不完全一致。本版保留原字段定义，Postman 使用 `parentsToAdd` / `parentsToRemove` 请求；不把文档改写当成服务端问题已修复。
+部署时，API 服务和身份服务须使用同一 Counso 环境的配置；这里的文档与格式校验不代表生产接口已逐项调用验收。
 
 Postman 页面提供文件和 URL 导入方式，不再引用原产品的公共集合 ID。若需要一键 Fork 的 Run in Postman 按钮，应从 Counso 管理的公开 Postman 集合生成真实链接；现有集合文件可直接导入使用。
 

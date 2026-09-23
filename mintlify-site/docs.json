@@ -255,6 +255,7 @@
                   }
                 ]
               },
+              "docs/user-documentation/agents/frames/overview",
               "docs/user-documentation/agents/frames/white-labeled-frames"
             ]
           },
@@ -406,17 +407,10 @@
                 "pages": [
                   "docs/developer-platform/counso-api-documentation/openapi-and-postman",
                   {
-                    "group": "User session: User",
-                    "expanded": false,
-                    "pages": [
-                      "api-reference/private-user/get-current-user",
-                      "api-reference/private-user/update-current-user"
-                    ]
-                  },
-                  {
                     "group": "Analytics",
                     "expanded": false,
                     "pages": [
+                      "api-reference/analytics/export-consumption-analytics",
                       "api-reference/analytics/export-workspace-analytics"
                     ]
                   },
@@ -568,135 +562,6 @@
                           "api-reference/triggers/list-triggers"
                         ]
                       }
-                    ]
-                  },
-                  {
-                    "group": "User session: Analytics",
-                    "expanded": false,
-                    "pages": [
-                      "api-reference/private-analytics/list-consumption-analytics-facets",
-                      "api-reference/private-analytics/list-consumption-analytics-facets-1",
-                      "api-reference/private-analytics/list-consumption-analytics-facets-2"
-                    ]
-                  },
-                  {
-                    "group": "User session: Agents",
-                    "expanded": false,
-                    "pages": [
-                      "api-reference/private-agents/list-agent-configurations",
-                      "api-reference/private-agents/create-an-agent-configuration"
-                    ]
-                  },
-                  {
-                    "group": "User session: Conversations",
-                    "expanded": false,
-                    "pages": [
-                      "api-reference/private-conversations/cancel-message-generation",
-                      "api-reference/private-conversations/compact-a-conversation",
-                      "api-reference/private-conversations/get-a-conversation-credit-attribution",
-                      "api-reference/private-conversations/create-a-content-fragment",
-                      "api-reference/private-conversations/get-conversation-feedbacks",
-                      "api-reference/private-conversations/get-a-conversation",
-                      "api-reference/private-conversations/delete-or-leave-a-conversation",
-                      "api-reference/private-conversations/update-a-conversation",
-                      "api-reference/private-conversations/get-conversation-participants",
-                      "api-reference/private-conversations/add-a-participant-to-a-conversation",
-                      "api-reference/private-conversations/list-selectable-spaces",
-                      "api-reference/private-conversations/select-spaces-for-a-conversation",
-                      "api-reference/private-conversations/cancel-a-wake-up",
-                      "api-reference/private-conversations/list-wake-ups-for-a-conversation",
-                      "api-reference/private-conversations/list-conversations",
-                      "api-reference/private-conversations/create-a-conversation"
-                    ]
-                  },
-                  {
-                    "group": "User session: Events",
-                    "expanded": false,
-                    "pages": [
-                      "api-reference/private-events/stream-conversation-events",
-                      "api-reference/private-events/stream-message-events",
-                      "api-reference/private-events/stream-sandbox-function-invocation-events"
-                    ]
-                  },
-                  {
-                    "group": "User session: Messages",
-                    "expanded": false,
-                    "pages": [
-                      "api-reference/private-messages/get-a-single-action",
-                      "api-reference/private-messages/get-an-agent-message-credit-attribution",
-                      "api-reference/private-messages/edit-a-message",
-                      "api-reference/private-messages/submit-message-feedback",
-                      "api-reference/private-messages/delete-message-feedback",
-                      "api-reference/private-messages/get-a-message",
-                      "api-reference/private-messages/delete-a-message",
-                      "api-reference/private-messages/retry-an-agent-message",
-                      "api-reference/private-messages/list-messages-in-a-conversation",
-                      "api-reference/private-messages/post-a-message-to-a-conversation"
-                    ]
-                  },
-                  {
-                    "group": "User session: Assistant",
-                    "expanded": false,
-                    "pages": [
-                      "api-reference/private-assistant/resolve-a-conversation-go-template-draft"
-                    ]
-                  },
-                  {
-                    "group": "User session: Mentions",
-                    "expanded": false,
-                    "pages": [
-                      "api-reference/private-mentions/get-mention-suggestions"
-                    ]
-                  },
-                  {
-                    "group": "User session: Extension",
-                    "expanded": false,
-                    "pages": [
-                      "api-reference/private-extension/get-extension-configuration"
-                    ]
-                  },
-                  {
-                    "group": "User session: Workspace",
-                    "expanded": false,
-                    "pages": [
-                      "api-reference/private-workspace/get-workspace-feature-flags"
-                    ]
-                  },
-                  {
-                    "group": "User session: Files",
-                    "expanded": false,
-                    "pages": [
-                      "api-reference/private-files/get-or-download-a-file",
-                      "api-reference/private-files/upload-file-content",
-                      "api-reference/private-files/delete-a-file",
-                      "api-reference/private-files/create-a-file-upload"
-                    ]
-                  },
-                  {
-                    "group": "User session: Spaces",
-                    "expanded": false,
-                    "pages": [
-                      "api-reference/private-spaces/get-a-data-source-view",
-                      "api-reference/private-spaces/delete-a-data-source-view",
-                      "api-reference/private-spaces/update-a-data-source-view",
-                      "api-reference/private-spaces/list-data-source-views",
-                      "api-reference/private-spaces/create-a-data-source-view",
-                      "api-reference/private-spaces/get-a-space",
-                      "api-reference/private-spaces/delete-a-space",
-                      "api-reference/private-spaces/update-a-space",
-                      "api-reference/private-spaces/get-project-notification-preference",
-                      "api-reference/private-spaces/set-project-notification-preference",
-                      "api-reference/private-spaces/list-spaces",
-                      "api-reference/private-spaces/create-a-space"
-                    ]
-                  },
-                  {
-                    "group": "Authentication",
-                    "expanded": false,
-                    "pages": [
-                      "api-reference/private-authentication/initiate-workos-login",
-                      "api-reference/private-authentication/exchange-code-or-refresh-token",
-                      "api-reference/private-authentication/revoke-a-session"
                     ]
                   }
                 ]
@@ -912,6 +777,7 @@
                   }
                 ]
               },
+              "zh-Hans/docs/user-documentation/agents/frames/overview",
               "zh-Hans/docs/user-documentation/agents/frames/white-labeled-frames"
             ]
           },
@@ -1063,17 +929,10 @@
                 "pages": [
                   "zh-Hans/docs/developer-platform/counso-api-documentation/openapi-and-postman",
                   {
-                    "group": "用户会话：用户",
-                    "expanded": false,
-                    "pages": [
-                      "zh-Hans/api-reference/private-user/get-current-user",
-                      "zh-Hans/api-reference/private-user/update-current-user"
-                    ]
-                  },
-                  {
                     "group": "分析",
                     "expanded": false,
                     "pages": [
+                      "zh-Hans/api-reference/analytics/export-consumption-analytics",
                       "zh-Hans/api-reference/analytics/export-workspace-analytics"
                     ]
                   },
@@ -1225,135 +1084,6 @@
                           "zh-Hans/api-reference/triggers/list-triggers"
                         ]
                       }
-                    ]
-                  },
-                  {
-                    "group": "用户会话：分析",
-                    "expanded": false,
-                    "pages": [
-                      "zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets",
-                      "zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets-1",
-                      "zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets-2"
-                    ]
-                  },
-                  {
-                    "group": "用户会话：智能体",
-                    "expanded": false,
-                    "pages": [
-                      "zh-Hans/api-reference/private-agents/list-agent-configurations",
-                      "zh-Hans/api-reference/private-agents/create-an-agent-configuration"
-                    ]
-                  },
-                  {
-                    "group": "用户会话：会话",
-                    "expanded": false,
-                    "pages": [
-                      "zh-Hans/api-reference/private-conversations/cancel-message-generation",
-                      "zh-Hans/api-reference/private-conversations/compact-a-conversation",
-                      "zh-Hans/api-reference/private-conversations/get-a-conversation-credit-attribution",
-                      "zh-Hans/api-reference/private-conversations/create-a-content-fragment",
-                      "zh-Hans/api-reference/private-conversations/get-conversation-feedbacks",
-                      "zh-Hans/api-reference/private-conversations/get-a-conversation",
-                      "zh-Hans/api-reference/private-conversations/delete-or-leave-a-conversation",
-                      "zh-Hans/api-reference/private-conversations/update-a-conversation",
-                      "zh-Hans/api-reference/private-conversations/get-conversation-participants",
-                      "zh-Hans/api-reference/private-conversations/add-a-participant-to-a-conversation",
-                      "zh-Hans/api-reference/private-conversations/list-selectable-spaces",
-                      "zh-Hans/api-reference/private-conversations/select-spaces-for-a-conversation",
-                      "zh-Hans/api-reference/private-conversations/cancel-a-wake-up",
-                      "zh-Hans/api-reference/private-conversations/list-wake-ups-for-a-conversation",
-                      "zh-Hans/api-reference/private-conversations/list-conversations",
-                      "zh-Hans/api-reference/private-conversations/create-a-conversation"
-                    ]
-                  },
-                  {
-                    "group": "用户会话：events",
-                    "expanded": false,
-                    "pages": [
-                      "zh-Hans/api-reference/private-events/stream-conversation-events",
-                      "zh-Hans/api-reference/private-events/stream-message-events",
-                      "zh-Hans/api-reference/private-events/stream-sandbox-function-invocation-events"
-                    ]
-                  },
-                  {
-                    "group": "用户会话：messages",
-                    "expanded": false,
-                    "pages": [
-                      "zh-Hans/api-reference/private-messages/get-a-single-action",
-                      "zh-Hans/api-reference/private-messages/get-an-agent-message-credit-attribution",
-                      "zh-Hans/api-reference/private-messages/edit-a-message",
-                      "zh-Hans/api-reference/private-messages/submit-message-feedback",
-                      "zh-Hans/api-reference/private-messages/delete-message-feedback",
-                      "zh-Hans/api-reference/private-messages/get-a-message",
-                      "zh-Hans/api-reference/private-messages/delete-a-message",
-                      "zh-Hans/api-reference/private-messages/retry-an-agent-message",
-                      "zh-Hans/api-reference/private-messages/list-messages-in-a-conversation",
-                      "zh-Hans/api-reference/private-messages/post-a-message-to-a-conversation"
-                    ]
-                  },
-                  {
-                    "group": "用户会话：assistant",
-                    "expanded": false,
-                    "pages": [
-                      "zh-Hans/api-reference/private-assistant/resolve-a-conversation-go-template-draft"
-                    ]
-                  },
-                  {
-                    "group": "用户会话：提及",
-                    "expanded": false,
-                    "pages": [
-                      "zh-Hans/api-reference/private-mentions/get-mention-suggestions"
-                    ]
-                  },
-                  {
-                    "group": "用户会话：扩展",
-                    "expanded": false,
-                    "pages": [
-                      "zh-Hans/api-reference/private-extension/get-extension-configuration"
-                    ]
-                  },
-                  {
-                    "group": "用户会话：workspace",
-                    "expanded": false,
-                    "pages": [
-                      "zh-Hans/api-reference/private-workspace/get-workspace-feature-flags"
-                    ]
-                  },
-                  {
-                    "group": "用户会话：文件",
-                    "expanded": false,
-                    "pages": [
-                      "zh-Hans/api-reference/private-files/get-or-download-a-file",
-                      "zh-Hans/api-reference/private-files/upload-file-content",
-                      "zh-Hans/api-reference/private-files/delete-a-file",
-                      "zh-Hans/api-reference/private-files/create-a-file-upload"
-                    ]
-                  },
-                  {
-                    "group": "用户会话：空间",
-                    "expanded": false,
-                    "pages": [
-                      "zh-Hans/api-reference/private-spaces/get-a-data-source-view",
-                      "zh-Hans/api-reference/private-spaces/delete-a-data-source-view",
-                      "zh-Hans/api-reference/private-spaces/update-a-data-source-view",
-                      "zh-Hans/api-reference/private-spaces/list-data-source-views",
-                      "zh-Hans/api-reference/private-spaces/create-a-data-source-view",
-                      "zh-Hans/api-reference/private-spaces/get-a-space",
-                      "zh-Hans/api-reference/private-spaces/delete-a-space",
-                      "zh-Hans/api-reference/private-spaces/update-a-space",
-                      "zh-Hans/api-reference/private-spaces/get-project-notification-preference",
-                      "zh-Hans/api-reference/private-spaces/set-project-notification-preference",
-                      "zh-Hans/api-reference/private-spaces/list-spaces",
-                      "zh-Hans/api-reference/private-spaces/create-a-space"
-                    ]
-                  },
-                  {
-                    "group": "登录认证",
-                    "expanded": false,
-                    "pages": [
-                      "zh-Hans/api-reference/private-authentication/initiate-workos-login",
-                      "zh-Hans/api-reference/private-authentication/exchange-code-or-refresh-token",
-                      "zh-Hans/api-reference/private-authentication/revoke-a-session"
                     ]
                   }
                 ]
@@ -2108,6 +1838,11 @@
       "permanent": true
     },
     {
+      "source": "/zh-cn/api-reference/analytics/export-consumption-analytics",
+      "destination": "/zh-Hans/api-reference/analytics/export-consumption-analytics",
+      "permanent": true
+    },
+    {
       "source": "/zh-cn/api-reference/analytics/export-workspace-analytics",
       "destination": "/zh-Hans/api-reference/analytics/export-workspace-analytics",
       "permanent": true
@@ -2350,301 +2085,6 @@
     {
       "source": "/zh-cn/api-reference/mentions/parse-mentions-in-markdown-text",
       "destination": "/zh-Hans/api-reference/mentions/parse-mentions-in-markdown-text",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-agents/create-an-agent-configuration",
-      "destination": "/zh-Hans/api-reference/private-agents/create-an-agent-configuration",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-agents/list-agent-configurations",
-      "destination": "/zh-Hans/api-reference/private-agents/list-agent-configurations",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-analytics/list-consumption-analytics-facets",
-      "destination": "/zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-analytics/list-consumption-analytics-facets-1",
-      "destination": "/zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets-1",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-analytics/list-consumption-analytics-facets-2",
-      "destination": "/zh-Hans/api-reference/private-analytics/list-consumption-analytics-facets-2",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-assistant/resolve-a-conversation-go-template-draft",
-      "destination": "/zh-Hans/api-reference/private-assistant/resolve-a-conversation-go-template-draft",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-authentication/exchange-code-or-refresh-token",
-      "destination": "/zh-Hans/api-reference/private-authentication/exchange-code-or-refresh-token",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-authentication/initiate-workos-login",
-      "destination": "/zh-Hans/api-reference/private-authentication/initiate-workos-login",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-authentication/revoke-a-session",
-      "destination": "/zh-Hans/api-reference/private-authentication/revoke-a-session",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/add-a-participant-to-a-conversation",
-      "destination": "/zh-Hans/api-reference/private-conversations/add-a-participant-to-a-conversation",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/cancel-a-wake-up",
-      "destination": "/zh-Hans/api-reference/private-conversations/cancel-a-wake-up",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/cancel-message-generation",
-      "destination": "/zh-Hans/api-reference/private-conversations/cancel-message-generation",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/compact-a-conversation",
-      "destination": "/zh-Hans/api-reference/private-conversations/compact-a-conversation",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/create-a-content-fragment",
-      "destination": "/zh-Hans/api-reference/private-conversations/create-a-content-fragment",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/create-a-conversation",
-      "destination": "/zh-Hans/api-reference/private-conversations/create-a-conversation",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/delete-or-leave-a-conversation",
-      "destination": "/zh-Hans/api-reference/private-conversations/delete-or-leave-a-conversation",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/get-a-conversation",
-      "destination": "/zh-Hans/api-reference/private-conversations/get-a-conversation",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/get-a-conversation-credit-attribution",
-      "destination": "/zh-Hans/api-reference/private-conversations/get-a-conversation-credit-attribution",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/get-conversation-feedbacks",
-      "destination": "/zh-Hans/api-reference/private-conversations/get-conversation-feedbacks",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/get-conversation-participants",
-      "destination": "/zh-Hans/api-reference/private-conversations/get-conversation-participants",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/list-conversations",
-      "destination": "/zh-Hans/api-reference/private-conversations/list-conversations",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/list-selectable-spaces",
-      "destination": "/zh-Hans/api-reference/private-conversations/list-selectable-spaces",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/list-wake-ups-for-a-conversation",
-      "destination": "/zh-Hans/api-reference/private-conversations/list-wake-ups-for-a-conversation",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/select-spaces-for-a-conversation",
-      "destination": "/zh-Hans/api-reference/private-conversations/select-spaces-for-a-conversation",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-conversations/update-a-conversation",
-      "destination": "/zh-Hans/api-reference/private-conversations/update-a-conversation",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-events/stream-conversation-events",
-      "destination": "/zh-Hans/api-reference/private-events/stream-conversation-events",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-events/stream-message-events",
-      "destination": "/zh-Hans/api-reference/private-events/stream-message-events",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-events/stream-sandbox-function-invocation-events",
-      "destination": "/zh-Hans/api-reference/private-events/stream-sandbox-function-invocation-events",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-extension/get-extension-configuration",
-      "destination": "/zh-Hans/api-reference/private-extension/get-extension-configuration",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-files/create-a-file-upload",
-      "destination": "/zh-Hans/api-reference/private-files/create-a-file-upload",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-files/delete-a-file",
-      "destination": "/zh-Hans/api-reference/private-files/delete-a-file",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-files/get-or-download-a-file",
-      "destination": "/zh-Hans/api-reference/private-files/get-or-download-a-file",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-files/upload-file-content",
-      "destination": "/zh-Hans/api-reference/private-files/upload-file-content",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-mentions/get-mention-suggestions",
-      "destination": "/zh-Hans/api-reference/private-mentions/get-mention-suggestions",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-messages/delete-a-message",
-      "destination": "/zh-Hans/api-reference/private-messages/delete-a-message",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-messages/delete-message-feedback",
-      "destination": "/zh-Hans/api-reference/private-messages/delete-message-feedback",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-messages/edit-a-message",
-      "destination": "/zh-Hans/api-reference/private-messages/edit-a-message",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-messages/get-a-message",
-      "destination": "/zh-Hans/api-reference/private-messages/get-a-message",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-messages/get-a-single-action",
-      "destination": "/zh-Hans/api-reference/private-messages/get-a-single-action",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-messages/get-an-agent-message-credit-attribution",
-      "destination": "/zh-Hans/api-reference/private-messages/get-an-agent-message-credit-attribution",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-messages/list-messages-in-a-conversation",
-      "destination": "/zh-Hans/api-reference/private-messages/list-messages-in-a-conversation",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-messages/post-a-message-to-a-conversation",
-      "destination": "/zh-Hans/api-reference/private-messages/post-a-message-to-a-conversation",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-messages/retry-an-agent-message",
-      "destination": "/zh-Hans/api-reference/private-messages/retry-an-agent-message",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-messages/submit-message-feedback",
-      "destination": "/zh-Hans/api-reference/private-messages/submit-message-feedback",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-spaces/create-a-data-source-view",
-      "destination": "/zh-Hans/api-reference/private-spaces/create-a-data-source-view",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-spaces/create-a-space",
-      "destination": "/zh-Hans/api-reference/private-spaces/create-a-space",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-spaces/delete-a-data-source-view",
-      "destination": "/zh-Hans/api-reference/private-spaces/delete-a-data-source-view",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-spaces/delete-a-space",
-      "destination": "/zh-Hans/api-reference/private-spaces/delete-a-space",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-spaces/get-a-data-source-view",
-      "destination": "/zh-Hans/api-reference/private-spaces/get-a-data-source-view",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-spaces/get-a-space",
-      "destination": "/zh-Hans/api-reference/private-spaces/get-a-space",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-spaces/get-project-notification-preference",
-      "destination": "/zh-Hans/api-reference/private-spaces/get-project-notification-preference",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-spaces/list-data-source-views",
-      "destination": "/zh-Hans/api-reference/private-spaces/list-data-source-views",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-spaces/list-spaces",
-      "destination": "/zh-Hans/api-reference/private-spaces/list-spaces",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-spaces/set-project-notification-preference",
-      "destination": "/zh-Hans/api-reference/private-spaces/set-project-notification-preference",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-spaces/update-a-data-source-view",
-      "destination": "/zh-Hans/api-reference/private-spaces/update-a-data-source-view",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-spaces/update-a-space",
-      "destination": "/zh-Hans/api-reference/private-spaces/update-a-space",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-user/get-current-user",
-      "destination": "/zh-Hans/api-reference/private-user/get-current-user",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-user/update-current-user",
-      "destination": "/zh-Hans/api-reference/private-user/update-current-user",
-      "permanent": true
-    },
-    {
-      "source": "/zh-cn/api-reference/private-workspace/get-workspace-feature-flags",
-      "destination": "/zh-Hans/api-reference/private-workspace/get-workspace-feature-flags",
       "permanent": true
     },
     {
@@ -2985,6 +2425,11 @@
     {
       "source": "/zh-cn/docs/user-documentation/agents/discover-tools",
       "destination": "/zh-Hans/docs/user-documentation/agents/discover-tools",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/frames/overview",
+      "destination": "/zh-Hans/docs/user-documentation/agents/frames/overview",
       "permanent": true
     },
     {
@@ -3345,6 +2790,11 @@
     {
       "source": "/zh-cn/docs/user-documentation/agents/tools/semrush",
       "destination": "/zh-Hans/docs/user-documentation/agents/tools/semrush",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/agents/tools/servicenow",
+      "destination": "/zh-Hans/docs/user-documentation/agents/tools/servicenow",
       "permanent": true
     },
     {

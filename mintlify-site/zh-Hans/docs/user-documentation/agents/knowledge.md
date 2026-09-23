@@ -9,7 +9,8 @@ Knowledge 设置决定智能体可以使用哪些资料，以及如何检索这�
 | **Include Data（纳入数据）** | 每次运行都提供近期来源资料 | 从最新文件开始纳入，直到达到上下文上限；不会按当前问题的相关性排序。 |
 | **Query Tables（查询表格）** | 计数、汇总、筛选、比较等结构化分析 | 在可用时先查询已选的结构化表格，再由智能体解释结果。 |
 | **Extract Data（提取数据）** | 从多个文档中收集指定字段 | 搜索已选来源，并按定义或生成的 Schema 提取信息。 |
+| **Find in data sources（在数据源中查找）** | 按文件夹、路径或文档标题浏览连接的数据 | 列出文件夹、按路径打开文档、按标题定位文档，并说明文档在目录层级中的位置；适合与语义搜索配合使用。 |
 
 在 Agent Builder 中选择需要的数据源，并说明其中的内容，帮助智能体选择合适操作。Search 和 Include Data 针对选定文档；Query Tables 面向结构化行数据；Extract Data 用于跨来源一致地收集字段。
 
-具体操作见[搜索数据源](/zh-Hans/docs/user-documentation/agents/knowledge/search-data-sources)、[Include Data](/zh-Hans/docs/user-documentation/agents/knowledge/include-data)、[表格查询](/zh-Hans/docs/user-documentation/agents/knowledge/table-queries)和[提取数据](/zh-Hans/docs/user-documentation/agents/knowledge/extract-data)。
+具体操作见[搜索数据源](/zh-Hans/docs/user-documentation/agents/knowledge/search-data-sources)、[Include Data](/zh-Hans/docs/user-documentation/agents/knowledge/include-data)、[表格查询](/zh-Hans/docs/user-documentation/agents/knowledge/table-queries)和[提取数据](/zh-Hans/docs/user-documentation/agents/knowledge/extract-data)。受支持的 Search 配置会同时提供 Find in data sources，无需另选一套数据源。

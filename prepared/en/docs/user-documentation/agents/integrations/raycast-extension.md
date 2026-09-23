@@ -1,15 +1,23 @@
 # Use Counso from Raycast
 
-The Raycast extension gives you a keyboard-driven way to open a Counso Agent and ask a question. You can start a request without first opening the Counso web application.
+The Raycast extension can run a Counso Agent on text selected anywhere on macOS. For supported commands, the Agent's response replaces the selected text in place, so you do not need to switch applications or copy and paste manually.
 
-## Sign in
+## Installation and sign-in
 
-Install the extension supplied for your Counso workspace. Open its sign-in command, check the workspace address, and complete authorization with your Counso account. Select the workspace you intend to use before choosing an Agent.
+Install the extension supplied for your Counso deployment. Open its sign-in command, verify the Counso workspace address, and complete authorization with your Counso account. Do not install an upstream-branded extension unless it has been configured to use the Counso service URL and OAuth client.
 
-## Ask an Agent
+## Agent shortcuts
 
-Open the Agent command, choose an Agent, and enter a request. When including selected text from another application, review what is selected before sending it. Compare the answer with the original material before copying it back into your work.
+The **Agent Quicklink** command lets you bind a keyboard shortcut to one Agent:
 
-## Make access faster
+1. Open **Agent Quicklink** in Raycast.
+2. Select a Counso Agent.
+3. Create a Quicklink and assign a shortcut.
 
-In Raycast's extension settings, assign a shortcut or alias to the Agent command. Use a shortcut that does not conflict with the application you usually work in. If the wrong workspace appears, check the extension's account and workspace selection before starting another conversation.
+You can use a different shortcut for each Agent. Select text in any macOS application, press the shortcut, and review the replacement produced by the Agent. Raycast reports progress or errors through notifications.
+
+For a regular chat that does not replace selected text, assign a Raycast alias or hotkey to the general Counso command or an Agent command.
+
+## Publication requirement
+
+Publish this page only after the extension package, service URL, OAuth configuration, workspace selection, and in-place text replacement have been verified against the Counso deployment.

@@ -9,6 +9,66 @@ The workspace may group model and reasoning combinations into ordered tiers such
 
 A tier can apply to a specific model and reasoning setting together. The same model may therefore be available at one reasoning level and restricted at another. The ceiling may also apply to the corresponding automatic model choice, not just to named models.
 
+## Current options in each tier
+
+The following list reflects the model-tier information panel as of September 14, 2026. Provider availability and workspace configuration can change it. An asterisk marks an option that may depend on workspace configuration or plan eligibility; use the live picker as the final source of truth.
+
+### Basic
+
+| Model | Reasoning efforts in this tier |
+| --- | --- |
+| Claude 4.5 Haiku | Light, Medium, High |
+| Claude Sonnet 4.6 | Light |
+| Claude Sonnet 5 | Light |
+| DeepSeek V4.1 Flash (Fireworks) | None, Light, Medium, High |
+| Gemini 3.1 Flash Lite | None, Light, Medium |
+| Gemini 3.5 Flash Lite | None, Light, Medium |
+| Mistral Codestral | None |
+| Mistral Small | None |
+| GPT-5.4 Mini | None, Light, Medium, High |
+| GPT-5.4 Nano | None, Light, Medium, High |
+| GPT 5.6 Luna | None, Light |
+| GLM-5.3 Flash (Fireworks) | Light, Medium, High |
+
+### Standard
+
+| Model | Reasoning efforts in this tier |
+| --- | --- |
+| Claude Sonnet 4.6 | Medium |
+| Claude Sonnet 5 | Medium |
+| Inkling (Fireworks) | Light, Medium, High |
+| Kimi K3 (Fireworks) | Light |
+| GLM-5.3 (Fireworks) | Light, Medium, High |
+| Gemini 3.1 Flash Lite | High |
+| Gemini 3.1 Pro (Preview) | Light |
+| Gemini 3.5 Flash Lite | High |
+| Gemini 3.7 Flash | Light, Medium |
+| Gemini 3.8 Flash | Light, Medium |
+| Mistral Large | None |
+| Mistral Medium 3.5 | None |
+| GPT 5.6 Luna | Medium, High |
+| GPT 5.6 Sol\* | None |
+| GPT 5.6 Terra | None, Light, Medium, High |
+| Grok 4.5\* | Light, Medium, High |
+| Grok 4.6\* | Light, Medium |
+
+### Premium
+
+| Model | Reasoning efforts in this tier |
+| --- | --- |
+| Claude Opus 4.6 | Light, Medium, High |
+| Claude Sonnet 4.6 | High |
+| Claude Sonnet 5 | High |
+| Kimi K3 (Fireworks) | Medium, High |
+| Gemini 3.1 Pro (Preview) | Medium, High |
+| Gemini 3.7 Flash | High |
+| Gemini 3.8 Flash | High |
+| Mistral Medium 3.5 | High |
+| GPT 6 Astra\* | Light, Medium, High |
+| GPT 5.6 Sol\* | Light, Medium, High |
+| GPT 5.6 Terra (long context)\* | None, Light, Medium, High |
+| Grok 4.6\* | High |
+
 ## Set the workspace ceiling
 
 1. Open **Admin > Usage** and find **Models tier**, if available.

@@ -26,6 +26,14 @@ def walk_groups(items):
 config = json.loads(CONFIG.read_text(encoding="utf-8"))
 languages = config["navigation"]["languages"]
 
+
+def navigation_pages(items):
+    for item in items:
+        if isinstance(item, str):
+            yield item
+        elif isinstance(item, dict):
+            yield from navigation_pages(item.get("pages", []))
+
 expected = {
     "en": (
         "docs/user-documentation/getting-started/use-cases-and-guides",
@@ -51,6 +59,17 @@ expected = {
 
 for language in languages:
     code = language["language"]
+    page_routes = set(navigation_pages(language["groups"]))
+    route_prefix = "" if code == "en" else "zh-Hans/"
+    assert route_prefix + "docs/user-documentation/agents/frames/overview" in page_routes, (
+        f"{code}: MiniApps overview is missing from navigation"
+    )
+    assert route_prefix + "docs/user-documentation/agents/tools/servicenow" not in page_routes, (
+        f"{code}: unverified ServiceNow tool leaked into navigation"
+    )
+    assert not any("/miniapps/" in route for route in page_routes), (
+        f"{code}: technical /frames/ route was renamed"
+    )
     root, child, faq_root, faq_subgroups = expected[code]
     all_groups = list(walk_groups(language["groups"]))
     nested = [group for group in all_groups if group.get("root") == root]
@@ -92,14 +111,27 @@ for prefix in ("", "zh-Hans/"):
         assert asset.exists(), f"missing downloadable API asset: {asset.relative_to(ROOT)}"
         json.loads(asset.read_text(encoding="utf-8"))
     for filename in ("openapi.json", "swagger.json"):
-        assert not (asset_dir / filename).exists(), f"legacy-branded asset is still public: {filename}"
-        notice = asset_dir / f"{filename}.md"
-        assert notice.exists(), f"missing update notice for gated asset: {notice.relative_to(ROOT)}"
+        asset = asset_dir / filename
+        assert asset.exists(), f"missing downloadable API asset: {asset.relative_to(ROOT)}"
+        spec = json.loads(asset.read_text(encoding="utf-8"))
+        assert spec["servers"] == [{"url": "https://app.counso.ai", "description": "Counso"}], (
+            f"unbranded API server in {asset.relative_to(ROOT)}"
+        )
 
 legacy_brand = re.compile(r"(?i)(?:\bdust\b|dust-tt|dustapi)")
 for pattern in ("*.md", "*.mdx"):
     for page in (ROOT / "mintlify-site").rglob(pattern):
-        assert not legacy_brand.search(page.read_text(encoding="utf-8")), (
+        visible = re.sub(
+            r"^\s*(```|~~~).*?^\s*\1\s*$",
+            "",
+            page.read_text(encoding="utf-8"),
+            flags=re.M | re.S,
+        )
+        visible = re.sub(r"\[([^]]+)]\([^)]+\)", r"\1", visible)
+        if page.as_posix().endswith("overview/javascript-sdk.md"):
+            visible = visible.replace("@dust-tt/client", "@client/package")
+            visible = visible.replace("DustAPI", "ClientAPI")
+        assert not legacy_brand.search(visible), (
             f"legacy brand leaked into rendered documentation: {page.relative_to(ROOT)}"
         )
 

@@ -9,6 +9,66 @@ title: "模型访问层级"
 
 层级可能针对“某个模型 + 某种推理设置”的组合。同一个模型在一种推理设置下可用，在另一种设置下则可能被限制。模型上限也可能同时作用于相应的自动模型选项，而不只是具体列出的模型。
 
+## 各层级当前包含的选项
+
+以下列表对应 2026 年 9 月 14 日的模型层级说明。供应商可用性和工作区配置可能使列表发生变化。带星号的选项可能取决于工作区配置或订阅资格；最终请以当前模型选择器为准。
+
+### Basic
+
+| 模型 | 此层级提供的推理强度 |
+| --- | --- |
+| Claude 4.5 Haiku | Light、Medium、High |
+| Claude Sonnet 4.6 | Light |
+| Claude Sonnet 5 | Light |
+| DeepSeek V4.1 Flash (Fireworks) | None、Light、Medium、High |
+| Gemini 3.1 Flash Lite | None、Light、Medium |
+| Gemini 3.5 Flash Lite | None、Light、Medium |
+| Mistral Codestral | None |
+| Mistral Small | None |
+| GPT-5.4 Mini | None、Light、Medium、High |
+| GPT-5.4 Nano | None、Light、Medium、High |
+| GPT 5.6 Luna | None、Light |
+| GLM-5.3 Flash (Fireworks) | Light、Medium、High |
+
+### Standard
+
+| 模型 | 此层级提供的推理强度 |
+| --- | --- |
+| Claude Sonnet 4.6 | Medium |
+| Claude Sonnet 5 | Medium |
+| Inkling (Fireworks) | Light、Medium、High |
+| Kimi K3 (Fireworks) | Light |
+| GLM-5.3 (Fireworks) | Light、Medium、High |
+| Gemini 3.1 Flash Lite | High |
+| Gemini 3.1 Pro (Preview) | Light |
+| Gemini 3.5 Flash Lite | High |
+| Gemini 3.7 Flash | Light、Medium |
+| Gemini 3.8 Flash | Light、Medium |
+| Mistral Large | None |
+| Mistral Medium 3.5 | None |
+| GPT 5.6 Luna | Medium、High |
+| GPT 5.6 Sol\* | None |
+| GPT 5.6 Terra | None、Light、Medium、High |
+| Grok 4.5\* | Light、Medium、High |
+| Grok 4.6\* | Light、Medium |
+
+### Premium
+
+| 模型 | 此层级提供的推理强度 |
+| --- | --- |
+| Claude Opus 4.6 | Light、Medium、High |
+| Claude Sonnet 4.6 | High |
+| Claude Sonnet 5 | High |
+| Kimi K3 (Fireworks) | Medium、High |
+| Gemini 3.1 Pro (Preview) | Medium、High |
+| Gemini 3.7 Flash | High |
+| Gemini 3.8 Flash | High |
+| Mistral Medium 3.5 | High |
+| GPT 6 Astra\* | Light、Medium、High |
+| GPT 5.6 Sol\* | Light、Medium、High |
+| GPT 5.6 Terra (long context)\* | None、Light、Medium、High |
+| Grok 4.6\* | High |
+
 ## 设置工作区上限
 
 1. 打开 **Admin > Usage**；如果页面提供，找到 **Models tier**。
