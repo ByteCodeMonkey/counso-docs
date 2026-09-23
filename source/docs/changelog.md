@@ -6,6 +6,92 @@
 
 > New updates and improvements to Dust
 
+<Update label="September 22nd, 2026" tags={["Added"]}>
+  ## Choose Grok 4.7 for your agents
+
+  Grok 4.7 is now available in the agent builder and input bar. Select it when you want to use the latest Grok model, with improved capabilities compared with Grok 4.6.
+
+  Grok 4.7 is available to everyone except workspaces configured for EU data residency only.
+
+  This new model comes with zero data retention standard terms. It is available to everyone automatically, except workspaces configured for EU data residency only.
+</Update>
+
+<Update label="September 21st, 2026" tags={["Added"]}>
+  ## Replace selected text with any Dust agent from Raycast
+
+  You can now bind any Dust agent to a Raycast Quicklink and keyboard shortcut, then replace selected text with the agent's response from any Mac app without opening a Raycast window. Use it for grammar correction, translation, tone editing, rewriting, or support responses. Available to all Dust users using the Raycast extension.
+</Update>
+
+<Update label="September 21st, 2026" tags={["Added"]}>
+  ## Circuit breaker for high-credit agent messages
+
+  Dust now pauses an agent message after it consumes 600 LLM credits and asks whether you want to continue or stop. Nothing is lost when the circuit breaker appears, so you can review the task before allowing it to run further.
+
+  This safeguard is available for agent messages started from the Dust UI or browser extension. Support for additional message triggers will roll out over time.
+</Update>
+
+<Update label="September 17th, 2026" tags={["Added"]}>
+  ## Grok 4.6 is now available in Dust
+
+  Grok 4.6 is now available in Dust with zero data retention. You can select it directly from the input bar or agent builder. It is available to all users except workspaces with EU data residency only enabled, because Grok 4.6 processes data in the US.
+</Update>
+
+<Update label="September 17th, 2026" tags={["Added"]}>
+  ## Share frames with company domains
+
+  You can now invite a company domain, such as example.com, to a frame. Anyone who verifies an email address on that domain can access the frame, while public email providers and disposable domains are excluded from domain invitations. Viewer analytics list each person separately with their last viewed time.
+
+  To share with a domain, add it in the frame's sharing settings. This is available to anyone sharing frames with external teams when workspace settings allow it.
+</Update>
+
+<Update label="September 16th, 2026" tags={["Added"]}>
+  ## Skill favorites
+
+  You can now star skills for quicker access, and agents with Discover Skills can use your favorite selection when choosing skills. This lets you keep a skill for personal use without making it available to the entire workspace or to every agent, while still previewing what broader availability would provide.
+
+  Available to everyone now.
+</Update>
+
+<Update label="September 15th, 2026" tags={["Improved"]}>
+  ## Scheduled runs on OpenAI models now use about half the credits
+
+  Since September 15, 2026, schedules, triggers, and wake-ups run on a lower-priority tier when they use an OpenAI model. Output quality is unchanged, credit consumption drops by half, and latency slows by less than 10%. On plans with weekly per-user fair-use limits, these runs count for about half as much against that limit. If a run hasn't returned a first event within 30 seconds, we fall back to standard priority.
+
+  No action is required. The change applies automatically to these asynchronous runs, and nothing changes when you run an agent interactively.
+
+  If the OpenAI provider is enabled in your workspace, Basic and Standard currently default to an OpenAI model, so those runs benefit from this change automatically.
+
+  For details on scheduled runs, see the [wake-ups documentation](https://docs.dust.tt/docs/user-documentation/agents/tools/wake-ups).
+</Update>
+
+<Update label="September 14th, 2026" tags={["Added"]}>
+  ## Databricks official MCPs: SQL and Genie
+
+  Databricks official managed MCPs for SQL and Genie are now available in Dust as preset tools. Your agents can query Databricks and use its Genie semantic layer without configuring a custom MCP, while Databricks manages the connection for your instance.
+
+  Open the tool picker to add Databricks SQL or Databricks Genie to an agent. Available to all users with no feature flag.
+</Update>
+
+<Update label="September 11th, 2026" tags={["Improved"]}>
+  ## Redesigned Usage page: understand and manage credits
+
+  Admins and managers now get a clearer view of workspace consumption, billing-cycle history, member usage, and applicable spend limits from Admin → Usage. The page adapts to each workspace plan, showing relevant credit, premium-message, and fair-use information, and highlights users who are off pace so you can upgrade seats or adjust spend limits. Use Analytics for detailed consumption trends and usage drivers.
+</Update>
+
+<Update label="September 11th, 2026" tags={["Added"]}>
+  ## DeepSeek V4.1 Flash is now available
+
+  DeepSeek V4.1 Flash is now available in Dust through Fireworks. It replaces DeepSeek V4 Flash 0731 and DeepSeek V4 Pro 0813 in agents, giving you a newer model that is better suited to current workloads and costs less than the previous Pro version.
+
+  The replacement applies automatically to agents using those older model versions. Available to all workspaces.
+</Update>
+
+<Update label="September 11th, 2026" tags={["Added"]}>
+  ## Files as Pod tabs
+
+  Pod editors can now add almost any file as a Pod tab, extending the customization options previously available for pinned Frames. The selected file appears as a tab for everyone in the Pod, so members can open shared documents, spreadsheets, and other supported files directly from the Pod navigation. Available to all customers and managed by Pod editors.
+</Update>
+
 <Update label="September 10th, 2026" tags={["Added"]}>
   ## Assign Admin and Manager roles from any workspace group
 
@@ -89,7 +175,7 @@
 <Update label="July 29th, 2026" tags={["Added"]}>
   ## Admin governance controls
 
-  Dust now lets admins manage user groups and assign granular permissions across the workspace. You can create groups manually or provision them, control which groups can create or publish agents, manage public MiniApp sharing, and use the new manager role as the builder role is deprecated.
+  Dust now lets admins manage user groups and assign granular permissions across the workspace. You can create groups manually or provision them, control which groups can create or publish agents, manage public frame sharing, and use the new manager role as the builder role is deprecated.
 
   Available to everyone now.
 </Update>
@@ -1172,23 +1258,23 @@
 </Update>
 
 <Update label="May 22nd, 2026" tags={["Added"]}>
-  ## Agents Can Now Export MiniApps as PDF or PNG
+  ## Agents Can Now Export Frames as PDF or PNG
 
   🎯 **What is it?**
 
-  Agents can now export any MiniApp (the interactive visualizations and dashboards they generate) directly as a PDF or PNG file. This means any visual output produced during a conversation can be saved and shared in a universally accessible format.
+  Agents can now export any Frame (the interactive visualizations and dashboards they generate) directly as a PDF or PNG file. This means any visual output produced during a conversation can be saved and shared in a universally accessible format.
 
   💡 **Why is it useful?**
 
-  Until now, MiniApps were only viewable inside a Dust conversation. If you wanted to share a report or dashboard with someone outside of Dust, you had to rely on screenshots or manual exports. This feature closes that gap and makes it easier to bring Dust's outputs into your broader workflows.
+  Until now, Frames were only viewable inside a Dust conversation. If you wanted to share a report or dashboard with someone outside of Dust, you had to rely on screenshots or manual exports. This feature closes that gap and makes it easier to bring Dust's outputs into your broader workflows.
 
   ⚙️ **How does it work?**
 
-  When an agent generates a MiniApp in a conversation, it can now trigger an export directly, producing a clean, ready-to-share PDF or PNG file. Agents can also use this capability to inspect and reason about the visual output they just created, enabling smarter, more iterative work.
+  When an agent generates a Frame in a conversation, it can now trigger an export directly, producing a clean, ready-to-share PDF or PNG file. Agents can also use this capability to inspect and reason about the visual output they just created, enabling smarter, more iterative work.
 
   ✨ **Concrete Use Cases**
 
-  * **Sharing a report with stakeholders**: Ask an agent to build a weekly performance dashboard as a MiniApp, then export it as a PDF to include in an email or slide deck.
+  * **Sharing a report with stakeholders**: Ask an agent to build a weekly performance dashboard as a Frame, then export it as a PDF to include in an email or slide deck.
   * **Automated document generation**: Have an agent create a formatted visual summary, export it as a PNG, and attach it directly to a Notion page or Slack message.
 
   📈 **Benefits for you**
@@ -1199,23 +1285,23 @@
 
   🚀 **How to access it?**
 
-  This is available to everyone, right now. Ask an agent to build a MiniApp and request an export. The agent will handle the rest.
+  This is available to everyone, right now. Ask an agent to build a Frame and request an export. The agent will handle the rest.
 </Update>
 
 <Update label="May 22nd, 2026" tags={["Added"]}>
-  ## Inline Text Editing in MiniApps: Tweak Your Content Without Reprompting
+  ## Inline Text Editing in Frames: Tweak Your Content Without Reprompting
 
   🎯 **What is it?**
 
-  You can now double-click any static text inside a MiniApp to edit it directly, without having to reprompt the agent. Previously, correcting a word, tweaking a label, or adjusting any text in a MiniApp required going back to the conversation and asking the agent to make the change. Now you can just click and type.
+  You can now double-click any static text inside a Frame to edit it directly, without having to reprompt the agent. Previously, correcting a word, tweaking a label, or adjusting any text in a Frame required going back to the conversation and asking the agent to make the change. Now you can just click and type.
 
   💡 **Why is it useful?**
 
-  MiniApps are designed to produce polished, ready-to-use outputs: documents, tables, dashboards, reports. But a great first draft rarely needs zero edits. Being able to fix text in place, without re-running the agent, makes the editing loop faster and puts you in control of the final result.
+  Frames are designed to produce polished, ready-to-use outputs: documents, tables, dashboards, reports. But a great first draft rarely needs zero edits. Being able to fix text in place, without re-running the agent, makes the editing loop faster and puts you in control of the final result.
 
   ⚙️ **How does it work?**
 
-  When viewing a MiniApp in a conversation, any static text element can now be double-clicked to enter edit mode. You can type your changes and they apply immediately, just like editing a document.
+  When viewing a Frame in a conversation, any static text element can now be double-clicked to enter edit mode. You can type your changes and they apply immediately, just like editing a document.
 
   ✨ **Concrete Use Cases**
 
@@ -1229,7 +1315,7 @@
 
   🚀 **How to access it?**
 
-  This is available to everyone, now. Open any MiniApp in a conversation and double-click on a text element to start editing.
+  This is available to everyone, now. Open any Frame in a conversation and double-click on a text element to start editing.
 </Update>
 
 <Update label="May 20th, 2026" tags={["Added"]}>
@@ -1875,40 +1961,40 @@
 </Update>
 
 <Update label="April 13th, 2026" tags={["Added"]}>
-  ## 📧 Share MiniApps with specific people via email invite
+  ## 📧 Share Frames with specific people via email invite
 
   🎯 **What is it?**
 
-  You can now invite specific people to view a MiniApp by sending them an email invitation. Recipients receive a direct link to access the MiniApp, even if they're not part of your Dust workspace.
+  You can now invite specific people to view a Frame by sending them an email invitation. Recipients receive a direct link to access the Frame, even if they're not part of your Dust workspace.
 
   💡 **Why is it useful?**
 
-  Previously, MiniApp sharing was all-or-nothing at the workspace level. This new capability gives you granular control over who can see your MiniApps, making it much easier to collaborate with specific stakeholders, partners, or team members. You can also track who has viewed your MiniApp.
+  Previously, Frame sharing was all-or-nothing at the workspace level. This new capability gives you granular control over who can see your Frames, making it much easier to collaborate with specific stakeholders, partners, or team members. You can also track who has viewed your Frame.
 
   ⚙ **How does it work?**
 
-  When sharing a MiniApp, you can now enter email addresses of people you want to invite. Each person receives an email with a secure link to access that specific MiniApp. This respects your workspace sharing policy settings.
+  When sharing a Frame, you can now enter email addresses of people you want to invite. Each person receives an email with a secure link to access that specific Frame. This respects your workspace sharing policy settings.
 
   ✨ **Concrete Use Cases**
 
   Here's how you could use it:
 
-  **Executive reporting**: Share a sales dashboard MiniApp with your CEO and CFO without giving them access to all workspace MiniApps.
+  **Executive reporting**: Share a sales dashboard Frame with your CEO and CFO without giving them access to all workspace Frames.
 
-  **Client presentations**: Send a project status MiniApp directly to external clients or partners for review, while keeping other internal MiniApps private.
+  **Client presentations**: Send a project status Frame directly to external clients or partners for review, while keeping other internal Frames private.
 
   **Cross-team collaboration**: Share specific data visualizations with stakeholders from other departments who need visibility on just that information.
 
   📈 **Benefits for you**
 
-  * **Precise control**: Share MiniApps on a need-to-know basis instead of workspace-wide
+  * **Precise control**: Share Frames on a need-to-know basis instead of workspace-wide
   * **Better collaboration**: Work directly with external partners and selective internal stakeholders
-  * **Visibility tracking**: See who has actually viewed your MiniApp
+  * **Visibility tracking**: See who has actually viewed your Frame
   * **Time-saving**: No more screenshots or manual exports, just send a direct link
 
   🚀 **How to access it?**
 
-  This feature is now available to everyone. When viewing any MiniApp, look for the sharing options and select "Invite by email" to start sharing with specific people.
+  This feature is now available to everyone. When viewing any Frame, look for the sharing options and select "Invite by email" to start sharing with specific people.
 </Update>
 
 <Update label="April 9th, 2026" tags={["Added"]}>
@@ -2575,7 +2661,7 @@
 
   💡 **Why is it useful?**
 
-  Until now, the Chrome extension offered a simplified experience compared to the web app. Many recent features (like voice input, MiniApps display, or the ability to attach agents and data sources) were missing. This update closes that gap entirely, making the extension a complete, standalone way to work with Dust wherever you are on the web.
+  Until now, the Chrome extension offered a simplified experience compared to the web app. Many recent features (like voice input, Frames display, or the ability to attach agents and data sources) were missing. This update closes that gap entirely, making the extension a complete, standalone way to work with Dust wherever you are on the web.
 
   ⚙ **How does it work?**
 
@@ -2605,7 +2691,7 @@
 
   * **Input bar**: voice input, human mentions, rich text formatting (bold, italic, lists), emoji support, and draft auto-save
   * **Sidebar**: conversation list, projects, and inbox with unread indicators
-  * **Conversation layout**: updated message design, MiniApps display, message reactions, virtualized scrolling, and attached/generated files visible in the header
+  * **Conversation layout**: updated message design, Frames display, message reactions, virtualized scrolling, and attached/generated files visible in the header
   * **Attach anything**: add agents, tools, skills, or data sources directly to your conversations
 </Update>
 
@@ -3192,11 +3278,11 @@
 </Update>
 
 <Update label="February 23rd, 2026" tags={["Added"]}>
-  ## Better Support for Slideshow MiniApps
+  ## Better Support for Slideshow Frames
 
   🎯 **What is it?**
 
-  Slideshow MiniApps now come with built-in navigation controls and can be exported as multi-page PDFs. Each slide is rendered as a full page with proper page breaks, making it easy to share and print your agent-generated presentations.
+  Slideshow Frames now come with built-in navigation controls and can be exported as multi-page PDFs. Each slide is rendered as a full page with proper page breaks, making it easy to share and print your agent-generated presentations.
 
   💡 **Why is it useful?**
 
@@ -3204,7 +3290,7 @@
 
   ⚙️ **How does it work?**
 
-  When you create a new slideshow MiniApp, it automatically includes navigation controls to move between slides. You can then export the entire presentation as a PDF, where each slide becomes its own properly formatted page.
+  When you create a new slideshow Frame, it automatically includes navigation controls to move between slides. You can then export the entire presentation as a PDF, where each slide becomes its own properly formatted page.
 
   ✨ **Concrete Use Cases**
 
@@ -3222,9 +3308,9 @@
 
   🚀 **How to access it?**
 
-  This feature is available now for all new slideshow MiniApps you create. Ask an agent to generate a slideshow, and you'll automatically get the navigation controls and PDF export capability. Note that existing slideshows won't have this functionality. You'll need to regenerate them to use the new features.
+  This feature is available now for all new slideshow Frames you create. Ask an agent to generate a slideshow, and you'll automatically get the navigation controls and PDF export capability. Note that existing slideshows won't have this functionality. You'll need to regenerate them to use the new features.
 
-  [Example slideshow MiniApp](https://app.dust.tt/share/frame/0b85cbbe-6f6d-42c2-b90a-d97837a128f3)
+  [Example slideshow Frame](https://app.dust.tt/share/frame/0b85cbbe-6f6d-42c2-b90a-d97837a128f3)
 </Update>
 
 <Update label="February 20th, 2026" tags={["Added"]}>
@@ -3638,44 +3724,44 @@
 </Update>
 
 <Update label="January 30th, 2026" tags={["Added"]}>
-  ## Export MiniApps as PDF
+  ## Export Frames as PDF
 
   🎯 What is it?
 
-  You can now export any MiniApp as a PDF document directly from Dust. When exporting, you can choose between portrait or landscape orientation to best fit your content. Enterprise plans receive clean PDFs without any branding, while other plans include a discreet "Created with Dust" footer.
+  You can now export any Frame as a PDF document directly from Dust. When exporting, you can choose between portrait or landscape orientation to best fit your content. Enterprise plans receive clean PDFs without any branding, while other plans include a discreet "Created with Dust" footer.
 
   💡 Why is it useful?
 
-  MiniApps are visual tools for data analysis, reports, and presentations within Dust. However, many of you needed to share these insights outside the platform, whether for compliance documentation, distribution to external vendors, or integration into company repositories like SharePoint. This was one of your most requested features, and we're excited to make sharing your work easier.
+  Frames are visual tools for data analysis, reports, and presentations within Dust. However, many of you needed to share these insights outside the platform, whether for compliance documentation, distribution to external vendors, or integration into company repositories like SharePoint. This was one of your most requested features, and we're excited to make sharing your work easier.
 
   ⚙ How does it work?
 
-  Open any MiniApp and select the export option. Choose your preferred orientation (portrait or landscape), and Dust will generate a PDF version of your MiniApp in seconds. The export handles most MiniApp layouts automatically.
+  Open any Frame and select the export option. Choose your preferred orientation (portrait or landscape), and Dust will generate a PDF version of your Frame in seconds. The export handles most Frame layouts automatically.
 
   ✨ Concrete Use Cases
 
   Here's how you could use it:
 
-  **Compliance & Documentation**: Export weekly analytics MiniApps as PDFs for compliance archives or audit trails in your document management system.
+  **Compliance & Documentation**: Export weekly analytics Frames as PDFs for compliance archives or audit trails in your document management system.
 
-  **External Reporting**: Share performance dashboards or project status MiniApps with external partners, vendors, or clients who don't have Dust access.
+  **External Reporting**: Share performance dashboards or project status Frames with external partners, vendors, or clients who don't have Dust access.
 
   **Executive Presentations**: Convert data visualizations into PDFs for inclusion in board presentations, SharePoint libraries, or email distributions.
 
-  **Offline Access**: Create PDF versions of critical MiniApps for offline reference during travel or in low-connectivity environments.
+  **Offline Access**: Create PDF versions of critical Frames for offline reference during travel or in low-connectivity environments.
 
   📈 Benefits for you
 
-  * **One-click sharing**: Transform interactive MiniApps into universally accessible PDF documents instantly
+  * **One-click sharing**: Transform interactive Frames into universally accessible PDF documents instantly
   * **Professional output**: Clean, presentation-ready documents suitable for any audience
   * **Flexibility**: Choose the orientation that best showcases your content
   * **Broader reach**: Share your Dust insights with anyone, regardless of their access to the platform
 
   🚀 How to access it?
 
-  The feature is already live for all users! Navigate to any MiniApp you've created or have access to, and look for the export/PDF option. No setup or activation required: start exporting today.
+  The feature is already live for all users! Navigate to any Frame you've created or have access to, and look for the export/PDF option. No setup or activation required: start exporting today.
 
-  **Note**: While PDF export is designed to handle a wide variety of MiniApp layouts, from standard reports to advanced visualizations, we're continuously improving the feature to support even the most creative MiniApp designs. If you encounter any issues with specific layouts, please let us know so we can refine the experience.
+  **Note**: While PDF export is designed to handle a wide variety of Frame layouts, from standard reports to advanced visualizations, we're continuously improving the feature to support even the most creative Frame designs. If you encounter any issues with specific layouts, please let us know so we can refine the experience.
 </Update>
 
 <Update label="January 29th, 2026" tags={["Added"]}>
@@ -3899,7 +3985,7 @@
 <Update label="January 27th, 2026" tags={["Added"]}>
   ## ✨ Customize global skills with your own branding and instructions
 
-  * Take any Dust-managed skill (like Create MiniApps) and make it your own
+  * Take any Dust-managed skill (like Create Frames) and make it your own
   * Add your branding guidelines, attach specific assets, and include extra instructions
   * Access via Manage Skills → find the skill → click `...` → Customize skill
   * Each team can create their own independent extensions
@@ -4391,9 +4477,9 @@
 </Update>
 
 <Update label="October 15th, 2025" tags={["Added"]}>
-  ## 🖼️ MiniApps: Interactive responses for your agents
+  ## 🖼️ Frames: Interactive responses for your agents
 
-  • Agents can now create interactive components (MiniApps) instead of static text responses • Create live reports, dashboards, calculators, and data visualizations that users can explore in real time • Interactive features include hover, filter, click, and dive functionality • MiniApps update instantly when you ask your agent to make changes • Share MiniApps internally or externally as live, interactive files with secure, token-gated links • Available to all users with no feature flag required
+  • Agents can now create interactive components (Frames) instead of static text responses • Create live reports, dashboards, calculators, and data visualizations that users can explore in real time • Interactive features include hover, filter, click, and dive functionality • Frames update instantly when you ask your agent to make changes • Share Frames internally or externally as live, interactive files with secure, token-gated links • Available to all users with no feature flag required
 </Update>
 
 <Update label="October 13th, 2025" tags={["Improved"]}>

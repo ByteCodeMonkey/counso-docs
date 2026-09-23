@@ -28,6 +28,10 @@ The filtering system works with the following logic:
   section on the Connections pages of our documentation).
 </Info>
 
+<Warning>
+  If you remove and re-add a knowledge configuration to pick up new capabilities (as described below for SharePoint), you will lose its existing must-have / must-not-have label filters. Test on a duplicated agent first, or use in-conversation filtering as an alternative to configuration-level label filters.
+</Warning>
+
 ## Searching my data, how exactly?
 
 When this method is activated, the agent will search your data for the right information by understanding the context of the user's question. This is possible through a process called **Semantic search**.
@@ -44,19 +48,15 @@ Imagine you are creating an agent whose goal is to expose HR documentation to yo
 2. It will then feed this content to the model with the full query of the user.
 3. The model will will generate a response to the user's question, taking into account the results from the data source and giving the links to the right sources.
 
-## Advanced search mode
+## Filesystem-style navigation
 
-Advanced search mode can be enabled in the agent builder under **Search > Advanced settings**. When enabled, agents gain filesystem-level access to your data sources **in addition to** semantic search.
+Agents can also browse your data sources like a file system, on top of semantic search. They can list folders, browse through directory structures, and open specific files by their exact path. This gives them another way to navigate your data directly (see [Find in data sources](/docs/user-documentation/agents/knowledge) on the Knowledge page).
 
-**How it works:** Agents can list folders, browse directory structures, and read specific files by their exact path, treating data sources like a file system. This complements semantic search by allowing agents to navigate your data organization directly.
+For **SharePoint through Content search, folder and path navigation is turned on by default for new knowledge configurations.**
 
-* Direct access to specific files by name or path
-* Ability to explore folder hierarchies and understand data organization
-* Useful for structured data where folder organization provides context
-* Works alongside semantic search for more flexible data access
-* Generally requires more tool calls, hence more induced latency, to locate and retrieve information
-
-Enable Advanced search mode when your data sources have meaningful folder structures that agents can use, or when agents benefit from accessing complete documents.
+<Warning>
+  Configurations created **before** this change won't get folder navigation automatically. To pick it up, remove and re-add the SharePoint Content search knowledge with the same sources. Just keep in mind this drops the configuration's existing must-have / must-not-have label filters, so check the warning above first.
+</Warning>
 
 ## When should I use the `Search` option?
 

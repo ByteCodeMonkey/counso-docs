@@ -30,14 +30,14 @@ CREATE SECURITY INTEGRATION dust_oauth
   ENABLED = TRUE
   OAUTH_CLIENT = CUSTOM
   OAUTH_CLIENT_TYPE = 'CONFIDENTIAL'
-  OAUTH_REDIRECT_URI = 'https://dust.tt/oauth/snowflake/finalize'
+  OAUTH_REDIRECT_URI = 'https://app.dust.tt/oauth/snowflake/finalize'
   OAUTH_ISSUE_REFRESH_TOKENS = TRUE
   OAUTH_REFRESH_TOKEN_VALIDITY = 7776000;
 ```
 
 <Info>
   If your workspace is on the EU region, use
-  `https://eu.dust.tt/oauth/snowflake/finalize` as the redirect URI instead.
+  `https://app.dust.tt/oauth/snowflake/finalize` as the redirect URI instead.
 </Info>
 
 ### 2. Get the Client ID and Client Secret

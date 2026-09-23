@@ -3,912 +3,622 @@
     
   <url>
     <loc>https://docs.dust.tt/analytics</loc>
-    <lastmod>2026-08-24T12:30:17.945Z</lastmod>
+    <lastmod>2026-09-18T09:38:08.287Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/agents/archive-agent-configuration</loc>
-    <lastmod>2026-09-10T15:26:29.064Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.420Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/agents/export-agent-configuration-as-yaml</loc>
-    <lastmod>2026-09-10T15:26:29.027Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.398Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/agents/get-agent-configuration</loc>
-    <lastmod>2026-09-10T15:26:29.036Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.407Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/agents/import-agent-configuration</loc>
-    <lastmod>2026-09-10T15:26:29.082Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.440Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/agents/list-agents</loc>
-    <lastmod>2026-09-10T15:26:29.018Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.386Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/agents/search-agents-by-name</loc>
-    <lastmod>2026-09-10T15:26:29.095Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.450Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/agents/update-agent-configuration</loc>
-    <lastmod>2026-09-10T15:26:29.073Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.430Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.dust.tt/api-reference/analytics/export-consumption-analytics</loc>
+    <lastmod>2026-09-22T15:01:57.363Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/analytics/export-workspace-analytics</loc>
-    <lastmod>2026-09-10T15:26:29.007Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.374Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/apps/create-an-app-run</loc>
-    <lastmod>2026-09-10T15:26:29.429Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.809Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/apps/get-an-app-run</loc>
-    <lastmod>2026-09-10T15:26:29.420Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.800Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/apps/list-apps</loc>
-    <lastmod>2026-09-10T15:26:29.438Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.819Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/conversations/answer-a-user-question-in-a-conversation-message</loc>
-    <lastmod>2026-09-10T15:26:29.190Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.549Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/conversations/cancel-message-generation-in-a-conversation</loc>
-    <lastmod>2026-09-10T15:55:36.395Z</lastmod>
+    <lastmod>2026-09-22T16:07:55.956Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/conversations/create-a-content-fragment</loc>
-    <lastmod>2026-09-10T15:26:29.119Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.473Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/conversations/create-a-file-upload-url</loc>
-    <lastmod>2026-09-10T15:55:36.512Z</lastmod>
+    <lastmod>2026-09-22T16:07:56.096Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/conversations/create-a-message</loc>
-    <lastmod>2026-09-10T15:26:29.255Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.628Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/conversations/create-a-new-conversation</loc>
-    <lastmod>2026-09-10T15:26:29.265Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.638Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/conversations/download-a-conversation-scoped-file-by-path</loc>
-    <lastmod>2026-09-10T15:26:29.148Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.511Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/conversations/edit-an-existing-message-in-a-conversation</loc>
-    <lastmod>2026-09-10T15:55:36.451Z</lastmod>
+    <lastmod>2026-09-22T16:07:56.029Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/conversations/get-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:29.158Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.520Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/conversations/get-events-for-a-message</loc>
-    <lastmod>2026-09-10T15:26:29.217Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.580Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/conversations/get-the-events-for-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:29.128Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.492Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/conversations/update-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:29.169Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.530Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/conversations/validate-an-action-in-a-conversation-message</loc>
-    <lastmod>2026-09-10T15:26:29.246Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.618Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/check-the-upsert-queue-status-for-a-data-source</loc>
-    <lastmod>2026-09-10T15:26:29.509Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.891Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/delete-a-document-from-a-data-source</loc>
-    <lastmod>2026-09-10T15:26:29.540Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.919Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/delete-a-row</loc>
-    <lastmod>2026-09-10T15:26:29.611Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.988Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/delete-a-table</loc>
-    <lastmod>2026-09-10T15:26:29.589Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.970Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/get-a-row</loc>
-    <lastmod>2026-09-10T15:26:29.599Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.979Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/get-a-table</loc>
-    <lastmod>2026-09-10T15:26:29.578Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.959Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/get-data-sources</loc>
-    <lastmod>2026-09-10T15:26:29.664Z</lastmod>
+    <lastmod>2026-09-22T15:01:58.050Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/get-documents</loc>
-    <lastmod>2026-09-10T15:26:29.560Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.939Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/get-tables</loc>
-    <lastmod>2026-09-10T15:26:29.645Z</lastmod>
+    <lastmod>2026-09-22T15:01:58.018Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/list-rows</loc>
-    <lastmod>2026-09-10T15:26:29.622Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.998Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/retrieve-a-document-from-a-data-source</loc>
-    <lastmod>2026-09-10T15:26:29.519Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.900Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/search-the-data-source</loc>
-    <lastmod>2026-09-10T15:26:29.569Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.949Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/update-the-parents-of-a-document</loc>
-    <lastmod>2026-09-10T15:26:29.550Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.929Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/upsert-a-document-in-a-data-source</loc>
-    <lastmod>2026-09-10T15:26:29.529Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.909Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/upsert-a-table</loc>
-    <lastmod>2026-09-10T15:26:29.654Z</lastmod>
+    <lastmod>2026-09-22T15:01:58.028Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasources/upsert-rows</loc>
-    <lastmod>2026-09-10T15:26:29.634Z</lastmod>
+    <lastmod>2026-09-22T15:01:58.008Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasourceviews/delete-a-data-source-view</loc>
-    <lastmod>2026-09-10T15:55:36.616Z</lastmod>
+    <lastmod>2026-09-22T16:07:56.190Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasourceviews/get-a-data-source-view</loc>
-    <lastmod>2026-09-10T15:55:36.608Z</lastmod>
+    <lastmod>2026-09-22T16:07:56.179Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasourceviews/list-data-source-views</loc>
-    <lastmod>2026-09-10T15:26:29.498Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.881Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasourceviews/search-the-data-source-view</loc>
-    <lastmod>2026-09-10T15:26:29.488Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.871Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/datasourceviews/update-a-data-source-view</loc>
-    <lastmod>2026-09-10T15:55:36.627Z</lastmod>
+    <lastmod>2026-09-22T16:07:56.200Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/feedbacks/delete-feedback-for-a-specific-message</loc>
-    <lastmod>2026-09-10T15:26:29.237Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.599Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/feedbacks/get-feedbacks-for-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:29.137Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.502Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:29.226Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.590Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/mcp/deregister-a-client-side-mcp-server</loc>
-    <lastmod>2026-09-10T15:26:29.310Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.681Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/mcp/register-a-client-side-mcp-server</loc>
-    <lastmod>2026-09-10T15:26:29.331Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.700Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace</loc>
-    <lastmod>2026-09-10T15:26:29.342Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.719Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/mcp/submit-mcp-tool-execution-results</loc>
-    <lastmod>2026-09-10T15:26:29.352Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.732Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server</loc>
-    <lastmod>2026-09-10T15:26:29.321Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.691Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/mentions/get-mention-suggestions</loc>
-    <lastmod>2026-09-10T15:26:29.285Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.657Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/mentions/get-mention-suggestions-for-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:29.180Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.540Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/mentions/parse-mentions-in-markdown-text</loc>
-    <lastmod>2026-09-10T15:26:29.275Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-agents/create-an-agent-configuration</loc>
-    <lastmod>2026-09-10T15:26:29.764Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-agents/list-agent-configurations</loc>
-    <lastmod>2026-09-10T15:26:29.751Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-analytics/list-consumption-analytics-facets</loc>
-    <lastmod>2026-09-10T15:26:29.721Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-analytics/list-consumption-analytics-facets-1</loc>
-    <lastmod>2026-09-10T15:26:29.732Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-analytics/list-consumption-analytics-facets-2</loc>
-    <lastmod>2026-09-10T15:26:29.741Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-assistant/resolve-a-conversation-go-template-draft</loc>
-    <lastmod>2026-09-10T15:26:30.172Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-authentication/exchange-code-or-refresh-token</loc>
-    <lastmod>2026-09-10T15:26:30.394Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-authentication/initiate-workos-login</loc>
-    <lastmod>2026-09-10T15:26:30.384Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-authentication/revoke-a-session</loc>
-    <lastmod>2026-09-10T15:26:30.403Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/add-a-participant-to-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:30.103Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/cancel-a-wake-up</loc>
-    <lastmod>2026-09-10T15:26:30.130Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/cancel-message-generation</loc>
-    <lastmod>2026-09-10T15:26:29.774Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/compact-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:29.783Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/create-a-content-fragment</loc>
-    <lastmod>2026-09-10T15:26:29.802Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/create-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:30.161Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/delete-or-leave-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:29.840Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/get-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:29.831Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/get-a-conversation-credit-attribution</loc>
-    <lastmod>2026-09-10T15:26:29.792Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/get-conversation-feedbacks</loc>
-    <lastmod>2026-09-10T15:26:29.822Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/get-conversation-participants</loc>
-    <lastmod>2026-09-10T15:26:30.093Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/list-conversations</loc>
-    <lastmod>2026-09-10T15:26:30.150Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/list-selectable-spaces</loc>
-    <lastmod>2026-09-10T15:26:30.112Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/list-wake-ups-for-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:30.140Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/select-spaces-for-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:30.121Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-conversations/update-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:29.893Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-events/stream-conversation-events</loc>
-    <lastmod>2026-09-10T15:26:29.812Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-events/stream-message-events</loc>
-    <lastmod>2026-09-10T15:26:29.931Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-events/stream-sandbox-function-invocation-events</loc>
-    <lastmod>2026-09-10T15:26:30.253Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-extension/get-extension-configuration</loc>
-    <lastmod>2026-09-10T15:26:30.193Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-files/create-a-file-upload</loc>
-    <lastmod>2026-09-10T15:26:30.242Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-files/delete-a-file</loc>
-    <lastmod>2026-09-10T15:26:30.233Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-files/get-or-download-a-file</loc>
-    <lastmod>2026-09-10T15:26:30.213Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-files/upload-file-content</loc>
-    <lastmod>2026-09-10T15:26:30.222Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-mentions/get-mention-suggestions</loc>
-    <lastmod>2026-09-10T15:26:30.182Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-messages/delete-a-message</loc>
-    <lastmod>2026-09-10T15:26:30.028Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-messages/delete-message-feedback</loc>
-    <lastmod>2026-09-10T15:26:29.951Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-messages/edit-a-message</loc>
-    <lastmod>2026-09-10T15:26:29.921Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-messages/get-a-message</loc>
-    <lastmod>2026-09-10T15:26:30.018Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-messages/get-a-single-action</loc>
-    <lastmod>2026-09-10T15:26:29.903Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-messages/get-an-agent-message-credit-attribution</loc>
-    <lastmod>2026-09-10T15:26:29.912Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-messages/list-messages-in-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:30.073Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-messages/post-a-message-to-a-conversation</loc>
-    <lastmod>2026-09-10T15:26:30.083Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-messages/retry-an-agent-message</loc>
-    <lastmod>2026-09-10T15:26:30.062Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-messages/submit-message-feedback</loc>
-    <lastmod>2026-09-10T15:26:29.941Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-spaces/create-a-data-source-view</loc>
-    <lastmod>2026-09-10T15:26:30.304Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-spaces/create-a-space</loc>
-    <lastmod>2026-09-10T15:26:30.375Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-spaces/delete-a-data-source-view</loc>
-    <lastmod>2026-09-10T15:26:30.274Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-spaces/delete-a-space</loc>
-    <lastmod>2026-09-10T15:26:30.323Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-spaces/get-a-data-source-view</loc>
-    <lastmod>2026-09-10T15:26:30.263Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-spaces/get-a-space</loc>
-    <lastmod>2026-09-10T15:26:30.314Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-spaces/get-project-notification-preference</loc>
-    <lastmod>2026-09-10T15:26:30.345Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-spaces/list-data-source-views</loc>
-    <lastmod>2026-09-10T15:26:30.294Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-spaces/list-spaces</loc>
-    <lastmod>2026-09-10T15:26:30.365Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-spaces/set-project-notification-preference</loc>
-    <lastmod>2026-09-10T15:26:30.356Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-spaces/update-a-data-source-view</loc>
-    <lastmod>2026-09-10T15:26:30.284Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-spaces/update-a-space</loc>
-    <lastmod>2026-09-10T15:26:30.334Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-user/get-current-user</loc>
-    <lastmod>2026-09-10T15:26:28.985Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-user/update-current-user</loc>
-    <lastmod>2026-09-10T15:26:28.996Z</lastmod>
-  </url>
-
-  <url>
-    <loc>https://docs.dust.tt/api-reference/private-workspace/get-workspace-feature-flags</loc>
-    <lastmod>2026-09-10T15:26:30.203Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.648Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/search/search-for-nodes-in-the-workspace</loc>
-    <lastmod>2026-09-10T15:26:29.371Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.751Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/search/search-for-nodes-in-the-workspace-streaming</loc>
-    <lastmod>2026-09-10T15:26:29.362Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.742Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/search/upload-a-tool-file</loc>
-    <lastmod>2026-09-10T15:26:29.380Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.761Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/skills/archive-a-skill</loc>
-    <lastmod>2026-09-10T15:26:29.390Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.770Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/skills/import-skills-from-uploaded-files</loc>
-    <lastmod>2026-09-10T15:26:29.410Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.790Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/skills/list-skills</loc>
-    <lastmod>2026-09-10T15:26:29.399Z</lastmod>
+    <lastmod>2026-09-22T15:01:57.780Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/spaces/list-available-spaces</loc>
-    <lastmod>2026-09-10T15:26:29.682Z</lastmod>
+    <lastmod>2026-09-22T15:01:58.069Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/tools/list-available-mcp-server-views</loc>
-    <lastmod>2026-09-10T15:26:29.673Z</lastmod>
+    <lastmod>2026-09-22T15:01:58.060Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/triggers/get-a-trigger</loc>
-    <lastmod>2026-09-10T15:26:29.691Z</lastmod>
+    <lastmod>2026-09-22T15:01:58.079Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/triggers/list-triggers</loc>
-    <lastmod>2026-09-10T15:26:29.710Z</lastmod>
+    <lastmod>2026-09-22T15:01:58.101Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/api-reference/triggers/receive-external-webhook-to-trigger-flows</loc>
-    <lastmod>2026-09-10T15:26:29.700Z</lastmod>
+    <lastmod>2026-09-22T15:01:58.090Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/changelog</loc>
-    <lastmod>2026-09-10T15:26:35.434Z</lastmod>
+    <lastmod>2026-09-22T15:28:19.904Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/developer-platform/core-concepts/chunks-and-documents</loc>
-    <lastmod>2026-09-01T15:39:49.505Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.655Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/developer-platform/core-concepts/datasources</loc>
-    <lastmod>2026-09-01T15:39:49.514Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.661Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/developer-platform/core-concepts/rate-limits</loc>
-    <lastmod>2026-09-01T15:39:49.513Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.658Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/developer-platform/dust-api-documentation/openapi-and-postman</loc>
-    <lastmod>2026-09-01T15:39:49.507Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.658Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/developer-platform/dust-cli/dust-cli</loc>
-    <lastmod>2026-09-01T15:39:49.485Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.659Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/developer-platform/dust-labs/dust-labs-repository</loc>
-    <lastmod>2026-09-01T15:39:49.504Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.652Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/developer-platform/legacy-dust-apps/blocks/core-blocks</loc>
-    <lastmod>2026-09-01T15:39:49.505Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.675Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/developer-platform/legacy-dust-apps/build-your-first-dust-app</loc>
-    <lastmod>2026-09-01T15:39:49.484Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.677Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/developer-platform/legacy-dust-apps/dust-apps-core-concepts</loc>
-    <lastmod>2026-09-01T15:39:49.502Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.674Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/developer-platform/legacy-dust-apps/what-is-a-dust-app</loc>
-    <lastmod>2026-09-01T15:39:49.511Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.676Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/developer-platform/overview/developer-platform</loc>
-    <lastmod>2026-09-01T15:39:49.500Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.663Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/developer-platform/overview/javascript-sdk</loc>
-    <lastmod>2026-09-01T15:39:49.506Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.676Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/admin-governance/access-controls-and-permissions</loc>
-    <lastmod>2026-09-01T15:39:49.501Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.662Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/admin-governance/single-sign-on-sso/saml-sso</loc>
-    <lastmod>2026-09-01T15:39:49.483Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.659Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/admin-governance/single-sign-on-sso/single-sign-on-sso</loc>
-    <lastmod>2026-09-01T15:39:49.484Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.660Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/admin-governance/users-and-groups-provisioning</loc>
-    <lastmod>2026-09-10T09:41:38.787Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.657Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions</loc>
-    <lastmod>2026-09-01T15:39:49.510Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.678Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting</loc>
-    <lastmod>2026-09-01T15:39:49.509Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.656Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting</loc>
-    <lastmod>2026-09-01T15:39:49.483Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.672Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/agents-management</loc>
-    <lastmod>2026-09-01T15:39:49.507Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.655Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/audit-logs/audit-logs</loc>
-    <lastmod>2026-09-01T15:39:49.510Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.677Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/audit-logs/audit-logs-events-reference</loc>
-    <lastmod>2026-09-01T15:39:49.482Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.662Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/billing/subscriptions-and-payments</loc>
-    <lastmod>2026-09-01T15:39:49.504Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.653Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/connections-management/bigquery</loc>
-    <lastmod>2026-09-01T15:39:49.502Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.654Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/connections-management/confluence</loc>
-    <lastmod>2026-09-01T15:39:49.499Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.650Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/connections-management/github</loc>
-    <lastmod>2026-09-01T15:39:49.482Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.651Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/connections-management/gong</loc>
-    <lastmod>2026-09-01T15:39:49.503Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.652Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/connections-management/google-drive</loc>
-    <lastmod>2026-09-01T15:39:49.498Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.654Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/connections-management</loc>
-    <lastmod>2026-09-01T15:39:49.500Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.664Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/connections-management/intercom</loc>
-    <lastmod>2026-09-01T15:39:49.511Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.661Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/connections-management/microsoft</loc>
-    <lastmod>2026-09-01T15:39:49.423Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.653Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/connections-management/notion</loc>
-    <lastmod>2026-09-01T15:39:49.435Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.674Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/connections-management/slack</loc>
-    <lastmod>2026-09-01T15:39:49.458Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.609Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/connections-management/snowflake</loc>
-    <lastmod>2026-09-01T15:39:49.452Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.608Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/connections-management/zendesk</loc>
-    <lastmod>2026-09-01T15:39:49.426Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.614Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/quickstart</loc>
-    <lastmod>2026-09-01T15:39:49.420Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.596Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/spaces-management</loc>
-    <lastmod>2026-09-01T15:39:49.428Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.615Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/tools-management/adding-an-mcp-server</loc>
-    <lastmod>2026-09-01T15:39:49.422Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.606Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/tools-management/computer-admin-setup</loc>
-    <lastmod>2026-09-01T15:39:49.459Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.604Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/tools-management/managing-microsoft-tools</loc>
-    <lastmod>2026-09-01T15:39:49.457Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.609Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/tools-management/personal-vs-shared-credentials</loc>
-    <lastmod>2026-09-01T15:39:49.453Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.601Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/tools-management/salesforce/salesforce</loc>
-    <lastmod>2026-09-10T09:20:56.309Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.608Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/tools-management/salesforce/salesforce-notes-on-api-limit-and-permissions</loc>
-    <lastmod>2026-09-01T15:39:49.456Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.600Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/usage-seats-and-credits/credit-management</loc>
-    <lastmod>2026-09-01T15:39:49.453Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.604Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/usage-seats-and-credits/credits</loc>
-    <lastmod>2026-09-01T15:39:49.434Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.607Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers</loc>
-    <lastmod>2026-09-08T15:13:30.786Z</lastmod>
+    <lastmod>2026-09-14T12:43:09.659Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/usage-seats-and-credits/optimize-credit-consumption</loc>
-    <lastmod>2026-09-03T14:22:02.474Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.616Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/usage-seats-and-credits/seat-management</loc>
-    <lastmod>2026-09-01T15:39:49.455Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.599Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/admins/usage-seats-and-credits/train-team-credit-optimization</loc>
-    <lastmod>2026-09-01T15:39:49.454Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.597Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/agent-builder-sidekick</loc>
-    <lastmod>2026-09-01T15:39:49.451Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.599Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/branch-a-conversation</loc>
-    <lastmod>2026-09-01T15:39:49.454Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.616Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/context-compaction</loc>
-    <lastmod>2026-09-03T14:22:02.474Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.598Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/create-your-first-agent</loc>
-    <lastmod>2026-09-01T15:39:49.425Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.607Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/deep-dive-agent</loc>
-    <lastmod>2026-09-03T14:22:02.473Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.605Z</lastmod>
   </url>
 
   <url>
@@ -932,138 +642,143 @@
   </url>
 
   <url>
+    <loc>https://docs.dust.tt/docs/user-documentation/agents/frames/overview</loc>
+    <lastmod>2026-09-17T15:39:32.557Z</lastmod>
+  </url>
+
+  <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/frames/white-labeled-frames</loc>
-    <lastmod>2026-09-01T15:39:49.457Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.598Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/go-deep</loc>
-    <lastmod>2026-09-01T15:39:49.431Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.606Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/browser-extension</loc>
-    <lastmod>2026-09-03T14:22:02.479Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.591Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-join</loc>
-    <lastmod>2026-09-01T15:39:49.451Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.603Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-reply</loc>
-    <lastmod>2026-09-01T15:39:49.422Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.596Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows</loc>
-    <lastmod>2026-09-01T15:39:49.429Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.614Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-teams</loc>
-    <lastmod>2026-09-01T15:39:49.433Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.600Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-zendesk</loc>
-    <lastmod>2026-09-01T15:39:49.426Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.602Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-mcp-server</loc>
-    <lastmod>2026-09-01T15:39:49.423Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.597Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/google-sheets-add-on</loc>
-    <lastmod>2026-09-01T15:39:49.419Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.595Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/make-com</loc>
-    <lastmod>2026-09-01T15:39:49.460Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.593Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/meeting-transcripts</loc>
-    <lastmod>2026-09-01T15:39:49.430Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.603Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/n8n</loc>
-    <lastmod>2026-09-01T15:39:49.429Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.591Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/power-automate</loc>
-    <lastmod>2026-09-01T15:39:49.421Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.602Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/raycast-extension</loc>
-    <lastmod>2026-09-01T15:39:49.420Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.610Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents</loc>
-    <lastmod>2026-09-01T15:39:49.427Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.593Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/integrations/zapier</loc>
-    <lastmod>2026-09-01T15:39:49.419Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.592Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/knowledge/extract-data</loc>
-    <lastmod>2026-09-01T15:39:49.447Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.610Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/knowledge/include-data</loc>
-    <lastmod>2026-09-01T15:39:49.430Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.594Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/knowledge</loc>
-    <lastmod>2026-09-01T15:39:49.425Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.592Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/knowledge/search-data-sources</loc>
-    <lastmod>2026-09-01T15:39:49.424Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.601Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/knowledge/table-queries</loc>
-    <lastmod>2026-09-01T15:39:49.428Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.595Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/llm-best-practices/choosing-the-right-ai-model</loc>
-    <lastmod>2026-09-01T15:39:49.355Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.594Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/llm-best-practices/how-to-write-effective-instructions</loc>
-    <lastmod>2026-09-01T15:39:49.357Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.519Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/llm-best-practices/understanding-llm-limitations</loc>
-    <lastmod>2026-09-01T15:39:49.361Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.514Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/llm-best-practices/understanding-llms-context-windows</loc>
-    <lastmod>2026-09-01T15:39:49.361Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.527Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/llm-best-practices/understanding-rag</loc>
-    <lastmod>2026-09-01T15:39:49.352Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.518Z</lastmod>
   </url>
 
   <url>
@@ -1073,17 +788,17 @@
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/self-improving-skills</loc>
-    <lastmod>2026-09-01T15:39:49.350Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.526Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/skill-availability</loc>
-    <lastmod>2026-09-03T14:22:02.477Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.508Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/skills/skill-examples</loc>
-    <lastmod>2026-09-01T15:39:49.349Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.512Z</lastmod>
   </url>
 
   <url>
@@ -1093,622 +808,627 @@
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/steering-conversations</loc>
-    <lastmod>2026-09-03T14:22:02.481Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.521Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/structured-output-format</loc>
-    <lastmod>2026-09-01T15:39:49.351Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.520Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/templates</loc>
-    <lastmod>2026-09-01T15:39:49.371Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.526Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/agent-memory</loc>
-    <lastmod>2026-09-01T15:39:49.365Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.506Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/airtable</loc>
-    <lastmod>2026-09-01T15:39:49.367Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.517Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/asana</loc>
-    <lastmod>2026-09-01T15:39:49.366Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.528Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/ashby</loc>
-    <lastmod>2026-09-01T15:39:49.362Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.509Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/attio</loc>
-    <lastmod>2026-09-01T15:39:49.367Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.516Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/canva</loc>
-    <lastmod>2026-09-01T15:39:49.353Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.518Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/computer</loc>
-    <lastmod>2026-09-01T15:39:49.355Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.508Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/confluence</loc>
-    <lastmod>2026-09-01T15:39:49.372Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.513Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/databricks</loc>
-    <lastmod>2026-09-10T10:29:01.720Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.520Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/fathom</loc>
-    <lastmod>2026-09-01T15:39:49.379Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.513Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/file-generation</loc>
-    <lastmod>2026-09-01T15:39:49.372Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.504Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/freshservice</loc>
-    <lastmod>2026-09-01T15:39:49.366Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.515Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/front</loc>
-    <lastmod>2026-09-01T15:39:49.368Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.507Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/github</loc>
-    <lastmod>2026-09-01T15:39:49.364Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.510Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/gmail</loc>
-    <lastmod>2026-09-01T15:39:49.360Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.501Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/gong</loc>
-    <lastmod>2026-09-01T15:39:49.356Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.519Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/google-calendar</loc>
-    <lastmod>2026-09-01T15:39:49.352Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.503Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/google-drive</loc>
-    <lastmod>2026-09-01T15:39:49.378Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.517Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/google-sheets-deprecated</loc>
-    <lastmod>2026-09-01T15:39:49.371Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.527Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/hubspot</loc>
-    <lastmod>2026-09-01T15:39:49.369Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.516Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/image-generation</loc>
-    <lastmod>2026-09-10T15:55:40.706Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.502Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools</loc>
-    <lastmod>2026-09-01T15:39:49.359Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.510Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/jira</loc>
-    <lastmod>2026-09-01T15:39:49.357Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.528Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/jit-tools</loc>
-    <lastmod>2026-09-03T14:22:02.480Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.511Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/microsoft-excel</loc>
-    <lastmod>2026-09-01T15:39:49.380Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.511Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/microsoft-outlook</loc>
-    <lastmod>2026-09-01T15:39:49.364Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.502Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/microsoft-sharepoint-and-onedrive</loc>
-    <lastmod>2026-09-01T15:39:49.369Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.512Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/microsoft-teams</loc>
-    <lastmod>2026-09-01T15:39:49.354Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.503Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/miro</loc>
-    <lastmod>2026-09-01T15:39:49.363Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.521Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/monday-com</loc>
-    <lastmod>2026-09-01T15:39:49.358Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.500Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/netsuite</loc>
-    <lastmod>2026-09-01T15:39:49.370Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.501Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/notion</loc>
-    <lastmod>2026-09-01T15:39:49.362Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.522Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/power-bi</loc>
-    <lastmod>2026-09-01T15:39:49.359Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.507Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/productboard</loc>
-    <lastmod>2026-09-01T15:39:49.350Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.505Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/run-agent</loc>
-    <lastmod>2026-09-01T15:39:49.354Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.504Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/salesloft</loc>
-    <lastmod>2026-09-01T15:39:49.363Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.506Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/semrush</loc>
-    <lastmod>2026-09-01T15:39:49.353Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.514Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/servicenow</loc>
+    <lastmod>2026-09-22T16:08:02.509Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/slab</loc>
-    <lastmod>2026-09-01T15:39:49.295Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.434Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/slack-tools</loc>
-    <lastmod>2026-09-01T15:39:49.298Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.448Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/snowflake</loc>
-    <lastmod>2026-09-01T15:39:49.256Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.440Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/statuspage</loc>
-    <lastmod>2026-09-01T15:39:49.252Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.447Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/ukg-ready</loc>
-    <lastmod>2026-09-09T14:10:34.737Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.439Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/val-town</loc>
-    <lastmod>2026-09-01T15:39:49.263Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.432Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/vanta</loc>
-    <lastmod>2026-09-01T15:39:49.255Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.427Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/voice-and-sound-generation</loc>
-    <lastmod>2026-09-01T15:39:49.261Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.447Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/wake-ups</loc>
-    <lastmod>2026-09-03T14:22:02.473Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.446Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/web-search-and-browse</loc>
-    <lastmod>2026-09-01T15:39:49.258Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.433Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/tools/zendesk</loc>
-    <lastmod>2026-09-01T15:39:49.248Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.402Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/triggers/credits-usage</loc>
-    <lastmod>2026-09-01T15:39:49.254Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.437Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/triggers/schedules</loc>
-    <lastmod>2026-09-01T15:39:49.297Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.433Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload</loc>
-    <lastmod>2026-09-01T15:39:49.298Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.435Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/triggers/webhooks/rate-limiting</loc>
-    <lastmod>2026-09-01T15:39:49.257Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.441Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/agents/troubleshooting-your-agent</loc>
-    <lastmod>2026-09-01T15:39:49.256Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.438Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/data-sources/connections</loc>
-    <lastmod>2026-09-01T15:39:49.251Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.429Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/data-sources/conversation-files/conversation-files</loc>
-    <lastmod>2026-09-01T15:39:49.265Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.428Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/data-sources/conversation-files/read-images</loc>
-    <lastmod>2026-09-01T15:39:49.252Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.438Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-dropbox-files</loc>
-    <lastmod>2026-09-01T15:39:49.259Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.430Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-front-conversations</loc>
-    <lastmod>2026-09-01T15:39:49.260Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.402Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-guru-cards</loc>
-    <lastmod>2026-09-01T15:39:49.273Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.431Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-hubspot-data</loc>
-    <lastmod>2026-09-01T15:39:49.250Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.443Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-jira-issues</loc>
-    <lastmod>2026-09-01T15:39:49.247Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.439Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-linear-issues</loc>
-    <lastmod>2026-09-01T15:39:49.248Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.404Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-salesforce-data</loc>
-    <lastmod>2026-09-01T15:39:49.294Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.440Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/zapier-automatically-add-datasource</loc>
-    <lastmod>2026-09-01T15:39:49.246Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.401Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/data-sources/folders</loc>
-    <lastmod>2026-09-01T15:39:49.264Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.430Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/data-sources/overview</loc>
-    <lastmod>2026-09-01T15:39:49.264Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.435Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/data-sources/websites</loc>
-    <lastmod>2026-09-01T15:39:49.275Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.437Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/deprecated/dev-pre-configuring-a-custom-mcp-server</loc>
-    <lastmod>2026-09-01T15:39:49.267Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.442Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/deprecated/legacy-dust-apps/allowing-an-agent-to-send-an-email</loc>
-    <lastmod>2026-09-01T15:39:49.276Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.399Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/deprecated/legacy-dust-apps/creating-google-calendar-events-from-a-dust-agent</loc>
-    <lastmod>2026-09-01T15:39:49.250Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.402Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/developers/client-side-mcp-server</loc>
-    <lastmod>2026-09-01T15:39:49.297Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.432Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/admin-guide-set-up-your-dust-workspace</loc>
-    <lastmod>2026-09-01T15:39:49.261Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.429Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/build-your-builder-community</loc>
-    <lastmod>2026-09-01T15:39:49.266Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.442Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/designing-use-cases</loc>
-    <lastmod>2026-09-01T15:39:49.249Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.436Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/educate-activate</loc>
-    <lastmod>2026-09-01T15:39:49.246Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.404Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide</loc>
-    <lastmod>2026-09-01T15:39:49.254Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.448Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/launch-strategy</loc>
-    <lastmod>2026-09-01T15:39:49.262Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.428Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/measure-expand</loc>
-    <lastmod>2026-09-01T15:39:49.267Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.403Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/team-onboarding-material</loc>
-    <lastmod>2026-09-01T15:39:49.266Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.441Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/dust-rollout-guide/welcome-to-dust</loc>
-    <lastmod>2026-09-01T15:39:49.263Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.434Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/file-size-limits</loc>
-    <lastmod>2026-09-01T15:39:49.262Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.427Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/general-questions/how-does-dust-handle-user-data</loc>
-    <lastmod>2026-09-01T15:39:49.259Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.431Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/general-questions/what-ai-models-are-available-in-dust</loc>
-    <lastmod>2026-09-03T14:22:02.476Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.443Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/general-questions/what-are-the-pricing-plans-for-dust</loc>
-    <lastmod>2026-09-01T15:39:49.276Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.405Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/general-questions/what-data-sources-can-be-connected-to-dust</loc>
-    <lastmod>2026-09-01T15:39:49.251Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.399Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/general-questions/what-tools-are-available-in-dust</loc>
-    <lastmod>2026-09-01T15:39:49.253Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.400Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/how-to-change-your-email-address-in-dust</loc>
-    <lastmod>2026-09-01T15:39:49.258Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.401Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq</loc>
-    <lastmod>2026-09-01T15:39:49.188Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.347Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/can-agents-create-a-new-file-or-document-directly-into-notion-google-drive-or-other-connected-platforms</loc>
-    <lastmod>2026-09-01T15:39:49.185Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.346Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/can-i-delete-or-rename-a-conversation</loc>
-    <lastmod>2026-09-01T15:39:49.189Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.339Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/can-i-share-a-conversation</loc>
-    <lastmod>2026-09-01T15:39:49.200Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.338Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-dust-agents-in-different-languages</loc>
-    <lastmod>2026-09-01T15:39:49.179Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.338Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/do-the-agents-have-access-to-the-internet</loc>
-    <lastmod>2026-09-01T15:39:49.188Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.355Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/does-the-dust-agent-give-accurate-and-safe-responses</loc>
-    <lastmod>2026-09-01T15:39:49.184Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.355Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/how-can-i-find-the-id-of-an-agent</loc>
-    <lastmod>2026-09-01T15:39:49.187Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.354Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/how-do-i-edit-a-custom-agent</loc>
-    <lastmod>2026-09-01T15:39:49.173Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.348Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/i-dont-know-how-to-start-creating-an-agent-what-should-i-do</loc>
-    <lastmod>2026-09-01T15:39:49.177Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.354Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/is-there-a-dust-conversation-api</loc>
-    <lastmod>2026-09-01T15:39:49.199Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.340Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/what-data-do-the-agents-have-access-to</loc>
-    <lastmod>2026-09-01T15:39:49.186Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.336Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/managing-agents/what-settings-model-should-i-use</loc>
-    <lastmod>2026-09-03T14:22:02.478Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.343Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/can-dust-remember-and-incorporate-my-feedback-in-the-future</loc>
-    <lastmod>2026-09-01T15:39:49.185Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.348Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in</loc>
-    <lastmod>2026-09-01T15:39:49.201Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.333Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work</loc>
-    <lastmod>2026-09-01T15:39:49.182Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.336Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/is-dust-down</loc>
-    <lastmod>2026-09-01T15:39:49.187Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.334Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on</loc>
-    <lastmod>2026-09-01T15:39:49.139Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.341Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one</loc>
-    <lastmod>2026-09-01T15:39:49.184Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.341Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-doesnt-the-agent-remember-what-i-said-earlier-in-a-conversation</loc>
-    <lastmod>2026-09-01T15:39:49.186Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.347Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-is-dust-slow-or-my-agent-taking-too-long-to-respond</loc>
-    <lastmod>2026-09-01T15:39:49.172Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.335Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/why-isnt-my-recently-updated-document-showing-in-agent-responses</loc>
-    <lastmod>2026-09-01T15:39:49.183Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.331Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/intro-to-dust</loc>
-    <lastmod>2026-09-01T15:39:49.169Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.339Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/use-cases-and-guides/collaboration</loc>
-    <lastmod>2026-09-03T14:22:02.472Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.340Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/use-cases-and-guides/customer-support</loc>
-    <lastmod>2026-09-01T15:39:49.181Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.332Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/use-cases-and-guides/data-analytics</loc>
-    <lastmod>2026-09-01T15:39:49.172Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.330Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/use-cases-and-guides/engineering</loc>
-    <lastmod>2026-09-01T15:39:49.176Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.342Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/use-cases-and-guides</loc>
-    <lastmod>2026-09-01T15:39:49.174Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.325Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/use-cases-and-guides/knowledge</loc>
-    <lastmod>2026-09-01T15:39:49.178Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.327Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/use-cases-and-guides/marketing</loc>
-    <lastmod>2026-09-01T15:39:49.139Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.342Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/use-cases-and-guides/product-and-design</loc>
-    <lastmod>2026-09-01T15:39:49.137Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.335Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/use-cases-and-guides/recruiting-and-people</loc>
-    <lastmod>2026-09-01T15:39:49.138Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.331Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/getting-started/use-cases-and-guides/sales</loc>
-    <lastmod>2026-09-01T15:39:49.182Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.337Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/pods/admin-controls</loc>
-    <lastmod>2026-09-01T15:39:49.170Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.333Z</lastmod>
   </url>
 
   <url>
@@ -1718,57 +1438,57 @@
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/pods/conversations</loc>
-    <lastmod>2026-09-03T14:22:02.478Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.328Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/pods/examples/competitive-intelligence</loc>
-    <lastmod>2026-09-01T15:39:49.181Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.337Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/pods/examples/content-and-editorial-production</loc>
-    <lastmod>2026-09-01T15:39:49.173Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.334Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/pods/examples/initiative-and-project-management</loc>
-    <lastmod>2026-09-01T15:39:49.138Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.328Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/pods/examples/one-pod-per-customer</loc>
-    <lastmod>2026-09-01T15:39:49.175Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.325Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/pods/examples/personal-second-brain</loc>
-    <lastmod>2026-09-01T15:39:49.179Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.329Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/pods/examples/shared-asset-library</loc>
-    <lastmod>2026-09-01T15:39:49.175Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.327Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/pods/examples/ticket-handling-and-support-knowledge</loc>
-    <lastmod>2026-09-01T15:39:49.180Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.326Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/pods/files</loc>
-    <lastmod>2026-09-01T15:39:49.136Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.330Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/pods/frames</loc>
-    <lastmod>2026-09-01T15:39:49.171Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.332Z</lastmod>
   </url>
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/pods/members-and-roles</loc>
-    <lastmod>2026-09-01T15:39:49.137Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.324Z</lastmod>
   </url>
 
   <url>
@@ -1778,6 +1498,6 @@
 
   <url>
     <loc>https://docs.dust.tt/docs/user-documentation/pods/tasks</loc>
-    <lastmod>2026-09-01T15:39:49.190Z</lastmod>
+    <lastmod>2026-09-22T16:08:02.324Z</lastmod>
   </url>
 </urlset>

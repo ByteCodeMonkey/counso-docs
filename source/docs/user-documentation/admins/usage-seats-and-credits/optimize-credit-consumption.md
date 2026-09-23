@@ -155,7 +155,7 @@ Use Go Deep when the question requires broad investigation or synthesis across m
 * Analyzing adoption, risks, and opportunities across multiple sources.
 * Comparing options and recommending one with trade-offs.
 * Researching a market, competitor, or account.
-* Creating a durable artifact such as a report, memo, or MiniApp.
+* Creating a durable artifact such as a report, memo, or Frame.
 
 ### Less suitable use cases
 

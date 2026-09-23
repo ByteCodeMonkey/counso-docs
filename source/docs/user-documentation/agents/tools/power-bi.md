@@ -29,12 +29,20 @@ Click **Register**, then note down:
 
 In your app registration, go to **Authentication  Add Redirect URI  Web**.
 
-Add these three redirect URIs:
+Add the two redirect URLs for your Dust region:
+
+**US workspaces:**
 
 ```
-https://app.dust.tt/oauth/mcp_static/finalize
-https://eu.dust.tt/oauth/mcp_static/finalize
 https://dust.tt/oauth/mcp_static/finalize
+https://app.dust.tt/oauth/mcp_static/finalize
+```
+
+**EU workspaces:**
+
+```
+https://eu.dust.tt/oauth/mcp_static/finalize
+https://app.dust.tt/oauth/mcp_static/finalize
 ```
 
 Under **settings**, set **Allow public client flows** to **Enabled**. Click **Save**.

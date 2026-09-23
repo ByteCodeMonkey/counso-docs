@@ -66,10 +66,18 @@ Under **"About your integration"**, fill in:
 
 ### 2. Add redirect URIs
 
-Under **"OAuth redirect URLs"**, add these three URIs:
+Add the two redirect URLs for your Dust region:
+
+**US workspaces:**
 
 ```
 https://dust.tt/oauth/mcp_static/finalize
+https://app.dust.tt/oauth/mcp_static/finalize
+```
+
+**EU workspaces:**
+
+```
 https://eu.dust.tt/oauth/mcp_static/finalize
 https://app.dust.tt/oauth/mcp_static/finalize
 ```

@@ -133,6 +133,7 @@
 - [Voice and sound generation](https://docs.dust.tt/docs/user-documentation/agents/tools/voice-and-sound-generation.md)
 - [Salesloft](https://docs.dust.tt/docs/user-documentation/agents/tools/salesloft.md)
 - [Semrush](https://docs.dust.tt/docs/user-documentation/agents/tools/semrush.md)
+- [ServiceNow](https://docs.dust.tt/docs/user-documentation/agents/tools/servicenow.md)
 - [Slab](https://docs.dust.tt/docs/user-documentation/agents/tools/slab.md)
 - [Snowflake](https://docs.dust.tt/docs/user-documentation/agents/tools/snowflake.md)
 - [Statuspage](https://docs.dust.tt/docs/user-documentation/agents/tools/statuspage.md)
@@ -145,7 +146,8 @@
 - [Schedules](https://docs.dust.tt/docs/user-documentation/agents/triggers/schedules.md)
 - [Filter webhooks payload](https://docs.dust.tt/docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload.md)
 - [Rate Limiting](https://docs.dust.tt/docs/user-documentation/agents/triggers/webhooks/rate-limiting.md)
-- [White-labeled MiniApps](https://docs.dust.tt/docs/user-documentation/agents/frames/white-labeled-frames.md)
+- [Overview](https://docs.dust.tt/docs/user-documentation/agents/frames/overview.md): Turn agent outputs into living, interactive content.
+- [White-labeled Frames](https://docs.dust.tt/docs/user-documentation/agents/frames/white-labeled-frames.md)
 - [Dust MCP Server](https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-mcp-server.md)
 - [Slack Auto-Reply without @mention](https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-reply.md)
 - [[Beta] Slack Auto-Join](https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-join.md)
@@ -166,7 +168,7 @@
 - [Tasks](https://docs.dust.tt/docs/user-documentation/pods/tasks.md)
 - [Conversations](https://docs.dust.tt/docs/user-documentation/pods/conversations.md)
 - [Files](https://docs.dust.tt/docs/user-documentation/pods/files.md)
-- [MiniApps](https://docs.dust.tt/docs/user-documentation/pods/frames.md)
+- [Frames](https://docs.dust.tt/docs/user-documentation/pods/frames.md)
 - [Agent tools](https://docs.dust.tt/docs/user-documentation/pods/agent-tools.md): The full list of tools agents get through the Pods skill to work with Pods, conversations, tasks, files, and settings.
 - [Admin controls](https://docs.dust.tt/docs/user-documentation/pods/admin-controls.md)
 - [Shared asset library](https://docs.dust.tt/docs/user-documentation/pods/examples/shared-asset-library.md)
@@ -221,8 +223,7 @@
 - [Chunks and Documents](https://docs.dust.tt/docs/developer-platform/core-concepts/chunks-and-documents.md)
 - [Rate Limits](https://docs.dust.tt/docs/developer-platform/core-concepts/rate-limits.md)
 - [OpenAPI & Postman](https://docs.dust.tt/docs/developer-platform/dust-api-documentation/openapi-and-postman.md)
-- [Get current user](https://docs.dust.tt/api-reference/private-user/get-current-user.md): Returns the authenticated user with their workspaces and subscriber hash.
-- [Update current user](https://docs.dust.tt/api-reference/private-user/update-current-user.md): Update the authenticated user's profile (name, job type, favorite platforms, image).
+- [Export consumption analytics](https://docs.dust.tt/api-reference/analytics/export-consumption-analytics.md): Export per-call consumption analytics for the workspace identified by {wId}. Each row represents one unit of billed credit consumption (an LLM call or a tool call). The export can be filtered by various dimensions (agents, users, API keys, groups, models, tools, skills, sources, tags). The export is…
 - [Export workspace analytics](https://docs.dust.tt/api-reference/analytics/export-workspace-analytics.md): Export analytics data for the workspace identified by {wId} in CSV or JSON format.
 - [List agents](https://docs.dust.tt/api-reference/agents/list-agents.md): Get the agent configurations for the workspace identified by {wId}.
 - [Export agent configuration as YAML](https://docs.dust.tt/api-reference/agents/export-agent-configuration-as-yaml.md): Download the agent configuration identified by {sId} as a YAML file.
@@ -233,13 +234,13 @@
 - [Search agents by name](https://docs.dust.tt/api-reference/agents/search-agents-by-name.md): Search for agent configurations by name in the workspace identified by {wId}.
 - [Cancel message generation in a conversation](https://docs.dust.tt/api-reference/conversations/cancel-message-generation-in-a-conversation.md)
 - [Create a content fragment](https://docs.dust.tt/api-reference/conversations/create-a-content-fragment.md): Create a new content fragment in the workspace identified by {wId}.
-- [Get the events for a conversation](https://docs.dust.tt/api-reference/conversations/get-the-events-for-a-conversation.md): Get the events for a conversation in the workspace identified by {wId}.
+- [Get the events for a conversation](https://docs.dust.tt/api-reference/conversations/get-the-events-for-a-conversation.md): Stream conversation events for the workspace identified by {wId} using Server-Sent Events (SSE). The stream starts with a `:connect` comment. Event frames carry JSON with `eventId` and `data` fields. A plain-text `data: done` frame ends the current connection; clients may reconnect with `lastEventId…
 - [Download a conversation-scoped file by path](https://docs.dust.tt/api-reference/conversations/download-a-conversation-scoped-file-by-path.md): Download a file from a conversation's file system by its scoped path. Pass the canonical `filePath` surfaced in a message action's `generatedFiles` (the legacy `conversation/foo.pdf` form is also accepted). The file content is streamed directly from the conversation mount.
 - [Get a conversation](https://docs.dust.tt/api-reference/conversations/get-a-conversation.md): Get a conversation in the workspace identified by {wId}. Supports optional pagination of message content via limit and lastValue query parameters.
 - [Update a conversation](https://docs.dust.tt/api-reference/conversations/update-a-conversation.md): Update a conversation's title or mark it as read or unread in the workspace identified by {wId}.
 - [Answer a user question in a conversation message](https://docs.dust.tt/api-reference/conversations/answer-a-user-question-in-a-conversation-message.md): Submits an answer to a question asked by an agent in a specific message
 - [Edit an existing message in a conversation](https://docs.dust.tt/api-reference/conversations/edit-an-existing-message-in-a-conversation.md)
-- [Get events for a message](https://docs.dust.tt/api-reference/conversations/get-events-for-a-message.md): Get events for a message in the workspace identified by {wId}.
+- [Get events for a message](https://docs.dust.tt/api-reference/conversations/get-events-for-a-message.md): Stream events for a message in the workspace identified by {wId} using Server-Sent Events (SSE). The stream starts with a `:connect` comment. Message frames carry JSON with `eventId` and `data` fields. A plain-text `data: done` frame ends the current connection; clients may reconnect with `lastEvent…
 - [Validate an action in a conversation message](https://docs.dust.tt/api-reference/conversations/validate-an-action-in-a-conversation-message.md): Approves or rejects an action taken in a specific message in a conversation
 - [Create a message](https://docs.dust.tt/api-reference/conversations/create-a-message.md): Create a message in the workspace identified by {wId} in the conversation identified by {cId}.
 - [Create a new conversation](https://docs.dust.tt/api-reference/conversations/create-a-new-conversation.md): Create a new conversation in the workspace identified by {wId}.
@@ -253,7 +254,7 @@
 - [Deregister a client-side MCP server](https://docs.dust.tt/api-reference/mcp/deregister-a-client-side-mcp-server.md): [Documentation](https://docs.dust.tt/docs/client-side-mcp-server) Remove a previously registered client-side MCP server registration.
 - [Update heartbeat for a client-side MCP server](https://docs.dust.tt/api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server.md): [Documentation](https://docs.dust.tt/docs/client-side-mcp-server) Update the heartbeat for a previously registered client-side MCP server. This extends the TTL for the server registration.
 - [Register a client-side MCP server](https://docs.dust.tt/api-reference/mcp/register-a-client-side-mcp-server.md): [Documentation](https://docs.dust.tt/docs/client-side-mcp-server) Register a client-side MCP server to Dust. The registration is scoped to the current user and workspace. A serverId identifier is generated and returned in the response.
-- [Stream MCP tool requests for a workspace](https://docs.dust.tt/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace.md): [Documentation](https://docs.dust.tt/docs/client-side-mcp-server) Server-Sent Events (SSE) endpoint that streams MCP tool requests for a workspace. This endpoint is used by client-side MCP servers to listen for tool requests in real-time. The connection will remain open and events will be sent as ne…
+- [Stream MCP tool requests for a workspace](https://docs.dust.tt/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace.md): [Documentation](https://docs.dust.tt/docs/client-side-mcp-server) Server-Sent Events (SSE) endpoint that streams MCP tool requests for a workspace. This endpoint is used by client-side MCP servers to listen for tool requests in real-time. Events arrive as new tool requests are made. Reconnect with `…
 - [Submit MCP tool execution results](https://docs.dust.tt/api-reference/mcp/submit-mcp-tool-execution-results.md): [Documentation](https://docs.dust.tt/docs/client-side-mcp-server) Endpoint for client-side MCP servers to submit the results of tool executions. This endpoint accepts the output from tools that were executed locally.
 - [Search for nodes in the workspace (streaming)](https://docs.dust.tt/api-reference/search/search-for-nodes-in-the-workspace-streaming.md): Search for nodes in the workspace with SSE streaming
 - [Search for nodes in the workspace](https://docs.dust.tt/api-reference/search/search-for-nodes-in-the-workspace.md): Search for nodes in the workspace
@@ -290,63 +291,6 @@
 - [Get a trigger](https://docs.dust.tt/api-reference/triggers/get-a-trigger.md): Get one agent trigger (scheduled run or webhook) by id. Requires a workspace admin API key.
 - [Receive external webhook to trigger flows](https://docs.dust.tt/api-reference/triggers/receive-external-webhook-to-trigger-flows.md): Skeleton endpoint that verifies workspace and webhook source and logs receipt.
 - [List triggers](https://docs.dust.tt/api-reference/triggers/list-triggers.md): List the agent triggers (scheduled runs and webhooks) configured across the workspace identified by {wId}. Requires a workspace admin API key.
-- [List consumption analytics facets](https://docs.dust.tt/api-reference/private-analytics/list-consumption-analytics-facets.md): Lists current entities and historical indexed values present in the selected period for each consumption dimension. The workspace route requires a manager; the /me route is restricted server-side to the authenticated member; the agent route is restricted server-side to workspace managers and editors…
-- [List consumption analytics facets](https://docs.dust.tt/api-reference/private-analytics/list-consumption-analytics-facets-1.md): Lists current entities and historical indexed values present in the selected period for each consumption dimension. The workspace route requires a manager; the /me route is restricted server-side to the authenticated member; the agent route is restricted server-side to workspace managers and editors…
-- [List consumption analytics facets](https://docs.dust.tt/api-reference/private-analytics/list-consumption-analytics-facets-2.md): Lists current entities and historical indexed values present in the selected period for each consumption dimension. The workspace route requires a manager; the /me route is restricted server-side to the authenticated member; the agent route is restricted server-side to workspace managers and editors…
-- [List agent configurations](https://docs.dust.tt/api-reference/private-agents/list-agent-configurations.md): Returns all agent configurations in the workspace.
-- [Create an agent configuration](https://docs.dust.tt/api-reference/private-agents/create-an-agent-configuration.md): Creates a new agent configuration in the workspace.
-- [Cancel message generation](https://docs.dust.tt/api-reference/private-conversations/cancel-message-generation.md): Cancels the generation of messages in a conversation.
-- [Compact a conversation](https://docs.dust.tt/api-reference/private-conversations/compact-a-conversation.md): Trigger compaction of a conversation, summarizing older messages into a compaction message. Requires a model to use for summary generation.
-- [Get a conversation credit attribution](https://docs.dust.tt/api-reference/private-conversations/get-a-conversation-credit-attribution.md): Returns the latest stable credits billed for completed messages belonging directly to a conversation, plus an additive attribution reconciled exclusively through model input rows. In-progress messages are included after they reach a terminal state.
-- [Create a content fragment](https://docs.dust.tt/api-reference/private-conversations/create-a-content-fragment.md): Post a new content fragment to an existing conversation.
-- [Get conversation feedbacks](https://docs.dust.tt/api-reference/private-conversations/get-conversation-feedbacks.md): Retrieve all feedbacks for a conversation submitted by the authenticated user.
-- [Get a conversation](https://docs.dust.tt/api-reference/private-conversations/get-a-conversation.md): Retrieve a specific conversation by its ID.
-- [Delete or leave a conversation](https://docs.dust.tt/api-reference/private-conversations/delete-or-leave-a-conversation.md): Delete a conversation or leave it if it is shared.
-- [Update a conversation](https://docs.dust.tt/api-reference/private-conversations/update-a-conversation.md): Update a conversation's title, mark it as read, move it to a different space, or control URL access mode.
-- [Get conversation participants](https://docs.dust.tt/api-reference/private-conversations/get-conversation-participants.md): Returns the participants of a specific conversation.
-- [Add a participant to a conversation](https://docs.dust.tt/api-reference/private-conversations/add-a-participant-to-a-conversation.md): Adds the authenticated user as a participant to a specific conversation.
-- [List selectable Spaces](https://docs.dust.tt/api-reference/private-conversations/list-selectable-spaces.md): Lists regular Spaces the user can select for a conversation, with current selection state.
-- [Select Spaces for a conversation](https://docs.dust.tt/api-reference/private-conversations/select-spaces-for-a-conversation.md): Appends regular Spaces to a conversation's explicit selected scope.
-- [Cancel a wake-up](https://docs.dust.tt/api-reference/private-conversations/cancel-a-wake-up.md): Cancel a scheduled wake-up. Only the wake-up owner or a workspace admin can cancel.
-- [List wake-ups for a conversation](https://docs.dust.tt/api-reference/private-conversations/list-wake-ups-for-a-conversation.md): Retrieve all wake-ups scheduled in a conversation (any status).
-- [List conversations](https://docs.dust.tt/api-reference/private-conversations/list-conversations.md): Retrieve a paginated list of conversations for the authenticated user in the workspace.
-- [Create a conversation](https://docs.dust.tt/api-reference/private-conversations/create-a-conversation.md): Create a new conversation, optionally with an initial user message and content fragments.
-- [Stream conversation events](https://docs.dust.tt/api-reference/private-events/stream-conversation-events.md): Stream real-time conversation events using Server-Sent Events (SSE). This endpoint is redirected to /api/sse/ for SSE traffic routing.
-- [Stream message events](https://docs.dust.tt/api-reference/private-events/stream-message-events.md): Stream real-time events for a specific agent message using Server-Sent Events (SSE). Only available for agent messages. This endpoint is redirected to /api/sse/ for SSE traffic routing.
-- [Stream sandbox function invocation events](https://docs.dust.tt/api-reference/private-events/stream-sandbox-function-invocation-events.md): Stream real-time events for a Pod function invocation using Server-Sent Events (SSE). This endpoint is redirected to /api/sse/ for SSE traffic routing.
-- [Get a single action](https://docs.dust.tt/api-reference/private-messages/get-a-single-action.md): Retrieve a single action by its ID within an agent message, along with the message status.
-- [Get an agent message credit attribution](https://docs.dust.tt/api-reference/private-messages/get-an-agent-message-credit-attribution.md): Returns direct and total billed credits. Run-agent tool rows combine invocation cost with the bill of their sub-agent subtree.
-- [Edit a message](https://docs.dust.tt/api-reference/private-messages/edit-a-message.md): Edit the content and mentions of an existing user message in a conversation.
-- [Submit message feedback](https://docs.dust.tt/api-reference/private-messages/submit-message-feedback.md): Create or update feedback (thumbs up/down) for a specific agent message.
-- [Delete message feedback](https://docs.dust.tt/api-reference/private-messages/delete-message-feedback.md): Remove the authenticated user's feedback for a specific agent message.
-- [Get a message](https://docs.dust.tt/api-reference/private-messages/get-a-message.md): Retrieve a specific message by its ID within a conversation.
-- [Delete a message](https://docs.dust.tt/api-reference/private-messages/delete-a-message.md): Soft-delete a user or agent message from a conversation.
-- [Retry an agent message](https://docs.dust.tt/api-reference/private-messages/retry-an-agent-message.md): Retry generating an agent message response, optionally retrying only blocked actions.
-- [List messages in a conversation](https://docs.dust.tt/api-reference/private-messages/list-messages-in-a-conversation.md): Retrieve a paginated list of messages for a specific conversation.
-- [Post a message to a conversation](https://docs.dust.tt/api-reference/private-messages/post-a-message-to-a-conversation.md): Post a new user message to an existing conversation, triggering agent responses.
-- [Resolve a conversation go template draft](https://docs.dust.tt/api-reference/private-assistant/resolve-a-conversation-go-template-draft.md): Fetches a Contentful conversation go template by slug and returns a composer-ready draft with optional pre-uploaded attachments.
-- [Get mention suggestions](https://docs.dust.tt/api-reference/private-mentions/get-mention-suggestions.md): Returns mention suggestions for the workspace.
-- [Get extension configuration](https://docs.dust.tt/api-reference/private-extension/get-extension-configuration.md): Returns the extension configuration for the workspace, including blacklisted domains.
-- [Get workspace feature flags](https://docs.dust.tt/api-reference/private-workspace/get-workspace-feature-flags.md): Returns the list of enabled feature flags for the workspace.
-- [Get or download a file](https://docs.dust.tt/api-reference/private-files/get-or-download-a-file.md): View or download a file. Skill attachments require read access to their associated skill. Use query parameters `version` (original, processed, public) and `action` (view, download).
-- [Upload file content](https://docs.dust.tt/api-reference/private-files/upload-file-content.md): Process and store the uploaded file content.
-- [Delete a file](https://docs.dust.tt/api-reference/private-files/delete-a-file.md): Delete a file from the workspace. Files referenced by a skill or its version history cannot be deleted.
-- [Create a file upload](https://docs.dust.tt/api-reference/private-files/create-a-file-upload.md): Creates a file record and returns a pre-signed upload URL. The file content should then be uploaded to the returned URL.
-- [Get a data source view](https://docs.dust.tt/api-reference/private-spaces/get-a-data-source-view.md): Returns the details of a specific data source view.
-- [Delete a data source view](https://docs.dust.tt/api-reference/private-spaces/delete-a-data-source-view.md): Deletes a specific data source view.
-- [Update a data source view](https://docs.dust.tt/api-reference/private-spaces/update-a-data-source-view.md): Updates a specific data source view.
-- [List data source views](https://docs.dust.tt/api-reference/private-spaces/list-data-source-views.md): Returns all data source views in a specific space.
-- [Create a data source view](https://docs.dust.tt/api-reference/private-spaces/create-a-data-source-view.md): Creates a new data source view in a specific space.
-- [Get a space](https://docs.dust.tt/api-reference/private-spaces/get-a-space.md): Returns the details of a specific space including categories, members, and permissions.
-- [Delete a space](https://docs.dust.tt/api-reference/private-spaces/delete-a-space.md): Deletes a specific space from the workspace.
-- [Update a space](https://docs.dust.tt/api-reference/private-spaces/update-a-space.md): Updates the properties of a specific space.
-- [Get project notification preference](https://docs.dust.tt/api-reference/private-spaces/get-project-notification-preference.md): Returns the current user's notification preference for a project space.
-- [Set project notification preference](https://docs.dust.tt/api-reference/private-spaces/set-project-notification-preference.md): Sets the current user's notification preference for a project space.
-- [List spaces](https://docs.dust.tt/api-reference/private-spaces/list-spaces.md): Returns all spaces in the workspace.
-- [Create a space](https://docs.dust.tt/api-reference/private-spaces/create-a-space.md): Creates a new space in the workspace.
-- [Initiate WorkOS login](https://docs.dust.tt/api-reference/private-authentication/initiate-workos-login.md): Redirects to WorkOS AuthKit for authentication. Supports PKCE flow for extensions.
-- [Exchange code or refresh token](https://docs.dust.tt/api-reference/private-authentication/exchange-code-or-refresh-token.md): Exchanges an authorization code or refresh token for access tokens via WorkOS.
-- [Revoke a session](https://docs.dust.tt/api-reference/private-authentication/revoke-a-session.md): Revokes a WorkOS session by session ID. Used by the Chrome extension for logout.
 - [Dust-Labs repository](https://docs.dust.tt/docs/developer-platform/dust-labs/dust-labs-repository.md)
 - [Dust CLI](https://docs.dust.tt/docs/developer-platform/dust-cli/dust-cli.md)
 - [Creating Google Calendar events from a Dust agent](https://docs.dust.tt/docs/user-documentation/deprecated/legacy-dust-apps/creating-google-calendar-events-from-a-dust-agent.md)

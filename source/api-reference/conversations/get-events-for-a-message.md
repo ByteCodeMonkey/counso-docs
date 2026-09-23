@@ -4,7 +4,9 @@
 
 # Get events for a message
 
-> Get events for a message in the workspace identified by {wId}.
+> Stream events for a message in the workspace identified by {wId} using Server-Sent Events (SSE).
+The stream starts with a `:connect` comment. Message frames carry JSON with `eventId` and `data` fields. A plain-text `data: done` frame ends the current connection; clients may reconnect with `lastEventId`.
+
 
 
 
@@ -26,16 +28,20 @@ servers:
     description: Dust.tt API (europe-west1)
 security: []
 tags:
+  - name: Users
+    description: User management
   - name: Agents
     description: Agent configurations
+  - name: Analytics
+    description: Workspace analytics
   - name: Apps
     description: Dust apps
   - name: Conversations
     description: Conversations
-  - name: DatasourceViews
-    description: Data source views
   - name: Datasources
     description: Data sources
+  - name: DatasourceViews
+    description: Data source views
   - name: Feedbacks
     description: Message feedbacks
   - name: MCP
@@ -44,36 +50,36 @@ tags:
     description: Mentions
   - name: Search
     description: Search
-  - name: Tools
-    description: Tools
-  - name: Triggers
-    description: Triggers
   - name: Skills
     description: Skills
   - name: Spaces
     description: Spaces
+  - name: Tools
+    description: Tools
+  - name: Triggers
+    description: Triggers
   - name: Workspace
     description: Workspace
-  - name: Private User
-    description: Private API - User
-  - name: Private Authentication
-    description: Private API - Authentication (WorkOS)
   - name: Private Agents
     description: Private API - Agent configurations
+  - name: Private Authentication
+    description: Private API - Authentication (WorkOS)
   - name: Private Conversations
     description: Private API - Conversations
-  - name: Private Messages
-    description: Private API - Messages
   - name: Private Events
     description: Private API - SSE event streams
+  - name: Private Extension
+    description: Private API - Extension configuration
   - name: Private Files
     description: Private API - File uploads
   - name: Private Mentions
     description: Private API - Mention suggestions
+  - name: Private Messages
+    description: Private API - Messages
   - name: Private Spaces
     description: Private API - Spaces and data source views
-  - name: Private Extension
-    description: Private API - Extension configuration
+  - name: Private User
+    description: Private API - User
   - name: Private Workspace
     description: Private API - Workspace settings
 paths:
@@ -82,7 +88,13 @@ paths:
       tags:
         - Conversations
       summary: Get events for a message
-      description: Get events for a message in the workspace identified by {wId}.
+      description: >
+        Stream events for a message in the workspace identified by {wId} using
+        Server-Sent Events (SSE).
+
+        The stream starts with a `:connect` comment. Message frames carry JSON
+        with `eventId` and `data` fields. A plain-text `data: done` frame ends
+        the current connection; clients may reconnect with `lastEventId`.
       parameters:
         - in: path
           name: wId
@@ -104,30 +116,32 @@ paths:
             type: string
         - in: query
           name: lastEventId
-          description: ID of the last event received
+          required: false
+          description: >-
+            Redis stream ID of the last received message event. Omit or pass an
+            empty value to start from the available history.
           schema:
             type: string
       responses:
         '200':
-          description: The events
+          description: >-
+            SSE event stream with a `:connect` comment followed by message
+            frames. The JSON `data` field in each message frame contains the
+            event, discriminated by `type`.
           content:
-            application/json:
+            text/event-stream:
               schema:
                 type: object
+                required:
+                  - eventId
+                  - data
                 properties:
-                  events:
-                    type: array
-                    items:
-                      type: object
-                      properties:
-                        id:
-                          type: string
-                          description: ID of the event
-                        type:
-                          type: string
-                          description: Type of the event
-                        data:
-                          $ref: '#/components/schemas/Message'
+                  eventId:
+                    type: string
+                    description: Redis stream ID used as the resume cursor.
+                  data:
+                    type: object
+                    description: Agent message event discriminated by its type field.
         '400':
           description: Bad Request
         '401':
@@ -139,110 +153,6 @@ paths:
       security:
         - BearerAuth: []
 components:
-  schemas:
-    Message:
-      type: object
-      required:
-        - content
-        - mentions
-      properties:
-        content:
-          type: string
-          description: The content of the message. Should not be empty.
-          example: This is my message
-        mentions:
-          type: array
-          description: Empty array is accepted but won't trigger any agent.
-          items:
-            $ref: '#/components/schemas/Mention'
-        context:
-          $ref: '#/components/schemas/Context'
-        modelSelection:
-          $ref: '#/components/schemas/ModelSelection'
-    Mention:
-      type: object
-      properties:
-        configurationId:
-          type: string
-          description: ID of the mentioned agent configuration
-          example: 7f3a9c2b1e
-    Context:
-      type: object
-      required:
-        - username
-        - timezone
-      properties:
-        username:
-          type: string
-          description: Username in the current context
-          example: johndoe123
-        timezone:
-          type: string
-          description: User's timezone
-          example: America/New_York
-        fullName:
-          type: string
-          description: User's full name in the current context
-          example: John Doe
-        email:
-          type: string
-          description: User's email in the current context
-          example: john.doe@example.com
-        profilePictureUrl:
-          type: string
-          description: URL of the user's profile picture
-          example: https://example.com/profiles/johndoe123.jpg
-        selectedSpaceIds:
-          type: array
-          items:
-            type: string
-        agenticMessageData:
-          type: object
-          properties:
-            type:
-              type: string
-              enum:
-                - run_agent
-                - agent_handover
-              description: Type of the agentic message
-            originMessageId:
-              type: string
-              description: ID of the origin message
-              example: 2b8e4f6a0c
-    ModelSelection:
-      type: object
-      description: |
-        Optional per-message model and reasoning-effort override applied to the
-        mentioned agent(s). When omitted, each agent runs its configured model.
-        A provider/model pair that is not authorized for the workspace is
-        rejected with a 400 (`model_disabled`), it does not fall back to the
-        agent's configured model. A malformed object, or an unknown reasoning
-        effort, also results in a 400.
-      required:
-        - providerId
-        - modelId
-      properties:
-        providerId:
-          type: string
-          description: >-
-            The model provider id (e.g. "anthropic", "openai",
-            "google_ai_studio").
-          example: anthropic
-        modelId:
-          type: string
-          description: The model id to run (e.g. "claude-sonnet-4-20250514").
-          example: claude-sonnet-4-20250514
-        reasoningEffort:
-          type: string
-          enum:
-            - none
-            - light
-            - medium
-            - high
-          description: >-
-            Optional reasoning effort. Honored only if the resolved model
-            supports it.
-          example: medium
   securitySchemes:
     BearerAuth:
       type: http

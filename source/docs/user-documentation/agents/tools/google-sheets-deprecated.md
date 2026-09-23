@@ -38,7 +38,7 @@ Create a new client:
 * Application type: "Web application".
 * External Client App Name: "Dust Gsheets Integration".
 * Authorized javascript origins: [https://dust.tt](https://dust.tt) and [https://eu.dust.tt](https://eu.dust.tt)
-* Authorized redirect URIs: [https://dust.tt/oauth/gmail/finalize](https://dust.tt/oauth/gmail/finalize) and [https://eu.dust.tt/oauth/gmail/finalize](https://eu.dust.tt/oauth/gmail/finalize)
+* Authorized redirect URIs: [https://app.dust.tt/oauth/gmail/finalize](https://app.dust.tt/oauth/gmail/finalize) and [https://app.dust.tt/oauth/gmail/finalize](https://app.dust.tt/oauth/gmail/finalize)
 
 ## Admin: Setup in Dust
 

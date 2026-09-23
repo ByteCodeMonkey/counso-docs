@@ -66,7 +66,7 @@ Setup takes about 2 minutes: you create a dedicated `Dust Data Sync` app in Slac
       },
       "oauth_config": {
         "redirect_urls": [
-          "https://dust.tt/oauth/slack/finalize"
+          "https://app.dust.tt/oauth/slack/finalize"
         ],
         "scopes": {
           "user": [
@@ -144,7 +144,7 @@ Setup takes about 2 minutes: you create a dedicated `Dust Data Sync` app in Slac
       },
       "oauth_config": {
         "redirect_urls": [
-          "https://eu.dust.tt/oauth/slack/finalize"
+          "https://app.dust.tt/oauth/slack/finalize"
         ],
         "scopes": {
           "user": [

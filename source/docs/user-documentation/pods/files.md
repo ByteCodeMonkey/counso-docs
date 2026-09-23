@@ -82,7 +82,7 @@ Since the agent overwrites the same file, the Pod banner, agent context, and mem
 | Move                      | Drag to a folder, or open the `...` menu  **Move**                                                        |
 | Delete an uploaded file   | Open the `...` menu  **Delete**                                                                           |
 | Remove a linked data node | Open the `...` menu  **Remove**                                                                           |
-| Pin a MiniApp as Pod banner | Open the `...` menu on a MiniApp  **Pin as Pod banner**; see [MiniApps](/docs/user-documentation/pods/frames) |
+| Pin a Frame as Pod banner | Open the `...` menu on a Frame  **Pin as Pod banner**; see [Frames](/docs/user-documentation/pods/frames) |
 
 ***
 

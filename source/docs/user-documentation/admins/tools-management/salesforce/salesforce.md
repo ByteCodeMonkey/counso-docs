@@ -26,8 +26,6 @@ Go to Salesforce Setup (gear icon in the top right corner). In the search bar on
 **Set the callback URLs**
 
 ```
-https://dust.tt/oauth/salesforce/finalize
-https://eu.dust.tt/oauth/salesforce/finalize
 https://app.dust.tt/oauth/salesforce/finalize
 ```
 

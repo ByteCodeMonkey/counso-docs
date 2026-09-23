@@ -72,17 +72,29 @@ Go to **Setup  Integration  Manage Integrations  New** and configure:
 Under **Authentication**, check:
 
 * **Authorization Code Grant**
-* **Public Client**
-* Add these three **Redirect URIs**:
 
-```
-https://app.dust.tt/oauth/mcp_static/finalize
-https://eu.dust.tt/oauth/mcp_static/finalize
-https://dust.tt/oauth/mcp_static/finalize
-```
+* **Public Client**
+
+* Add the two redirect URLs for your Dust region:
+
+  **US workspaces:**
+
+  ```
+  https://dust.tt/oauth/mcp_static/finalize
+  https://app.dust.tt/oauth/mcp_static/finalize
+  ```
+
+  **EU workspaces:**
+
+  ```
+  https://eu.dust.tt/oauth/mcp_static/finalize
+  https://app.dust.tt/oauth/mcp_static/finalize
+  ```
 
 * **Dynamic Client Registration**
+
 * Dynamic Client Registration Client Name: "**Dust**"
+
 * Scope: **NetSuite AI Connector Service**
 
 Click **Save** and copy the **Consumer Key / Client ID** immediately (it won't be shown again after leaving the page).
@@ -137,10 +149,10 @@ Save, authenticate with your NetSuite account using your custom MCP role, and th
   **[NetSuite AI Connector Service FAQ](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/article_4160616848.html)**
 </Info>
 
-| Error                                              | Fix                                                                              |
-| -------------------------------------------------- | -------------------------------------------------------------------------------- |
-| **"Invalid login attempt"** on the consent page    | Make sure you select your custom MCP role (not Administrator) during login.      |
-| **"MCP Server Connection" permission not visible** | The MCP Standard Tools SuiteApp is not installed (step 2).                       |
-| **"Wrong role or account"**                        | Click "Choose another role" and select the custom role created in step 3.        |
-| Client ID rejected / invalid application           | You likely added an `ID` prefix to the Consumer Key. Use only the hex string.    |
-| Redirect URI mismatch                              | Make sure the three `/mcp_static/finalize` URIs are added (not `/mcp/finalize`). |
+| Error                                              | Fix                                                                                         |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **"Invalid login attempt"** on the consent page    | Make sure you select your custom MCP role (not Administrator) during login.                 |
+| **"MCP Server Connection" permission not visible** | The MCP Standard Tools SuiteApp is not installed (step 2).                                  |
+| **"Wrong role or account"**                        | Click "Choose another role" and select the custom role created in step 3.                   |
+| Client ID rejected / invalid application           | You likely added an `ID` prefix to the Consumer Key. Use only the hex string.               |
+| Redirect URI mismatch                              | Make sure the regional and global `/mcp_static/finalize` URIs for your workspace are added. |

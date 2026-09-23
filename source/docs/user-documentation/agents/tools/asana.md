@@ -24,7 +24,21 @@ Asana tools let your agents work with Asana directly from Dust once an administr
    * **Personal credentials**: Each user authorizes Asana with their own account when they first use an agent with the tool
 4. Click **Connect** and complete the Asana OAuth flow
    1. Use your created Asana app credentials
-   2. The redirect URL field should be [https://dust.tt/oauth/mcp\_static/finalize](https://dust.tt/oauth/mcp_static/finalize) (or [https://eu.dust.tt/oauth/mcp\_static/finalize](https://eu.dust.tt/oauth/mcp_static/finalize) for EU workspaces)
+   2. Add the two redirect URLs for your Dust region to your Asana app:
+
+      **US workspaces:**
+
+      ```
+      https://dust.tt/oauth/mcp_static/finalize
+      https://app.dust.tt/oauth/mcp_static/finalize
+      ```
+
+      **EU workspaces:**
+
+      ```
+      https://eu.dust.tt/oauth/mcp_static/finalize
+      https://app.dust.tt/oauth/mcp_static/finalize
+      ```
 
 ### Important: Finalize in Asana (Manage Distribution)
 

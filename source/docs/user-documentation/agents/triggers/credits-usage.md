@@ -47,6 +47,8 @@ On legacy plans, which still use message quotas instead of credits:
 
 Admins and managers see every trigger in the workspace under **Programmatic Usage > Automations**, with its agent, its credit consumption over the selected period, and a **Pool** column showing *Member* or *Workspace*.
 
+Members can review their own automations from the **Automations** entry under **Tools** in the user menu. This view lists the automations they edit, with filters, an expandable per-trigger credit breakdown for the current billing cycle, and controls to enable, disable, or delete an automation.
+
 Select several rows to move them to another pool in one go, which is the quickest way to migrate a batch of triggers after changing your policy.
 
 ## Rate limits

@@ -11,7 +11,7 @@
     "sidebar_section": "Latest Updates",
     "sidebar_group": "",
     "sidebar_order": 1,
-    "bytes": 334633
+    "bytes": 340467
   },
   {
     "order": 2,
@@ -1047,7 +1047,7 @@
     "sidebar_section": "Capabilities",
     "sidebar_group": "Knowledge",
     "sidebar_order": 75,
-    "bytes": 3149
+    "bytes": 3897
   },
   {
     "order": 76,
@@ -1061,7 +1061,7 @@
     "sidebar_section": "Capabilities",
     "sidebar_group": "Knowledge",
     "sidebar_order": 76,
-    "bytes": 5435
+    "bytes": 5606
   },
   {
     "order": 77,
@@ -1215,7 +1215,7 @@
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
     "sidebar_order": 87,
-    "bytes": 6422
+    "bytes": 6510
   },
   {
     "order": 88,
@@ -1243,7 +1243,7 @@
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
     "sidebar_order": 89,
-    "bytes": 2841
+    "bytes": 2966
   },
   {
     "order": 90,
@@ -1313,7 +1313,7 @@
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
     "sidebar_order": 94,
-    "bytes": 3466
+    "bytes": 3724
   },
   {
     "order": 95,
@@ -1593,7 +1593,7 @@
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
     "sidebar_order": 114,
-    "bytes": 5750
+    "bytes": 5959
   },
   {
     "order": 115,
@@ -1621,7 +1621,7 @@
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
     "sidebar_order": 116,
-    "bytes": 4452
+    "bytes": 4564
   },
   {
     "order": 117,
@@ -1663,7 +1663,7 @@
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
     "sidebar_order": 119,
-    "bytes": 3524
+    "bytes": 3347
   },
   {
     "order": 120,
@@ -1737,6 +1737,20 @@
   },
   {
     "order": 125,
+    "title": "ServiceNow",
+    "description": "",
+    "source_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/servicenow.md",
+    "path": "docs/user-documentation/agents/tools/servicenow.md",
+    "module": "User Documentation",
+    "index_source": "llms.txt",
+    "status": "downloaded",
+    "sidebar_section": "Capabilities",
+    "sidebar_group": "Tools",
+    "sidebar_order": 125,
+    "bytes": 14266
+  },
+  {
+    "order": 126,
     "title": "Slab",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/slab.md",
@@ -1746,11 +1760,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
-    "sidebar_order": 125,
+    "sidebar_order": 126,
     "bytes": 2657
   },
   {
-    "order": 126,
+    "order": 127,
     "title": "Snowflake",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/snowflake.md",
@@ -1760,11 +1774,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
-    "sidebar_order": 126,
-    "bytes": 8483
+    "sidebar_order": 127,
+    "bytes": 8488
   },
   {
-    "order": 127,
+    "order": 128,
     "title": "Statuspage",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/statuspage.md",
@@ -1774,11 +1788,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
-    "sidebar_order": 127,
+    "sidebar_order": 128,
     "bytes": 4027
   },
   {
-    "order": 128,
+    "order": 129,
     "title": "Run agent",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/run-agent.md",
@@ -1788,11 +1802,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
-    "sidebar_order": 128,
+    "sidebar_order": 129,
     "bytes": 2246
   },
   {
-    "order": 129,
+    "order": 130,
     "title": "Web Search & Browse",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/web-search-and-browse.md",
@@ -1802,11 +1816,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
-    "sidebar_order": 129,
+    "sidebar_order": 130,
     "bytes": 3571
   },
   {
-    "order": 130,
+    "order": 131,
     "title": "Zendesk",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/zendesk.md",
@@ -1816,11 +1830,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
-    "sidebar_order": 130,
+    "sidebar_order": 131,
     "bytes": 2800
   },
   {
-    "order": 131,
+    "order": 132,
     "title": "Wake-ups",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/wake-ups.md",
@@ -1830,11 +1844,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
-    "sidebar_order": 131,
+    "sidebar_order": 132,
     "bytes": 3499
   },
   {
-    "order": 132,
+    "order": 133,
     "title": "Computer",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/computer.md",
@@ -1844,11 +1858,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
-    "sidebar_order": 132,
+    "sidebar_order": 133,
     "bytes": 10976
   },
   {
-    "order": 133,
+    "order": 134,
     "title": "[Deprecated] Google Sheets",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/google-sheets-deprecated.md",
@@ -1860,10 +1874,10 @@
     "sidebar_section": "Capabilities",
     "sidebar_group": "Tools",
     "sidebar_order": null,
-    "bytes": 5337
+    "bytes": 5347
   },
   {
-    "order": 134,
+    "order": 135,
     "title": "Credits usage",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/triggers/credits-usage.md",
@@ -1873,11 +1887,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Triggers",
-    "sidebar_order": 133,
-    "bytes": 4053
+    "sidebar_order": 134,
+    "bytes": 4349
   },
   {
-    "order": 135,
+    "order": 136,
     "title": "Schedules",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/triggers/schedules.md",
@@ -1887,11 +1901,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Triggers",
-    "sidebar_order": 134,
+    "sidebar_order": 135,
     "bytes": 1213
   },
   {
-    "order": 136,
+    "order": 137,
     "title": "Filter webhooks payload",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/triggers/webhooks/filter-webhooks-payload.md",
@@ -1901,11 +1915,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Triggers",
-    "sidebar_order": 135,
+    "sidebar_order": 136,
     "bytes": 10056
   },
   {
-    "order": 137,
+    "order": 138,
     "title": "Rate Limiting",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/triggers/webhooks/rate-limiting.md",
@@ -1915,12 +1929,26 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Triggers",
-    "sidebar_order": 136,
+    "sidebar_order": 137,
     "bytes": 1952
   },
   {
-    "order": 138,
-    "title": "White-labeled MiniApps",
+    "order": 139,
+    "title": "Overview",
+    "description": "Turn agent outputs into living, interactive content.",
+    "source_url": "https://docs.dust.tt/docs/user-documentation/agents/frames/overview.md",
+    "path": "docs/user-documentation/agents/frames/overview.md",
+    "module": "User Documentation",
+    "index_source": "llms.txt",
+    "status": "downloaded",
+    "sidebar_section": "Capabilities",
+    "sidebar_group": "Frames",
+    "sidebar_order": 138,
+    "bytes": 2866
+  },
+  {
+    "order": 140,
+    "title": "White-labeled Frames",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/frames/white-labeled-frames.md",
     "path": "docs/user-documentation/agents/frames/white-labeled-frames.md",
@@ -1928,12 +1956,12 @@
     "index_source": "llms.txt",
     "status": "downloaded",
     "sidebar_section": "Capabilities",
-    "sidebar_group": "MiniApps",
-    "sidebar_order": 137,
+    "sidebar_group": "Frames",
+    "sidebar_order": 139,
     "bytes": 1927
   },
   {
-    "order": 139,
+    "order": 141,
     "title": "Dust MCP Server",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-mcp-server.md",
@@ -1943,11 +1971,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Integrations",
-    "sidebar_order": 138,
+    "sidebar_order": 140,
     "bytes": 5421
   },
   {
-    "order": 140,
+    "order": 142,
     "title": "Slack Auto-Reply without @mention",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-reply.md",
@@ -1957,11 +1985,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Integrations",
-    "sidebar_order": 139,
+    "sidebar_order": 141,
     "bytes": 1983
   },
   {
-    "order": 141,
+    "order": 143,
     "title": "Slack workflows",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows.md",
@@ -1971,11 +1999,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Integrations",
-    "sidebar_order": 140,
-    "bytes": 3324
+    "sidebar_order": 142,
+    "bytes": 4680
   },
   {
-    "order": 142,
+    "order": 144,
     "title": "[Beta] Slack Auto-Join",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-join.md",
@@ -1990,7 +2018,7 @@
     "bytes": 1451
   },
   {
-    "order": 143,
+    "order": 145,
     "title": "Send and Forward Email to Agents",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents.md",
@@ -2000,11 +2028,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Integrations",
-    "sidebar_order": 141,
+    "sidebar_order": 143,
     "bytes": 7830
   },
   {
-    "order": 144,
+    "order": 146,
     "title": "Zapier",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/zapier.md",
@@ -2014,11 +2042,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Integrations",
-    "sidebar_order": 142,
+    "sidebar_order": 144,
     "bytes": 1986
   },
   {
-    "order": 145,
+    "order": 147,
     "title": "Make.com",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/make-com.md",
@@ -2028,11 +2056,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Integrations",
-    "sidebar_order": 143,
+    "sidebar_order": 145,
     "bytes": 1813
   },
   {
-    "order": 146,
+    "order": 148,
     "title": "n8n",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/n8n.md",
@@ -2042,11 +2070,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Integrations",
-    "sidebar_order": 144,
+    "sidebar_order": 146,
     "bytes": 2760
   },
   {
-    "order": 147,
+    "order": 149,
     "title": "Power Automate",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/power-automate.md",
@@ -2056,11 +2084,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Integrations",
-    "sidebar_order": 145,
+    "sidebar_order": 147,
     "bytes": 4770
   },
   {
-    "order": 148,
+    "order": 150,
     "title": "Meeting transcripts",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/meeting-transcripts.md",
@@ -2070,11 +2098,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Integrations",
-    "sidebar_order": 146,
+    "sidebar_order": 148,
     "bytes": 3186
   },
   {
-    "order": 149,
+    "order": 151,
     "title": "Google Sheets Add-on",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/google-sheets-add-on.md",
@@ -2084,11 +2112,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Integrations",
-    "sidebar_order": 147,
+    "sidebar_order": 149,
     "bytes": 2212
   },
   {
-    "order": 150,
+    "order": 152,
     "title": "Dust in Zendesk",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-zendesk.md",
@@ -2098,11 +2126,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Integrations",
-    "sidebar_order": 148,
+    "sidebar_order": 150,
     "bytes": 1778
   },
   {
-    "order": 151,
+    "order": 153,
     "title": "Browser Extension (Chrome, Firefox & Chromium-based browsers)",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/browser-extension.md",
@@ -2112,11 +2140,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Integrations",
-    "sidebar_order": 149,
+    "sidebar_order": 151,
     "bytes": 5786
   },
   {
-    "order": 152,
+    "order": 154,
     "title": "Raycast Extension",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/raycast-extension.md",
@@ -2126,11 +2154,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Integrations",
-    "sidebar_order": 150,
-    "bytes": 1284
+    "sidebar_order": 152,
+    "bytes": 2705
   },
   {
-    "order": 153,
+    "order": 155,
     "title": "Dust in Teams",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-teams.md",
@@ -2140,11 +2168,11 @@
     "status": "downloaded",
     "sidebar_section": "Capabilities",
     "sidebar_group": "Integrations",
-    "sidebar_order": 151,
+    "sidebar_order": 153,
     "bytes": 2915
   },
   {
-    "order": 154,
+    "order": 156,
     "title": "Overview",
     "description": "Pods are shared workspaces where humans and agents collaborate around conversations, tasks, and files.",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/overview.md",
@@ -2154,11 +2182,11 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "",
-    "sidebar_order": 152,
+    "sidebar_order": 154,
     "bytes": 3900
   },
   {
-    "order": 155,
+    "order": 157,
     "title": "Members and roles",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/members-and-roles.md",
@@ -2168,11 +2196,11 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "",
-    "sidebar_order": 153,
+    "sidebar_order": 155,
     "bytes": 2381
   },
   {
-    "order": 156,
+    "order": 158,
     "title": "Tasks",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/tasks.md",
@@ -2182,11 +2210,11 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "",
-    "sidebar_order": 154,
+    "sidebar_order": 156,
     "bytes": 5448
   },
   {
-    "order": 157,
+    "order": 159,
     "title": "Conversations",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/conversations.md",
@@ -2196,11 +2224,11 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "",
-    "sidebar_order": 155,
+    "sidebar_order": 157,
     "bytes": 4722
   },
   {
-    "order": 158,
+    "order": 160,
     "title": "Files",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/files.md",
@@ -2210,12 +2238,12 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "",
-    "sidebar_order": 156,
+    "sidebar_order": 158,
     "bytes": 6132
   },
   {
-    "order": 159,
-    "title": "MiniApps",
+    "order": 161,
+    "title": "Frames",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/frames.md",
     "path": "docs/user-documentation/pods/frames.md",
@@ -2224,11 +2252,11 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "",
-    "sidebar_order": 157,
+    "sidebar_order": 159,
     "bytes": 5773
   },
   {
-    "order": 160,
+    "order": 162,
     "title": "Agent tools",
     "description": "The full list of tools agents get through the Pods skill to work with Pods, conversations, tasks, files, and settings.",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/agent-tools.md",
@@ -2238,11 +2266,11 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "",
-    "sidebar_order": 158,
+    "sidebar_order": 160,
     "bytes": 7029
   },
   {
-    "order": 161,
+    "order": 163,
     "title": "Admin controls",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/admin-controls.md",
@@ -2252,11 +2280,11 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "",
-    "sidebar_order": 159,
+    "sidebar_order": 161,
     "bytes": 2362
   },
   {
-    "order": 162,
+    "order": 164,
     "title": "Shared asset library",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/examples/shared-asset-library.md",
@@ -2266,11 +2294,11 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "Examples",
-    "sidebar_order": 160,
+    "sidebar_order": 162,
     "bytes": 2566
   },
   {
-    "order": 163,
+    "order": 165,
     "title": "Personal second brain",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/examples/personal-second-brain.md",
@@ -2280,11 +2308,11 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "Examples",
-    "sidebar_order": 161,
+    "sidebar_order": 163,
     "bytes": 2378
   },
   {
-    "order": 164,
+    "order": 166,
     "title": "Initiative and project management",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/examples/initiative-and-project-management.md",
@@ -2294,11 +2322,11 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "Examples",
-    "sidebar_order": 162,
+    "sidebar_order": 164,
     "bytes": 2477
   },
   {
-    "order": 165,
+    "order": 167,
     "title": "Ticket handling and support knowledge",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/examples/ticket-handling-and-support-knowledge.md",
@@ -2308,11 +2336,11 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "Examples",
-    "sidebar_order": 163,
+    "sidebar_order": 165,
     "bytes": 2606
   },
   {
-    "order": 166,
+    "order": 168,
     "title": "One Pod per customer",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/examples/one-pod-per-customer.md",
@@ -2322,11 +2350,11 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "Examples",
-    "sidebar_order": 164,
+    "sidebar_order": 166,
     "bytes": 2731
   },
   {
-    "order": 167,
+    "order": 169,
     "title": "Content and editorial production",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/examples/content-and-editorial-production.md",
@@ -2336,11 +2364,11 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "Examples",
-    "sidebar_order": 165,
+    "sidebar_order": 167,
     "bytes": 2527
   },
   {
-    "order": 168,
+    "order": 170,
     "title": "Competitive intelligence",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/pods/examples/competitive-intelligence.md",
@@ -2350,11 +2378,11 @@
     "status": "downloaded",
     "sidebar_section": "Pods",
     "sidebar_group": "Examples",
-    "sidebar_order": 166,
+    "sidebar_order": 168,
     "bytes": 2793
   },
   {
-    "order": 169,
+    "order": 171,
     "title": "Quickstart",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/quickstart.md",
@@ -2364,11 +2392,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "",
-    "sidebar_order": 167,
+    "sidebar_order": 169,
     "bytes": 3463
   },
   {
-    "order": 170,
+    "order": 172,
     "title": "Workspace Governance: Roles, Groups & Permissions ",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions.md",
@@ -2378,11 +2406,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Admin Governance",
-    "sidebar_order": 168,
+    "sidebar_order": 170,
     "bytes": 5762
   },
   {
-    "order": 171,
+    "order": 173,
     "title": "Access Controls and Permissions",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/admin-governance/access-controls-and-permissions.md",
@@ -2392,11 +2420,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Admin Governance",
-    "sidebar_order": 169,
+    "sidebar_order": 171,
     "bytes": 2712
   },
   {
-    "order": 172,
+    "order": 174,
     "title": "Single Sign-On (SSO)",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/admin-governance/single-sign-on-sso/single-sign-on-sso.md",
@@ -2406,11 +2434,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Admin Governance",
-    "sidebar_order": 170,
+    "sidebar_order": 172,
     "bytes": 1531
   },
   {
-    "order": 173,
+    "order": 175,
     "title": "SAML SSO",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/admin-governance/single-sign-on-sso/saml-sso.md",
@@ -2420,11 +2448,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Admin Governance",
-    "sidebar_order": 171,
+    "sidebar_order": 173,
     "bytes": 6177
   },
   {
-    "order": 174,
+    "order": 176,
     "title": "Users and groups provisioning",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/admin-governance/users-and-groups-provisioning.md",
@@ -2434,11 +2462,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Admin Governance",
-    "sidebar_order": 172,
+    "sidebar_order": 174,
     "bytes": 2173
   },
   {
-    "order": 175,
+    "order": 177,
     "title": "Spaces management",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/spaces-management.md",
@@ -2448,11 +2476,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "",
-    "sidebar_order": 173,
+    "sidebar_order": 175,
     "bytes": 3543
   },
   {
-    "order": 176,
+    "order": 178,
     "title": "Agents management",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/agents-management.md",
@@ -2462,11 +2490,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "",
-    "sidebar_order": 174,
+    "sidebar_order": 176,
     "bytes": 2221
   },
   {
-    "order": 177,
+    "order": 179,
     "title": "Connections Management",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/connections-management/index.md",
@@ -2476,11 +2504,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Connections Management",
-    "sidebar_order": 175,
+    "sidebar_order": 177,
     "bytes": 1551
   },
   {
-    "order": 178,
+    "order": 180,
     "title": "Google Drive",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/connections-management/google-drive.md",
@@ -2490,11 +2518,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Connections Management",
-    "sidebar_order": 176,
+    "sidebar_order": 178,
     "bytes": 4887
   },
   {
-    "order": 179,
+    "order": 181,
     "title": "Notion",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/connections-management/notion.md",
@@ -2504,11 +2532,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Connections Management",
-    "sidebar_order": 177,
+    "sidebar_order": 179,
     "bytes": 8467
   },
   {
-    "order": 180,
+    "order": 182,
     "title": "Confluence",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/connections-management/confluence.md",
@@ -2518,11 +2546,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Connections Management",
-    "sidebar_order": 178,
+    "sidebar_order": 180,
     "bytes": 3467
   },
   {
-    "order": 181,
+    "order": 183,
     "title": "Intercom",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/connections-management/intercom.md",
@@ -2532,11 +2560,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Connections Management",
-    "sidebar_order": 179,
+    "sidebar_order": 181,
     "bytes": 3577
   },
   {
-    "order": 182,
+    "order": 184,
     "title": "Github",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/connections-management/github.md",
@@ -2546,11 +2574,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Connections Management",
-    "sidebar_order": 180,
+    "sidebar_order": 182,
     "bytes": 3535
   },
   {
-    "order": 183,
+    "order": 185,
     "title": "Microsoft",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/connections-management/microsoft.md",
@@ -2560,11 +2588,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Connections Management",
-    "sidebar_order": 181,
-    "bytes": 8381
+    "sidebar_order": 183,
+    "bytes": 8391
   },
   {
-    "order": 184,
+    "order": 186,
     "title": "Zendesk",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/connections-management/zendesk.md",
@@ -2574,11 +2602,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Connections Management",
-    "sidebar_order": 182,
+    "sidebar_order": 184,
     "bytes": 8455
   },
   {
-    "order": 185,
+    "order": 187,
     "title": "Snowflake",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/connections-management/snowflake.md",
@@ -2588,11 +2616,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Connections Management",
-    "sidebar_order": 183,
+    "sidebar_order": 185,
     "bytes": 10585
   },
   {
-    "order": 186,
+    "order": 188,
     "title": "BigQuery",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/connections-management/bigquery.md",
@@ -2602,11 +2630,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Connections Management",
-    "sidebar_order": 184,
+    "sidebar_order": 186,
     "bytes": 4058
   },
   {
-    "order": 187,
+    "order": 189,
     "title": "Gong",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/connections-management/gong.md",
@@ -2616,11 +2644,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Connections Management",
-    "sidebar_order": 185,
+    "sidebar_order": 187,
     "bytes": 2886
   },
   {
-    "order": 188,
+    "order": 190,
     "title": "Slack",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/connections-management/slack.md",
@@ -2630,11 +2658,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Connections Management",
-    "sidebar_order": 186,
-    "bytes": 11763
+    "sidebar_order": 188,
+    "bytes": 11768
   },
   {
-    "order": 189,
+    "order": 191,
     "title": "Adding an MCP Server",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/tools-management/adding-an-mcp-server.md",
@@ -2644,11 +2672,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Tools management",
-    "sidebar_order": 187,
-    "bytes": 5830
+    "sidebar_order": 189,
+    "bytes": 6125
   },
   {
-    "order": 190,
+    "order": 192,
     "title": "Personal vs Shared Credentials for Tools & MCP Servers",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/tools-management/personal-vs-shared-credentials.md",
@@ -2658,11 +2686,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Tools management",
-    "sidebar_order": 188,
+    "sidebar_order": 190,
     "bytes": 3975
   },
   {
-    "order": 191,
+    "order": 193,
     "title": "Salesforce",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/tools-management/salesforce/salesforce.md",
@@ -2672,11 +2700,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Tools management",
-    "sidebar_order": 189,
-    "bytes": 3414
+    "sidebar_order": 191,
+    "bytes": 3327
   },
   {
-    "order": 192,
+    "order": 194,
     "title": "Salesforce - Notes on API limit and permissions",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/tools-management/salesforce/salesforce-notes-on-api-limit-and-permissions.md",
@@ -2686,11 +2714,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Tools management",
-    "sidebar_order": 190,
+    "sidebar_order": 192,
     "bytes": 6911
   },
   {
-    "order": 193,
+    "order": 195,
     "title": "Managing Microsoft tools",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/tools-management/managing-microsoft-tools.md",
@@ -2700,11 +2728,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Tools management",
-    "sidebar_order": 191,
+    "sidebar_order": 193,
     "bytes": 7061
   },
   {
-    "order": 194,
+    "order": 196,
     "title": "Computer admin setup",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/tools-management/computer-admin-setup.md",
@@ -2714,11 +2742,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Tools management",
-    "sidebar_order": 192,
+    "sidebar_order": 194,
     "bytes": 7517
   },
   {
-    "order": 195,
+    "order": 197,
     "title": "Analytics",
     "description": "Monitor workspace credit consumption, identify what drives it, and export raw analytics data.",
     "source_url": "https://docs.dust.tt/analytics.md",
@@ -2728,11 +2756,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "",
-    "sidebar_order": 193,
-    "bytes": 11554
+    "sidebar_order": 195,
+    "bytes": 12037
   },
   {
-    "order": 196,
+    "order": 198,
     "title": "Audit Logs",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/audit-logs/audit-logs.md",
@@ -2742,11 +2770,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Audit Logs",
-    "sidebar_order": 194,
+    "sidebar_order": 196,
     "bytes": 4096
   },
   {
-    "order": 197,
+    "order": 199,
     "title": "Audit Logs: Events Reference",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/audit-logs/audit-logs-events-reference.md",
@@ -2756,11 +2784,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Audit Logs",
-    "sidebar_order": 195,
+    "sidebar_order": 197,
     "bytes": 9520
   },
   {
-    "order": 198,
+    "order": 200,
     "title": "Seat management",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/usage-seats-and-credits/seat-management.md",
@@ -2770,11 +2798,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Usage, seats & credits",
-    "sidebar_order": 196,
+    "sidebar_order": 198,
     "bytes": 4957
   },
   {
-    "order": 199,
+    "order": 201,
     "title": "Credits",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/usage-seats-and-credits/credits.md",
@@ -2784,11 +2812,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Usage, seats & credits",
-    "sidebar_order": 197,
+    "sidebar_order": 199,
     "bytes": 5741
   },
   {
-    "order": 200,
+    "order": 202,
     "title": "Credit management",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/usage-seats-and-credits/credit-management.md",
@@ -2798,11 +2826,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Usage, seats & credits",
-    "sidebar_order": 198,
+    "sidebar_order": 200,
     "bytes": 7758
   },
   {
-    "order": 201,
+    "order": 203,
     "title": "Optimize credit consumption",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/usage-seats-and-credits/optimize-credit-consumption.md",
@@ -2812,11 +2840,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Usage, seats & credits",
-    "sidebar_order": 199,
+    "sidebar_order": 201,
     "bytes": 15453
   },
   {
-    "order": 202,
+    "order": 204,
     "title": "Model access tiers",
     "description": "Restrict which models and reasoning efforts your members can select, for the whole workspace, a group, or one member.",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/usage-seats-and-credits/model-access-tiers.md",
@@ -2826,11 +2854,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Usage, seats & credits",
-    "sidebar_order": 200,
-    "bytes": 11583
+    "sidebar_order": 202,
+    "bytes": 11091
   },
   {
-    "order": 203,
+    "order": 205,
     "title": "Train your team on credit optimization",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/usage-seats-and-credits/train-team-credit-optimization.md",
@@ -2840,11 +2868,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Usage, seats & credits",
-    "sidebar_order": 201,
+    "sidebar_order": 203,
     "bytes": 16950
   },
   {
-    "order": 204,
+    "order": 206,
     "title": "Subscriptions & Payments",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/billing/subscriptions-and-payments.md",
@@ -2854,11 +2882,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Billing",
-    "sidebar_order": 202,
+    "sidebar_order": 204,
     "bytes": 6678
   },
   {
-    "order": 205,
+    "order": 207,
     "title": "Troubleshooting",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting.md",
@@ -2868,11 +2896,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Admin Troubleshooting",
-    "sidebar_order": 203,
+    "sidebar_order": 205,
     "bytes": 563
   },
   {
-    "order": 206,
+    "order": 208,
     "title": "Slack Troubleshooting",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting.md",
@@ -2882,11 +2910,11 @@
     "status": "downloaded",
     "sidebar_section": "Admins",
     "sidebar_group": "Admin Troubleshooting",
-    "sidebar_order": 204,
+    "sidebar_order": 206,
     "bytes": 15856
   },
   {
-    "order": 207,
+    "order": 209,
     "title": "Client Side MCP Server (Preview)",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/developers/client-side-mcp-server.md",
@@ -2896,11 +2924,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "",
-    "sidebar_order": 205,
+    "sidebar_order": 207,
     "bytes": 8406
   },
   {
-    "order": 208,
+    "order": 210,
     "title": "Developer platform",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/developer-platform/overview/developer-platform.md",
@@ -2910,11 +2938,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Overview",
-    "sidebar_order": 206,
+    "sidebar_order": 208,
     "bytes": 3812
   },
   {
-    "order": 209,
+    "order": 211,
     "title": "JavaScript SDK",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/developer-platform/overview/javascript-sdk.md",
@@ -2924,11 +2952,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Overview",
-    "sidebar_order": 207,
+    "sidebar_order": 209,
     "bytes": 397
   },
   {
-    "order": 210,
+    "order": 212,
     "title": "Datasources",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/developer-platform/core-concepts/datasources.md",
@@ -2938,11 +2966,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Core Concepts",
-    "sidebar_order": 208,
+    "sidebar_order": 210,
     "bytes": 6489
   },
   {
-    "order": 211,
+    "order": 213,
     "title": "Chunks and Documents",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/developer-platform/core-concepts/chunks-and-documents.md",
@@ -2952,11 +2980,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Core Concepts",
-    "sidebar_order": 209,
+    "sidebar_order": 211,
     "bytes": 2216
   },
   {
-    "order": 212,
+    "order": 214,
     "title": "Rate Limits",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/developer-platform/core-concepts/rate-limits.md",
@@ -2966,11 +2994,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Core Concepts",
-    "sidebar_order": 210,
+    "sidebar_order": 212,
     "bytes": 467
   },
   {
-    "order": 213,
+    "order": 215,
     "title": "OpenAPI & Postman",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/developer-platform/dust-api-documentation/openapi-and-postman.md",
@@ -2980,39 +3008,25 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 211,
+    "sidebar_order": 213,
     "bytes": 1029
   },
   {
-    "order": 214,
-    "title": "Get current user",
-    "description": "Returns the authenticated user with their workspaces and subscriber hash.",
-    "source_url": "https://docs.dust.tt/api-reference/private-user/get-current-user.md",
-    "path": "api-reference/private-user/get-current-user.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 212,
-    "bytes": 5921
-  },
-  {
-    "order": 215,
-    "title": "Update current user",
-    "description": "Update the authenticated user's profile (name, job type, favorite platforms, image).",
-    "source_url": "https://docs.dust.tt/api-reference/private-user/update-current-user.md",
-    "path": "api-reference/private-user/update-current-user.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 213,
-    "bytes": 3821
-  },
-  {
     "order": 216,
+    "title": "Export consumption analytics",
+    "description": "Export per-call consumption analytics for the workspace identified by {wId}. Each row represents one unit of billed credit consumption (an LLM call or a tool call). The export can be filtered by various dimensions (agents, users, API keys, groups, models, tools, skills, sources, tags). The export is…",
+    "source_url": "https://docs.dust.tt/api-reference/analytics/export-consumption-analytics.md",
+    "path": "api-reference/analytics/export-consumption-analytics.md",
+    "module": "API Reference",
+    "index_source": "llms.txt",
+    "status": "downloaded",
+    "sidebar_section": "Developers",
+    "sidebar_group": "Dust API Documentation",
+    "sidebar_order": 214,
+    "bytes": 8268
+  },
+  {
+    "order": 217,
     "title": "Export workspace analytics",
     "description": "Export analytics data for the workspace identified by {wId} in CSV or JSON format.",
     "source_url": "https://docs.dust.tt/api-reference/analytics/export-workspace-analytics.md",
@@ -3022,11 +3036,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 214,
-    "bytes": 5633
+    "sidebar_order": 215,
+    "bytes": 5739
   },
   {
-    "order": 217,
+    "order": 218,
     "title": "List agents",
     "description": "Get the agent configurations for the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/agents/list-agents.md",
@@ -3036,11 +3050,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 215,
-    "bytes": 9223
+    "sidebar_order": 216,
+    "bytes": 9545
   },
   {
-    "order": 218,
+    "order": 219,
     "title": "Export agent configuration as YAML",
     "description": "Download the agent configuration identified by {sId} as a YAML file.",
     "source_url": "https://docs.dust.tt/api-reference/agents/export-agent-configuration-as-yaml.md",
@@ -3050,11 +3064,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 216,
-    "bytes": 3771
+    "sidebar_order": 217,
+    "bytes": 3877
   },
   {
-    "order": 219,
+    "order": 220,
     "title": "Get agent configuration",
     "description": "Retrieve the agent configuration identified by {sId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/agents/get-agent-configuration.md",
@@ -3064,11 +3078,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 217,
-    "bytes": 8098
+    "sidebar_order": 218,
+    "bytes": 8512
   },
   {
-    "order": 220,
+    "order": 221,
     "title": "Archive agent configuration",
     "description": "Archive the agent configuration identified by {sId} in the workspace identified by {wId}. The agent is soft-archived and its triggers are disabled.",
     "source_url": "https://docs.dust.tt/api-reference/agents/archive-agent-configuration.md",
@@ -3078,11 +3092,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 218,
-    "bytes": 3965
+    "sidebar_order": 219,
+    "bytes": 4071
   },
   {
-    "order": 221,
+    "order": 222,
     "title": "Update agent configuration",
     "description": "Update the agent configuration identified by {sId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/agents/update-agent-configuration.md",
@@ -3092,11 +3106,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 219,
-    "bytes": 12612
+    "sidebar_order": 220,
+    "bytes": 13014
   },
   {
-    "order": 222,
+    "order": 223,
     "title": "Import agent configuration",
     "description": "Create a new agent configuration from a JSON body matching the agent config schema.",
     "source_url": "https://docs.dust.tt/api-reference/agents/import-agent-configuration.md",
@@ -3106,11 +3120,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 220,
-    "bytes": 10584
+    "sidebar_order": 221,
+    "bytes": 10906
   },
   {
-    "order": 223,
+    "order": 224,
     "title": "Search agents by name",
     "description": "Search for agent configurations by name in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/agents/search-agents-by-name.md",
@@ -3120,11 +3134,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 221,
-    "bytes": 7738
+    "sidebar_order": 222,
+    "bytes": 8060
   },
   {
-    "order": 224,
+    "order": 225,
     "title": "Cancel message generation in a conversation",
     "description": "",
     "source_url": "https://docs.dust.tt/api-reference/conversations/cancel-message-generation-in-a-conversation.md",
@@ -3134,11 +3148,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 222,
-    "bytes": 3788
+    "sidebar_order": 223,
+    "bytes": 3894
   },
   {
-    "order": 225,
+    "order": 226,
     "title": "Create a content fragment",
     "description": "Create a new content fragment in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/conversations/create-a-content-fragment.md",
@@ -3148,13 +3162,13 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 223,
-    "bytes": 7031
+    "sidebar_order": 224,
+    "bytes": 7137
   },
   {
-    "order": 226,
+    "order": 227,
     "title": "Get the events for a conversation",
-    "description": "Get the events for a conversation in the workspace identified by {wId}.",
+    "description": "Stream conversation events for the workspace identified by {wId} using Server-Sent Events (SSE). The stream starts with a `:connect` comment. Event frames carry JSON with `eventId` and `data` fields. A plain-text `data: done` frame ends the current connection; clients may reconnect with `lastEventId…",
     "source_url": "https://docs.dust.tt/api-reference/conversations/get-the-events-for-a-conversation.md",
     "path": "api-reference/conversations/get-the-events-for-a-conversation.md",
     "module": "API Reference",
@@ -3162,11 +3176,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 224,
-    "bytes": 3720
+    "sidebar_order": 225,
+    "bytes": 5133
   },
   {
-    "order": 227,
+    "order": 228,
     "title": "Download a conversation-scoped file by path",
     "description": "Download a file from a conversation's file system by its scoped path. Pass the canonical `filePath` surfaced in a message action's `generatedFiles` (the legacy `conversation/foo.pdf` form is also accepted). The file content is streamed directly from the conversation mount.",
     "source_url": "https://docs.dust.tt/api-reference/conversations/download-a-conversation-scoped-file-by-path.md",
@@ -3176,11 +3190,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 225,
-    "bytes": 4585
+    "sidebar_order": 226,
+    "bytes": 4691
   },
   {
-    "order": 228,
+    "order": 229,
     "title": "Get a conversation",
     "description": "Get a conversation in the workspace identified by {wId}. Supports optional pagination of message content via limit and lastValue query parameters.",
     "source_url": "https://docs.dust.tt/api-reference/conversations/get-a-conversation.md",
@@ -3190,11 +3204,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 226,
-    "bytes": 18225
+    "sidebar_order": 227,
+    "bytes": 18643
   },
   {
-    "order": 229,
+    "order": 230,
     "title": "Update a conversation",
     "description": "Update a conversation's title or mark it as read or unread in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/conversations/update-a-conversation.md",
@@ -3204,11 +3218,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 227,
-    "bytes": 4178
+    "sidebar_order": 228,
+    "bytes": 4284
   },
   {
-    "order": 230,
+    "order": 231,
     "title": "Answer a user question in a conversation message",
     "description": "Submits an answer to a question asked by an agent in a specific message",
     "source_url": "https://docs.dust.tt/api-reference/conversations/answer-a-user-question-in-a-conversation-message.md",
@@ -3218,11 +3232,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 228,
-    "bytes": 4703
+    "sidebar_order": 229,
+    "bytes": 4809
   },
   {
-    "order": 231,
+    "order": 232,
     "title": "Edit an existing message in a conversation",
     "description": "",
     "source_url": "https://docs.dust.tt/api-reference/conversations/edit-an-existing-message-in-a-conversation.md",
@@ -3232,13 +3246,13 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 229,
-    "bytes": 4463
+    "sidebar_order": 230,
+    "bytes": 4569
   },
   {
-    "order": 232,
+    "order": 233,
     "title": "Get events for a message",
-    "description": "Get events for a message in the workspace identified by {wId}.",
+    "description": "Stream events for a message in the workspace identified by {wId} using Server-Sent Events (SSE). The stream starts with a `:connect` comment. Message frames carry JSON with `eventId` and `data` fields. A plain-text `data: done` frame ends the current connection; clients may reconnect with `lastEvent…",
     "source_url": "https://docs.dust.tt/api-reference/conversations/get-events-for-a-message.md",
     "path": "api-reference/conversations/get-events-for-a-message.md",
     "module": "API Reference",
@@ -3246,11 +3260,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 230,
-    "bytes": 7526
+    "sidebar_order": 231,
+    "bytes": 5091
   },
   {
-    "order": 233,
+    "order": 234,
     "title": "Validate an action in a conversation message",
     "description": "Approves or rejects an action taken in a specific message in a conversation",
     "source_url": "https://docs.dust.tt/api-reference/conversations/validate-an-action-in-a-conversation-message.md",
@@ -3260,11 +3274,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 231,
-    "bytes": 4270
+    "sidebar_order": 232,
+    "bytes": 4376
   },
   {
-    "order": 234,
+    "order": 235,
     "title": "Create a message",
     "description": "Create a message in the workspace identified by {wId} in the conversation identified by {cId}.",
     "source_url": "https://docs.dust.tt/api-reference/conversations/create-a-message.md",
@@ -3274,11 +3288,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 232,
-    "bytes": 7144
+    "sidebar_order": 233,
+    "bytes": 7250
   },
   {
-    "order": 235,
+    "order": 236,
     "title": "Create a new conversation",
     "description": "Create a new conversation in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/conversations/create-a-new-conversation.md",
@@ -3288,11 +3302,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 233,
-    "bytes": 22980
+    "sidebar_order": 234,
+    "bytes": 23398
   },
   {
-    "order": 236,
+    "order": 237,
     "title": "Create a file upload URL",
     "description": "",
     "source_url": "https://docs.dust.tt/api-reference/conversations/create-a-file-upload-url.md",
@@ -3302,11 +3316,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 234,
-    "bytes": 4504
+    "sidebar_order": 235,
+    "bytes": 4610
   },
   {
-    "order": 237,
+    "order": 238,
     "title": "Get feedbacks for a conversation",
     "description": "Retrieves all feedback entries for a specific conversation. Requires authentication and read:conversation scope.",
     "source_url": "https://docs.dust.tt/api-reference/feedbacks/get-feedbacks-for-a-conversation.md",
@@ -3316,11 +3330,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 235,
-    "bytes": 5342
+    "sidebar_order": 236,
+    "bytes": 5448
   },
   {
-    "order": 238,
+    "order": 239,
     "title": "Submit feedback for a specific message in a conversation",
     "description": "Submit user feedback (thumbs up/down) for a specific message in a conversation. Requires authentication and update:conversation scope.",
     "source_url": "https://docs.dust.tt/api-reference/feedbacks/submit-feedback-for-a-specific-message-in-a-conversation.md",
@@ -3330,11 +3344,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 236,
-    "bytes": 4595
+    "sidebar_order": 237,
+    "bytes": 4701
   },
   {
-    "order": 239,
+    "order": 240,
     "title": "Delete feedback for a specific message",
     "description": "Delete user feedback for a specific message in a conversation. Requires authentication and update:conversation scope.",
     "source_url": "https://docs.dust.tt/api-reference/feedbacks/delete-feedback-for-a-specific-message.md",
@@ -3344,11 +3358,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 237,
-    "bytes": 3839
+    "sidebar_order": 238,
+    "bytes": 3945
   },
   {
-    "order": 240,
+    "order": 241,
     "title": "Get mention suggestions for a conversation",
     "description": "Get suggestions for mentions (agents and users) based on a query string, scoped to a specific conversation.",
     "source_url": "https://docs.dust.tt/api-reference/mentions/get-mention-suggestions-for-a-conversation.md",
@@ -3358,11 +3372,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 238,
-    "bytes": 5890
+    "sidebar_order": 239,
+    "bytes": 5996
   },
   {
-    "order": 241,
+    "order": 242,
     "title": "Parse mentions in markdown text",
     "description": "Parses pasted text containing @ mentions and converts them to the proper mention format. Matches @agentName or @userName patterns against available agents and users.",
     "source_url": "https://docs.dust.tt/api-reference/mentions/parse-mentions-in-markdown-text.md",
@@ -3372,11 +3386,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 239,
-    "bytes": 4224
+    "sidebar_order": 240,
+    "bytes": 4330
   },
   {
-    "order": 242,
+    "order": 243,
     "title": "Get mention suggestions",
     "description": "Get suggestions for mentions (agents and users) based on a query string.",
     "source_url": "https://docs.dust.tt/api-reference/mentions/get-mention-suggestions.md",
@@ -3386,11 +3400,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 240,
-    "bytes": 5508
+    "sidebar_order": 241,
+    "bytes": 5614
   },
   {
-    "order": 243,
+    "order": 244,
     "title": "Deregister a client-side MCP server",
     "description": "[Documentation](https://docs.dust.tt/docs/client-side-mcp-server) Remove a previously registered client-side MCP server registration.",
     "source_url": "https://docs.dust.tt/api-reference/mcp/deregister-a-client-side-mcp-server.md",
@@ -3400,11 +3414,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 241,
-    "bytes": 3632
+    "sidebar_order": 242,
+    "bytes": 3738
   },
   {
-    "order": 244,
+    "order": 245,
     "title": "Update heartbeat for a client-side MCP server",
     "description": "[Documentation](https://docs.dust.tt/docs/client-side-mcp-server) Update the heartbeat for a previously registered client-side MCP server. This extends the TTL for the server registration.",
     "source_url": "https://docs.dust.tt/api-reference/mcp/update-heartbeat-for-a-client-side-mcp-server.md",
@@ -3414,11 +3428,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 242,
-    "bytes": 4224
+    "sidebar_order": 243,
+    "bytes": 4330
   },
   {
-    "order": 245,
+    "order": 246,
     "title": "Register a client-side MCP server",
     "description": "[Documentation](https://docs.dust.tt/docs/client-side-mcp-server) Register a client-side MCP server to Dust. The registration is scoped to the current user and workspace. A serverId identifier is generated and returned in the response.",
     "source_url": "https://docs.dust.tt/api-reference/mcp/register-a-client-side-mcp-server.md",
@@ -3428,13 +3442,13 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 243,
-    "bytes": 4204
+    "sidebar_order": 244,
+    "bytes": 4310
   },
   {
-    "order": 246,
+    "order": 247,
     "title": "Stream MCP tool requests for a workspace",
-    "description": "[Documentation](https://docs.dust.tt/docs/client-side-mcp-server) Server-Sent Events (SSE) endpoint that streams MCP tool requests for a workspace. This endpoint is used by client-side MCP servers to listen for tool requests in real-time. The connection will remain open and events will be sent as ne…",
+    "description": "[Documentation](https://docs.dust.tt/docs/client-side-mcp-server) Server-Sent Events (SSE) endpoint that streams MCP tool requests for a workspace. This endpoint is used by client-side MCP servers to listen for tool requests in real-time. Events arrive as new tool requests are made. Reconnect with `…",
     "source_url": "https://docs.dust.tt/api-reference/mcp/stream-mcp-tool-requests-for-a-workspace.md",
     "path": "api-reference/mcp/stream-mcp-tool-requests-for-a-workspace.md",
     "module": "API Reference",
@@ -3442,11 +3456,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 244,
-    "bytes": 4807
+    "sidebar_order": 245,
+    "bytes": 5553
   },
   {
-    "order": 247,
+    "order": 248,
     "title": "Submit MCP tool execution results",
     "description": "[Documentation](https://docs.dust.tt/docs/client-side-mcp-server) Endpoint for client-side MCP servers to submit the results of tool executions. This endpoint accepts the output from tools that were executed locally.",
     "source_url": "https://docs.dust.tt/api-reference/mcp/submit-mcp-tool-execution-results.md",
@@ -3456,11 +3470,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 245,
-    "bytes": 4205
+    "sidebar_order": 246,
+    "bytes": 4311
   },
   {
-    "order": 248,
+    "order": 249,
     "title": "Search for nodes in the workspace (streaming)",
     "description": "Search for nodes in the workspace with SSE streaming",
     "source_url": "https://docs.dust.tt/api-reference/search/search-for-nodes-in-the-workspace-streaming.md",
@@ -3470,11 +3484,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 246,
-    "bytes": 4620
+    "sidebar_order": 247,
+    "bytes": 4726
   },
   {
-    "order": 249,
+    "order": 250,
     "title": "Search for nodes in the workspace",
     "description": "Search for nodes in the workspace",
     "source_url": "https://docs.dust.tt/api-reference/search/search-for-nodes-in-the-workspace.md",
@@ -3484,11 +3498,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 247,
-    "bytes": 4091
+    "sidebar_order": 248,
+    "bytes": 4197
   },
   {
-    "order": 250,
+    "order": 251,
     "title": "Upload a tool file",
     "description": "Download and upload a file from a tool (MCP server) to Dust",
     "source_url": "https://docs.dust.tt/api-reference/search/upload-a-tool-file.md",
@@ -3498,11 +3512,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 248,
-    "bytes": 3981
+    "sidebar_order": 249,
+    "bytes": 4087
   },
   {
-    "order": 251,
+    "order": 252,
     "title": "Archive a skill",
     "description": "Soft-archives a custom skill in the workspace.",
     "source_url": "https://docs.dust.tt/api-reference/skills/archive-a-skill.md",
@@ -3512,11 +3526,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 249,
-    "bytes": 3634
+    "sidebar_order": 250,
+    "bytes": 3740
   },
   {
-    "order": 252,
+    "order": 253,
     "title": "List skills",
     "description": "Retrieves the custom skills in the workspace. Active skills are returned by default.",
     "source_url": "https://docs.dust.tt/api-reference/skills/list-skills.md",
@@ -3526,11 +3540,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 250,
-    "bytes": 14562
+    "sidebar_order": 251,
+    "bytes": 14693
   },
   {
-    "order": 253,
+    "order": 254,
     "title": "Import skills from uploaded files",
     "description": "Imports skills from uploaded files or ZIP archives into the workspace.",
     "source_url": "https://docs.dust.tt/api-reference/skills/import-skills-from-uploaded-files.md",
@@ -3540,11 +3554,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 251,
-    "bytes": 15772
+    "sidebar_order": 252,
+    "bytes": 15989
   },
   {
-    "order": 254,
+    "order": 255,
     "title": "Get an app run",
     "description": "Retrieve a run for an app in the space identified by {spaceId}.",
     "source_url": "https://docs.dust.tt/api-reference/apps/get-an-app-run.md",
@@ -3554,11 +3568,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 252,
-    "bytes": 5048
+    "sidebar_order": 253,
+    "bytes": 5154
   },
   {
-    "order": 255,
+    "order": 256,
     "title": "Create an app run",
     "description": "Create and execute a run for an app in the space specified by {spaceId}.",
     "source_url": "https://docs.dust.tt/api-reference/apps/create-an-app-run.md",
@@ -3568,11 +3582,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 253,
-    "bytes": 7113
+    "sidebar_order": 254,
+    "bytes": 7219
   },
   {
-    "order": 256,
+    "order": 257,
     "title": "List apps",
     "description": "Get all apps in the space identified by {spaceId}.",
     "source_url": "https://docs.dust.tt/api-reference/apps/list-apps.md",
@@ -3582,11 +3596,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 254,
-    "bytes": 4768
+    "sidebar_order": 255,
+    "bytes": 4874
   },
   {
-    "order": 257,
+    "order": 258,
     "title": "Get a data source view",
     "description": "",
     "source_url": "https://docs.dust.tt/api-reference/datasourceviews/get-a-data-source-view.md",
@@ -3596,11 +3610,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 255,
-    "bytes": 6097
+    "sidebar_order": 256,
+    "bytes": 6203
   },
   {
-    "order": 258,
+    "order": 259,
     "title": "Delete a data source view",
     "description": "",
     "source_url": "https://docs.dust.tt/api-reference/datasourceviews/delete-a-data-source-view.md",
@@ -3610,11 +3624,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 256,
-    "bytes": 3310
+    "sidebar_order": 257,
+    "bytes": 3404
   },
   {
-    "order": 259,
+    "order": 260,
     "title": "Update a data source view",
     "description": "",
     "source_url": "https://docs.dust.tt/api-reference/datasourceviews/update-a-data-source-view.md",
@@ -3624,11 +3638,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 257,
-    "bytes": 7107
+    "sidebar_order": 258,
+    "bytes": 7201
   },
   {
-    "order": 260,
+    "order": 261,
     "title": "Search the data source view",
     "description": "Search the data source view identified by {dsvId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasourceviews/search-the-data-source-view.md",
@@ -3638,11 +3652,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 258,
-    "bytes": 6592
+    "sidebar_order": 259,
+    "bytes": 6698
   },
   {
-    "order": 261,
+    "order": 262,
     "title": "List Data Source Views",
     "description": "Retrieves a list of data source views for the specified space",
     "source_url": "https://docs.dust.tt/api-reference/datasourceviews/list-data-source-views.md",
@@ -3652,11 +3666,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 259,
-    "bytes": 6629
+    "sidebar_order": 260,
+    "bytes": 6735
   },
   {
-    "order": 262,
+    "order": 263,
     "title": "Check the upsert queue status for a data source",
     "description": "Returns the number of running document upsert workflows for this data source. This endpoint is only accessible with system API keys (e.g., from connectors).",
     "source_url": "https://docs.dust.tt/api-reference/datasources/check-the-upsert-queue-status-for-a-data-source.md",
@@ -3666,11 +3680,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 260,
-    "bytes": 4235
+    "sidebar_order": 261,
+    "bytes": 4341
   },
   {
-    "order": 263,
+    "order": 264,
     "title": "Retrieve a document from a data source",
     "description": "Retrieve a document from a data source identified by {dsId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/retrieve-a-document-from-a-data-source.md",
@@ -3680,11 +3694,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 261,
-    "bytes": 6304
+    "sidebar_order": 262,
+    "bytes": 6410
   },
   {
-    "order": 264,
+    "order": 265,
     "title": "Upsert a document in a data source",
     "description": "Upsert a document in a data source in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/upsert-a-document-in-a-data-source.md",
@@ -3694,11 +3708,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 262,
-    "bytes": 9962
+    "sidebar_order": 263,
+    "bytes": 10068
   },
   {
-    "order": 265,
+    "order": 266,
     "title": "Delete a document from a data source",
     "description": "Delete a document from a data source in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/delete-a-document-from-a-data-source.md",
@@ -3708,11 +3722,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 263,
-    "bytes": 4133
+    "sidebar_order": 264,
+    "bytes": 4239
   },
   {
-    "order": 266,
+    "order": 267,
     "title": "Update the parents of a document",
     "description": "Update the parents of a document in the data source identified by {dsId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/update-the-parents-of-a-document.md",
@@ -3722,11 +3736,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 264,
-    "bytes": 4588
+    "sidebar_order": 265,
+    "bytes": 4694
   },
   {
-    "order": 267,
+    "order": 268,
     "title": "Get documents",
     "description": "Get documents in the data source identified by {dsId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/get-documents.md",
@@ -3736,11 +3750,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 265,
-    "bytes": 6434
+    "sidebar_order": 266,
+    "bytes": 6540
   },
   {
-    "order": 268,
+    "order": 269,
     "title": "Search the data source",
     "description": "Search the data source identified by {dsId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/search-the-data-source.md",
@@ -3750,11 +3764,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 266,
-    "bytes": 6548
+    "sidebar_order": 267,
+    "bytes": 6654
   },
   {
-    "order": 269,
+    "order": 270,
     "title": "Get a table",
     "description": "Get a table in the data source identified by {dsId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/get-a-table.md",
@@ -3764,11 +3778,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 267,
-    "bytes": 5870
+    "sidebar_order": 268,
+    "bytes": 5976
   },
   {
-    "order": 270,
+    "order": 271,
     "title": "Delete a table",
     "description": "Delete a table in the data source identified by {dsId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/delete-a-table.md",
@@ -3778,11 +3792,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 268,
-    "bytes": 3592
+    "sidebar_order": 269,
+    "bytes": 3698
   },
   {
-    "order": 271,
+    "order": 272,
     "title": "Get a row",
     "description": "Get a row in the table identified by {tId} in the data source identified by {dsId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/get-a-row.md",
@@ -3792,11 +3806,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 269,
-    "bytes": 5123
+    "sidebar_order": 270,
+    "bytes": 5229
   },
   {
-    "order": 272,
+    "order": 273,
     "title": "Delete a row",
     "description": "Delete a row in the table identified by {tId} in the data source identified by {dsId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/delete-a-row.md",
@@ -3806,11 +3820,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 270,
-    "bytes": 3948
+    "sidebar_order": 271,
+    "bytes": 4054
   },
   {
-    "order": 273,
+    "order": 274,
     "title": "List rows",
     "description": "List rows in the table identified by {tId} in the data source identified by {dsId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/list-rows.md",
@@ -3820,11 +3834,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 271,
-    "bytes": 5556
+    "sidebar_order": 272,
+    "bytes": 5662
   },
   {
-    "order": 274,
+    "order": 275,
     "title": "Upsert rows",
     "description": "Upsert rows in the table identified by {tId} in the data source identified by {dsId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/upsert-rows.md",
@@ -3834,11 +3848,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 272,
-    "bytes": 6542
+    "sidebar_order": 273,
+    "bytes": 6648
   },
   {
-    "order": 275,
+    "order": 276,
     "title": "Get tables",
     "description": "Get tables in the data source identified by {dsId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/get-tables.md",
@@ -3848,11 +3862,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 273,
-    "bytes": 5849
+    "sidebar_order": 274,
+    "bytes": 5955
   },
   {
-    "order": 276,
+    "order": 277,
     "title": "Upsert a table",
     "description": "Upsert a table in the data source identified by {dsId} in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/upsert-a-table.md",
@@ -3862,11 +3876,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 274,
-    "bytes": 6980
+    "sidebar_order": 275,
+    "bytes": 7086
   },
   {
-    "order": 277,
+    "order": 278,
     "title": "Get data sources",
     "description": "Get data sources in the workspace identified by {wId}.",
     "source_url": "https://docs.dust.tt/api-reference/datasources/get-data-sources.md",
@@ -3876,11 +3890,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 275,
-    "bytes": 4627
+    "sidebar_order": 276,
+    "bytes": 4733
   },
   {
-    "order": 278,
+    "order": 279,
     "title": "List available MCP server views.",
     "description": "Retrieves a list of enabled MCP server views (aka tools) for a specific space of the authenticated workspace.",
     "source_url": "https://docs.dust.tt/api-reference/tools/list-available-mcp-server-views.md",
@@ -3890,11 +3904,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 276,
-    "bytes": 9266
+    "sidebar_order": 277,
+    "bytes": 9372
   },
   {
-    "order": 279,
+    "order": 280,
     "title": "List available spaces.",
     "description": "Retrieves a list of accessible spaces for the authenticated workspace.",
     "source_url": "https://docs.dust.tt/api-reference/spaces/list-available-spaces.md",
@@ -3904,11 +3918,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 277,
-    "bytes": 4548
+    "sidebar_order": 278,
+    "bytes": 4654
   },
   {
-    "order": 280,
+    "order": 281,
     "title": "Get a trigger",
     "description": "Get one agent trigger (scheduled run or webhook) by id. Requires a workspace admin API key.",
     "source_url": "https://docs.dust.tt/api-reference/triggers/get-a-trigger.md",
@@ -3918,11 +3932,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 278,
-    "bytes": 5482
+    "sidebar_order": 279,
+    "bytes": 5588
   },
   {
-    "order": 281,
+    "order": 282,
     "title": "Receive external webhook to trigger flows",
     "description": "Skeleton endpoint that verifies workspace and webhook source and logs receipt.",
     "source_url": "https://docs.dust.tt/api-reference/triggers/receive-external-webhook-to-trigger-flows.md",
@@ -3932,11 +3946,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 279,
-    "bytes": 3455
+    "sidebar_order": 280,
+    "bytes": 3561
   },
   {
-    "order": 282,
+    "order": 283,
     "title": "List triggers",
     "description": "List the agent triggers (scheduled runs and webhooks) configured across the workspace identified by {wId}. Requires a workspace admin API key.",
     "source_url": "https://docs.dust.tt/api-reference/triggers/list-triggers.md",
@@ -3946,809 +3960,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 280,
-    "bytes": 6161
-  },
-  {
-    "order": 283,
-    "title": "List consumption analytics facets",
-    "description": "Lists current entities and historical indexed values present in the selected period for each consumption dimension. The workspace route requires a manager; the /me route is restricted server-side to the authenticated member; the agent route is restricted server-side to workspace managers and editors…",
-    "source_url": "https://docs.dust.tt/api-reference/private-analytics/list-consumption-analytics-facets.md",
-    "path": "api-reference/private-analytics/list-consumption-analytics-facets.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
     "sidebar_order": 281,
-    "bytes": 10770
+    "bytes": 6267
   },
   {
     "order": 284,
-    "title": "List consumption analytics facets",
-    "description": "Lists current entities and historical indexed values present in the selected period for each consumption dimension. The workspace route requires a manager; the /me route is restricted server-side to the authenticated member; the agent route is restricted server-side to workspace managers and editors…",
-    "source_url": "https://docs.dust.tt/api-reference/private-analytics/list-consumption-analytics-facets-1.md",
-    "path": "api-reference/private-analytics/list-consumption-analytics-facets-1.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 282,
-    "bytes": 675
-  },
-  {
-    "order": 285,
-    "title": "List consumption analytics facets",
-    "description": "Lists current entities and historical indexed values present in the selected period for each consumption dimension. The workspace route requires a manager; the /me route is restricted server-side to the authenticated member; the agent route is restricted server-side to workspace managers and editors…",
-    "source_url": "https://docs.dust.tt/api-reference/private-analytics/list-consumption-analytics-facets-2.md",
-    "path": "api-reference/private-analytics/list-consumption-analytics-facets-2.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 283,
-    "bytes": 675
-  },
-  {
-    "order": 286,
-    "title": "List agent configurations",
-    "description": "Returns all agent configurations in the workspace.",
-    "source_url": "https://docs.dust.tt/api-reference/private-agents/list-agent-configurations.md",
-    "path": "api-reference/private-agents/list-agent-configurations.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 284,
-    "bytes": 8219
-  },
-  {
-    "order": 287,
-    "title": "Create an agent configuration",
-    "description": "Creates a new agent configuration in the workspace.",
-    "source_url": "https://docs.dust.tt/api-reference/private-agents/create-an-agent-configuration.md",
-    "path": "api-reference/private-agents/create-an-agent-configuration.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 285,
-    "bytes": 6960
-  },
-  {
-    "order": 288,
-    "title": "Cancel message generation",
-    "description": "Cancels the generation of messages in a conversation.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/cancel-message-generation.md",
-    "path": "api-reference/private-conversations/cancel-message-generation.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 286,
-    "bytes": 3868
-  },
-  {
-    "order": 289,
-    "title": "Compact a conversation",
-    "description": "Trigger compaction of a conversation, summarizing older messages into a compaction message. Requires a model to use for summary generation.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/compact-a-conversation.md",
-    "path": "api-reference/private-conversations/compact-a-conversation.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 287,
-    "bytes": 5452
-  },
-  {
-    "order": 290,
-    "title": "Get a conversation credit attribution",
-    "description": "Returns the latest stable credits billed for completed messages belonging directly to a conversation, plus an additive attribution reconciled exclusively through model input rows. In-progress messages are included after they reach a terminal state.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/get-a-conversation-credit-attribution.md",
-    "path": "api-reference/private-conversations/get-a-conversation-credit-attribution.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 288,
-    "bytes": 7410
-  },
-  {
-    "order": 291,
-    "title": "Create a content fragment",
-    "description": "Post a new content fragment to an existing conversation.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/create-a-content-fragment.md",
-    "path": "api-reference/private-conversations/create-a-content-fragment.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 289,
-    "bytes": 7077
-  },
-  {
-    "order": 292,
-    "title": "Get conversation feedbacks",
-    "description": "Retrieve all feedbacks for a conversation submitted by the authenticated user.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/get-conversation-feedbacks.md",
-    "path": "api-reference/private-conversations/get-conversation-feedbacks.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 290,
-    "bytes": 4626
-  },
-  {
-    "order": 293,
-    "title": "Get a conversation",
-    "description": "Retrieve a specific conversation by its ID.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/get-a-conversation.md",
-    "path": "api-reference/private-conversations/get-a-conversation.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 291,
-    "bytes": 6880
-  },
-  {
-    "order": 294,
-    "title": "Delete or leave a conversation",
-    "description": "Delete a conversation or leave it if it is shared.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/delete-or-leave-a-conversation.md",
-    "path": "api-reference/private-conversations/delete-or-leave-a-conversation.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 292,
-    "bytes": 3175
-  },
-  {
-    "order": 295,
-    "title": "Update a conversation",
-    "description": "Update a conversation's title, mark it as read, move it to a different space, or control URL access mode.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/update-a-conversation.md",
-    "path": "api-reference/private-conversations/update-a-conversation.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 293,
-    "bytes": 4438
-  },
-  {
-    "order": 296,
-    "title": "Get conversation participants",
-    "description": "Returns the participants of a specific conversation.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/get-conversation-participants.md",
-    "path": "api-reference/private-conversations/get-conversation-participants.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 294,
-    "bytes": 4248
-  },
-  {
-    "order": 297,
-    "title": "Add a participant to a conversation",
-    "description": "Adds the authenticated user as a participant to a specific conversation.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/add-a-participant-to-a-conversation.md",
-    "path": "api-reference/private-conversations/add-a-participant-to-a-conversation.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 295,
-    "bytes": 3240
-  },
-  {
-    "order": 298,
-    "title": "List selectable Spaces",
-    "description": "Lists regular Spaces the user can select for a conversation, with current selection state.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/list-selectable-spaces.md",
-    "path": "api-reference/private-conversations/list-selectable-spaces.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 296,
-    "bytes": 4163
-  },
-  {
-    "order": 299,
-    "title": "Select Spaces for a conversation",
-    "description": "Appends regular Spaces to a conversation's explicit selected scope.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/select-spaces-for-a-conversation.md",
-    "path": "api-reference/private-conversations/select-spaces-for-a-conversation.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 297,
-    "bytes": 4892
-  },
-  {
-    "order": 300,
-    "title": "Cancel a wake-up",
-    "description": "Cancel a scheduled wake-up. Only the wake-up owner or a workspace admin can cancel.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/cancel-a-wake-up.md",
-    "path": "api-reference/private-conversations/cancel-a-wake-up.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 298,
-    "bytes": 5517
-  },
-  {
-    "order": 301,
-    "title": "List wake-ups for a conversation",
-    "description": "Retrieve all wake-ups scheduled in a conversation (any status).",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/list-wake-ups-for-a-conversation.md",
-    "path": "api-reference/private-conversations/list-wake-ups-for-a-conversation.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 299,
-    "bytes": 5242
-  },
-  {
-    "order": 302,
-    "title": "List conversations",
-    "description": "Retrieve a paginated list of conversations for the authenticated user in the workspace.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/list-conversations.md",
-    "path": "api-reference/private-conversations/list-conversations.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 300,
-    "bytes": 7043
-  },
-  {
-    "order": 303,
-    "title": "Create a conversation",
-    "description": "Create a new conversation, optionally with an initial user message and content fragments.",
-    "source_url": "https://docs.dust.tt/api-reference/private-conversations/create-a-conversation.md",
-    "path": "api-reference/private-conversations/create-a-conversation.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 301,
-    "bytes": 27555
-  },
-  {
-    "order": 304,
-    "title": "Stream conversation events",
-    "description": "Stream real-time conversation events using Server-Sent Events (SSE). This endpoint is redirected to /api/sse/ for SSE traffic routing.",
-    "source_url": "https://docs.dust.tt/api-reference/private-events/stream-conversation-events.md",
-    "path": "api-reference/private-events/stream-conversation-events.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 302,
-    "bytes": 21487
-  },
-  {
-    "order": 305,
-    "title": "Stream message events",
-    "description": "Stream real-time events for a specific agent message using Server-Sent Events (SSE). Only available for agent messages. This endpoint is redirected to /api/sse/ for SSE traffic routing.",
-    "source_url": "https://docs.dust.tt/api-reference/private-events/stream-message-events.md",
-    "path": "api-reference/private-events/stream-message-events.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 303,
-    "bytes": 26805
-  },
-  {
-    "order": 306,
-    "title": "Stream sandbox function invocation events",
-    "description": "Stream real-time events for a Pod function invocation using Server-Sent Events (SSE). This endpoint is redirected to /api/sse/ for SSE traffic routing.",
-    "source_url": "https://docs.dust.tt/api-reference/private-events/stream-sandbox-function-invocation-events.md",
-    "path": "api-reference/private-events/stream-sandbox-function-invocation-events.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 304,
-    "bytes": 6805
-  },
-  {
-    "order": 307,
-    "title": "Get a single action",
-    "description": "Retrieve a single action by its ID within an agent message, along with the message status.",
-    "source_url": "https://docs.dust.tt/api-reference/private-messages/get-a-single-action.md",
-    "path": "api-reference/private-messages/get-a-single-action.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 305,
-    "bytes": 7993
-  },
-  {
-    "order": 308,
-    "title": "Get an agent message credit attribution",
-    "description": "Returns direct and total billed credits. Run-agent tool rows combine invocation cost with the bill of their sub-agent subtree.",
-    "source_url": "https://docs.dust.tt/api-reference/private-messages/get-an-agent-message-credit-attribution.md",
-    "path": "api-reference/private-messages/get-an-agent-message-credit-attribution.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 306,
-    "bytes": 6711
-  },
-  {
-    "order": 309,
-    "title": "Edit a message",
-    "description": "Edit the content and mentions of an existing user message in a conversation.",
-    "source_url": "https://docs.dust.tt/api-reference/private-messages/edit-a-message.md",
-    "path": "api-reference/private-messages/edit-a-message.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 307,
-    "bytes": 8725
-  },
-  {
-    "order": 310,
-    "title": "Submit message feedback",
-    "description": "Create or update feedback (thumbs up/down) for a specific agent message.",
-    "source_url": "https://docs.dust.tt/api-reference/private-messages/submit-message-feedback.md",
-    "path": "api-reference/private-messages/submit-message-feedback.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 308,
-    "bytes": 4096
-  },
-  {
-    "order": 311,
-    "title": "Delete message feedback",
-    "description": "Remove the authenticated user's feedback for a specific agent message.",
-    "source_url": "https://docs.dust.tt/api-reference/private-messages/delete-message-feedback.md",
-    "path": "api-reference/private-messages/delete-message-feedback.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 309,
-    "bytes": 3571
-  },
-  {
-    "order": 312,
-    "title": "Get a message",
-    "description": "Retrieve a specific message by its ID within a conversation.",
-    "source_url": "https://docs.dust.tt/api-reference/private-messages/get-a-message.md",
-    "path": "api-reference/private-messages/get-a-message.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 310,
-    "bytes": 18561
-  },
-  {
-    "order": 313,
-    "title": "Delete a message",
-    "description": "Soft-delete a user or agent message from a conversation.",
-    "source_url": "https://docs.dust.tt/api-reference/private-messages/delete-a-message.md",
-    "path": "api-reference/private-messages/delete-a-message.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 311,
-    "bytes": 3580
-  },
-  {
-    "order": 314,
-    "title": "Retry an agent message",
-    "description": "Retry generating an agent message response, optionally retrying only blocked actions.",
-    "source_url": "https://docs.dust.tt/api-reference/private-messages/retry-an-agent-message.md",
-    "path": "api-reference/private-messages/retry-an-agent-message.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 312,
-    "bytes": 12421
-  },
-  {
-    "order": 315,
-    "title": "List messages in a conversation",
-    "description": "Retrieve a paginated list of messages for a specific conversation.",
-    "source_url": "https://docs.dust.tt/api-reference/private-messages/list-messages-in-a-conversation.md",
-    "path": "api-reference/private-messages/list-messages-in-a-conversation.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 313,
-    "bytes": 16645
-  },
-  {
-    "order": 316,
-    "title": "Post a message to a conversation",
-    "description": "Post a new user message to an existing conversation, triggering agent responses.",
-    "source_url": "https://docs.dust.tt/api-reference/private-messages/post-a-message-to-a-conversation.md",
-    "path": "api-reference/private-messages/post-a-message-to-a-conversation.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 314,
-    "bytes": 20455
-  },
-  {
-    "order": 317,
-    "title": "Resolve a conversation go template draft",
-    "description": "Fetches a Contentful conversation go template by slug and returns a composer-ready draft with optional pre-uploaded attachments.",
-    "source_url": "https://docs.dust.tt/api-reference/private-assistant/resolve-a-conversation-go-template-draft.md",
-    "path": "api-reference/private-assistant/resolve-a-conversation-go-template-draft.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 315,
-    "bytes": 4704
-  },
-  {
-    "order": 318,
-    "title": "Get mention suggestions",
-    "description": "Returns mention suggestions for the workspace.",
-    "source_url": "https://docs.dust.tt/api-reference/private-mentions/get-mention-suggestions.md",
-    "path": "api-reference/private-mentions/get-mention-suggestions.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 316,
-    "bytes": 4827
-  },
-  {
-    "order": 319,
-    "title": "Get extension configuration",
-    "description": "Returns the extension configuration for the workspace, including blacklisted domains.",
-    "source_url": "https://docs.dust.tt/api-reference/private-extension/get-extension-configuration.md",
-    "path": "api-reference/private-extension/get-extension-configuration.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 317,
-    "bytes": 3536
-  },
-  {
-    "order": 320,
-    "title": "Get workspace feature flags",
-    "description": "Returns the list of enabled feature flags for the workspace.",
-    "source_url": "https://docs.dust.tt/api-reference/private-workspace/get-workspace-feature-flags.md",
-    "path": "api-reference/private-workspace/get-workspace-feature-flags.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 318,
-    "bytes": 3439
-  },
-  {
-    "order": 321,
-    "title": "Get or download a file",
-    "description": "View or download a file. Skill attachments require read access to their associated skill. Use query parameters `version` (original, processed, public) and `action` (view, download).",
-    "source_url": "https://docs.dust.tt/api-reference/private-files/get-or-download-a-file.md",
-    "path": "api-reference/private-files/get-or-download-a-file.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 319,
-    "bytes": 4079
-  },
-  {
-    "order": 322,
-    "title": "Upload file content",
-    "description": "Process and store the uploaded file content.",
-    "source_url": "https://docs.dust.tt/api-reference/private-files/upload-file-content.md",
-    "path": "api-reference/private-files/upload-file-content.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 320,
-    "bytes": 5094
-  },
-  {
-    "order": 323,
-    "title": "Delete a file",
-    "description": "Delete a file from the workspace. Files referenced by a skill or its version history cannot be deleted.",
-    "source_url": "https://docs.dust.tt/api-reference/private-files/delete-a-file.md",
-    "path": "api-reference/private-files/delete-a-file.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 321,
-    "bytes": 3343
-  },
-  {
-    "order": 324,
-    "title": "Create a file upload",
-    "description": "Creates a file record and returns a pre-signed upload URL. The file content should then be uploaded to the returned URL.",
-    "source_url": "https://docs.dust.tt/api-reference/private-files/create-a-file-upload.md",
-    "path": "api-reference/private-files/create-a-file-upload.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 322,
-    "bytes": 5668
-  },
-  {
-    "order": 325,
-    "title": "Get a data source view",
-    "description": "Returns the details of a specific data source view.",
-    "source_url": "https://docs.dust.tt/api-reference/private-spaces/get-a-data-source-view.md",
-    "path": "api-reference/private-spaces/get-a-data-source-view.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 323,
-    "bytes": 6812
-  },
-  {
-    "order": 326,
-    "title": "Delete a data source view",
-    "description": "Deletes a specific data source view.",
-    "source_url": "https://docs.dust.tt/api-reference/private-spaces/delete-a-data-source-view.md",
-    "path": "api-reference/private-spaces/delete-a-data-source-view.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 324,
-    "bytes": 3525
-  },
-  {
-    "order": 327,
-    "title": "Update a data source view",
-    "description": "Updates a specific data source view.",
-    "source_url": "https://docs.dust.tt/api-reference/private-spaces/update-a-data-source-view.md",
-    "path": "api-reference/private-spaces/update-a-data-source-view.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 325,
-    "bytes": 7019
-  },
-  {
-    "order": 328,
-    "title": "List data source views",
-    "description": "Returns all data source views in a specific space.",
-    "source_url": "https://docs.dust.tt/api-reference/private-spaces/list-data-source-views.md",
-    "path": "api-reference/private-spaces/list-data-source-views.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 326,
-    "bytes": 7257
-  },
-  {
-    "order": 329,
-    "title": "Create a data source view",
-    "description": "Creates a new data source view in a specific space.",
-    "source_url": "https://docs.dust.tt/api-reference/private-spaces/create-a-data-source-view.md",
-    "path": "api-reference/private-spaces/create-a-data-source-view.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 327,
-    "bytes": 6888
-  },
-  {
-    "order": 330,
-    "title": "Get a space",
-    "description": "Returns the details of a specific space including categories, members, and permissions.",
-    "source_url": "https://docs.dust.tt/api-reference/private-spaces/get-a-space.md",
-    "path": "api-reference/private-spaces/get-a-space.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 328,
-    "bytes": 8412
-  },
-  {
-    "order": 331,
-    "title": "Delete a space",
-    "description": "Deletes a specific space from the workspace.",
-    "source_url": "https://docs.dust.tt/api-reference/private-spaces/delete-a-space.md",
-    "path": "api-reference/private-spaces/delete-a-space.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 329,
-    "bytes": 3987
-  },
-  {
-    "order": 332,
-    "title": "Update a space",
-    "description": "Updates the properties of a specific space.",
-    "source_url": "https://docs.dust.tt/api-reference/private-spaces/update-a-space.md",
-    "path": "api-reference/private-spaces/update-a-space.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 330,
-    "bytes": 4339
-  },
-  {
-    "order": 333,
-    "title": "Get project notification preference",
-    "description": "Returns the current user's notification preference for a project space.",
-    "source_url": "https://docs.dust.tt/api-reference/private-spaces/get-project-notification-preference.md",
-    "path": "api-reference/private-spaces/get-project-notification-preference.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 331,
-    "bytes": 3998
-  },
-  {
-    "order": 334,
-    "title": "Set project notification preference",
-    "description": "Sets the current user's notification preference for a project space.",
-    "source_url": "https://docs.dust.tt/api-reference/private-spaces/set-project-notification-preference.md",
-    "path": "api-reference/private-spaces/set-project-notification-preference.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 332,
-    "bytes": 4407
-  },
-  {
-    "order": 335,
-    "title": "List spaces",
-    "description": "Returns all spaces in the workspace.",
-    "source_url": "https://docs.dust.tt/api-reference/private-spaces/list-spaces.md",
-    "path": "api-reference/private-spaces/list-spaces.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 333,
-    "bytes": 6595
-  },
-  {
-    "order": 336,
-    "title": "Create a space",
-    "description": "Creates a new space in the workspace.",
-    "source_url": "https://docs.dust.tt/api-reference/private-spaces/create-a-space.md",
-    "path": "api-reference/private-spaces/create-a-space.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 334,
-    "bytes": 4687
-  },
-  {
-    "order": 337,
-    "title": "Initiate WorkOS login",
-    "description": "Redirects to WorkOS AuthKit for authentication. Supports PKCE flow for extensions.",
-    "source_url": "https://docs.dust.tt/api-reference/private-authentication/initiate-workos-login.md",
-    "path": "api-reference/private-authentication/initiate-workos-login.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 335,
-    "bytes": 3310
-  },
-  {
-    "order": 338,
-    "title": "Exchange code or refresh token",
-    "description": "Exchanges an authorization code or refresh token for access tokens via WorkOS.",
-    "source_url": "https://docs.dust.tt/api-reference/private-authentication/exchange-code-or-refresh-token.md",
-    "path": "api-reference/private-authentication/exchange-code-or-refresh-token.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 336,
-    "bytes": 3747
-  },
-  {
-    "order": 339,
-    "title": "Revoke a session",
-    "description": "Revokes a WorkOS session by session ID. Used by the Chrome extension for logout.",
-    "source_url": "https://docs.dust.tt/api-reference/private-authentication/revoke-a-session.md",
-    "path": "api-reference/private-authentication/revoke-a-session.md",
-    "module": "API Reference",
-    "index_source": "llms.txt",
-    "status": "downloaded",
-    "sidebar_section": "Developers",
-    "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 337,
-    "bytes": 3161
-  },
-  {
-    "order": 340,
     "title": "Dust-Labs repository",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/developer-platform/dust-labs/dust-labs-repository.md",
@@ -4758,11 +3974,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust Labs",
-    "sidebar_order": 340,
+    "sidebar_order": 284,
     "bytes": 389
   },
   {
-    "order": 341,
+    "order": 285,
     "title": "Dust CLI",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/developer-platform/dust-cli/dust-cli.md",
@@ -4772,11 +3988,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust CLI",
-    "sidebar_order": 341,
+    "sidebar_order": 285,
     "bytes": 6200
   },
   {
-    "order": 342,
+    "order": 286,
     "title": "Creating Google Calendar events from a Dust agent",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/deprecated/legacy-dust-apps/creating-google-calendar-events-from-a-dust-agent.md",
@@ -4786,11 +4002,11 @@
     "status": "downloaded",
     "sidebar_section": "Deprecated",
     "sidebar_group": "[LEGACY] Dust Apps",
-    "sidebar_order": 342,
+    "sidebar_order": 286,
     "bytes": 6034
   },
   {
-    "order": 343,
+    "order": 287,
     "title": "Allowing an agent to send an email",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/deprecated/legacy-dust-apps/allowing-an-agent-to-send-an-email.md",
@@ -4800,11 +4016,11 @@
     "status": "downloaded",
     "sidebar_section": "Deprecated",
     "sidebar_group": "[LEGACY] Dust Apps",
-    "sidebar_order": 343,
+    "sidebar_order": 287,
     "bytes": 1215
   },
   {
-    "order": 344,
+    "order": 288,
     "title": "Dev : pre-configuring a custom MCP server",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/deprecated/dev-pre-configuring-a-custom-mcp-server.md",
@@ -4814,11 +4030,11 @@
     "status": "downloaded",
     "sidebar_section": "Deprecated",
     "sidebar_group": "",
-    "sidebar_order": 344,
+    "sidebar_order": 288,
     "bytes": 5505
   },
   {
-    "order": 345,
+    "order": 289,
     "title": "[Beta] Import Dropbox Files",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-dropbox-files.md",
@@ -4833,7 +4049,7 @@
     "bytes": 3546
   },
   {
-    "order": 346,
+    "order": 290,
     "title": "[Beta] Import Front Conversations",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-front-conversations.md",
@@ -4848,7 +4064,7 @@
     "bytes": 2563
   },
   {
-    "order": 347,
+    "order": 291,
     "title": "[Beta] Import Guru Cards",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-guru-cards.md",
@@ -4863,7 +4079,7 @@
     "bytes": 1854
   },
   {
-    "order": 348,
+    "order": 292,
     "title": "[Beta] Import Hubspot Data",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-hubspot-data.md",
@@ -4878,7 +4094,7 @@
     "bytes": 1441
   },
   {
-    "order": 349,
+    "order": 293,
     "title": "[Beta] Import Jira issues",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-jira-issues.md",
@@ -4893,7 +4109,7 @@
     "bytes": 1856
   },
   {
-    "order": 350,
+    "order": 294,
     "title": "[Beta] Import Linear Issues",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-linear-issues.md",
@@ -4908,7 +4124,7 @@
     "bytes": 2276
   },
   {
-    "order": 351,
+    "order": 295,
     "title": "[Beta] Import Salesforce Data",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/beta-import-salesforce-data.md",
@@ -4923,7 +4139,7 @@
     "bytes": 3681
   },
   {
-    "order": 352,
+    "order": 296,
     "title": "[Zapier] Automatically add any datasource to Dust",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/user-documentation/data-sources/custom-connections/zapier-automatically-add-datasource.md",
@@ -4938,7 +4154,7 @@
     "bytes": 2829
   },
   {
-    "order": 353,
+    "order": 297,
     "title": "What is a Dust App?",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/developer-platform/legacy-dust-apps/what-is-a-dust-app.md",
@@ -4948,11 +4164,11 @@
     "status": "downloaded",
     "sidebar_section": "Deprecated",
     "sidebar_group": "[Legacy] Dust Apps",
-    "sidebar_order": 345,
+    "sidebar_order": 289,
     "bytes": 2193
   },
   {
-    "order": 354,
+    "order": 298,
     "title": "Dust Apps: Core Concepts",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/developer-platform/legacy-dust-apps/dust-apps-core-concepts.md",
@@ -4962,11 +4178,11 @@
     "status": "downloaded",
     "sidebar_section": "Deprecated",
     "sidebar_group": "[Legacy] Dust Apps",
-    "sidebar_order": 346,
+    "sidebar_order": 290,
     "bytes": 1959
   },
   {
-    "order": 355,
+    "order": 299,
     "title": "Build your first Dust App",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/developer-platform/legacy-dust-apps/build-your-first-dust-app.md",
@@ -4976,11 +4192,11 @@
     "status": "downloaded",
     "sidebar_section": "Deprecated",
     "sidebar_group": "[Legacy] Dust Apps",
-    "sidebar_order": 347,
+    "sidebar_order": 291,
     "bytes": 2250
   },
   {
-    "order": 356,
+    "order": 300,
     "title": "Core Blocks",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/developer-platform/legacy-dust-apps/blocks/core-blocks.md",
@@ -4990,11 +4206,11 @@
     "status": "downloaded",
     "sidebar_section": "Deprecated",
     "sidebar_group": "[Legacy] Dust Apps",
-    "sidebar_order": 348,
+    "sidebar_order": 292,
     "bytes": 13867
   },
   {
-    "order": 357,
+    "order": 301,
     "title": "openapi",
     "description": "",
     "source_url": "https://docs.dust.tt/docs/developer-platform/dust-api-documentation/openapi.json",
@@ -5004,11 +4220,11 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 338,
+    "sidebar_order": 282,
     "bytes": 450547
   },
   {
-    "order": 358,
+    "order": 302,
     "title": "swagger",
     "description": "",
     "source_url": "https://raw.githubusercontent.com/dust-tt/dust/refs/heads/main/front-api/public/swagger.json",
@@ -5018,7 +4234,7 @@
     "status": "downloaded",
     "sidebar_section": "Developers",
     "sidebar_group": "Dust API Documentation",
-    "sidebar_order": 339,
-    "bytes": 462839
+    "sidebar_order": 283,
+    "bytes": 245260
   }
 ]

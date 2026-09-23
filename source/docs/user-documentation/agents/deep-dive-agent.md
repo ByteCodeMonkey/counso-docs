@@ -64,9 +64,9 @@ You don't need to know which tables contain the data. `@deep-dive` explores your
 
 `@deep-dive` can discover and use additional capabilities during an investigation. When a task requires a specific tool (GitHub, Salesforce, Monday.com, etc.), it spawns a sub-agent with access to that toolset. This means @deep-dive adapts to what your workspace has available.
 
-### MiniApps
+### Frames
 
-When text isn't enough, `@deep-dive` can create interactive visualizations with charts, graphs, and dynamic dashboards using our "Create MiniApps" tool. It only creates interactive content when it genuinely enhances the answer, defaulting to clear, comprehensive written reports for most questions.
+When text isn't enough, `@deep-dive` can create interactive visualizations with charts, graphs, and dynamic dashboards using our "Create Frames" tool. It only creates interactive content when it genuinely enhances the answer, defaulting to clear, comprehensive written reports for most questions.
 
 ### Sub-Agents
 

@@ -26,16 +26,20 @@ servers:
     description: Dust.tt API (europe-west1)
 security: []
 tags:
+  - name: Users
+    description: User management
   - name: Agents
     description: Agent configurations
+  - name: Analytics
+    description: Workspace analytics
   - name: Apps
     description: Dust apps
   - name: Conversations
     description: Conversations
-  - name: DatasourceViews
-    description: Data source views
   - name: Datasources
     description: Data sources
+  - name: DatasourceViews
+    description: Data source views
   - name: Feedbacks
     description: Message feedbacks
   - name: MCP
@@ -44,36 +48,36 @@ tags:
     description: Mentions
   - name: Search
     description: Search
-  - name: Tools
-    description: Tools
-  - name: Triggers
-    description: Triggers
   - name: Skills
     description: Skills
   - name: Spaces
     description: Spaces
+  - name: Tools
+    description: Tools
+  - name: Triggers
+    description: Triggers
   - name: Workspace
     description: Workspace
-  - name: Private User
-    description: Private API - User
-  - name: Private Authentication
-    description: Private API - Authentication (WorkOS)
   - name: Private Agents
     description: Private API - Agent configurations
+  - name: Private Authentication
+    description: Private API - Authentication (WorkOS)
   - name: Private Conversations
     description: Private API - Conversations
-  - name: Private Messages
-    description: Private API - Messages
   - name: Private Events
     description: Private API - SSE event streams
+  - name: Private Extension
+    description: Private API - Extension configuration
   - name: Private Files
     description: Private API - File uploads
   - name: Private Mentions
     description: Private API - Mention suggestions
+  - name: Private Messages
+    description: Private API - Messages
   - name: Private Spaces
     description: Private API - Spaces and data source views
-  - name: Private Extension
-    description: Private API - Extension configuration
+  - name: Private User
+    description: Private API - User
   - name: Private Workspace
     description: Private API - Workspace settings
 paths:
@@ -125,6 +129,8 @@ paths:
           description: Bad Request. Invalid or missing parameters.
         '401':
           description: Unauthorized. Invalid or missing authentication token.
+        '403':
+          description: Forbidden. Only admins can access unpublished agents.
         '404':
           description: Agent configuration not found.
         '500':
@@ -139,6 +145,13 @@ components:
         id:
           type: integer
           example: 12345
+        agentModelId:
+          type: integer
+          nullable: true
+          description: >-
+            Stable identifier of the agent across versions; null for global
+            agents
+          example: 6789
         sId:
           type: string
           description: Unique string identifier for the agent configuration

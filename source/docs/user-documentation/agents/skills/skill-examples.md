@@ -70,30 +70,30 @@ The skill is now ready, it can be included in any agent that interacts with the 
 
 ***
 
-## Example 2: Branded MiniApp Creation
+## Example 2: Branded Frame Creation
 
 Many teams create visualizations and presentations through Dust agents, but maintaining consistent brand identity across different agents and team members can be challenging. Colors, fonts, and styling vary, leading to inconsistent outputs.
 
-In this example, we're creating a "Branded MiniApps" Skill that ensures all visualizations follow your company's visual identity guidelines. Give this skill to any agent that creates charts, dashboards, or presentations, and maintain your brand consistency from one central place.
+In this example, we're creating a "Branded Frames" Skill that ensures all visualizations follow your company's visual identity guidelines. Give this skill to any agent that creates charts, dashboards, or presentations, and maintain your brand consistency from one central place.
 
-### Step 1: Describe the Branded MiniApps Skill
+### Step 1: Describe the Branded Frames Skill
 
 A clear description helps agents know when to apply your brand guidelines:
 
 ```
-Use this skill to create MiniApps that follow the company's branding and visual guidelines.
+Use this skill to create Frames that follow the company's branding and visual guidelines.
 ```
 
 ### Step 2: Add guidelines
 
-This section assumes you have already created a MiniApps template and saved it in a Dust folder.
+This section assumes you have already created a Frames template and saved it in a Dust folder.
 
-To use this template in every MiniApp created via the skill, you can mention its existence directly in the guidelines
+To use this template in every Frame created via the skill, you can mention its existence directly in the guidelines
 
 Include your specific brand colors, fonts, and design principles, along with instructions to use your template:
 
 ```
-Use the following template to create new MiniApps: /
+Use the following template to create new Frames: /
 ```
 
 Hitting `/` in the guidelines section will cause a dropdown to open. From there you can search for your template (title-based). Just start typing the name of the template you saved and save it.

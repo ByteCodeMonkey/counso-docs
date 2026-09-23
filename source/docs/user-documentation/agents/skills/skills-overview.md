@@ -17,7 +17,7 @@ Dust comes with default skills, but you can also create your own. Check out our 
 | Discover Knowledge                                 | Search across all your company documents and data warehouses to surface the information you need without manual configuration.                                                                               |
 | Discover Tools                                     | Automatically discover and use specialized tools as needed. Extend your agent's capabilities on-demand without manual configuration.                                                                         |
 | [Go Deep](/docs/user-documentation/agents/go-deep) | Hand off complex tasks to the @deep-dive agent for comprehensive analysis. With one click, you enable your agent to delegate deep research questions while preserving your agent's context and instructions. |
-| MiniApp sharing                                      | Turn insights into interactive dashboards and presentations your team can explore, customize, and share. Living documents that adapt to different stakeholders.                                              |
+| Frame sharing                                      | Turn insights into interactive dashboards and presentations your team can explore, customize, and share. Living documents that adapt to different stakeholders.                                              |
 | Your own custom skill                              | Your own company-specific custom reusable set of instructions and tools.                                                                                                                                     |
 
 ## When to create a skill
@@ -81,7 +81,7 @@ Skills are shareable: when you update a skill's instructions, every agent using 
 
 Global skills are pre-built skills provided by Dust that cover common use cases. You can customize a global skill to adapt it to your organization's specific needs while keeping its core functionality.
 
-For instance, you can customize the MiniApp sharing skill to add your own branding guidelines, reference specific assets, or define preferred layout types.
+For instance, you can customize the Frame sharing skill to add your own branding guidelines, reference specific assets, or define preferred layout types.
 
 To extend a global skill, go to **Manage Skills**, find the global skill you want to customize, click the **...** menu, and select **Customize skill**. This creates a new skill based on the global one, where you can add your own instructions, attach specific knowledge, or include additional tools. The customized skill will be labeled as "Based on \[original skill name]". Any updates you make to your extended skill won't affect the original global skill, and other teams can create their own extensions independently.
 
@@ -135,14 +135,14 @@ Anyone in your workspace can view and use skills, provided they have access to e
 
 In the Skill Builder, add knowledge references inline in the guidelines. Start typing, then press `/` or click the **Attach knowledge** button to search for content by title. Pasting a URL is also supported.
 
-**What does this change for MiniApp sharing and Go deep?**
+**What does this change for Frame sharing and Go deep?**
 
-MiniApp sharing and Go deep are now available as skills instead of tools. This change is retro-compatible for existing agents. The main benefit is that you can now customize them — for instance, add your own branding guidelines to the MiniApp sharing skill.
+Frame sharing and Go deep are now available as skills instead of tools. This change is retro-compatible for existing agents. The main benefit is that you can now customize them — for instance, add your own branding guidelines to the Frame sharing skill.
 
 A more subtle change: the skill loads dynamically, keeping the context lighter for the agent when not needed, making it more focused and less prone to hallucinations.
 
 <Warning>
-  This change will cause existing agents to be less prone to create MiniApps. Agents used to have a strong tendency to create MiniApps as long as the tool was added, even when it was not called for. You may need to update agent instructions accordingly.
+  This change will cause existing agents to be less prone to create Frames. Agents used to have a strong tendency to create Frames as long as the tool was added, even when it was not called for. You may need to update agent instructions accordingly.
 </Warning>
 
 **Do I need to rewrite all my agent instructions?**

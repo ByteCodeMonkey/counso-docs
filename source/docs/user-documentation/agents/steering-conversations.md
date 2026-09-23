@@ -53,7 +53,7 @@ This is what makes mid-run redirection possible. For your messages to reliably r
 
 When you stop an agent, everything it's already done is kept. You only stop what comes next, you don't lose work just because you hit stop.
 
-**Iterating on a MiniApp.** You ask an agent to build a dashboard showing monthly revenue by region. As it pulls data and starts generating the visualization, a new idea clicks: you want the APAC breakdown split out, and a bar chart would read better than a line chart. You type "make it a bar chart and split out APAC" while it's still working. The agent picks up your message and adjusts on the fly.
+**Iterating on a Frame.** You ask an agent to build a dashboard showing monthly revenue by region. As it pulls data and starts generating the visualization, a new idea clicks: you want the APAC breakdown split out, and a bar chart would read better than a line chart. You type "make it a bar chart and split out APAC" while it's still working. The agent picks up your message and adjusts on the fly.
 
 **Narrowing a research task.** You ask an agent for a competitor analysis. As you watch it pull sources, you decide you want to zoom in on the European market specifically. You type "focus on Europe only" while it's still searching. It finishes its current batch, reads your message, and narrows the scope, no need to start over.
 

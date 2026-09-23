@@ -19,7 +19,9 @@ You can also find it from the Account Console:
 5. Copy the URL without the trailing slash, for example `https://dbc-a1b2c3d4-e5f6.cloud.databricks.com`.
 
 <Info>
-  Use the **workspace** URL (where you open notebooks), not the Account Console URL (`accounts.cloud.databricks.com`). If your organization has several workspaces, pick the one containing the data you want to expose to agents.
+  Use the **workspace** URL (where you open notebooks), not the Account Console
+  URL (`accounts.cloud.databricks.com`). If your organization has several
+  workspaces, pick the one containing the data you want to expose to agents.
 </Info>
 
 ### **2. Create an App Connection**
@@ -32,7 +34,21 @@ You can also find it from the Account Console:
 
 4. Give the connection a descriptive name, such as `Dust MCP`.
 
-5. Add the Dust OAuth redirect URL: `https://dust.tt/oauth/mcp_static/finalize`
+5. Add the two Dust OAuth redirect URLs for your workspace region:
+
+   **US workspaces:**
+
+   ```
+   https://dust.tt/oauth/mcp_static/finalize
+   https://app.dust.tt/oauth/mcp_static/finalize
+   ```
+
+   **EU workspaces:**
+
+   ```
+   https://eu.dust.tt/oauth/mcp_static/finalize
+   https://app.dust.tt/oauth/mcp_static/finalize
+   ```
 
 6. Keep **Generate a client secret** enabled. Dust uses the client ID and client secret when connecting to Databricks.
 

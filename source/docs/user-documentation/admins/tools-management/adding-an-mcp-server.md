@@ -51,7 +51,21 @@ Which translates to the following setup process.
 
 1. In Github : create an OAuth app from the [developer settings](https://github.com/settings/developers) page
    1. write down the client ID and client Secret
-   2. use [https://dust.tt/oauth/mcp\_static/finalize](https://dust.tt/oauth/mcp_static/finalize) or [https://eu.dust.tt/oauth/mcp\_static/finalize](https://eu.dust.tt/oauth/mcp_static/finalize) as the redirect URI depending on your Dust region.
+   2. Add the global callback and the regional callback for your workspace:
+
+      **US workspaces:**
+
+      ```
+      https://dust.tt/oauth/mcp_static/finalize
+      https://app.dust.tt/oauth/mcp_static/finalize
+      ```
+
+      **EU workspaces:**
+
+      ```
+      https://eu.dust.tt/oauth/mcp_static/finalize
+      https://app.dust.tt/oauth/mcp_static/finalize
+      ```
 2. In Dust : Navigate to Spaces > Tools > Add tools > Add MCP server and use the following settings
    1. Static Oauth URL : [https://api.githubcopilot.com/mcp](https://api.githubcopilot.com/mcp)
    2. OAuth token endpoint : [https://github.com/login/oauth/access\_token](https://github.com/login/oauth/access_token)
@@ -76,11 +90,13 @@ You can also create a MCP Server yourself, and plug it directly into Dust. For t
 
 If you operate a third-party MCP server and want to support Dust users connecting to it, whitelist the following Dust callback URLs in your OAuth authorization server. This enables the OAuth authentication flow when customers add your server in Dust, and is recommended over Bearer token authentication for a better user experience. It may also be required to get your server listed on the Dust integrations page or in the Dust app.
 
+Register the global callback and the regional callback for each workspace. Use the US and Global URLs for US workspaces, and the EU and Global URLs for EU workspaces.
+
 **OAuth (with Dynamic Client Registration):**
 
 | URL                                      | Region |
 | ---------------------------------------- | ------ |
-| `https://dust.tt/oauth/mcp/finalize`     | Global |
+| `https://dust.tt/oauth/mcp/finalize`     | US     |
 | `https://app.dust.tt/oauth/mcp/finalize` | Global |
 | `https://eu.dust.tt/oauth/mcp/finalize`  | EU     |
 
@@ -88,6 +104,6 @@ If you operate a third-party MCP server and want to support Dust users connectin
 
 | URL                                             | Region |
 | ----------------------------------------------- | ------ |
-| `https://dust.tt/oauth/mcp_static/finalize`     | Global |
+| `https://dust.tt/oauth/mcp_static/finalize`     | US     |
 | `https://app.dust.tt/oauth/mcp_static/finalize` | Global |
 | `https://eu.dust.tt/oauth/mcp_static/finalize`  | EU     |

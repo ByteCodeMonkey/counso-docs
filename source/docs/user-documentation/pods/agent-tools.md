@@ -22,7 +22,7 @@ There is nothing to enable or configure: when an agent works in or around a Pod,
 | ------------------ | ---------------------------------------------------------------------------------------------------- |
 | `list_pods`        | List the Pods the agent can access: the user's Pods by default, or all Open Pods in the workspace    |
 | `create_pod`       | Create a new Pod (Restricted by default), optionally with initial members and a set of starter tasks |
-| `get_information`  | Read a Pod's metadata: URL, title, description, visibility, pinned MiniApp, and linked Company Data    |
+| `get_information`  | Read a Pod's metadata: URL, title, description, visibility, pinned Frame, and linked Company Data    |
 | `edit_information` | Update a Pod's title, description, or visibility (Open or Restricted)                                |
 
 ### Members
@@ -54,7 +54,7 @@ There is nothing to enable or configure: when an agent works in or around a Pod,
 
 | Tool                | What it does                                                                                    |
 | ------------------- | ----------------------------------------------------------------------------------------------- |
-| `set_pinned_frame`  | Pin a [MiniApp](/docs/user-documentation/pods/frames) as the Pod banner, or unpin the current one |
+| `set_pinned_frame`  | Pin a [Frame](/docs/user-documentation/pods/frames) as the Pod banner, or unpin the current one |
 | `set_default_agent` | Set or reset the agent that handles new conversations started in the Pod                        |
 
 ## Tasks
@@ -74,7 +74,7 @@ Agents work with Pod files through Dust's shared file system tools rather than P
 
 * List and browse the Pod's files and folders
 * Read file contents
-* Create new files, including agent-generated artifacts such as [MiniApps](/docs/user-documentation/pods/frames)
+* Create new files, including agent-generated artifacts such as [Frames](/docs/user-documentation/pods/frames)
 * Edit, copy, move, and delete existing files
 * Import a file into the Pod from a URL
 
@@ -85,7 +85,7 @@ Files created or updated by agents appear in the [Files tab](/docs/user-document
 Agent tools follow the same permission model as the Dust interface: an agent acting on behalf of a user can only do what that user could do themselves.
 
 * A Restricted Pod the user is not a member of is not accessible to their agents
-* Managing membership, settings, visibility, and the pinned MiniApp requires the user to be a Pod **Editor**
+* Managing membership, settings, visibility, and the pinned Frame requires the user to be a Pod **Editor**
 
 See [Members and roles](/docs/user-documentation/pods/members-and-roles) for the full role breakdown, and [Admin controls](/docs/user-documentation/pods/admin-controls) for workspace-level policies.
 

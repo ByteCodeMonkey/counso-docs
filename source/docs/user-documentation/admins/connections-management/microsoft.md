@@ -65,7 +65,7 @@ You can also use a [Service Principal ](https://learn.microsoft.com/en-us/entra/
 
 Step 1 : Create an App Registration in Entra with the following **Application** permissions on the **Microsoft Graph API**
 
-Use the following URL as redirect URI : [https://dust.tt/oauth/microsoft/finalize](https://dust.tt/oauth/microsoft/finalize) or [https://eu.dust.tt/oauth/microsoft/finalize](https://eu.dust.tt/oauth/microsoft/finalize)
+Use the following URL as redirect URI : [https://app.dust.tt/oauth/microsoft/finalize](https://app.dust.tt/oauth/microsoft/finalize) or [https://app.dust.tt/oauth/microsoft/finalize](https://app.dust.tt/oauth/microsoft/finalize)
 
 | **API name**    | **Claim value**                             | **Permission**                     | **Type**      | **Granted through** | **Granted by**   | Comment                                                |
 | --------------- | ------------------------------------------- | ---------------------------------- | ------------- | ------------------- | ---------------- | :----------------------------------------------------- |

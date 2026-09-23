@@ -7,7 +7,8 @@
 > [Documentation](https://docs.dust.tt/docs/client-side-mcp-server)
 Server-Sent Events (SSE) endpoint that streams MCP tool requests for a workspace.
 This endpoint is used by client-side MCP servers to listen for tool requests in real-time.
-The connection will remain open and events will be sent as new tool requests are made.
+Events arrive as new tool requests are made. Reconnect with `lastEventId` after the stream closes to continue receiving events.
+The stream starts with a `:connect` comment. Request frames carry JSON with `eventId` and `data` fields. A plain-text `data: done` frame ends the current connection; clients may reconnect with `lastEventId`.
 
 
 
@@ -30,16 +31,20 @@ servers:
     description: Dust.tt API (europe-west1)
 security: []
 tags:
+  - name: Users
+    description: User management
   - name: Agents
     description: Agent configurations
+  - name: Analytics
+    description: Workspace analytics
   - name: Apps
     description: Dust apps
   - name: Conversations
     description: Conversations
-  - name: DatasourceViews
-    description: Data source views
   - name: Datasources
     description: Data sources
+  - name: DatasourceViews
+    description: Data source views
   - name: Feedbacks
     description: Message feedbacks
   - name: MCP
@@ -48,36 +53,36 @@ tags:
     description: Mentions
   - name: Search
     description: Search
-  - name: Tools
-    description: Tools
-  - name: Triggers
-    description: Triggers
   - name: Skills
     description: Skills
   - name: Spaces
     description: Spaces
+  - name: Tools
+    description: Tools
+  - name: Triggers
+    description: Triggers
   - name: Workspace
     description: Workspace
-  - name: Private User
-    description: Private API - User
-  - name: Private Authentication
-    description: Private API - Authentication (WorkOS)
   - name: Private Agents
     description: Private API - Agent configurations
+  - name: Private Authentication
+    description: Private API - Authentication (WorkOS)
   - name: Private Conversations
     description: Private API - Conversations
-  - name: Private Messages
-    description: Private API - Messages
   - name: Private Events
     description: Private API - SSE event streams
+  - name: Private Extension
+    description: Private API - Extension configuration
   - name: Private Files
     description: Private API - File uploads
   - name: Private Mentions
     description: Private API - Mention suggestions
+  - name: Private Messages
+    description: Private API - Messages
   - name: Private Spaces
     description: Private API - Spaces and data source views
-  - name: Private Extension
-    description: Private API - Extension configuration
+  - name: Private User
+    description: Private API - User
   - name: Private Workspace
     description: Private API - Workspace settings
 paths:
@@ -95,8 +100,12 @@ paths:
         This endpoint is used by client-side MCP servers to listen for tool
         requests in real-time.
 
-        The connection will remain open and events will be sent as new tool
-        requests are made.
+        Events arrive as new tool requests are made. Reconnect with
+        `lastEventId` after the stream closes to continue receiving events.
+
+        The stream starts with a `:connect` comment. Request frames carry JSON
+        with `eventId` and `data` fields. A plain-text `data: done` frame ends
+        the current connection; clients may reconnect with `lastEventId`.
       parameters:
         - in: path
           name: wId
@@ -113,25 +122,28 @@ paths:
         - in: query
           name: lastEventId
           required: false
-          description: ID of the last event to filter events for
+          description: >-
+            Redis stream ID of the last received request event. Omit to start
+            from the available history.
           schema:
             type: string
       responses:
         '200':
           description: >
-            Connection established successfully. Events will be streamed in
-            Server-Sent Events format.
-
-            Each event will contain a tool request that needs to be processed by
-            the MCP server.
+            SSE event stream with a `:connect` comment followed by request
+            frames. The JSON `data` field in each request frame contains the
+            tool request.
           content:
             text/event-stream:
               schema:
                 type: object
+                required:
+                  - eventId
+                  - data
                 properties:
-                  type:
+                  eventId:
                     type: string
-                    description: Type of the event (e.g. "tool_request")
+                    description: Redis stream ID used as the resume cursor.
                   data:
                     type: object
                     description: The tool request data

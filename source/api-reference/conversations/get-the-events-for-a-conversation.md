@@ -4,7 +4,9 @@
 
 # Get the events for a conversation
 
-> Get the events for a conversation in the workspace identified by {wId}.
+> Stream conversation events for the workspace identified by {wId} using Server-Sent Events (SSE).
+The stream starts with a `:connect` comment. Event frames carry JSON with `eventId` and `data` fields. A plain-text `data: done` frame ends the current connection; clients may reconnect with `lastEventId`.
+
 
 
 
@@ -26,16 +28,20 @@ servers:
     description: Dust.tt API (europe-west1)
 security: []
 tags:
+  - name: Users
+    description: User management
   - name: Agents
     description: Agent configurations
+  - name: Analytics
+    description: Workspace analytics
   - name: Apps
     description: Dust apps
   - name: Conversations
     description: Conversations
-  - name: DatasourceViews
-    description: Data source views
   - name: Datasources
     description: Data sources
+  - name: DatasourceViews
+    description: Data source views
   - name: Feedbacks
     description: Message feedbacks
   - name: MCP
@@ -44,36 +50,36 @@ tags:
     description: Mentions
   - name: Search
     description: Search
-  - name: Tools
-    description: Tools
-  - name: Triggers
-    description: Triggers
   - name: Skills
     description: Skills
   - name: Spaces
     description: Spaces
+  - name: Tools
+    description: Tools
+  - name: Triggers
+    description: Triggers
   - name: Workspace
     description: Workspace
-  - name: Private User
-    description: Private API - User
-  - name: Private Authentication
-    description: Private API - Authentication (WorkOS)
   - name: Private Agents
     description: Private API - Agent configurations
+  - name: Private Authentication
+    description: Private API - Authentication (WorkOS)
   - name: Private Conversations
     description: Private API - Conversations
-  - name: Private Messages
-    description: Private API - Messages
   - name: Private Events
     description: Private API - SSE event streams
+  - name: Private Extension
+    description: Private API - Extension configuration
   - name: Private Files
     description: Private API - File uploads
   - name: Private Mentions
     description: Private API - Mention suggestions
+  - name: Private Messages
+    description: Private API - Messages
   - name: Private Spaces
     description: Private API - Spaces and data source views
-  - name: Private Extension
-    description: Private API - Extension configuration
+  - name: Private User
+    description: Private API - User
   - name: Private Workspace
     description: Private API - Workspace settings
 paths:
@@ -82,7 +88,13 @@ paths:
       tags:
         - Conversations
       summary: Get the events for a conversation
-      description: Get the events for a conversation in the workspace identified by {wId}.
+      description: >
+        Stream conversation events for the workspace identified by {wId} using
+        Server-Sent Events (SSE).
+
+        The stream starts with a `:connect` comment. Event frames carry JSON
+        with `eventId` and `data` fields. A plain-text `data: done` frame ends
+        the current connection; clients may reconnect with `lastEventId`.
       parameters:
         - in: path
           name: wId
@@ -99,14 +111,32 @@ paths:
         - in: query
           name: lastEventId
           required: false
-          description: ID of the last event
+          description: >-
+            Redis stream ID of the last received conversation event. Omit or
+            pass an empty value to start from the available history.
           schema:
             type: string
       responses:
         '200':
           description: >-
-            Events for the conversation, view the "Events" page from this
-            documentation for more information.
+            SSE event stream with a `:connect` comment followed by conversation
+            frames. Each conversation frame contains JSON with `eventId` and
+            `data` fields. The `data` field is the conversation event. View the
+            "Events" page from this documentation for more information.
+          content:
+            text/event-stream:
+              schema:
+                type: object
+                required:
+                  - eventId
+                  - data
+                properties:
+                  eventId:
+                    type: string
+                    description: Redis stream ID used as the resume cursor.
+                  data:
+                    type: object
+                    description: Conversation event discriminated by its type field.
         '400':
           description: Bad Request. Missing or invalid parameters.
         '401':

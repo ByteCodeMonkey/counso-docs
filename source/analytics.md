@@ -89,6 +89,7 @@ Select **Filters** in the Explore section to narrow the chart, Attribution, and 
 * Tools
 * Skills
 * Sources
+* Triggers
 * API keys
 
 You can select several values in one category. A record can match any selected value within that category. When you combine categories, records must match every selected category.
@@ -99,16 +100,19 @@ Select **Apply** to update the analysis. Applied filters appear beneath the Expl
 
 Attribution ranks contributors for the selected period and filters. Choose the dimension that answers your question:
 
-| Dimension    | Use it to understand                                |
-| ------------ | --------------------------------------------------- |
-| **Agents**   | Which agents account for consumption                |
-| **Members**  | Which workspace members drive consumption           |
-| **Groups**   | How consumption is associated with workspace groups |
-| **Models**   | Which AI models account for consumption             |
-| **Tools**    | Which tool invocations consume credits              |
-| **Skills**   | Which skills are associated with tool consumption   |
-| **Sources**  | Where requests originate                            |
-| **API keys** | Which keys account for programmatic consumption     |
+| Dimension    | Use it to understand                                                  |
+| ------------ | --------------------------------------------------------------------- |
+| **Agents**   | Which agents account for consumption                                  |
+| **Members**  | Which workspace members drive consumption                             |
+| **Groups**   | How consumption is associated with workspace groups                   |
+| **Models**   | Which AI models account for consumption                               |
+| **Tools**    | Which tool invocations consume credits                                |
+| **Skills**   | Which skills are associated with tool consumption                     |
+| **Sources**  | Where requests originate                                              |
+| **Triggers** | Which schedules, webhooks, and other triggers account for consumption |
+| **API keys** | Which keys account for programmatic consumption                       |
+
+**Triggers** attributes consumption to the specific trigger, such as a schedule or webhook. This differs from the **triggered** source, which only indicates that the request originated from automation.
 
 Member consumption is attributed to the member who triggered it. Group consumption is attributed to every group that member belongs to, so the same consumption can appear under more than one group.
 
