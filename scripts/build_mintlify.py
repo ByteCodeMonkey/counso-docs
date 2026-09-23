@@ -359,25 +359,15 @@ def copy_downloadable_assets(skipped_files: set[str]) -> int:
 
 
 def write_logo_files() -> None:
+    brand = ROOT / "brand"
     logo_dir = OUTPUT / "logo"
     logo_dir.mkdir(parents=True, exist_ok=True)
-    light = """<svg xmlns="http://www.w3.org/2000/svg" width="176" height="36" viewBox="0 0 176 36" role="img" aria-label="Counso AI">
-  <rect x="1" y="1" width="34" height="34" rx="10" fill="#0C84FE"/>
-  <path d="M12 12h12M12 18h8M12 24h12" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round"/>
-  <circle cx="25" cy="18" r="3" fill="white"/>
-  <text x="45" y="24" fill="#111827" font-family="Inter, ui-sans-serif, system-ui" font-size="20" font-weight="700">Counso AI</text>
-</svg>
-"""
-    dark = light.replace('fill="#111827"', 'fill="#F8FAFC"')
-    favicon = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-  <rect x="1" y="1" width="34" height="34" rx="10" fill="#0C84FE"/>
-  <path d="M12 12h12M12 18h8M12 24h12" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round"/>
-  <circle cx="25" cy="18" r="3" fill="white"/>
-</svg>
-"""
-    (logo_dir / "light.svg").write_text(light, encoding="utf-8")
-    (logo_dir / "dark.svg").write_text(dark, encoding="utf-8")
-    (OUTPUT / "favicon.svg").write_text(favicon, encoding="utf-8")
+    shutil.copy2(brand / "counso.png", logo_dir / "counso.png")
+    shutil.copy2(brand / "favicon.svg", OUTPUT / "favicon.svg")
+    for stale in ("light.svg", "dark.svg"):
+        path = logo_dir / stale
+        if path.exists():
+            path.unlink()
 
 
 def write_home_pages() -> None:
@@ -645,7 +635,7 @@ def main() -> None:
         "name": "Counso AI",
         "description": "Counso AI product documentation, guides, integrations, and workspace administration.",
         "colors": {"primary": "#0C84FE", "light": "#9FDBFF", "dark": "#0C84FE"},
-        "logo": {"light": "/logo/light.svg", "dark": "/logo/dark.svg", "href": "/"},
+        "logo": {"light": "/logo/counso.png", "dark": "/logo/counso.png", "href": "/"},
         "favicon": "/favicon.svg",
         "appearance": {"default": "system", "strict": False},
         "icons": {"library": "fontawesome"},
