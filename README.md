@@ -51,6 +51,23 @@ npx mint dev --port 3333
 - English: <http://localhost:3333/>
 - 简体中文: <http://localhost:3333/zh-Hans/>
 
+## 同步上游文档
+
+同步规则集中在 `sync-policy.json`。标准流程由 `scripts/sync_upstream.py` 编排：
+
+```bash
+python3 scripts/sync_upstream.py prepare
+python3 scripts/sync_upstream.py verify
+python3 scripts/sync_upstream.py preview
+python3 scripts/sync_upstream.py finalize --reviewed
+```
+
+`prepare` 会将增删改报告写入被 Git 忽略的 `.sync/upstream-report.md`。`finalize`
+不会推送远端；如需推送 main 和 Tag，需另外明确执行。
+
+必须从干净的 `main` 分支执行 `prepare`。最后一条 `finalize` 命令只能在人工
+Review 明确通过后执行，它会生成唯一同步提交、快进 `main` 并打 Tag。
+
 ## 部署
 
 将 Mintlify 项目的文档根目录设置为 `mintlify-site`。部署前运行检查脚本，确认导航、双语页面和兼容跳转均有效。

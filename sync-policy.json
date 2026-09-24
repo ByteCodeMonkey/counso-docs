@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "upstream": {
+    "llms_url": "https://docs.dust.tt/llms.txt",
+    "sitemap_url": "https://docs.dust.tt/sitemap.xml",
+    "fetch_script": "../fetch_dust_docs.py"
+  },
+  "git": {
+    "base_branch": "main",
+    "branch_prefix": "sync-dust-docs-",
+    "tag_prefix": "docs-sync-"
+  },
+  "branding": {
+    "source_product": "Dust",
+    "target_product": "Counso",
+    "source_domains": [
+      "https://dust.tt",
+      "https://app.dust.tt",
+      "https://eu.dust.tt",
+      "https://docs.dust.tt"
+    ],
+    "target_app_domain": "https://app.counso.ai",
+    "internal_docs_links": "relative",
+    "logo": {
+      "light": "/logo/counso.png",
+      "dark": "/logo/counso.png",
+      "favicon": "/favicon.svg"
+    }
+  },
+  "terminology": {
+    "visible_replacements": {
+      "Frame": "MiniApp",
+      "Frames": "MiniApps"
+    },
+    "preserve_technical_tokens": [
+      "/frames/",
+      "frameId",
+      "frame_id",
+      "DustAPI",
+      "@dust-tt/client",
+      "@dust-tt/dust-cli"
+    ]
+  },
+  "agent_tools": {
+    "navigation_allowlist": [
+      "gmail",
+      "google-calendar",
+      "google-drive",
+      "google-sheets-deprecated",
+      "microsoft-outlook",
+      "microsoft-sharepoint-and-onedrive",
+      "microsoft-teams",
+      "microsoft-excel"
+    ]
+  },
+  "publication": {
+    "english_is_canonical": true,
+    "chinese_route_prefix": "/zh-Hans",
+    "unsupported_page_status": "updating"
+  },
+  "preview": {
+    "port": 3333
+  }
+}
