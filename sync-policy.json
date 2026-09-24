@@ -56,7 +56,16 @@
   "publication": {
     "english_is_canonical": true,
     "chinese_route_prefix": "/zh-Hans",
-    "unsupported_page_status": "updating"
+    "unsupported_page_status": "updating",
+    "hidden_pages": {
+      "docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one.md": "Counso 当前不公开 Slack 相关使用说明。",
+      "docs/user-documentation/agents/tools/slack-tools.md": "Counso 当前不公开 Slack 相关使用说明。",
+      "docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-reply.md": "Counso 当前不公开 Slack 相关使用说明。",
+      "docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows.md": "Counso 当前不公开 Slack 相关使用说明。",
+      "docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-join.md": "Counso 当前不公开 Slack 相关使用说明。",
+      "docs/user-documentation/admins/connections-management/slack.md": "Counso 当前不公开 Slack 相关使用说明。",
+      "docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting.md": "Counso 当前不公开 Slack 相关使用说明。"
+    }
   },
   "preview": {
     "port": 3333

@@ -39,7 +39,6 @@
 - [Can I delete or rename a conversation?](docs/user-documentation/getting-started/faq/managing-agents/can-i-delete-or-rename-a-conversation.md)
 - [Can I use Agents in different languages?](docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages.md)
 - [How can I find an Agent ID?](docs/user-documentation/getting-started/faq/managing-agents/how-can-i-find-the-id-of-an-agent.md)
-- [Why is a Slack link sometimes not the exact message?](docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one.md)
 - [What if I did not receive an invitation or cannot sign in?](docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in.md)
 - [Why is a table analysis incomplete or incorrect?](docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work.md)
 - [Why did an Agent return a broken link or unsupported claim?](docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on.md)
@@ -165,15 +164,10 @@
 - [Subscriptions and billing](docs/user-documentation/admins/billing/subscriptions-and-payments.md)
 - [Troubleshoot workspace administration](docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting.md)
 - [Connect GitHub](docs/user-documentation/admins/connections-management/github.md)
-- [Connect Slack knowledge](docs/user-documentation/admins/connections-management/slack.md)
-- [Troubleshoot Slack connections and tools](docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting.md)
 
 ## Integrations
 
 - [Connect an MCP client to Counso](docs/user-documentation/agents/integrations/counso-mcp-server.md)
-- [Set up automatic replies in Slack channels](docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply.md)
-- [Use an Agent in Slack workflows](docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows.md)
-- [Automatically join new Slack channels](docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join.md)
 - [Work with meeting transcripts](docs/user-documentation/agents/integrations/meeting-transcripts.md)
 
 ## Developer documentation

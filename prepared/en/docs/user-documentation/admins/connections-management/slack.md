@@ -23,7 +23,7 @@ The connection indexes messages, threads, and channel metadata for the selected 
 
 New messages normally appear soon after they are posted. Changes to selected channels can take seconds or minutes, depending on volume. Use threads for related discussion: unthreaded content may link to an approximate channel location rather than a precise message.
 
-Channel labels use `channelId:...` and `channelName:...` and can filter the [knowledge search tool](../../agents/knowledge/search-data-sources.md).
+Channel labels use `channelId:...` and `channelName:...` and can filter the knowledge search tool.
 
 ## Maintain the connection
 

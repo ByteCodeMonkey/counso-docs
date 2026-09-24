@@ -1,39 +1,34 @@
 # 文档发布范围与准备稿
 
-当前提供 270 篇中英文正文、2 份接口规范和 Postman 导入文件，另有 21 篇中英文准备稿。是否进入用户目录，按教程依赖的内容判断；工作区尚未完成配置，本身不是隐藏配置教程的理由。
+当前提供 263 篇中英文正文、2 份接口规范和 Postman 导入文件，另有 28 篇中英文准备稿。是否进入用户目录，按教程依赖的内容和当前发布策略判断；工作区尚未完成配置，本身不是隐藏配置教程的理由。
 
 ## 发布建议
 
 | 内容范围 | 建议 | 交接时需要明确的事项 |
 | --- | --- | --- |
-| 已纳入目录的 270 篇中英文正文、2 份接口规范及 Postman 文件 | 直接纳入文档目录 | 教程依赖的常规部署、应用注册与授权按正文配置；这项建议针对文档内容，不代表生产功能已逐项验收。 |
-| 下表 21 篇中英文准备稿 | 确认对应条件后发布 | 每篇列明需要确认的内容和未确认时可能出现的问题。已完成配置或已有交付物的，核对后即可转为正文，无需重新立项。 |
+| 已纳入目录的 263 篇中英文正文、2 份接口规范及 Postman 文件 | 直接纳入文档目录 | 教程依赖的常规部署、应用注册与授权按正文配置；这项建议针对文档内容，不代表生产功能已逐项验收。 |
+| 下表 28 篇中英文准备稿 | 确认对应条件后发布 | 每篇列明需要确认的内容和未确认时可能出现的问题。已完成配置或已有交付物的，核对后即可转为正文，无需重新立项。 |
 | 末表 9 项历史资料 | 不纳入用户目录 | 原产品更新历史、实验仓库导航和已弃用框架不作为 Counso 当前使用说明；原文仍保留在来源资料中。 |
 
 ## 配置与使用说明
 
-以下 10 篇配置与使用说明列入正常目录。使用前需完成相应的部署配置和工作区授权。应用注册、凭据、回调、事件接收、后台服务及功能开关，由部署管理员完成；普通用户按正文执行授权、选择范围和使用步骤。
+以下 5 篇配置与使用说明列入正常目录。使用前需完成相应的部署配置和工作区授权。应用注册、凭据、回调、事件接收、后台服务及功能开关，由部署管理员完成；普通用户按正文执行授权、选择范围和使用步骤。
 
 | 主题 | 类型 | 部署前提 | 文章 |
 | --- | --- | --- | --- |
 | GitHub 工具 | 应用配置 | 注册并配置相应用途的 GitHub App、凭据与回调，再授权仓库。 | [EN](en/docs/user-documentation/agents/tools/github.md) · [中文](zh-cn/docs/user-documentation/agents/tools/github.md) |
 | Monday 工具 | OAuth 配置 | 注册自己的 Monday OAuth 应用，填写部署回调和凭据；从 Counso 发起授权，不沿用原教程的固定应用 ID。 | [EN](en/docs/user-documentation/agents/tools/monday-com.md) · [中文](zh-cn/docs/user-documentation/agents/tools/monday-com.md) |
 | 外部客户端连接 Counso MCP | 服务与 OAuth 配置 | 配置 MCP 服务与 OAuth 授权，客户端按文档连接实际端点。 | [EN](en/docs/user-documentation/agents/integrations/counso-mcp-server.md) · [中文](zh-cn/docs/user-documentation/agents/integrations/counso-mcp-server.md) |
-| Slack 自动回复 | 配置与部署 | 配置独立 Slack Bot 应用及消息接收服务，再选择频道和智能体；与数据同步连接分开。 | [EN](en/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply.md) · [中文](zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply.md) |
-| Slack Workflow | 管理员授权 | 配置 Slack Bot，并由部署管理员登记 Workflow 名称及允许访问的受限 Space。 | [EN](en/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows.md) · [中文](zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows.md) |
-| Slack 自动加入频道 | 配置与开关 | 先配置 Slack 数据连接和事件接收，再启用自动加入并设置匹配规则。 | [EN](en/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join.md) · [中文](zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join.md) |
 | 会议转录 | 使用与自动化配置 | 普通使用说明保留；自动处理另外要求转录来源、后台处理服务和工作区设置。 | [EN](en/docs/user-documentation/agents/integrations/meeting-transcripts.md) · [中文](zh-cn/docs/user-documentation/agents/integrations/meeting-transcripts.md) |
 | GitHub 数据同步 | 应用配置 | 注册并配置相应用途的 GitHub App、凭据与回调，再授权仓库。 | [EN](en/docs/user-documentation/admins/connections-management/github.md) · [中文](zh-cn/docs/user-documentation/admins/connections-management/github.md) |
-| Slack 数据同步 | 配置与部署 | 自建 Slack App 的凭据、当前部署的 OAuth 回调和事件接收地址；运行已有同步服务并开启相应设置。 | [EN](en/docs/user-documentation/admins/connections-management/slack.md) · [中文](zh-cn/docs/user-documentation/admins/connections-management/slack.md) |
-| Slack 排障 | 使用说明 | 分别排查数据同步、对话机器人、个人工具，不把一类连接的权限套用到另一类。 | [EN](en/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting.md) · [中文](zh-cn/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting.md) |
 
-Slack、GitHub 和 Monday 的源码提供配置自有应用的入口。原教程中的固定域名和应用 ID 是托管环境的值，不能直接用作 Counso 配置。注册并配置自己的应用后，可沿用已有集成实现。
+GitHub 和 Monday 的源码提供配置自有应用的入口。原教程中的固定域名和应用 ID 是托管环境的值，不能直接用作 Counso 配置。注册并配置自己的应用后，可沿用已有集成实现。Slack 相关页面按当前发布策略统一隐藏。
 
 ## 已准备、暂不进入用户目录的文章
 
 以下文章的双语品牌化稿件保存在 `prepared/`。正文保留用途、配置前提和使用流程；安装包、分发地址、脚本命令或服务地址须与实际交付对应。
 
-这 21 篇是当前文档的发布状态，不等于 Counso 缺少 21 项功能。原文及下列引用的上游实现已核对，但尚未逐项核对 Counso 当前部署的代码、配置和分发包。表中的条件用于核对发布依据，不能据此断言 Counso 尚未实现。
+这 28 篇是当前文档的发布状态，不等于 Counso 缺少 28 项功能。原文及下列引用的上游实现已核对，但尚未逐项核对 Counso 当前部署的代码、配置和分发包。表中的条件用于核对发布依据，不能据此断言 Counso 尚未实现。
 
 产品帮助 Skill 适合纳入 Counso 使用文档。上游已有内置 Skill，主要需要替换其产品名称、适用范围、检索来源和支持入口，无需另建一套客服系统。不过，原指令明确使用原产品文档与社区，并限制适用产品；只改文章名称，不能让实际回答自动改用 Counso 资料。当前保留准备稿，待确认部署中的 Skill 与文章描述一致后即可发布。
 
@@ -41,10 +36,17 @@ Slack、GitHub 和 Monday 的源码提供配置自有应用的入口。原教程
 
 其余文章介绍的是具体应用、客户端或脚本。暂缓的是依赖这些交付物的安装与运行步骤，不是排除对应平台或数据源。Zapier、Make 等原文要求选择原产品应用或模块；尚未核实这些应用能否配置自定义服务地址，不能直接断言必须重新开发，也不能把原应用当作 Counso 版本发布。
 
-`translations.json` 的 `prepared` 字段关联这些稿件；当前站点只使用 `notice` 显示简短的“文档更新中”。确认现有实现已满足条件，或补齐对应交付物并核对具体步骤后，可将准备稿移入正常正文并开放入口。未发现足以把这 20 个主题永久排除出 Counso 文档的依据。
+`translations.json` 的 `prepared` 字段关联这些稿件；当前站点只使用 `notice` 显示简短的“文档更新中”。确认现有实现已满足条件，或补齐对应交付物并核对具体步骤后，可将准备稿移入正常正文并开放入口。Slack 相关稿件还需要发布策略明确解除隐藏后才能恢复。
 
 | 主题 | 类别 | 原始 URL | 发布建议 | 需要确认 | 未确认时可能出现的问题 | 中英文稿 |
 | --- | --- | --- | --- | --- | --- | --- |
+| Slack 消息链接定位问题 | Slack FAQ | [https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one](https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one) | 当前隐藏 | Slack 相关文档恢复公开。 | 用户看到当前未开放的 Slack 使用说明。 | [EN](prepared/en/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one.md) · [中文](prepared/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one.md) |
+| Slack 工具 | Agent Tool | [https://docs.dust.tt/docs/user-documentation/agents/tools/slack-tools](https://docs.dust.tt/docs/user-documentation/agents/tools/slack-tools) | 当前隐藏 | Slack 相关文档恢复公开。 | 用户看到当前未开放的 Slack 工具说明。 | [EN](prepared/en/docs/user-documentation/agents/tools/slack-tools.md) · [中文](prepared/zh-cn/docs/user-documentation/agents/tools/slack-tools.md) |
+| Slack 自动回复 | Slack 集成 | [https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-reply](https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-reply) | 当前隐藏 | Slack 相关文档恢复公开。 | 用户尝试配置当前未开放的自动回复能力。 | [EN](prepared/en/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply.md) · [中文](prepared/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply.md) |
+| Slack Workflow | Slack 集成 | [https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows](https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows) | 当前隐藏 | Slack 相关文档恢复公开。 | 用户尝试配置当前未开放的 Workflow 能力。 | [EN](prepared/en/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows.md) · [中文](prepared/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows.md) |
+| Slack 自动加入频道 | Slack 集成 | [https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-join](https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-join) | 当前隐藏 | Slack 相关文档恢复公开。 | 用户尝试启用当前未开放的自动加入频道能力。 | [EN](prepared/en/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join.md) · [中文](prepared/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join.md) |
+| Slack 数据同步 | 数据连接 | [https://docs.dust.tt/docs/user-documentation/admins/connections-management/slack](https://docs.dust.tt/docs/user-documentation/admins/connections-management/slack) | 当前隐藏 | Slack 相关文档恢复公开。 | 管理员尝试配置当前未开放的 Slack 连接。 | [EN](prepared/en/docs/user-documentation/admins/connections-management/slack.md) · [中文](prepared/zh-cn/docs/user-documentation/admins/connections-management/slack.md) |
+| Slack 排障 | 管理员说明 | [https://docs.dust.tt/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting](https://docs.dust.tt/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting) | 当前隐藏 | Slack 相关文档恢复公开。 | 用户看到与当前发布能力不一致的排障步骤。 | [EN](prepared/en/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting.md) · [中文](prepared/zh-cn/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting.md) |
 | 产品支持指引 | 产品帮助 Skill | [https://docs.dust.tt/docs/user-documentation/agents/dust-support](https://docs.dust.tt/docs/user-documentation/agents/dust-support) | 建议纳入，确认后发布 | 内置 Skill 的名称、适用产品、文档检索来源和支持入口已改为 Counso；在工作区能找到并使用它。 | 仅改文章名称，实际帮助仍可能检索原产品资料，或不适用于 Counso 问题。 | [EN](prepared/en/docs/user-documentation/agents/counso-support.md) · [中文](prepared/zh-cn/docs/user-documentation/agents/counso-support.md) |
 | 通过邮件联系智能体 | 邮件服务 | [https://docs.dust.tt/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents](https://docs.dust.tt/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents) | 邮件服务确认后发布 | Counso 收件域名、入站解析与签名校验、回复发信配置、工作区开关及实际智能体地址已接通。 | 照着教程发送却无人处理，地址仍指向原产品，或只能收信不能回复。 | [EN](prepared/en/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents.md) · [中文](prepared/zh-cn/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents.md) |
 | 通过 Zapier 运行智能体 | 专用应用 | [https://docs.dust.tt/docs/user-documentation/agents/integrations/zapier](https://docs.dust.tt/docs/user-documentation/agents/integrations/zapier) | 应用连接确认后发布 | 原教程使用专用应用及 Talk to an Agent 动作。确认实际提供的应用、Counso 目标地址、凭据和动作名称；若可用自定义连接，无需假定必须新开发。 | 搜索不到文档所写应用，或动作仍请求原平台，Counso 凭据无法使用。 | [EN](prepared/en/docs/user-documentation/agents/integrations/zapier.md) · [中文](prepared/zh-cn/docs/user-documentation/agents/integrations/zapier.md) |

@@ -136,7 +136,6 @@
                     "group": "Troubleshooting",
                     "expanded": false,
                     "pages": [
-                      "docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one",
                       "docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in",
                       "docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work",
                       "docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on",
@@ -322,8 +321,7 @@
                   "docs/user-documentation/admins/connections-management/snowflake",
                   "docs/user-documentation/admins/connections-management/bigquery",
                   "docs/user-documentation/admins/connections-management/gong",
-                  "docs/user-documentation/admins/connections-management/github",
-                  "docs/user-documentation/admins/connections-management/slack"
+                  "docs/user-documentation/admins/connections-management/github"
                 ]
               },
               {
@@ -366,17 +364,13 @@
                 ]
               },
               "docs/user-documentation/admins/billing/subscriptions-and-payments",
-              "docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting",
-              "docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting"
+              "docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting"
             ]
           },
           {
             "group": "Integrations",
             "pages": [
               "docs/user-documentation/agents/integrations/counso-mcp-server",
-              "docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
-              "docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
-              "docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
               "docs/user-documentation/agents/integrations/meeting-transcripts"
             ]
           },
@@ -658,7 +652,6 @@
                     "group": "故障排除",
                     "expanded": false,
                     "pages": [
-                      "zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one",
                       "zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in",
                       "zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work",
                       "zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on",
@@ -844,8 +837,7 @@
                   "zh-Hans/docs/user-documentation/admins/connections-management/snowflake",
                   "zh-Hans/docs/user-documentation/admins/connections-management/bigquery",
                   "zh-Hans/docs/user-documentation/admins/connections-management/gong",
-                  "zh-Hans/docs/user-documentation/admins/connections-management/github",
-                  "zh-Hans/docs/user-documentation/admins/connections-management/slack"
+                  "zh-Hans/docs/user-documentation/admins/connections-management/github"
                 ]
               },
               {
@@ -888,17 +880,13 @@
                 ]
               },
               "zh-Hans/docs/user-documentation/admins/billing/subscriptions-and-payments",
-              "zh-Hans/docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting",
-              "zh-Hans/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting"
+              "zh-Hans/docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting"
             ]
           },
           {
             "group": "集成与接入",
             "pages": [
               "zh-Hans/docs/user-documentation/agents/integrations/counso-mcp-server",
-              "zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
-              "zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
-              "zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
               "zh-Hans/docs/user-documentation/agents/integrations/meeting-transcripts"
             ]
           },

@@ -25,7 +25,6 @@ title: "常见问题"
 
 ## 排查问题
 
-- [Slack 消息引用的链接不准确怎么办？](/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one)
 - [无法登录怎么办？](/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in)
 - [表格分析结果不符合预期怎么办？](/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work)
 - [引用链接或事实不准确怎么办？](/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on)

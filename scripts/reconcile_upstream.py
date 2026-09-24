@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "source"
 TRANSLATIONS = ROOT / "translations.json"
 REDIRECTS = ROOT / "redirects.json"
+SYNC_POLICY = ROOT / "sync-policy.json"
 CHINESE_PREFIX = "/zh-Hans"
 
 
@@ -150,6 +151,51 @@ def update_page(row: dict, entry: dict) -> dict:
     return row
 
 
+def force_updating(row: dict, entry: dict, reason: str) -> dict:
+    """Move a published bilingual pair to prepared/ and retain its public routes as notices."""
+    row = copy.deepcopy(row)
+    route = route_for(entry)
+    translations = row.get("translations") or {}
+    prepared = copy.deepcopy(row.get("prepared") or {})
+    for language in ("en", "zh-cn"):
+        target_relative = "prepared/" + language + "/" + branded_path(entry["path"])
+        target = ROOT / target_relative
+        published = translations.get(language)
+        if published:
+            source = ROOT / published["file"]
+            target.parent.mkdir(parents=True, exist_ok=True)
+            source.replace(target)
+            title = published["title"]
+        else:
+            title = prepared[language]["title"]
+        prepared[language] = {
+            "file": target_relative,
+            "route": route if language == "en" else CHINESE_PREFIX + route,
+            "title": title,
+        }
+    row.update(
+        {
+            "status": "updating",
+            "reason": reason,
+            "translations": None,
+            "notice": {
+                "en": {
+                    "file": "en/UPDATING.md",
+                    "route": route,
+                    "title": "Documentation update",
+                },
+                "zh-cn": {
+                    "file": "zh-cn/UPDATING.md",
+                    "route": CHINESE_PREFIX + route,
+                    "title": "文档更新中",
+                },
+            },
+            "prepared": prepared,
+        }
+    )
+    return row
+
+
 def referenced_files(row: dict) -> set[str]:
     result: set[str] = set()
     for field in ("translations", "prepared"):
@@ -214,6 +260,8 @@ def filter_summary(path: Path) -> None:
 data = read_json(TRANSLATIONS)
 manifest = read_json(SOURCE / "manifest.json")
 index = read_json(SOURCE / "url-index.json")
+sync_policy = read_json(SYNC_POLICY)
+hidden_pages = sync_policy["publication"].get("hidden_pages", {})
 SITEMAP_URLS = set(index["routes"])
 old_rows = {row["original_url"]: row for row in data["pages"]}
 new_urls = {official_url(entry) for entry in manifest}
@@ -230,6 +278,8 @@ pages = []
 for entry in manifest:
     url = official_url(entry)
     row = update_page(old_rows[url], entry) if url in old_rows else new_page(entry)
+    if entry["path"] in hidden_pages:
+        row = force_updating(row, entry, hidden_pages[entry["path"]])
     pages.append(row)
 
 for row in pages:

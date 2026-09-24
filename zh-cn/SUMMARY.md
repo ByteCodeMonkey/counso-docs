@@ -39,7 +39,6 @@
 - [可以删除或重命名对话吗？](docs/user-documentation/getting-started/faq/managing-agents/can-i-delete-or-rename-a-conversation.md)
 - [智能体可以使用不同语言吗？](docs/user-documentation/getting-started/faq/managing-agents/can-i-use-the-counso-agents-in-different-languages.md)
 - [如何查找智能体 ID？](docs/user-documentation/getting-started/faq/managing-agents/how-can-i-find-the-id-of-an-agent.md)
-- [为什么 Slack 链接有时没有指向具体消息？](docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one.md)
 - [没有收到邀请或无法登录怎么办？](docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in.md)
 - [表格分析为什么不完整或不准确？](docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work.md)
 - [智能体为什么会给出失效链接或没有依据的结论？](docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on.md)
@@ -165,15 +164,10 @@
 - [订阅与账单](docs/user-documentation/admins/billing/subscriptions-and-payments.md)
 - [排查工作区管理问题](docs/user-documentation/admins/admin-troubleshooting/admin-troubleshooting.md)
 - [连接 GitHub](docs/user-documentation/admins/connections-management/github.md)
-- [连接 Slack 知识](docs/user-documentation/admins/connections-management/slack.md)
-- [排查 Slack 连接与工具问题](docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting.md)
 
 ## 集成与接入
 
 - [将 MCP 客户端连接到 Counso](docs/user-documentation/agents/integrations/counso-mcp-server.md)
-- [在 Slack 频道设置自动回复](docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply.md)
-- [在 Slack Workflow 中使用智能体](docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows.md)
-- [自动加入新的 Slack 频道](docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join.md)
 - [使用会议转录](docs/user-documentation/agents/integrations/meeting-transcripts.md)
 
 ## 开发者文档

@@ -7,7 +7,6 @@ title: "管理数据连接"
 
 按平台查看具体说明：
 
-- [Slack](/zh-Hans/docs/user-documentation/admins/connections-management/slack)
 - [GitHub](/zh-Hans/docs/user-documentation/admins/connections-management/github)
 - [Google Drive](/zh-Hans/docs/user-documentation/admins/connections-management/google-drive)
 - [Notion](/zh-Hans/docs/user-documentation/admins/connections-management/notion)

@@ -18,8 +18,8 @@
     "source_files": 302,
     "sitemap_urls": 300,
     "exclude_upstream": 9,
-    "publish": 272,
-    "updating": 21
+    "publish": 265,
+    "updating": 28
   },
   "pages": [
     {
@@ -548,13 +548,13 @@
           "title": "Frequently asked questions",
           "file": "en/docs/user-documentation/getting-started/faq/index.md",
           "route": "/docs/user-documentation/getting-started/faq",
-          "sha256": "d290870d662998b187cee76d58a23464c5276a8d99edd51d274493c2d5337517"
+          "sha256": "0ad8599089b301353a0892b6a713b1b41b7c74c4648c919d7c59e68595031347"
         },
         "zh-cn": {
           "title": "常见问题",
           "file": "zh-cn/docs/user-documentation/getting-started/faq/index.md",
           "route": "/zh-Hans/docs/user-documentation/getting-started/faq",
-          "sha256": "d2209afc6186ef012069306f48841343dad42142a825469b5e8578628a2af06d"
+          "sha256": "7970afa29515ae4a4415a2eb899f757ad10b34b0b239b2c43fa8fb4b604f97c0"
         }
       },
       "original_title": "FAQ"
@@ -991,23 +991,38 @@
       "original_sha256": "7c4779b483f84e0ba1dac7c6becad20ffc6467ff427868fc1a5feb4b9e1afa18",
       "original_source": "source/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one.md",
       "in_sitemap": true,
-      "status": "publish",
-      "reason": "提供中英文正文。",
-      "translations": {
+      "status": "updating",
+      "reason": "Counso 当前不公开 Slack 相关使用说明。",
+      "translations": null,
+      "original_title": "When asking a question about data within Slack, the link to the thread isn't always the right one",
+      "notice": {
         "en": {
-          "title": "Why is a Slack link sometimes not the exact message?",
-          "file": "en/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one.md",
+          "file": "en/UPDATING.md",
           "route": "/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one",
+          "title": "Documentation update",
+          "sha256": "f1d9428214126f7efa16ac58c1ee57dc3d86f926d06abeeda61b53fa4035f7cd"
+        },
+        "zh-cn": {
+          "file": "zh-cn/UPDATING.md",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one",
+          "title": "文档更新中",
+          "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae"
+        }
+      },
+      "prepared": {
+        "en": {
+          "file": "prepared/en/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one.md",
+          "route": "/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one",
+          "title": "Why is a Slack link sometimes not the exact message?",
           "sha256": "cd84cc45d52c0ad0a00cee3d196dd574917cacde12b062e7d311b970a244ca70"
         },
         "zh-cn": {
-          "title": "为什么 Slack 链接有时没有指向具体消息？",
-          "file": "zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one.md",
+          "file": "prepared/zh-cn/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one.md",
           "route": "/zh-Hans/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one",
+          "title": "为什么 Slack 链接有时没有指向具体消息？",
           "sha256": "e46b450c12f4cbfd283d159e38b6d992f1cea3a89c120e0185919237b14df948"
         }
-      },
-      "original_title": "When asking a question about data within Slack, the link to the thread isn't always the right one"
+      }
     },
     {
       "original_url": "https://docs.dust.tt/docs/user-documentation/getting-started/faq/troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in",
@@ -2956,23 +2971,38 @@
       "original_sha256": "455c138ce698942465f7997ce522d6bb52d8186a9cf3dcc19ea5f7f326cb91e8",
       "original_source": "source/docs/user-documentation/agents/tools/slack-tools.md",
       "in_sitemap": true,
-      "status": "publish",
-      "reason": "提供中英文正文。",
-      "translations": {
+      "status": "updating",
+      "reason": "Counso 当前不公开 Slack 相关使用说明。",
+      "translations": null,
+      "original_title": "Slack tools",
+      "notice": {
         "en": {
-          "title": "Slack tools",
-          "file": "en/docs/user-documentation/agents/tools/slack-tools.md",
+          "file": "en/UPDATING.md",
           "route": "/docs/user-documentation/agents/tools/slack-tools",
+          "title": "Documentation update",
+          "sha256": "f1d9428214126f7efa16ac58c1ee57dc3d86f926d06abeeda61b53fa4035f7cd"
+        },
+        "zh-cn": {
+          "file": "zh-cn/UPDATING.md",
+          "route": "/zh-Hans/docs/user-documentation/agents/tools/slack-tools",
+          "title": "文档更新中",
+          "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae"
+        }
+      },
+      "prepared": {
+        "en": {
+          "file": "prepared/en/docs/user-documentation/agents/tools/slack-tools.md",
+          "route": "/docs/user-documentation/agents/tools/slack-tools",
+          "title": "Slack tools",
           "sha256": "2c94dcc2702b85c6b41cb1454bd4e1298d053e1dd4f2138daf92a2c19a206772"
         },
         "zh-cn": {
-          "title": "Slack 工具",
-          "file": "zh-cn/docs/user-documentation/agents/tools/slack-tools.md",
+          "file": "prepared/zh-cn/docs/user-documentation/agents/tools/slack-tools.md",
           "route": "/zh-Hans/docs/user-documentation/agents/tools/slack-tools",
+          "title": "Slack 工具",
           "sha256": "264dcae81074208f6f0a1269503df26d2d81241c5b7ceaa2b074066505feb1db"
         }
-      },
-      "original_title": "Slack tools"
+      }
     },
     {
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/tools/ukg-ready",
@@ -3571,23 +3601,38 @@
       "original_sha256": "cb614e7e85fa7baf2df25db80fd7df4e486299903afa2c4ab3fbd4de28d2468d",
       "original_source": "source/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-reply.md",
       "in_sitemap": true,
-      "status": "publish",
-      "reason": "提供配置或使用说明；启用前完成文中所列的管理员配置。",
-      "translations": {
+      "status": "updating",
+      "reason": "Counso 当前不公开 Slack 相关使用说明。",
+      "translations": null,
+      "original_title": "Slack Auto-Reply without @mention",
+      "notice": {
         "en": {
-          "title": "Set up automatic replies in Slack channels",
-          "file": "en/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply.md",
+          "file": "en/UPDATING.md",
           "route": "/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
+          "title": "Documentation update",
+          "sha256": "f1d9428214126f7efa16ac58c1ee57dc3d86f926d06abeeda61b53fa4035f7cd"
+        },
+        "zh-cn": {
+          "file": "zh-cn/UPDATING.md",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
+          "title": "文档更新中",
+          "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae"
+        }
+      },
+      "prepared": {
+        "en": {
+          "file": "prepared/en/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply.md",
+          "route": "/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
+          "title": "Set up automatic replies in Slack channels",
           "sha256": "a8133943af0dc4e3af3f80d71995d39df25e1ee85ba5ff328fc41077c7e7c874"
         },
         "zh-cn": {
-          "title": "在 Slack 频道设置自动回复",
-          "file": "zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply.md",
+          "file": "prepared/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply.md",
           "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-reply",
+          "title": "在 Slack 频道设置自动回复",
           "sha256": "bbda609a5ec810047950453fe18456c87bcf17baa453e9270135c1d1f4edd44e"
         }
-      },
-      "original_title": "Slack Auto-Reply without @mention"
+      }
     },
     {
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows",
@@ -3596,23 +3641,38 @@
       "original_sha256": "271834efb0676f35cd657f254f2d85d6185af4638d06590df89758403555a759",
       "original_source": "source/docs/user-documentation/agents/integrations/dust-in-slack/slack-workflows.md",
       "in_sitemap": true,
-      "status": "publish",
-      "reason": "提供配置或使用说明；启用前完成文中所列的管理员配置。",
-      "translations": {
+      "status": "updating",
+      "reason": "Counso 当前不公开 Slack 相关使用说明。",
+      "translations": null,
+      "original_title": "Slack workflows",
+      "notice": {
         "en": {
-          "title": "Use an Agent in Slack workflows",
-          "file": "en/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows.md",
+          "file": "en/UPDATING.md",
           "route": "/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+          "title": "Documentation update",
+          "sha256": "f1d9428214126f7efa16ac58c1ee57dc3d86f926d06abeeda61b53fa4035f7cd"
+        },
+        "zh-cn": {
+          "file": "zh-cn/UPDATING.md",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+          "title": "文档更新中",
+          "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae"
+        }
+      },
+      "prepared": {
+        "en": {
+          "file": "prepared/en/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows.md",
+          "route": "/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+          "title": "Use an Agent in Slack workflows",
           "sha256": "d7ee73eb2f333a30f0fdd931e8f5fcd0e0dae32c7387c65d022d1cf84def0806"
         },
         "zh-cn": {
-          "title": "在 Slack Workflow 中使用智能体",
-          "file": "zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows.md",
+          "file": "prepared/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows.md",
           "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-workflows",
+          "title": "在 Slack Workflow 中使用智能体",
           "sha256": "89b5618c0ddb6b02ce81629a22ae20293e8b3f51e05bc7a3c62129d2bbb18d22"
         }
-      },
-      "original_title": "Slack workflows"
+      }
     },
     {
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-join",
@@ -3621,23 +3681,38 @@
       "original_sha256": "dd3c79f988e9a08db3aa5fd882bc1a18c67bf4989c2d3da0d473aca510fc9bd6",
       "original_source": "source/docs/user-documentation/agents/integrations/dust-in-slack/slack-auto-join.md",
       "in_sitemap": true,
-      "status": "publish",
-      "reason": "提供配置或使用说明；启用前完成文中所列的管理员配置。",
-      "translations": {
+      "status": "updating",
+      "reason": "Counso 当前不公开 Slack 相关使用说明。",
+      "translations": null,
+      "original_title": "[Beta] Slack Auto-Join",
+      "notice": {
         "en": {
-          "title": "Automatically join new Slack channels",
-          "file": "en/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join.md",
+          "file": "en/UPDATING.md",
           "route": "/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
+          "title": "Documentation update",
+          "sha256": "f1d9428214126f7efa16ac58c1ee57dc3d86f926d06abeeda61b53fa4035f7cd"
+        },
+        "zh-cn": {
+          "file": "zh-cn/UPDATING.md",
+          "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
+          "title": "文档更新中",
+          "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae"
+        }
+      },
+      "prepared": {
+        "en": {
+          "file": "prepared/en/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join.md",
+          "route": "/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
+          "title": "Automatically join new Slack channels",
           "sha256": "d48d3e9ac6fbbabb4376166fd5aa191a1da4ca4adec5ac6c148612adf5cff932"
         },
         "zh-cn": {
-          "title": "自动加入新的 Slack 频道",
-          "file": "zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join.md",
+          "file": "prepared/zh-cn/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join.md",
           "route": "/zh-Hans/docs/user-documentation/agents/integrations/counso-in-slack/slack-auto-join",
+          "title": "自动加入新的 Slack 频道",
           "sha256": "fd925ea7f7333ee374ea0c4037484dcdc6287c0d50a70eedce3f4bb146f23182"
         }
-      },
-      "original_title": "[Beta] Slack Auto-Join"
+      }
     },
     {
       "original_url": "https://docs.dust.tt/docs/user-documentation/agents/integrations/send-and-forward-email-to-agents",
@@ -4653,13 +4728,13 @@
           "title": "Manage connections",
           "file": "en/docs/user-documentation/admins/connections-management/index.md",
           "route": "/docs/user-documentation/admins/connections-management",
-          "sha256": "afa069d5f4320a5a5a3cd870c6121c4d7f62eac4d00964cf20a97c214c663c3b"
+          "sha256": "812fe1fbc85ef9a52ee7575664db9c4101c2311f84201b30829ecc8a635e9fc6"
         },
         "zh-cn": {
           "title": "管理数据连接",
           "file": "zh-cn/docs/user-documentation/admins/connections-management/index.md",
           "route": "/zh-Hans/docs/user-documentation/admins/connections-management",
-          "sha256": "acf74fe900c9d839d0a1b405ad25936feebd86e2f1790f11f9e99851caceab4a"
+          "sha256": "290f429c13829628e98ead8ca4d4573db61230fd1a9e729f860f7484b4cb0a53"
         }
       },
       "original_title": "Connections Management"
@@ -4921,23 +4996,38 @@
       "original_sha256": "c9d69716dd0fbbd09d3dc8c4d779e85a49f8116999f2ec7435ea88015e69620a",
       "original_source": "source/docs/user-documentation/admins/connections-management/slack.md",
       "in_sitemap": true,
-      "status": "publish",
-      "reason": "提供配置或使用说明；启用前完成文中所列的管理员配置。",
-      "translations": {
+      "status": "updating",
+      "reason": "Counso 当前不公开 Slack 相关使用说明。",
+      "translations": null,
+      "original_title": "Slack",
+      "notice": {
         "en": {
-          "title": "Connect Slack knowledge",
-          "file": "en/docs/user-documentation/admins/connections-management/slack.md",
+          "file": "en/UPDATING.md",
           "route": "/docs/user-documentation/admins/connections-management/slack",
-          "sha256": "a4f0ed19daeda58e48c0a42215917051b9c0c14921412530a317b6599b116d94"
+          "title": "Documentation update",
+          "sha256": "f1d9428214126f7efa16ac58c1ee57dc3d86f926d06abeeda61b53fa4035f7cd"
         },
         "zh-cn": {
-          "title": "连接 Slack 知识",
-          "file": "zh-cn/docs/user-documentation/admins/connections-management/slack.md",
+          "file": "zh-cn/UPDATING.md",
           "route": "/zh-Hans/docs/user-documentation/admins/connections-management/slack",
-          "sha256": "587818298ef0a7628a27f4c45cd4e5a71ebc2b5223fe06ba5572822440b60a97"
+          "title": "文档更新中",
+          "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae"
         }
       },
-      "original_title": "Slack"
+      "prepared": {
+        "en": {
+          "file": "prepared/en/docs/user-documentation/admins/connections-management/slack.md",
+          "route": "/docs/user-documentation/admins/connections-management/slack",
+          "title": "Connect Slack knowledge",
+          "sha256": "17063456c0579e251f444e807564eb73525cb4530695443b5526148ac13a9dee"
+        },
+        "zh-cn": {
+          "file": "prepared/zh-cn/docs/user-documentation/admins/connections-management/slack.md",
+          "route": "/zh-Hans/docs/user-documentation/admins/connections-management/slack",
+          "title": "连接 Slack 知识",
+          "sha256": "ba7c54cd4779e32e4df658800cd11ea4c257224c9c7f57f9af2750a9e81c5f75"
+        }
+      }
     },
     {
       "original_url": "https://docs.dust.tt/docs/user-documentation/admins/tools-management/adding-an-mcp-server",
@@ -5371,23 +5461,38 @@
       "original_sha256": "df54a4b6cd397e6002480d2c53818f0e26715561ad7e646432c52965de42ba78",
       "original_source": "source/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting.md",
       "in_sitemap": true,
-      "status": "publish",
-      "reason": "提供配置或使用说明；启用前完成文中所列的管理员配置。",
-      "translations": {
+      "status": "updating",
+      "reason": "Counso 当前不公开 Slack 相关使用说明。",
+      "translations": null,
+      "original_title": "Slack Troubleshooting",
+      "notice": {
         "en": {
-          "title": "Troubleshoot Slack connections and tools",
-          "file": "en/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting.md",
+          "file": "en/UPDATING.md",
           "route": "/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting",
+          "title": "Documentation update",
+          "sha256": "f1d9428214126f7efa16ac58c1ee57dc3d86f926d06abeeda61b53fa4035f7cd"
+        },
+        "zh-cn": {
+          "file": "zh-cn/UPDATING.md",
+          "route": "/zh-Hans/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting",
+          "title": "文档更新中",
+          "sha256": "86bffbc7fd8d083bfe095702927cc7c7070d70bc5b3ada8dafd017d6cb99d4ae"
+        }
+      },
+      "prepared": {
+        "en": {
+          "file": "prepared/en/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting.md",
+          "route": "/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting",
+          "title": "Troubleshoot Slack connections and tools",
           "sha256": "7ad426badb57ef5e3424b6760a9d333806c1b287727b31bd9a1f004568136aab"
         },
         "zh-cn": {
-          "title": "排查 Slack 连接与工具问题",
-          "file": "zh-cn/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting.md",
+          "file": "prepared/zh-cn/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting.md",
           "route": "/zh-Hans/docs/user-documentation/admins/admin-troubleshooting/slack-troubleshooting",
+          "title": "排查 Slack 连接与工具问题",
           "sha256": "fc3e3f68020e1fe6f426df80c5de96f4dbcd34c86ba5bf61bdd5124f827cfd5c"
         }
-      },
-      "original_title": "Slack Troubleshooting"
+      }
     },
     {
       "original_url": "https://docs.dust.tt/docs/user-documentation/developers/client-side-mcp-server",

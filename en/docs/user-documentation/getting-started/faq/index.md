@@ -24,7 +24,6 @@
 
 ## Troubleshooting
 
-- [Why is a Slack message link sometimes inaccurate?](troubleshooting-and-limitations/when-asking-a-question-about-data-within-slack-the-link-to-the-thread-isnt-always-the-right-one.md)
 - [What if I cannot sign in?](troubleshooting-and-limitations/i-havent-received-a-login-or-i-am-having-trouble-logging-in.md)
 - [Why is a table analysis incorrect or incomplete?](troubleshooting-and-limitations/i-try-to-create-an-agent-using-the-table-query-tool-but-it-doesnt-work.md)
 - [Why are a citation or fact inaccurate?](troubleshooting-and-limitations/the-agent-is-producing-links-that-dont-work-and-falsely-claiming-something-untrue-whats-going-on.md)

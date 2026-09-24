@@ -6,7 +6,6 @@ Keep the connected account and its permissions stable: changing that account's a
 
 Choose a guide for the platform you use:
 
-- [Slack](slack.md)
 - [GitHub](github.md)
 - [Google Drive](google-drive.md)
 - [Notion](notion.md)
