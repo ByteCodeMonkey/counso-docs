@@ -3540,7 +3540,7 @@
           "title": "MiniApps 概览",
           "file": "zh-cn/docs/user-documentation/agents/frames/overview.md",
           "route": "/zh-Hans/docs/user-documentation/agents/frames/overview",
-          "sha256": "d547bee771c3073009f727fa034076e22b334bb2f1ec2e92ed5bbef07b3e992e"
+          "sha256": "0713de4353c81aa907cafc11d924c5cd2b10009cc81ec73acd505713a2e2836a"
         }
       }
     },
@@ -3561,10 +3561,10 @@
           "sha256": "712dcb647ac292003f18d1b68a91911419ce8bcef8e6339d9d9b8a499349fe27"
         },
         "zh-cn": {
-          "title": "为共享 MiniApp 添加品牌信息",
+          "title": "为共享 MiniApps 添加品牌信息",
           "file": "zh-cn/docs/user-documentation/agents/frames/white-labeled-frames.md",
           "route": "/zh-Hans/docs/user-documentation/agents/frames/white-labeled-frames",
-          "sha256": "6e5c4c59239e9c649d82ce57ee18a2f3c36c4ca737402404e19d5e4baf02d3a6"
+          "sha256": "e2896d85dba2e1e058e2240095265bcb8880f0345cc43570f375c5273b5bcb5f"
         }
       },
       "original_title": "White-labeled Frames"
@@ -4281,10 +4281,10 @@
           "sha256": "090fdb791c2d642b1f37b0bbd65c10c9ef52e1b997eb79a5de24200cd48b753c"
         },
         "zh-cn": {
-          "title": "创建和使用 MiniApp",
+          "title": "创建和使用 MiniApps",
           "file": "zh-cn/docs/user-documentation/pods/frames.md",
           "route": "/zh-Hans/docs/user-documentation/pods/frames",
-          "sha256": "aa90b011f06a257178588807db309c1922008a0383beb26b0cdc5e2a3602f20d"
+          "sha256": "2bc8e8cee4c7acb1d88caef5ab1bda9eecb5d4998ad82d123087752c635ea772"
         }
       },
       "original_title": "Frames"
@@ -4309,7 +4309,7 @@
           "title": "智能体在 Pod 中可以做什么",
           "file": "zh-cn/docs/user-documentation/pods/agent-tools.md",
           "route": "/zh-Hans/docs/user-documentation/pods/agent-tools",
-          "sha256": "14b866edd691ef32c8767723f5ef4cdb97873e025b0cd735db377f377d53ab63"
+          "sha256": "0aa5250b4dd5247d14f45d8340b0fa9921f29fe67736c36000d1556d6c81dc7c"
         }
       },
       "original_title": "Agent tools"
@@ -4559,7 +4559,7 @@
           "title": "工作区角色、群组和权限",
           "file": "zh-cn/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions.md",
           "route": "/zh-Hans/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions",
-          "sha256": "f45d1b4c61fc123d1b5540fe5ab756bb187ae0240cf25b6c0f8e1e8851bca42a"
+          "sha256": "c516a0fdec8d8b46648ec80049eaf92050509ca648bb6a233276cc0e9aae1805"
         }
       },
       "original_title": "Workspace Governance: Roles, Groups & Permissions "

@@ -263,6 +263,23 @@ def tool_links(summary: Path) -> set[str]:
     return links
 
 
+def visible_markdown(text: str) -> str:
+    """Remove fenced code before applying prose-only terminology checks."""
+    return re.sub(r"^\s*(```|~~~).*?^\s*\1\s*$", "", text, flags=re.M | re.S)
+
+
+def miniapp_number_errors(page: Path) -> list[str]:
+    text = visible_markdown(page.read_text(encoding="utf-8"))
+    patterns = (
+        r"\b(?:a|an|one|each|every|this|that)\s+MiniApps\b",
+        r"\bMiniApps\s+(?:is|has|was)\b",
+        r"\bMiniApp\s+(?:are|have|were)\b",
+        r"(?:所有|多个|各个|这些|那些|若干)\s*MiniApp\b",
+        r"(?:一个|单个|每个|这个|该)\s*MiniApps\b",
+    )
+    return [match.group(0) for pattern in patterns for match in re.finditer(pattern, text, re.I)]
+
+
 def policy_checks(policy: dict) -> None:
     errors: list[str] = []
     config = load_json(ROOT / "mintlify-site" / "docs.json")
@@ -284,10 +301,15 @@ def policy_checks(policy: dict) -> None:
         if missing:
             errors.append(f"{language} is missing allowed Agent Tools: {missing}")
 
-    for language in ("en", "zh-cn"):
-        for page in (ROOT / language).rglob("*.md"):
+    for content_root in (ROOT / "en", ROOT / "zh-cn", ROOT / "prepared"):
+        for page in content_root.rglob("*.md"):
             if "/miniapps/" in page.read_text(encoding="utf-8"):
                 errors.append(f"technical frames route renamed in {page.relative_to(ROOT)}")
+            mismatches = miniapp_number_errors(page)
+            if mismatches:
+                errors.append(
+                    f"MiniApp number mismatch in {page.relative_to(ROOT)}: {', '.join(mismatches)}"
+                )
 
     if errors:
         raise SyncError("policy checks failed:\n- " + "\n- ".join(errors))

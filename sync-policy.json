@@ -32,6 +32,11 @@
       "Frame": "MiniApp",
       "Frames": "MiniApps"
     },
+    "miniapp_number_agreement": {
+      "singular": "MiniApp",
+      "plural": "MiniApps",
+      "rule": "Use MiniApp for one item or a singular generic item, and MiniApps for multiple items or the capability/category as a collection. Apply the same product spelling in Chinese copy."
+    },
     "preserve_technical_tokens": [
       "/frames/",
       "frameId",

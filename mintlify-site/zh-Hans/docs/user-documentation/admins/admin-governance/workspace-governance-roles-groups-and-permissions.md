@@ -7,7 +7,7 @@ title: "工作区角色、群组和权限"
 
 **Admin** 拥有完整的工作区管理权限，可以管理设置、成员、群组和授权，并始终保有设为 **Admin only** 的权限。默认情况下，Admin 可以管理账单与安全、配置治理权限、控制外部分享 MiniApp 的政策，以及启用或停用审计日志。
 
-**Manager** 可以邀请和移除成员、更改非 Admin 成员的角色、分配 Manager 或 Member 角色、查看分析和用量、处理 credits 升级申请，以及选择哪些群组可以创建或发布智能体和 Skills。Manager 默认没有账单或安全管理权限，也不能更改外部 MiniApp 分享政策或启用、停用审计日志；启用外部分享后，Manager 可以设置哪些群组能邀请他人查看 MiniApp 并发布 MiniApp。
+**Manager** 可以邀请和移除成员、更改非 Admin 成员的角色、分配 Manager 或 Member 角色、查看分析和用量、处理 credits 升级申请，以及选择哪些群组可以创建或发布智能体和 Skills。Manager 默认没有账单或安全管理权限，也不能更改外部 MiniApp 分享政策或启用、停用审计日志；启用外部分享后，Manager 可以设置哪些群组能邀请他人查看 MiniApps 并发布 MiniApps。
 
 **Member** 根据群组授权、资源范围和其他授权使用工作区资源。Member 默认没有管理权限，但 Admin 可以通过群组授予额外权限。
 
