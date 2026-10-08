@@ -656,12 +656,7 @@ def main() -> None:
         "styling": {"eyebrows": "section", "latex": True, "codeblocks": "system"},
         "thumbnails": {"appearance": "light"},
         "navbar": {
-            "links": [
-                {
-                    "label": "GitHub",
-                    "href": "https://github.com/zCloak-Network/counso-docs",
-                }
-            ],
+            "links": [],
             "primary": {"type": "button", "label": "Open Counso AI", "href": "https://app.counso.ai"},
         },
         "search": {"prompt": "Search Counso documentation..."},

@@ -30,12 +30,7 @@
     "appearance": "light"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "GitHub",
-        "href": "https://github.com/zCloak-Network/counso-docs"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "Open Counso AI",
