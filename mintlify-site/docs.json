@@ -42,7 +42,10 @@
   },
   "seo": {
     "indexing": "navigable",
-    "trailingSlash": false
+    "trailingSlash": false,
+    "metatags": {
+      "canonical": "https://docs.counso.ai"
+    }
   },
   "interaction": {
     "drilldown": false

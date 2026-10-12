@@ -660,7 +660,11 @@ def main() -> None:
             "primary": {"type": "button", "label": "Open Counso AI", "href": "https://app.counso.ai"},
         },
         "search": {"prompt": "Search Counso documentation..."},
-        "seo": {"indexing": "navigable", "trailingSlash": False},
+        "seo": {
+            "indexing": "navigable",
+            "trailingSlash": False,
+            "metatags": {"canonical": "https://docs.counso.ai"},
+        },
         "interaction": {"drilldown": False},
         "navigation": {
             "languages": [
