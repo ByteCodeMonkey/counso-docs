@@ -7,6 +7,7 @@ Keep the connected account and its permissions stable: changing that account's a
 
 Choose a guide for the platform you use:
 
+- [Slack](/docs/user-documentation/admins/connections-management/slack)
 - [GitHub](/docs/user-documentation/admins/connections-management/github)
 - [Google Drive](/docs/user-documentation/admins/connections-management/google-drive)
 - [Notion](/docs/user-documentation/admins/connections-management/notion)
