@@ -1,11 +1,21 @@
 ---
 title: "Skills（技能）"
 ---
+import { TutorialVideo } from "/snippets/tutorial-video.jsx";
+
 Skill 是可复用的指令、知识引用和能力组合，适用于经常重复的一类工作。若多个智能体需要遵循同一流程，或主指令已经太长，可以把流程整理成 Skill。工作区成员可以使用已提供的 Skill；创建和编辑需要相应的 Builder 或管理员权限。
 
 ## Skill 包含什么
 
 创建 Skill 时，填写**名称和说明**，说明智能体**何时应该使用它**，并写明需要遵循的**指导内容**。指导可以包含操作流程、公司约定，以及应使用哪些能力。内置 Skill 可能用于发现文档、查找工具、深入研究或创建 MiniApp；自定义 Skill 则可以整理团队自己的流程。可参考[Skill 示例](/zh-Hans/docs/user-documentation/agents/skills/skill-examples)。
+
+## 从对话创建 Skill
+
+<TutorialVideo videoId="NDAIXZIOmLY" title="从对话创建 Skill" language="zh-cn" />
+
+## 在对话中使用 Skill
+
+<TutorialVideo videoId="NkS6SsoHoPg" title="在对话中使用 Skill" language="zh-cn" />
 
 ## 在指令中加入工具或其他 Skill
 

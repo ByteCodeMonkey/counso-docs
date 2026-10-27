@@ -1,6 +1,10 @@
 # Workspace roles, groups, and permissions
 
+import { TutorialVideo } from "/snippets/tutorial-video.jsx";
+
 Workspace roles provide baseline access. Group permissions add selected capabilities, and access to a specific Space, Agent, or Skill is controlled separately.
+
+<TutorialVideo videoId="WOOvSvjwcbg" title="How to Set Roles and Permissions" language="en" />
 
 ## Roles
 

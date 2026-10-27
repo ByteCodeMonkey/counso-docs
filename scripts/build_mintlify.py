@@ -495,6 +495,8 @@ img.nav-logo {
 
 def main() -> None:
     translations = load_json(ROOT / "translations.json")
+    # Counso-authored guides have no upstream counterpart.
+    content_pages = translations["pages"] + translations.get("local_pages", [])
     redirects_source = load_json(ROOT / "redirects.json")
 
     if OUTPUT.exists():
@@ -507,7 +509,7 @@ def main() -> None:
     file_routes: dict[str, str] = {}
     asset_routes: dict[str, str] = {}
     route_titles: dict[str, str] = {}
-    for page in translations["pages"]:
+    for page in content_pages:
         if page["status"] != "publish":
             continue
         for translation in page["translations"].values():
@@ -527,7 +529,7 @@ def main() -> None:
 
     legacy_brand_files: set[str] = set()
     legacy_brand_routes: set[str] = set()
-    for page in translations["pages"]:
+    for page in content_pages:
         if page["status"] != "publish":
             continue
         for translation in page["translations"].values():
@@ -541,7 +543,7 @@ def main() -> None:
     published = 0
     notices = 0
     brand_review_notices = 0
-    for page in translations["pages"]:
+    for page in content_pages:
         if page["status"] == "publish":
             for translation in page["translations"].values():
                 source = ROOT / translation["file"]
@@ -594,6 +596,7 @@ def main() -> None:
                 notices += 1
 
     downloadable_assets = copy_downloadable_assets(legacy_brand_files)
+    shutil.copytree(ROOT / "components", OUTPUT / "snippets", dirs_exist_ok=True)
 
     english_groups = parse_summary(
         ROOT / "en" / "SUMMARY.md", "en", file_routes, route_titles, "en", "index"
@@ -622,7 +625,7 @@ def main() -> None:
         redirects.append({"source": source, "destination": destination, "permanent": True})
 
     chinese_routes: set[str] = {CHINESE_ROUTE_PREFIX}
-    for page in translations["pages"]:
+    for page in content_pages:
         entries = (
             page.get("translations")
             if page["status"] == "publish"

@@ -4,6 +4,8 @@ Gmail 工具使用已连接用户的 Google 身份搜索和读取邮件；获得
 
 工作区管理员在 **Spaces → Tools** 中添加 Gmail，并按当前表单完成应用设置。然后由要使用的邮箱所有者登录 Google 并授权。将工具加入目标 Agent 后，先搜索或读取一封已知邮件。创建草稿前，请 Agent 确认邮箱和邮件对象。
 
+个人授权与日常使用，请参阅[连接 Google 并使用个人 Google 助手](../../getting-started/use-cases-and-guides/connect-google-personal-assistant.md)。
+
 撰写邮件时优先保存为草稿以便复核。发送前核对收件人、主题、正文和操作账号，发送后回到 Gmail 验证邮件。如果用户能搜索却不能创建草稿或发送，检查写入授权范围和 Gmail 账号权限。不要在 Agent 指令中保存凭据或私密邮件内容。
 
 ## 可用操作

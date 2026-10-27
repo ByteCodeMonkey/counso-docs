@@ -13,6 +13,7 @@
 - [Train and support the team](docs/user-documentation/getting-started/counso-rollout-guide/educate-activate.md)
 - [Measure results and expand carefully](docs/user-documentation/getting-started/counso-rollout-guide/measure-expand.md)
 - [Team use cases and guides](docs/user-documentation/getting-started/use-cases-and-guides/index.md)
+- [Connect Google and use a personal Google assistant](docs/user-documentation/getting-started/use-cases-and-guides/connect-google-personal-assistant.md)
 - [Sales use cases](docs/user-documentation/getting-started/use-cases-and-guides/sales.md)
 - [Customer support use cases](docs/user-documentation/getting-started/use-cases-and-guides/customer-support.md)
 - [Marketing and content use cases](docs/user-documentation/getting-started/use-cases-and-guides/marketing.md)

@@ -4,4 +4,6 @@ The Google Calendar tool uses each user's own Google account to search and manag
 
 A workspace administrator adds Google Calendar from **Spaces → Tools → Add Tools**. Complete any administrator setup requested by the form, then each person connects the Google account whose calendar should be used. Add the tool to the Agent and begin with a bounded event search or a read of one known event.
 
+For personal authorization and everyday use, follow [Connect Google and use a personal Google assistant](../../getting-started/use-cases-and-guides/connect-google-personal-assistant.md).
+
 For event creation or updates, specify the calendar, attendees, time zone, start/end time, and recurrence clearly. Ask for a preview before changing or sending invitations, and verify the same event in Google Calendar afterward. If an event is absent, check whether the acting user has access to the calendar and whether the requested time zone or date range is correct.

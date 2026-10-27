@@ -1,6 +1,10 @@
 # 工作区角色、群组和权限
 
+import { TutorialVideo } from "/snippets/tutorial-video.jsx";
+
 工作区角色提供基础权限。群组授权可以增加指定能力；具体 Space、智能体或 Skill 的访问权限则单独控制。
+
+<TutorialVideo videoId="WOOvSvjwcbg" title="如何设置角色与权限" language="zh-cn" />
 
 ## 角色
 

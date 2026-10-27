@@ -1,5 +1,7 @@
 # 了解 Pods
 
+import { TutorialVideo } from "/snippets/tutorial-video.jsx";
+
 Pod 是供团队、客户或项目共同工作的共享工作区。它把对话、任务和文件放在一起，让成员基于同一份记录协作。
 
 ## 开始前
@@ -7,6 +9,8 @@ Pod 是供团队、客户或项目共同工作的共享工作区。它把对话�
 先确定谁需要访问，以及这个 Pod 要解决什么问题。客户、财务或团队内部工作使用 Restricted Pod。只有当所有工作区成员都可以浏览和加入时，才使用 Open Pod。
 
 ## 创建并熟悉 Pod
+
+<TutorialVideo videoId="PExm98Sat5A" title="如何创建 Pod" language="zh-cn" />
 
 1. 在 **Work** 中打开 **Pods**，选择 **Create Pod**。
 2. 使用能长期说明协作目标的名称，例如 `Customer accounts workspace`。

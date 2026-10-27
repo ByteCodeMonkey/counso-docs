@@ -1,10 +1,20 @@
 # Skills
 
+import { TutorialVideo } from "/snippets/tutorial-video.jsx";
+
 A Skill is a reusable set of instructions, knowledge references, and capabilities for a recurring kind of work. Add a Skill to an Agent when you want the same procedure to be available to several Agents or when the main instructions have become too long. Workspace members can use available Skills; creating and editing them requires the appropriate Builder or administrator access.
 
 ## What a Skill contains
 
 When creating a Skill, provide a **name and description**, explain **when the Agent should use it**, and write the **guidelines** it should follow. The guidelines can describe a process, company conventions, and which capabilities to use. Built-in Skills may cover document discovery, tool discovery, deeper research, or MiniApp creation; a custom Skill can capture a team-specific procedure. See [Skill examples](skill-examples.md) for patterns.
+
+## Create a Skill from a conversation
+
+<TutorialVideo videoId="NDAIXZIOmLY" title="Turn a Conversation into a Skill" language="en" />
+
+## Use a Skill in a conversation
+
+<TutorialVideo videoId="NkS6SsoHoPg" title="Use a Skill in a Conversation" language="en" />
 
 ## Add tools or other Skills inline
 

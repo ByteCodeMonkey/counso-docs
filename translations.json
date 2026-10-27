@@ -48,13 +48,13 @@
           "title": "Introduction to Counso",
           "file": "en/docs/user-documentation/getting-started/intro-to-counso.md",
           "route": "/docs/user-documentation/getting-started/intro-to-counso",
-          "sha256": "23017c9d8c82246bda1c40d8da91df3de3cf87b0707304044709704414cb50ad"
+          "sha256": "3eccb666d06f5e9b6fbe808b205f5a998be1474e0645b311b93be33719a2b733"
         },
         "zh-cn": {
           "title": "Counso 简介",
           "file": "zh-cn/docs/user-documentation/getting-started/intro-to-counso.md",
           "route": "/zh-Hans/docs/user-documentation/getting-started/intro-to-counso",
-          "sha256": "4d7dadf7ef99bcd756387fff0f681f8ea9ffc155228e7198b7791e0c9e33a470"
+          "sha256": "5a09aee29242ed84f658e284e2b85b1ce8ce1ca1a6dfde0cacbfcf69558cbd2b"
         }
       },
       "original_title": "Intro to Dust"
@@ -1273,13 +1273,13 @@
           "title": "Create your first Agent",
           "file": "en/docs/user-documentation/agents/create-your-first-agent.md",
           "route": "/docs/user-documentation/agents/create-your-first-agent",
-          "sha256": "58d7999f475b089e73be7ce1235598b5bdc4341344cc0a0473addd9f6d43dcab"
+          "sha256": "819d42268200e0c3c6e7e80ecd37ea6fe56d44b88b8b017a54399c3d6748966f"
         },
         "zh-cn": {
           "title": "创建第一个智能体",
           "file": "zh-cn/docs/user-documentation/agents/create-your-first-agent.md",
           "route": "/zh-Hans/docs/user-documentation/agents/create-your-first-agent",
-          "sha256": "40c8e6885302b6abaa7ad786478c819032f603ed3771a24bb325b7d754e4abcd"
+          "sha256": "c2466121e192d2aa458c6cbb8f056984bb2d0073660b7ee12e1267ef8b4731a2"
         }
       },
       "original_title": "Create your first agent"
@@ -1648,13 +1648,13 @@
           "title": "Skills",
           "file": "en/docs/user-documentation/agents/skills/skills-overview.md",
           "route": "/docs/user-documentation/agents/skills/skills-overview",
-          "sha256": "33e94eb7b240037ee5360eca0b3adc588fb9397d53afcc4a968a51eee5068493"
+          "sha256": "80cbcc84c9dde7dcbb23759c59f391ec47e7aa4b0cd4579875baf64f52762baf"
         },
         "zh-cn": {
           "title": "Skills（技能）",
           "file": "zh-cn/docs/user-documentation/agents/skills/skills-overview.md",
           "route": "/zh-Hans/docs/user-documentation/agents/skills/skills-overview",
-          "sha256": "0afaad9abf71aac2e553df7b3c828674ed2e868cc17e6d3f517abb4eba153fd3"
+          "sha256": "f8c79a0ad45e8594fc019b89dc86675323c01b6eaa57bbe92599590a4461759d"
         }
       },
       "original_title": "Overview"
@@ -2538,13 +2538,13 @@
           "title": "Gmail",
           "file": "en/docs/user-documentation/agents/tools/gmail.md",
           "route": "/docs/user-documentation/agents/tools/gmail",
-          "sha256": "a722d62357761e309e632dd79e4abee54e87414f224de084d95f666632df37ac"
+          "sha256": "178430f3bbf23b6174e8c33601a4114ecb956bc1eec3d4d56ab2c21b4b2bc05d"
         },
         "zh-cn": {
           "title": "Gmail",
           "file": "zh-cn/docs/user-documentation/agents/tools/gmail.md",
           "route": "/zh-Hans/docs/user-documentation/agents/tools/gmail",
-          "sha256": "7fedee164da97193bc8de9073d65278880fb7b5fc8dbdaa4bfb5a9105a9b66e4"
+          "sha256": "2082c7aa6582a4c3c6301ffb983b957ff00ab02c7613a395c24b804df302110f"
         }
       },
       "original_title": "Gmail"
@@ -2563,13 +2563,13 @@
           "title": "Google Calendar",
           "file": "en/docs/user-documentation/agents/tools/google-calendar.md",
           "route": "/docs/user-documentation/agents/tools/google-calendar",
-          "sha256": "1a1c364d1fa9ca9f7c6d2cd7c7a884facabe07b69ce114e2fbe547b2380c06d8"
+          "sha256": "1a415e4fd2ce68a10646b6d62f09d6577b3f3a15b51fa1388bd0eb0cddafd3de"
         },
         "zh-cn": {
           "title": "Google Calendar",
           "file": "zh-cn/docs/user-documentation/agents/tools/google-calendar.md",
           "route": "/zh-Hans/docs/user-documentation/agents/tools/google-calendar",
-          "sha256": "9c2ec25847e0c211f03d44feba6e42724beccd19b7d4e4f874a1fe2dbae4308f"
+          "sha256": "8690a76cc647699cdfd18f62eefbf4f3d48a63eaf26439eb4169c2e71d233568"
         }
       },
       "original_title": "Google Calendar"
@@ -2588,13 +2588,13 @@
           "title": "Google Drive",
           "file": "en/docs/user-documentation/agents/tools/google-drive.md",
           "route": "/docs/user-documentation/agents/tools/google-drive",
-          "sha256": "ca7cd0a8427d6e0d2356965771954ee8152ba3c55d186c8b3936dc3e0acef7ef"
+          "sha256": "bf41e2da36cd295ed392c26c98c6cdf8c443ea6c945e302e916e13455f75925d"
         },
         "zh-cn": {
           "title": "Google Drive",
           "file": "zh-cn/docs/user-documentation/agents/tools/google-drive.md",
           "route": "/zh-Hans/docs/user-documentation/agents/tools/google-drive",
-          "sha256": "ebc1662a33cb25fb4a00e37d24a48e74b343342a094d754e3d21425bc8d94999"
+          "sha256": "4be04b125beb7db54181a2d7064b0abd7094757a769d89cd47be79ec9642746c"
         }
       },
       "original_title": "Google Drive"
@@ -3504,13 +3504,13 @@
           "title": "MiniApps overview",
           "file": "en/docs/user-documentation/agents/frames/overview.md",
           "route": "/docs/user-documentation/agents/frames/overview",
-          "sha256": "e34a735843b9f57f86d8d799ff9187b535eb6b4018e0d921e3d3ef732837d9ee"
+          "sha256": "ed28ebc22b491d60b0855a52dc7645241acedf88469796a7e82321ded0e1dd4d"
         },
         "zh-cn": {
           "title": "MiniApps 概览",
           "file": "zh-cn/docs/user-documentation/agents/frames/overview.md",
           "route": "/zh-Hans/docs/user-documentation/agents/frames/overview",
-          "sha256": "0713de4353c81aa907cafc11d924c5cd2b10009cc81ec73acd505713a2e2836a"
+          "sha256": "767cf29b962ab80f3da08ffb0978060fac2597a0220d89499db9fffac20935f4"
         }
       }
     },
@@ -4063,13 +4063,13 @@
           "title": "Understand Pods",
           "file": "en/docs/user-documentation/pods/overview.md",
           "route": "/docs/user-documentation/pods/overview",
-          "sha256": "a73a7bdff933b7f545aeb53ace05e330accabd85d9e5fa95a63bc87d482141c8"
+          "sha256": "1f63cb807f155d35b3af9d66f2c02e22fb961ed0fdf48162b370548abcde863e"
         },
         "zh-cn": {
           "title": "了解 Pods",
           "file": "zh-cn/docs/user-documentation/pods/overview.md",
           "route": "/zh-Hans/docs/user-documentation/pods/overview",
-          "sha256": "a4e01963154eca265526aa8b252ce8668e941b7696329a8ad0b068b76d1bfb04"
+          "sha256": "34a5ebbaa6b621ca4bad783a6192bdcb5da87dab0970e36ba0a4f191a79dc105"
         }
       },
       "original_title": "Overview"
@@ -4438,13 +4438,13 @@
           "title": "Set up a workspace",
           "file": "en/docs/user-documentation/admins/quickstart.md",
           "route": "/docs/user-documentation/admins/quickstart",
-          "sha256": "89902e6acb586bc668016f369848bbf85848ab13df836a83af95c33ec49e4509"
+          "sha256": "e65cc2f7c8f807b02cd35a9b91c7669ceac3dcf15b09399ea1d7402c0d6b6d6f"
         },
         "zh-cn": {
           "title": "配置工作区",
           "file": "zh-cn/docs/user-documentation/admins/quickstart.md",
           "route": "/zh-Hans/docs/user-documentation/admins/quickstart",
-          "sha256": "db732e71eb076f4ca06440463a30e1f422e37fe2fa055237eb1a0f64a8f4032f"
+          "sha256": "b0eddbf515d476bceb52378efac1a07f797d86a196a2928113ab139ed3361749"
         }
       },
       "original_title": "Quickstart"
@@ -4463,13 +4463,13 @@
           "title": "Workspace roles, groups, and permissions",
           "file": "en/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions.md",
           "route": "/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions",
-          "sha256": "1c643f54aeec003e9e0ba47e345d650e7cb9120feaad2377c330bd8f9cf83499"
+          "sha256": "466fb8a466290478e6b4416bfc302458b18da39b259fe5481163fa3db8f05011"
         },
         "zh-cn": {
           "title": "工作区角色、群组和权限",
           "file": "zh-cn/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions.md",
           "route": "/zh-Hans/docs/user-documentation/admins/admin-governance/workspace-governance-roles-groups-and-permissions",
-          "sha256": "c516a0fdec8d8b46648ec80049eaf92050509ca648bb6a233276cc0e9aae1805"
+          "sha256": "8b894dec39c4e50074ca9d0da3c4672b2649476c0d9c83475db1198ec43945ed"
         }
       },
       "original_title": "Workspace Governance: Roles, Groups & Permissions "
@@ -8142,6 +8142,26 @@
           "route": "/zh-Hans/docs/developer-platform/counso-api-documentation/postman.environment.json",
           "sha256": "5da9157b5f1b9352955dfaacdda87d26d434ec7fd5fff97e24559ccbf026dfcb",
           "format": "postman"
+        }
+      }
+    }
+  ],
+  "local_pages": [
+    {
+      "id": "connect-google-personal-assistant",
+      "status": "publish",
+      "translations": {
+        "en": {
+          "title": "Connect Google and use a personal Google assistant",
+          "file": "en/docs/user-documentation/getting-started/use-cases-and-guides/connect-google-personal-assistant.md",
+          "route": "/docs/user-documentation/getting-started/use-cases-and-guides/connect-google-personal-assistant",
+          "sha256": "788d71c7327295615fd74bbb4e7c8544177d1376d3c632a6fbb91b0f9268a479"
+        },
+        "zh-cn": {
+          "title": "连接 Google 并使用个人 Google 助手",
+          "file": "zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/connect-google-personal-assistant.md",
+          "route": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/connect-google-personal-assistant",
+          "sha256": "936b121136c03a96453ef2ea61153a465d64d49b413d860c6ed3573bff447300"
         }
       }
     }

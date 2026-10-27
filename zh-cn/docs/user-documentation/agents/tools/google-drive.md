@@ -4,6 +4,8 @@ Google Drive 工具会使用实际操作用户有权访问的文件执行实时�
 
 管理员打开 **Spaces → Tools → Add Tools → Google Drive**，填写表单要求的客户端 ID 和密钥，并完成首次 OAuth。将工具加入 Agent；用户首次使用时点击 **Connect** 授权自己的 Google 账号。如果写入时提示权限不足，重新连接 Google Drive 并授予所请求的写入权限。
 
+个人授权与日常使用，请参阅[连接 Google 并使用个人 Google 助手](../../getting-started/use-cases-and-guides/connect-google-personal-assistant.md)。
+
 ## 可用操作
 
 - **List Drives** 和 **Search Files**：查找个人云端硬盘或共享云端硬盘中的内容。

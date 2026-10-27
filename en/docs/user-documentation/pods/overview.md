@@ -1,5 +1,7 @@
 # Understand Pods
 
+import { TutorialVideo } from "/snippets/tutorial-video.jsx";
+
 A Pod is a shared workspace for one team, customer, or initiative. It brings conversations, tasks, and files together so that members can work from the same record.
 
 ## Before you begin
@@ -7,6 +9,8 @@ A Pod is a shared workspace for one team, customer, or initiative. It brings con
 Decide who needs access and what the Pod is for. Use a Restricted Pod for customer, financial, or team-private work. Use an Open Pod only when every workspace member may browse and join it.
 
 ## Create and orient yourself in a Pod
+
+<TutorialVideo videoId="PExm98Sat5A" title="How to Create a Pod" language="en" />
 
 1. In **Work**, open **Pods** and choose **Create Pod**.
 2. Give the Pod a durable name that describes the shared outcome, such as `Customer accounts workspace`.

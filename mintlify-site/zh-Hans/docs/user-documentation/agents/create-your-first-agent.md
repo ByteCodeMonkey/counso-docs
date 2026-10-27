@@ -1,7 +1,11 @@
 ---
 title: "创建第一个智能体"
 ---
+import { TutorialVideo } from "/snippets/tutorial-video.jsx";
+
 智能体由指令、所选工具和知识来源组成。先明确一项任务，只提供完成任务所需的信息，并在分享前测试结果。
+
+<TutorialVideo videoId="206YupVTlgg" title="如何创建 Agent" language="zh-cn" />
 
 ## 1. 从 Create 开始
 

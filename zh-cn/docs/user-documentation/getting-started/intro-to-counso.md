@@ -1,6 +1,10 @@
 # Counso 简介
 
+import { TutorialVideo } from "/snippets/tutorial-video.jsx";
+
 Counso 是一个共享 AI 工作空间，供团队使用已配置的智能体、获准的知识来源和已连接的工具。你在工作区中能看到和使用什么，取决于组织配置和你的个人权限。
+
+<TutorialVideo videoId="9RIKObU9mYo" title="Counso 产品概览" language="zh-cn" />
 
 ## 问第一个问题
 

@@ -5,6 +5,8 @@ The Google Drive tool performs live operations on files that the acting user can
 
 An administrator opens **Spaces → Tools → Add Tools → Google Drive**, enters the client ID and secret requested by the form, and completes initial OAuth. Add the tool to the Agent; the first user then selects **Connect** to authorize their Google account. If write actions return an insufficient-permissions error, reconnect Google Drive and grant the requested write access.
 
+For personal authorization and everyday use, follow [Connect Google and use a personal Google assistant](/docs/user-documentation/getting-started/use-cases-and-guides/connect-google-personal-assistant).
+
 ## Available operations
 
 - **List Drives** and **Search Files** locate personal-drive or Shared Drive content.

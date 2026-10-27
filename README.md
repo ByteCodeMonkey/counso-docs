@@ -18,6 +18,7 @@ zh-cn/            中文文档
 prepared/         待确认或待改写的双语底稿
 source/           内部迁移与校对资料
 mintlify-site/    可直接预览和部署的 Mintlify 站点
+components/       构建时复制到站点 snippets 的交互组件
 scripts/          生成与检查脚本
 ```
 
@@ -71,3 +72,17 @@ Review 明确通过后执行，它会生成唯一同步提交、快进 `main` �
 ## 部署
 
 将 Mintlify 项目的文档根目录设置为 `mintlify-site`。部署前运行检查脚本，确认导航、双语页面和兼容跳转均有效。
+
+## 教程视频
+
+教程使用 `components/tutorial-video.jsx`，由构建脚本复制到站点的
+`snippets/tutorial-video.jsx`。正文中导入 `TutorialVideo` 并传入视频 ID、标题和
+语言；嵌入位置只展示播放器，保留原有文字步骤，不另加视频标题、外链或解释。页面打开后自动
+连接并加载播放器，就绪时显示 YouTube 原生封面，用户点击播放；不自动播放。
+检测期间显示本地加载提示；脚本加载失败、播放器返回错误或 15 秒内未就绪时，
+显示对应提示卡片和重试按钮。此检测确认播放器能否就绪，不保证后续视频流始终可达。
+
+不要只修改 `mintlify-site/`，该目录在每次构建时会重建。Counso 自编指南登记在
+`translations.json` 的 `local_pages`，并加入中英文 `SUMMARY.md`；它们不需要
+伪造上游来源。正文修改后先运行 `python3 scripts/check.py --update-hashes`，
+再构建与检查导航。同步上游后复核视频小节和自编指南仍在对应位置。

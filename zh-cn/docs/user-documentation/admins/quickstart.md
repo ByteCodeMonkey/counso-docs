@@ -1,10 +1,14 @@
 # 配置工作区
 
+import { TutorialVideo } from "/snippets/tutorial-video.jsx";
+
 本指南帮助工作区管理员完成首次配置：连接一项有用的数据源，将它开放给合适的成员，再提供一个职责清楚的智能体供大家试用。即使没有数据源也能使用工作区，但要让回答基于公司资料，智能体必须能够访问相应数据。
 
 ## 1. 检查成员和角色
 
 打开管理区域，确认哪些人拥有管理员权限。邀请成员时，选择其工作需要的角色和权限。账单及安全设置应仅开放给适当人员。详见[工作区角色、群组和权限](admin-governance/workspace-governance-roles-groups-and-permissions.md)。
+
+<TutorialVideo videoId="r8pjdylrsKI" title="如何邀请新成员" language="zh-cn" />
 
 ## 2. 连接一个数据源
 

@@ -1,10 +1,14 @@
 # Set up a workspace
 
+import { TutorialVideo } from "/snippets/tutorial-video.jsx";
+
 This guide walks a workspace administrator through the first setup: connect a useful source, make it available to the right people, and give them a focused Agent to try. You can use the workspace before adding sources, but answers grounded in company material require data the Agent can access.
 
 ## 1. Review membership and roles
 
 Open the administration area and confirm who has administrative access. Invite members with the role and permissions they need. Keep administration, billing, and security access limited to the appropriate people. See [Workspace roles, groups, and permissions](admin-governance/workspace-governance-roles-groups-and-permissions.md).
+
+<TutorialVideo videoId="r8pjdylrsKI" title="How to Invite New Members" language="en" />
 
 ## 2. Connect one source
 

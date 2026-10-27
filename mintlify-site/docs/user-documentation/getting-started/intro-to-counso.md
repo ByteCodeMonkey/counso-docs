@@ -1,7 +1,11 @@
 ---
 title: "Introduction to Counso"
 ---
+import { TutorialVideo } from "/snippets/tutorial-video.jsx";
+
 Counso is a shared AI workspace where people can work with configured Agents, approved knowledge sources, and connected tools. What appears in your workspace depends on your organisation’s setup and your own access.
+
+<TutorialVideo videoId="9RIKObU9mYo" title="Counso AI at a Glance" language="en" />
 
 ## Ask your first question
 

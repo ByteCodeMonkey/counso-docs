@@ -13,6 +13,7 @@
 - [培训并支持团队](docs/user-documentation/getting-started/counso-rollout-guide/educate-activate.md)
 - [衡量效果并谨慎扩大](docs/user-documentation/getting-started/counso-rollout-guide/measure-expand.md)
 - [团队使用场景与指南](docs/user-documentation/getting-started/use-cases-and-guides/index.md)
+- [连接 Google 并使用个人 Google 助手](docs/user-documentation/getting-started/use-cases-and-guides/connect-google-personal-assistant.md)
 - [销售场景](docs/user-documentation/getting-started/use-cases-and-guides/sales.md)
 - [客户支持场景](docs/user-documentation/getting-started/use-cases-and-guides/customer-support.md)
 - [市场与内容场景](docs/user-documentation/getting-started/use-cases-and-guides/marketing.md)

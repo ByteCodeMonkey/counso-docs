@@ -1,11 +1,15 @@
 ---
 title: "MiniApps 概览"
 ---
+import { TutorialVideo } from "/snippets/tutorial-video.jsx";
+
 MiniApp 可以把智能体输出变成持续更新、可交互的内容，例如报告、仪表盘、计算器、数据可视化或其他交互组件。
 
 <Note>
   MiniApps 在原有静态数据可视化能力的基础上，提供可交互、可修改和可分享的内容。
 </Note>
+
+<TutorialVideo videoId="v3uxQfbFaio" title="如何创建 MiniApp" language="zh-cn" />
 
 ## 使用 MiniApp
 

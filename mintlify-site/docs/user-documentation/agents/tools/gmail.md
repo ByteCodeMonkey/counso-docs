@@ -5,6 +5,8 @@ The Gmail tool uses the connected user's Google identity to search and read mail
 
 A workspace administrator adds Gmail under **Spaces → Tools** and completes the application setup shown in the current form. The person whose mailbox should be used then authorizes the tool with their Google account. Add it to the intended Agent and start with a search or a read of one known message. Ask the Agent to identify the mailbox and message before drafting.
 
+For personal authorization and everyday use, follow [Connect Google and use a personal Google assistant](/docs/user-documentation/getting-started/use-cases-and-guides/connect-google-personal-assistant).
+
 For email creation, prefer a draft for review. Sending requires the correct recipient, subject, body, and account identity; verify the sent message in Gmail afterward. If a user can search but cannot create a draft or send, check the granted write scope and Gmail account permissions. Do not place credentials or private message contents in Agent instructions.
 
 ## Available operations

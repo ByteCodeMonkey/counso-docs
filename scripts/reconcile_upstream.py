@@ -300,6 +300,9 @@ for artifact in data.get("artifacts", []):
     for value in artifact["translations"].values():
         value["sha256"] = digest(ROOT / value["file"])
 
+for page in data.get("local_pages", []):
+    refresh_hashes(page)
+
 write_json(TRANSLATIONS, data)
 filter_summary(ROOT / "en/SUMMARY.md")
 filter_summary(ROOT / "zh-cn/SUMMARY.md")
@@ -310,6 +313,8 @@ for row in pages:
     valid_routes.update(value["route"] for value in entries.values())
 for artifact in data.get("artifacts", []):
     valid_routes.update(value["route"] for value in artifact["translations"].values())
+for page in data.get("local_pages", []):
+    valid_routes.update(value["route"] for value in page["translations"].values())
 redirects = read_json(REDIRECTS)
 redirects["redirects"] = [
     item for item in redirects["redirects"] if item["from"] == "/" or item["to"] in valid_routes

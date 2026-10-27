@@ -86,6 +86,7 @@
                 "root": "docs/user-documentation/getting-started/use-cases-and-guides",
                 "expanded": false,
                 "pages": [
+                  "docs/user-documentation/getting-started/use-cases-and-guides/connect-google-personal-assistant",
                   "docs/user-documentation/getting-started/use-cases-and-guides/sales",
                   "docs/user-documentation/getting-started/use-cases-and-guides/customer-support",
                   "docs/user-documentation/getting-started/use-cases-and-guides/marketing",
@@ -610,6 +611,7 @@
                 "root": "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides",
                 "expanded": false,
                 "pages": [
+                  "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/connect-google-personal-assistant",
                   "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/sales",
                   "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/customer-support",
                   "zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/marketing",
@@ -3157,6 +3159,11 @@
     {
       "source": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/collaboration",
       "destination": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/collaboration",
+      "permanent": true
+    },
+    {
+      "source": "/zh-cn/docs/user-documentation/getting-started/use-cases-and-guides/connect-google-personal-assistant",
+      "destination": "/zh-Hans/docs/user-documentation/getting-started/use-cases-and-guides/connect-google-personal-assistant",
       "permanent": true
     },
     {

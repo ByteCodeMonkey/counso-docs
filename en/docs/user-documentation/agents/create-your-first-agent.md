@@ -1,6 +1,10 @@
 # Create your first Agent
 
+import { TutorialVideo } from "/snippets/tutorial-video.jsx";
+
 An Agent combines instructions with selected Tools and Knowledge. Start with one clear task, give it only the information it needs, and test the result before sharing it.
+
+<TutorialVideo videoId="206YupVTlgg" title="How to Create an Agent" language="en" />
 
 ## 1. Start with Create
 

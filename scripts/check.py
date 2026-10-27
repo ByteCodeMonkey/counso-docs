@@ -145,6 +145,25 @@ for row in rows:
                 t['sha256'] = digest(file)
             else:
                 require(digest(file) == t['sha256'], 'Translation hash stale: ' + t['file'])
+for page in data.get('local_pages', []):
+    require(page['status'] == 'publish', 'Local guide must be published: ' + page['id'])
+    require(set(page['translations']) == {'en', 'zh-cn'}, 'Missing local guide language: ' + page['id'])
+    for lang, t in page['translations'].items():
+        file = ROOT / t['file']
+        expected.add(t['file'])
+        require(t['file'].startswith(lang + '/docs/'), 'Unexpected local guide path: ' + t['file'])
+        relative = t['file'].removeprefix(lang + '/').removesuffix('.md')
+        require(t['route'] == ('/' if lang == 'en' else CHINESE_ROUTE_PREFIX + '/') + relative, 'Unexpected local guide route: ' + t['route'])
+        require(t['route'] not in routes, 'Duplicate local guide route: ' + t['route'])
+        routes[t['route']] = t['file']
+        require(file.is_file(), 'Local guide missing: ' + t['file'])
+        if file.is_file():
+            check_title(file, t)
+            if args.update_hashes:
+                t['sha256'] = digest(file)
+            else:
+                require(t['sha256'] == digest(file), 'Local guide hash stale: ' + t['file'])
+
 artifact_files = set()
 for artifact in data.get('artifacts', []):
     require(set(artifact['translations']) == {'en', 'zh-cn'}, 'Missing artifact language: ' + artifact['id'])

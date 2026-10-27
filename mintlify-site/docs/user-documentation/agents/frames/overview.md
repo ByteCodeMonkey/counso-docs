@@ -1,11 +1,15 @@
 ---
 title: "MiniApps overview"
 ---
+import { TutorialVideo } from "/snippets/tutorial-video.jsx";
+
 Turn Agent outputs into living, interactive content. A MiniApp can be a report, dashboard, calculator, data visualization, or another interactive component generated from a conversation.
 
 <Note>
   MiniApps replace the earlier static data-visualization experience with interactive content that can be revised and shared.
 </Note>
+
+<TutorialVideo videoId="v3uxQfbFaio" title="How to Build a MiniApp" language="en" />
 
 ## Work with a MiniApp
 
