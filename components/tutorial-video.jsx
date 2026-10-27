@@ -52,7 +52,8 @@ export const TutorialVideo = ({ videoId, title, language = "en" }) => {
       // React owns the host, while YouTube owns its children and their cleanup.
       const iframe = document.createElement("iframe");
       iframe.title = title;
-      iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?enablejsapi=1&autoplay=0&playsinline=1&origin=${encodeURIComponent(window.location.origin)}`;
+      const playerLanguage = language === "zh-cn" ? "zh-CN" : "en";
+      iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?enablejsapi=1&autoplay=0&playsinline=1&hl=${playerLanguage}&origin=${encodeURIComponent(window.location.origin)}`;
       iframe.allow = "encrypted-media; picture-in-picture; fullscreen";
       iframe.allowFullscreen = true;
       iframe.referrerPolicy = "strict-origin-when-cross-origin";
@@ -78,7 +79,7 @@ export const TutorialVideo = ({ videoId, title, language = "en" }) => {
       clearInterval(poll);
       if (player) player.destroy();
     };
-  }, [attempt, videoId, title]);
+  }, [attempt, videoId, title, language]);
 
   const start = () => {
     setStatus("loading");
